@@ -12,7 +12,7 @@ function draw() {
 noStroke();
 fill(0);
 var xUnit = width/20;
-var yUnit = height/20;
+var yUnit = height/10;
 for(var i=0; i<20; i++){
 	var xColor = map(i, 0,20,0,255);
 	var ellipseSize = map(i,0,20,5,30);
