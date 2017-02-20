@@ -1,0 +1,316 @@
+Neighborhood,Address 1,Borough,Zip,Type of Roof
+Chelsea,227 West 27th St,Manhattan,10001,Cool Roof
+Chelsea,135 W 31st St,Manhattan,10001,Green Roof
+Hell's Kitchen,655 West 34th Street,Manhattan,10001,Green Roof
+Chelsea,430 West 25th Street,Manhattan,10001,Green Roof
+Chelsea,303 Tenth Ave,Manhattan,10001,Green Roof
+Chelsea,430 W. 25th Street,Manhattan,10001,Green Roof
+Bowery,227 Bowery,Manhattan,10002,Cool Roof
+Lower East Side,466 Grand St,Manhattan,10002,Cool Roof
+Lower East Side,301 Henry St,Manhattan,10002,Cool Roof
+Bowery,184 Eldridge St,Manhattan,10002,Cool Roof
+Lower East Side,142 Henry Street,Manhattan,10002,Green Roof
+Bowery,333 Bowery,Manhattan,10003,Cool Roof
+Lower East Side,25 E 3rd St,Manhattan,10003,Cool Roof
+Lower East Side,63 E 4th St,Manhattan,10003,Cool Roof
+Lower East Side,89 E 3rd St,Manhattan,10003,Cool Roof
+Lower East Side,73 E 4th St,Manhattan,10003,Cool Roof
+Lower East Side,77 E 4th St,Manhattan,10003,Cool Roof
+Lower East Side,67 E 4th St,Manhattan,10003,Cool Roof
+Lower East Side,69 E 4th St,Manhattan,10003,Cool Roof
+Lower East Side,65 E 4th St,Manhattan,10003,Cool Roof
+Lower East Side,58 E 4th St,Manhattan,10003,Cool Roof
+Lower East Side,21 E 3rd St,Manhattan,10003,Cool Roof
+Lower East Side,27 E 3rd St,Manhattan,10003,Cool Roof
+Lower East Side,56 E 4th St,Manhattan,10003,Cool Roof
+Lower East Side,71 E 4th St,Manhattan,10003,Cool Roof
+Lower East Side,75 E 4th St,Manhattan,10003,Cool Roof
+Lower East Side,83 2nd Ave,Manhattan,10003,Cool Roof
+Lower East Side,60 E 4th St,Manhattan,10003,Cool Roof
+Lower East Side,23 E 3rd St,Manhattan,10003,Cool Roof
+Lower East Side,9 E 3rd St,Manhattan,10003,Cool Roof
+East Village,220 East 4th Street,Manhattan,10009,Cool Roof
+Manhattan,310 E 3rd St,Manhattan,10009,Cool Roof
+East Village,743 East 9th Street and Avenue D,Manhattan,10009,Cool Roof
+Alphabet City,195 East 3rd Street,Manhattan,10009,Green Roof
+Gramercy Park,127 East 22nd Street,Manhattan,10010,Green Roof
+Flatiron District,164 5th Avenue,Manhattan,10010,Green Roof
+Flatiron,137 W14th St,Manhattan,10011,Cool Roof
+Chelsea,540 21st Street,Manhattan,10011,Cool Roof
+Chelsea,641 Avenue of the Americas,Manhattan,10011,Green Roof
+West Village,146 West 13th Street,Manhattan,10011,Green Roof
+East Village,2 Cooper Square,Manhattan,10012,Green Roof
+Greenwich Village,46 Barrow Street,Manhattan,10014,Cool Roof
+Greenwich Village,16 Jones Street,Manhattan,10014,Cool Roof
+Murray Hill,14 E. 28th St,Manhattan,10016,Cool Roof
+Murray Hill,122 East 38th Street,Manhattan,10016,Green Roof
+Kips Bay,458 West 30 Street,Manhattan,10016,Green Roof
+Murray Hill,149 East 38th Street,Manhattan,10016,Green Roof
+Long Island City,601 West 57th Street,Manhattan,10019,Green Roof
+Midtown,1250 Avenue of the Americas,Manhattan,10020,Green Roof
+Lincoln Square,10 Lincoln Center Plaza,Manhattan,10023,Green Roof
+Upper West Side,433 West End Avenue,Manhattan,10024,Green Roof
+Upper West Side,149 W108,Manhattan,10025,Cool Roof
+Upper West Side,149 Manhattan Ave,Manhattan,10025,Cool Roof
+Upper West Side,930 West end Ave,Manhattan,10025,Cool Roof
+Harlem,216 West 112th Street,Manhattan,10026,Cool Roof
+Harlem,109 W129th st,Manhattan,10027,Cool Roof
+Morningside Heights,550 West 120th Street,Manhattan,10027,Green Roof
+Upper East Side,331 E. 86th St,Manhattan,10028,Cool Roof
+Harlem,118-124 E111th Street,Manhattan,10029,Cool Roof
+Upper West Side,207 W 133rd St,Manhattan,10030,Cool Roof
+Hamilton Heights,160 Convent Ave,Manhattan,10031,Green Roof
+Hamilton Heights,160 Convent Avenue,Manhattan,10031,Green Roof
+Washington Heights,500 West 159th Street,Manhattan,10032,Cool Roof
+Washington Heights,540 West 159th Street,Manhattan,10032,Cool Roof
+Washington Heights,542 West 159th Street,Manhattan,10032,Cool Roof
+East Harlem,2295 2nd Avenue,Manhattan,10035,Cool Roof
+East Harlem,2383 2nd Ave,Manhattan,10035,Cool Roof
+Harlem,4-20 E. 117th Street,Manhattan,10035,Cool Roof
+East Harlem,230 123rd St,Manhattan,10035,Cool Roof
+Harlem,2080 Lexington Ave,Manhattan,10035,Cool Roof
+East Harlem,206 East 118th Street,Manhattan,10035,Cool Roof
+East Harlem,221 122nd St,Manhattan,10035,Cool Roof
+East Harlem,251 E. 119th Street,Manhattan,10035,Cool Roof
+East Harlem,2 E 120th St,Manhattan,10035,Cool Roof
+East Harlem,26 E 120th St,Manhattan,10035,Cool Roof
+East Harlem,2253 3rd Ave,Manhattan,10035,Cool Roof
+Randall's Island,"Five Boro Complex, Randall's Island",Manhattan,10035,Green Roof
+East Harlem,1485 Fifth Avenue,Manhattan,10035,Green Roof
+Midtown,441 West 47th Street',Manhattan,10036,Cool Roof
+West side,424 West 47th,Manhattan,10036,Cool Roof
+Theater District,1095 Avenue of the Americas,Manhattan,10036,Green Roof
+Harlem,560 Lenox Avenue,Manhattan,10037,Cool Roof
+Harlem,50 West 139th st,Manhattan,10037,Cool Roof
+Harlem,35 West 134th Street,Manhattan,10037,Green Roof
+Harlem,35 W. 135th Street,Manhattan,10037,Green Roof
+Financial District,41 Park Row,Manhattan,10038,Green Roof
+Manhattan,102 Bradhurst Ave,Manhattan,10039,Cool Roof
+Harlem,2960 Fredrick Douglass Blvd,Manhattan,10039,Cool Roof
+Harlem,89 Bradhurst Ave.,Manhattan,10039,Green Roof
+Harlem,89 Bradhurst Avenue,Manhattan,10039,Green Roof
+Morning Side Heights,16 Arden St,Manhattan,10040,Cool Roof
+Morning Site Heights,75 Wadsworth Terrace,Manhattan,10040,Cool Roof
+Morning Side Heights,510 West 188th Street,Manhattan,10040,Cool Roof
+Morning Side Heights,12 Arden St,Manhattan,10040,Cool Roof
+Battery Park City,20 River Terrace,Manhattan,10282,Green Roof
+Battery Park City,325 North End Avenue,Manhattan,10282,Green Roof
+Battery Park City,211 North End Avenue,Manhattan,10282,Green Roof
+Tompkinsville,6 Victory Blvd.,Staten Island,10301,Green Roof
+St George,Staten Island Ferry Viaduct,Staten Island,10301,Green Roof
+Tompkinsville,6 Victory Blvd,Staten Island,10301,Green Roof
+Mariners Harbor,80 Maple Parkway,Staten Island,10303,Blue Roof
+West Concourse,851 Grand Concourse,Bronx,10451,Green Roof
+Concourse Village,266 E 162nd Street,Bronx,10451,Green Roof
+High Bridge,1665 Macombs Road,Bronx,10453,Cool Roof
+Fordham Heights,2240 Walton Avenue,Bronx,10453,Cool Roof
+University Heights,1669-75 University Ave,Bronx,10453,Cool Roof
+High Bridge,1669 Macombs Road,Bronx,10453,Cool Roof
+Fordham Heights,2270 Walton Avenue,Bronx,10453,Cool Roof
+High Bridge,1655 Macombs Road,Bronx,10453,Cool Roof
+University Heights,120 West 176th St,Bronx,10453,Cool Roof
+University Heights,1665 Andrews Ave,Bronx,10453,Cool Roof
+University Heights,1615 University Ave,Bronx,10453,Cool Roof
+University Heights,1605 University Ave,Bronx,10453,Cool Roof
+Morris Heights,2001 University Ave,Bronx,10453,Cool Roof
+University Heights,1611 University Ave,Bronx,10453,Cool Roof
+University Heights,1472 Montgomery Ave,Bronx,10453,Cool Roof
+University Heights,1491 Montgomery Ave,Bronx,10453,Cool Roof
+High Bridge,1647 Macombs Road,Bronx,10453,Cool Roof
+University Heights,1601 University Ave,Bronx,10453,Cool Roof
+Forham Heights,125 East 181st Street,Bronx,10453,Blue Roof
+Bronx,540 144th Street,Bronx,10454,Cool Roof
+Bronx,505/509/511/517 144th Street,Bronx,10454,Cool Roof
+Bronx,560 144th Street,Bronx,10454,Cool Roof
+Mott Haven,521-525 East 145th Street,Bronx,10454,Cool Roof
+Mott Haven,480-490 East 143th Street,Bronx,10454,Cool Roof
+Bronx,550 144th Street,Bronx,10454,Cool Roof
+Bronx,416 east 137th street,Bronx,10454,Cool Roof
+Bronx,530 144th Street,Bronx,10454,Cool Roof
+Bronx,520 144th Street,Bronx,10454,Cool Roof
+Bronx,411 east 136th Street,Bronx,10454,Cool Roof
+Mott Haven,340 Willis Avenue,Bronx,10454,Green Roof
+Mott Haven,344-348 Willis Avenue,Bronx,10454,Green Roof
+Mott Haven,450 Saint Anns Avenue,Bronx,10454,Green Roof
+Mott Haven,450 St. Anns Ave,Bronx,10454,Green Roof
+Mott Haven,409-411 East 146th Street,Bronx,10455,Cool Roof
+Bronx,537/545 E 146th Street,Bronx,10455,Cool Roof
+Bronx,510/512 E 146th Street,Bronx,10455,Cool Roof
+Bronx,511/513 E 146th Street,Bronx,10455,Cool Roof
+Mott Haven,455 East 146th Street,Bronx,10455,Cool Roof
+Bronx,521 E 146th Street,Bronx,10455,Cool Roof
+Bronx,445 146th Street,Bronx,10455,Cool Roof
+Mott Haven,413-415 East 146th Street,Bronx,10455,Cool Roof
+Bronx,525 E 146th Street,Bronx,10455,Cool Roof
+Bronx,530/528 E 146th Street,Bronx,10455,Cool Roof
+Fleetwood-Concourse Village,1109 Clay Ave,Bronx,10456,Cool Roof
+Fleetwood-Concourse Village,393 E 168th St,Bronx,10456,Cool Roof
+Concourse,1347 Morris Avenue,Bronx,10456,Cool Roof
+Fleetwood-Concourse Village,275 E 168th st,Bronx,10456,Cool Roof
+Fleetwood-Concourse Village,320 E 166th st,Bronx,10456,Cool Roof
+Concourse,1413 Sheridan Ave,Bronx,10456,Cool Roof
+Fleetwood-Concourse Village,391 E 168th St,Bronx,10456,Cool Roof
+Fleetwood Concourse Village,380 E 166th St,Bronx,10456,Cool Roof
+South Bronx,1122 Franklin Ave,Bronx,10456,Cool Roof
+Concourse Village,250 East 164th Street,Bronx,10456,Blue Roof
+Morrisania,1180 Tinton Avenue,Bronx,10456,Blue Roof
+Bronx,285 East 171st Street,Bronx,10457,Cool Roof
+Fordham Heights,2195 Valentine Ave,Bronx,10457,Green Roof
+Fordham Heights,2241 Webster Avenue,Bronx,10457,Green Roof
+Bronx,243 E204th St,Bronx,10458,Cool Roof
+Bronx,2674 Valentine Avenue,Bronx,10458,Cool Roof
+Bronx,2670 Valentine Avenue,Bronx,10458,Cool Roof
+Fordham Heights,2690 Briggs Avenue,Bronx,10458,Cool Roof
+Fordham Heights,2694 Briggs Avenue,Bronx,10458,Cool Roof
+Fordham Heights,2698 Briggs Avenue,Bronx,10458,Cool Roof
+Bronx,2666 Valentine Avenue,Bronx,10458,Cool Roof
+Bronx,2690 Valentine Avenue,Bronx,10458,Cool Roof
+Morrisania,3872 Third Avenue,Bronx,10458,Green Roof
+Fordham Heights,2350 Webster Avenue,Bronx,10458,Green Roof
+Forham North,2668 Decatur Avenue,Bronx,10458,Green Roof
+Fordham Heights,2350 Webster Avenue,Bronx,10458,Green Roof
+Morrisania,1061 Intervale Ave,Bronx,10459,Cool Roof
+Morrisania,951 Prospect Avenue,Bronx,10459,Green Roof
+Crotona Park,1347 Bristow Street,Bronx,10459,Green Roof
+Melrose,851 Prospect Avenue,Bronx,10459,Green Roof
+East Tremont,785 Crotona Park North,Bronx,10460,Cool Roof
+West Farms,999 E 178th Street,Bronx,10460,Cool Roof
+West Farms,2300 Southern Boulevard,Bronx,10460,Green Roof
+Bronx,990 Pelham Parkway South,Bronx,10462,Cool Roof
+Bronx,3058 Bailey Ave,Bronx,10463,Cool Roof
+Bronx,3060 Bailey Ave,Bronx,10463,Cool Roof
+University Heights,2285 Davidson Avenue,Bronx,10468,Cool Roof
+Kingsbridge Heights,103 East 196th Street,Bronx,10468,Cool Roof
+Norwood,2751 Grand Concourse,Bronx,10468,Cool Roof
+University Heights,2285 Davidson Avenue,Bronx,10468,Green Roof
+Eastchester,3441 Steenwick Avenue,Bronx,10469,Blue Roof
+Williamsbridge,921 East 220th Street,Bronx,10469,Blue Roof
+Bronx,5555 Mosholu Ave,Bronx,10471,Cool Roof
+Fieldston,3901 Fieldston Rd,Bronx,10471,Green Roof
+Soundview,1585 E. 174th St.,Bronx,10472,Blue Roof
+Castle Hill,1980 Lafayette Avenue,Bronx,10473,Green Roof
+Bronx,812 Edgewater Rd,Bronx,10474,Cool Roof
+Hunts Point,890 Garrison Avenue,Bronx,10474,Green Roof
+Hunts Point,654 Manida St,Bronx,10474,Green Roof
+Hunts Point,1231 Lafayette Ave,Bronx,10474,Green Roof
+Long Island City,32-23 Queens Blvd,Queens,11101,Cool Roof
+Long Island City,46-02 21st St,Queens,11101,Cool Roof
+Long Island City,43-26 12th Street,Queens,11101,Cool Roof
+Long Island City,43-10 11th Street,Queens,11101,Cool Roof
+Long Island City,10-27 46th Ave,Queens,11101,Cool Roof
+Long Island City,45-20 33rd Street,Queens,11101,Cool Roof
+Long Island City,21-10 Borden Avenue,Queens,11101,Cool Roof
+Long Island City,46-01 5th Street,Queens,11101,Cool Roof
+Long Island City,4225 21st Street,Queens,11101,Green Roof
+Long Island City,13-06 Queens Plaza South,Queens,11101,Green Roof
+Long Island City,4382 Vernon Boulevard,Queens,11101,Green Roof
+Long Island City,"42-22 22nd Street, Long Island City",Queens,11101,Green Roof
+Long Island City,"1306 Queens Plaza South, Long Island City",Queens,11101,Green Roof
+Astoria,2112 30th Rd,Queens,11102,Cool Roof
+Astoria,40-20 Broadway,Queens,11103,Cool Roof
+Long Island City,34-16 Astoria Blvd S,Queens,11103,Cool Roof
+Sunnyside,43-31 39th Street,Queens,11104,Cool Roof
+Sunnyside,39-01 Queens Blvd,Queens,11104,Cool Roof
+Long Island City,33-38 10th Street,Queens,11106,Cool Roof
+Fort Greene,177 Myrtle Avenue,Brooklyn,11201,Cool Roof
+Brooklyn Heights,27 Garden Pl,Brooklyn,11201,Green Roof
+South Williamsburg,106 Gerry Street,Brooklyn,11206,Cool Roof
+South Williamsburg,41 Whipple Street,Brooklyn,11206,Cool Roof
+Bushwick,533 Bushwick Avenue,Brooklyn,11206,Green Roof
+East New York,486 Williams Ave,Brooklyn,11207,Cool Roof
+East New York,960 Dumont Ave,Brooklyn,11207,Cool Roof
+East New York,956 Dumont Ave,Brooklyn,11207,Cool Roof
+Bushwick,811 Knickerbocker Ave,Brooklyn,11207,Cool Roof
+East New York,581 Ashford St,Brooklyn,11207,Cool Roof
+East New York,954 Dumont Ave,Brooklyn,11207,Cool Roof
+East New York,515 Blake Ave,Brooklyn,11207,Cool Roof
+East New York,502 Williams Avenue,Brooklyn,11207,Cool Roof
+East New York,330 Hinsdale Street,Brooklyn,11207,Cool Roof
+East New York,508 Williams Avenue,Brooklyn,11207,Cool Roof
+East New York,950 Dumont Ave,Brooklyn,11207,Cool Roof
+East New York,496 Williams Avenue,Brooklyn,11207,Cool Roof
+East New York,490 Williams Avenue,Brooklyn,11207,Cool Roof
+East New York,676 Cleveland Street,Brooklyn,11208,Cool Roof
+East New York,171 Milford Street,Brooklyn,11208,Cool Roof
+East New York,544 Hemlock,Brooklyn,11208,Cool Roof
+East New York,781 Belmont,Brooklyn,11208,Cool Roof
+East New York,2640 Pitkin Ave,Brooklyn,11208,Cool Roof
+East New York,436 Logan,Brooklyn,11208,Cool Roof
+Brownsville,1142 Lenox Rd,Brooklyn,11212,Cool Roof
+Brownsville,1145 Lenox Rd,Brooklyn,11212,Cool Roof
+Brownsville,1555 Linden Blvd,Brooklyn,11212,Green Roof
+Brownsville,1555 Linden Blvd.,Brooklyn,11212,Green Roof
+Crown Heights/Bedsty,869 Eastern Pkwy,Brooklyn,11213,Cool Roof
+Crown Heights/Bedsty,1344-1346 Bergen Street,Brooklyn,11213,Cool Roof
+Crown Heights/Bedsty,319 Albany Avenue,Brooklyn,11213,Cool Roof
+Crown Heights,1544 Park Place,Brooklyn,11213,Cool Roof
+Crown Heights/Bedsty,1600 Pacific Ave,Brooklyn,11213,Cool Roof
+Crown Heights,1251 Prospect Place,Brooklyn,11213,Green Roof
+Crown Heights,1251 Prospect Place,Brooklyn,11213,Green Roof
+Bay Ridge,8224 Bay Parkway,Brooklyn,11214,Cool Roof
+Park Slope,357 9th Street,Brooklyn,11215,Cool Roof
+Park Slope,8th Street,Brooklyn,11215,Green Roof
+Bedford Stuyvesant,247 Herkimer Street,Brooklyn,11216,Cool Roof
+Bedford Stuyvesant,1121 Bedford Ave,Brooklyn,11216,Cool Roof
+Bedford Stuyvesant,686 Lafayette Avenue,Brooklyn,11216,Cool Roof
+Bedford Stuyvesant,210 Kosciusko Avenue,Brooklyn,11216,Cool Roof
+Crown Heights/Bedsty,1445 Pacific Street,Brooklyn,11216,Cool Roof
+Bedford Stuyvesant,218 Gates Avenue,Brooklyn,11216,Cool Roof
+Gowanus,609 DeGraw St,Brooklyn,11217,Green Roof
+Chelsea,260 Bond Street,Brooklyn,11217,Green Roof
+Gowanus,609 Degraw St,Brooklyn,11217,Green Roof
+Boro Park,4912 14th Avenue,Brooklyn,11219,Cool Roof
+Greenpoint,1205 Manhattan Ave,Brooklyn,11222,Cool Roof
+Greenpoint,211 Meserole Avenue/ 120 Jewel Street,Brooklyn,11222,Cool Roof
+Coney Island,1901 Mermaid Ave,Brooklyn,11224,Cool Roof
+Coney Island,3601 Surf Avenue,Brooklyn,11224,Cool Roof
+Prospect Heights,934 Carroll Street,Brooklyn,11225,Cool Roof
+Bath Beach,1400 Benson Ave.,Brooklyn,11228,Blue Roof
+Carol Gardens,155 3rd Street,Brooklyn,11231,Cool Roof
+Carroll Gardens,509-515 Court Street,Brooklyn,11231,Cool Roof
+Sunset Park,705 41st Street,Brooklyn,11232,Cool Roof
+Sunset Park,4298 7th Avenue,Brooklyn,11232,Green Roof
+Sunset Park,4200 7th Ave.,Brooklyn,11232,Green Roof
+Brownsville,1381 East New York Avenue,Brooklyn,11233,Cool Roof
+East New York,1900 Sterling Place,Brooklyn,11233,Cool Roof
+Brighton Beach,3161 Brighton 6th St,Brooklyn,11235,Cool Roof
+Brighton Beach,161 Corbin Place,Brooklyn,11235,Cool Roof
+Bergen Beach,1887 Ralph Ave,Brooklyn,11236,Green Roof
+Bushwick,89-111 Porter Ave,Brooklyn,11237,Cool Roof
+Bushwick,309 Eldert,Brooklyn,11237,Cool Roof
+Greenpoint,1201 Metropolitan Ave,Brooklyn,11237,Blue Roof
+Prospect Heights,451 Prospect Pl,Brooklyn,11238,Cool Roof
+Crown Heights/Bedsty,732 Franklin Ave,Brooklyn,11238,Cool Roof
+Crown Heights/Bedsty,561 Grand Ave,Brooklyn,11238,Cool Roof
+Crown Heights/Bedsty,734 Franklin Ave,Brooklyn,11238,Cool Roof
+Prospect Heights,415 Flatbush Ave,Brooklyn,11238,Cool Roof
+Crown Heights,925 Bergen St,Brooklyn,11238,Green Roof
+Crown Heights,1024 Dean Street,Brooklyn,11238,Green Roof
+Flushing,138-46 Northern Blvd,Queens,11354,Cool Roof
+Flushing,134-20 Dahlia Avenue,Queens,11355,Green Roof
+Murray Hill,14480 Barclay Avenue,Queens,11355,Blue Roof
+Flushing,43-50 Main Street,Queens,11355,Green Roof
+East Flushing,196-36 Northern Blvd,Queens,11358,Cool Roof
+Bayside,214-20 Northern Blvd,Queens,11361,Cool Roof
+Fresh Meadows,193-20 Horace Harding Expressway,Queens,11365,Cool Roof
+East Corona,100-01 Northern Blvd,Queens,11369,Cool Roof
+East Elmhurst,15-00 Hazen Street,Queens,11370,Green Roof
+Elmhurst,55-01 94th Street,Queens,11373,Blue Roof
+Elmhurst,55-24 Van Horn Street,Queens,11373,Blue Roof
+Rego Park,9329 Queens Blvd.,Queens,11374,Green Roof
+Rego Park,9329 Queens Blvd,Queens,11374,Green Roof
+Middle Village,6926 65th Drive,Queens,11379,Blue Roof
+Hollis,204-01 Hollis Avenue,Queens,11412,Cool Roof
+St Albans,190-20 109th Rd,Queens,11412,Green Roof
+Jamaica,92-06 156th Street,Queens,11414,Cool Roof
+Richmond Hill,88-01 102nd Street,Queens,11418,Blue Roof
+Jamaica,238-10 Hillsdale Ave,Queens,11427,Cool Roof
+Hillcrest,160 Goethals Avenue,Queens,11432,Blue Roof
+Briarwood,85-70 148th st,Queens,11435,Cool Roof
+Oakland Gardens,79-50 Bell Blvd,Queens,11634,Cool Roof
+Far Rockaway,155 beach 19th st,Queens,11691,Cool Roof
+Far Rockaway,1915 seagirt,Queens,11691,Cool Roof
+Far Rockaway,1925 seagirt,Queens,11691,Cool Roof
+Far Rockaway,821 Beach 25 Street,Queens,11691,Blue Roof
+Far Rockaway,1848 Cornaga Ave.,Queens,11691,Green Roof
+Arverne,312 Beach 54th Street,Queens,11692,Cool Roof
