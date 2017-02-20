@@ -2,7 +2,7 @@ var table;
 var myFont;
 
 function preload(){
-  table = loadTable('data/ecoroofcountbyneighborhoodv2.csv', 'csv', 'header');
+  table = loadTable('data/ecoroofcountbyneighborhood.csv', 'csv', 'header');
   myFont = loadFont("Gotham-Black.otf");
 }
 
