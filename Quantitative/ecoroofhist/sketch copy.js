@@ -80,11 +80,11 @@ function displayData(){
   // go through building count array
   // map the x value to roof count
   // map the y value to number of neighborhoods
-  for(var i=0; i<neighbCounts.length; i++){
+  for(var i=1; i<neighbCounts.length; i++){
       if(neighbCounts[i]>0){
         var x = map(i,0, neighbCounts.length, margin, width-margin);
         var y = map(neighbCounts[i], minCount, maxCount,height-margin,margin);
-        rect(x-25,y,25,y - (height-margin));
+        rect(x,y,30,y - (height-margin));
         // var textDisplay = neighbCounts[i] + " neighborhoods" + i + " ecoroofs.";
       }
   }
@@ -114,7 +114,7 @@ function drawLabels(){
   noStroke();
   textFont(myFont);
   textStyle(ITALIC);
-  text("Number of ecoroofs", width-margin - 180,height-margin+70);
+  text("Number of neighborhoods", width-margin - 180,height-margin+70);
 
   //  y Axis
   stroke(255);
@@ -135,7 +135,7 @@ function drawLabels(){
   //textStyle(ITALIC);
   noStroke();
   textFont(myFont);
-  text("Number of neighborhoods\n(with at least 1 ecoroof)", margin-60,margin+400);
+  text("Number of ecoroofs \n in a neighborhood", margin-60,margin+400);
 
 
   // title
@@ -144,7 +144,7 @@ function drawLabels(){
   noStroke();
   textAlign(LEFT);
   textSize(24);
-  text("Most neighbohoods only have 1 or 2 ecoroofs", margin,margin-80);
+  text("Distribution of ecoroofs per NYC neighborhood", margin,margin-80);
   textStyle(ITALIC);
   textFont(myFont);
   noStroke();

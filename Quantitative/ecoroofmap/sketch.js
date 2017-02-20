@@ -1,8 +1,8 @@
-var lat, long, rooftype, table, myMap
+var lat, long, rooftype, table, myMap;
 
 
 function preload(){
-  table = loadTable('data/allroofswLL.csv', 'csv', 'header');
+  table = loadTable("data/allroofswLL.csv", "csv", "header");
   //myFont = loadFont("Gotham-Black.otf");
 }
 
@@ -11,8 +11,8 @@ function setup() {
 // LEAFLET CODE
 // create your own map
 mymap = L.map('mapid').setView([40.763801, -73.980121], 14);
-  L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpandmbXliNDBjZWd2M2x6bDk3c2ZtOTkifQ._QA7i5Mpkd_m30IGElHziw', {
-  maxZoom: 18,
+  L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/dark-v9/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWJjYXJyYWRpbmUiLCJhIjoiY2l6ZWxmeGh6MjJicjJ2cW9ncDh3ZzVpMiJ9.QMaUpzAhGuRXJZcP9-TtdQ', {
+  maxZoom: 14,
   id: 'mapbox.streets'
   }).addTo(mymap);
   drawDataPoints();
@@ -24,17 +24,17 @@ function drawDataPoints(){
     long = table.getColumn("Longitude");
     rooftype = table.getColumn("Roof");
   // cycle through array
-  console.log(latitudes[0]);
+  //console.log(latitudes[0]);
     for(var i=0; i<500; i++){
-      var col = 'white';
-      if(rooftype[i]==="cool" || conditions[i]==="green"){
-        col = 'green';
-      }else if(conditions[i]==="blue"){
+      var col = 'green';
+      if(rooftype[i]==="Cool"){
+        col = 'white';
+      }else if(conditions[i]==="Blue"){
         col= 'blue';
       }
 
       var circle = L.circle([lat[i], long[i]], {
-        radius: 20,
+        radius: 150,
         stroke: false,
         fillColor: col,
         fillOpacity: 0.5

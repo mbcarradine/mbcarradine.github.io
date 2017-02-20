@@ -2,7 +2,7 @@ var table;
 var myFont;
 
 function preload(){
-  table = loadTable('data/ecoroofcountbyneighborhood.csv', 'csv', 'header');
+  table = loadTable('data/roofcountbyneighborhood.csv', 'csv', 'header');
   myFont = loadFont("Gotham-Black.otf");
 }
 
@@ -12,20 +12,21 @@ function preload(){
 function setup() {
   var roofs = table.getColumn("RoofCount");
     var hood = table.getColumn("Neighborhood");
-
-  
-  var width = 800, // canvas width and height
-      height = 600,
-      margin = 50,
-      w = width - 2 * margin, // chart area width and height
-      h = height -2 * margin;
-  
-  var barWidth =  (h / roofs.length) * 2.5; // width of bar
-  var barMargin = (h / roofs.length) * 0.8; // margin between two bars
-  
   createCanvas(windowWidth, windowHeight);
   
+  var width = windowWidth, // canvas width and height
+      height = windowHeight,
+      margin = 50,
+      w = windowWidth // chart area width and height
+      h = windowHeight
+  
+  var barWidth =  (h / roofs.length) * 0.65; // width of bar
+  var barMargin = (h / roofs.length) * 0.3; // margin between two bars
+  
+
+  
   textSize(10);
+
   
   push();
   translate(margin, margin); // ignore margin area
@@ -43,6 +44,7 @@ function setup() {
      textFont(myFont);
        noStroke();
    fill('white');
+          noStroke();
      textAlign(RIGHT);
    text((hood[i]), margin-65, barWidth/2 + 5); // write data
      textFont(myFont);
