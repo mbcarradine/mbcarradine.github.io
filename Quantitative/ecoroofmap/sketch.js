@@ -27,7 +27,7 @@ function drawDataPoints(){
   // cycle through array
   //console.log(latitudes[0]);
     for(var i=0; i<500; i++){
-      var col = 'green';
+      var col = (185,216,57);
       if(rooftype[i]==="Cool"){
         col = 'white';
       }else if(rooftype[i]==="Blue"){
