@@ -135,7 +135,7 @@ function drawLabels(){
   //textStyle(ITALIC);
   noStroke();
   textFont(myFont);
-  text("Number of neighborhoods\n(with at least 1 ecoroof)", margin-60,margin+400);
+  text("Number of neighborhoods\n(with at least 1 ecoroof)", margin-60,margin+300);
 
 
   // title
@@ -144,8 +144,8 @@ function drawLabels(){
   noStroke();
   textAlign(LEFT);
   textSize(24);
-  text("Most NYC neighbohoods only have 1 or 2 ecoroofs", margin,margin-80);
-  textStyle(ITALIC);
+  text("Most NYC neighbohoods have less than 5 ecoroofs", margin,margin-80);
+  textStyle(NORMAL);
   textFont(myFont);
   noStroke();
   textAlign(LEFT);
