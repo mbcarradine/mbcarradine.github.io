@@ -102,7 +102,7 @@ function drawLabels(){
   for(var i=0; i<neighbCounts.length + 5; i+=5){
     var y = height-margin+30;
     x = map(i,0, neighbCounts.length,margin, width-margin);
-//    noStroke();
+  noStroke();
       textFont(myFont);
     fill(255);
     text(i, x, y);
@@ -135,7 +135,7 @@ function drawLabels(){
   //textStyle(ITALIC);
   noStroke();
   textFont(myFont);
-  text("Number of neighborhoods\n(with at least 1 ecoroof)", margin-60,margin+300);
+  text("Number of neighborhoods\n(with at least 1 ecoroof)", margin-40,margin+300);
 
 
   // title
