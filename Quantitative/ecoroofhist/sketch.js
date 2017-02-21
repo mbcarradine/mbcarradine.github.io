@@ -144,7 +144,7 @@ function drawLabels(){
   noStroke();
   textAlign(LEFT);
   textSize(24);
-  text("Most NYC neighbohoods have less than 5 ecoroofs", margin,margin-80);
+  text("Of all NYC neighborhoods with at least 1 ecoroof, most have less than 5", margin,margin-80);
   textStyle(NORMAL);
   textFont(myFont);
   noStroke();
