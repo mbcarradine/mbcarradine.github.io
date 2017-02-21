@@ -10,7 +10,7 @@ function setup() {
 
 // LEAFLET CODE
 // create your own map
-mymap = L.map('mapid').setView([40.763801, -73.980121], 14);
+mymap = L.map('mapid').setView([40.753569, -73.882988], 11);
   L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/dark-v9/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWJjYXJyYWRpbmUiLCJhIjoiY2l6ZWxmeGh6MjJicjJ2cW9ncDh3ZzVpMiJ9.QMaUpzAhGuRXJZcP9-TtdQ', {
   maxZoom: 14,
   id: 'mapbox.streets'
@@ -23,14 +23,15 @@ function drawDataPoints(){
   lat = table.getColumn("Latitude");
     long = table.getColumn("Longitude");
     rooftype = table.getColumn("Roof");
+    address = table.getColumn("Address");
   // cycle through array
   //console.log(latitudes[0]);
     for(var i=0; i<500; i++){
-      var col = 'green';
+      var col = (185,216,57);
       if(rooftype[i]==="Cool"){
         col = 'white';
-      }else if(conditions[i]==="Blue"){
-        col= 'blue';
+      }else if(rooftype[i]==="Blue"){
+        col= 'deepskyblue';
       }
 
       var circle = L.circle([lat[i], long[i]], {
@@ -39,7 +40,7 @@ function drawDataPoints(){
         fillColor: col,
         fillOpacity: 0.5
       }).addTo(mymap)
-      .bindPopup("Roof: " + rooftype[i]);
+      .bindPopup(address[i] + ": " + rooftype[i]+" Roof");
   }
 }
 

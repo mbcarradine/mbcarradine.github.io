@@ -73,9 +73,9 @@ for(var i=0; i<maxRoofs+1; i++){
 }
 
 function displayData(){
-  background(0);
+    background(33,32,30);
 
-  fill(0,255,0);
+     fill(185,216,57);
   noStroke();
   // go through building count array
   // map the x value to roof count
@@ -106,14 +106,14 @@ function drawLabels(){
       textFont(myFont);
     fill(255);
     text(i, x, y);
-    stroke(0);
+    stroke(255);
     line(x,y-12,x, y-30);
   }
   // x axis label
   textAlign(RIGHT);
   noStroke();
   textFont(myFont);
-  textStyle(ITALIC);
+  textStyle(NORMAL);
   text("Number of ecoroofs", width-margin - 180,height-margin+70);
 
   //  y Axis
@@ -144,7 +144,7 @@ function drawLabels(){
   noStroke();
   textAlign(LEFT);
   textSize(24);
-  text("Most neighbohoods only have 1 or 2 ecoroofs", margin,margin-80);
+  text("Most NYC neighbohoods only have 1 or 2 ecoroofs", margin,margin-80);
   textStyle(ITALIC);
   textFont(myFont);
   noStroke();

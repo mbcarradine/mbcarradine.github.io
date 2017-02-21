@@ -1,9 +1,5 @@
 var table;
 var myFont;
-var margin = 50;
-
-  
-
 
 function preload(){
   table = loadTable('data/roofcountbyneighborhood.csv', 'csv', 'header');
@@ -13,40 +9,44 @@ function preload(){
 
 
 
-function setup() { 
-    createCanvas(windowWidth, windowHeight);
-
-      var roofs = table.getColumn("RoofCount");
+function setup() {
+  var roofs = table.getColumn("RoofCount");
     var hood = table.getColumn("Neighborhood");
-    var width = windowWidth; // canvas width and height
-  var height = windowHeight;
-    var cw = (windowWidth)*.75; // chart area width and height
-  var  ch = (windowHeight)*.75;
-    var barWidth =  (cw / roofs.length) * 0.65; // width of bar
-  var barMargin = (ch / roofs.length) * 0.3; // margin between two bars
+  createCanvas(windowWidth, windowHeight);
+  
+  var width = windowWidth, // canvas width and height
+      height = windowHeight,
+      margin = 50,
+      w = windowWidth // chart area width and height
+      h = windowHeight
+  
+  var barWidth =  (h / roofs.length) * 0.65; // width of bar
+  var barMargin = (h / roofs.length) * 0.3; // margin between two bars
+  
+
   
   textSize(10);
+
+  
   push();
   translate(margin, margin); // ignore margin area
     background(33,32,30);
-
-
   for(var i=0; i<roofs.length; i++) {
     push();
      fill(185,216,57);
   noStroke();
     translate(200, i* (barWidth + barMargin)); // jump to the top right corner of the bar
-    rect(0, 0, (roofs[i]*25), barWidth); // draw rect
+    rect(0, 0, (roofs[i]*20), barWidth); // draw rect
 
     fill(33,32,30);
+
+   text((roofs[i]), 0, barWidth/2 + 5); // write data
      textFont(myFont);
-   text((roofs[i]), 0, barWidth/2 + 5); // write roofcount
-     textFont(myFont);
-       //noStroke();
+       noStroke();
    fill('white');
           noStroke();
      textAlign(RIGHT);
-   text((hood[i]), margin-65, barWidth/2 + 5); // write neighborhood
+   text((hood[i]), margin-65, barWidth/2 + 5); // write data
      textFont(myFont);
     pop();
   }
@@ -63,4 +63,3 @@ function setup() {
 
 
 }
-
