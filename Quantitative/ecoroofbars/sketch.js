@@ -37,13 +37,13 @@ function setup() {
   noStroke();
     translate(200, i* (barWidth + barMargin)); // jump to the top right corner of the bar
     rect(0, 0, (roofs[i]*25), barWidth); // draw rect
+fill(33,32,30);
 
-    fill(33,32,30);
      textFont(myFont);
             noStroke();
    text((roofs[i]), 0, barWidth/2 + 5); // write roofcount
      textFont(myFont);
-       noStroke();
+       //noStroke();
    fill('white');
           noStroke();
      textAlign(RIGHT);
