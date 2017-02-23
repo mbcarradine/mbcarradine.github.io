@@ -1,7 +1,7 @@
 bars
 https://mbcarradine.github.io/Quantitative/ecoroofbars/index.html
 
-hist
+histogram
 https://mbcarradine.github.io/Quantitative/ecoroofhist/index.html
 
 map
