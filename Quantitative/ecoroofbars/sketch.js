@@ -6,7 +6,7 @@ var margin = 50;
 
 
 function preload(){
-  table = loadTable('data/roofcountbyneighborhood.csv', 'csv', 'header');
+  table = loadTable('data/rooftypebyneighborhood.csv', 'csv', 'header');
   myFont = loadFont("Gotham-Black.otf");
 }
 
@@ -16,8 +16,8 @@ function preload(){
 function setup() { 
     createCanvas(windowWidth, windowHeight);
 
-      var roofs = table.getColumn("RoofCount");
-    var hood = table.getColumn("Neighborhood");
+      var roofs = table.getColumn("rooftype");
+    var hood = table.getColumn("neighborhood");
     var width = windowWidth; // canvas width and height
   var height = windowHeight;
     var cw = (windowWidth)*.75; // chart area width and height
@@ -26,16 +26,22 @@ function setup() {
   var barMargin = (ch / roofs.length) * 0.3; // margin between two bars
   
   textSize(10);
-  push();
-  translate(margin, margin); // ignore margin area
+  //push();
+  //translate(margin, margin); // ignore margin area
     background(33,32,30);
 
 
   for(var i=0; i<roofs.length; i++) {
-    push();
-     fill(185,216,57);
+      //  push();
+ var col = 'olivedrab';
+      if(roofs[i]==="Cool Roof"){
+        col = 'white';
+      }else if(roofs[i]==="Blue Roof"){
+        col= 'deepskyblue';
+      }
+     fill(col);
   noStroke();
-    translate(200, i* (barWidth + barMargin)); // jump to the top right corner of the bar
+   translate(200, i* (barWidth + barMargin)); // jump to the top right corner of the bar
     rect(0, 0, (roofs[i]*25), barWidth); // draw rect
 fill(33,32,30);
 
@@ -49,10 +55,10 @@ fill(33,32,30);
      textAlign(RIGHT);
    text((hood[i]), margin-65, barWidth/2 + 5); // write neighborhood
      textFont(myFont);
-    pop();
+   // pop();
   }
   
-  pop();
+ // pop();
   //textStyle(BOLD);
   noStroke();
   textAlign(LEFT);
