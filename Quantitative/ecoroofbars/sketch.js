@@ -36,7 +36,7 @@ function setup() {
      fill(185,216,57);
   noStroke();
     translate(200, i* (barWidth + barMargin)); // jump to the top right corner of the bar
-    rect(0, 0, (roofs[i]*25), barWidth); // draw rect
+    arc(0, 0, (roofs[i]*20), barWidth,0, HALF_PI); // draw rect
 fill(33,32,30);
 
      textFont(myFont);
