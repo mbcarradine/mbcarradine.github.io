@@ -10,7 +10,6 @@ function setup() {
 createCanvas(windowWidth, windowHeight);
 }
 
-
 function draw(){
 var quote = data.getColumn ("quote");
 var category = data.getColumn ("category");
@@ -21,7 +20,7 @@ var month = data.getColumn ("month");
 var r = data.getColumn ("r");
 var g = data.getColumn ("g");
 var b = data.getColumn ("b");
-var timeline = (windowHeight-75)
+var timeline = (windowHeight-100)
 background (25);
 textFont(myFont);
 textSize(20);
@@ -61,12 +60,12 @@ fill((r[i]), (g[i]), (b[i]));
 strokeWeight(0);
      textFont(myFont);    
       textSize(11);
-text((quote[i]), 150, 40+25*i);
+text((quote[i]), 150, 50+25*i);
 //reveal quote data
 if (mouseIsPressed) {
     fill((r[i])-95, (g[i])-95, (b[i])-95);
       noStroke();
-  text((who[i]) + ", " + (month[i]) + " " + (when[i]), 150, 29+25*i);
+  text((who[i]) + ", " + (month[i]) + " " + (when[i]), 150, 39+25*i);
   }
 
 }
