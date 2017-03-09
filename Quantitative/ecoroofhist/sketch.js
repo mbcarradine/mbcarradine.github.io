@@ -114,7 +114,7 @@ function drawLabels(){
   noStroke();
   textFont(myFont);
   textStyle(NORMAL);
-  text("Number of ecoroofs", width-margin - 650,height-margin+70);
+  text("Number of ecoroofs", width-margin - 700,height-margin+70);
 
   //  y Axis
   stroke(255);
