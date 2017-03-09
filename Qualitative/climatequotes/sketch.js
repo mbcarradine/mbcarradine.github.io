@@ -56,7 +56,7 @@ for (var i = 0; i < quote.length; i++){
 strokeWeight(0);
      textFont(myFont);    
       textSize(15);
-      rotate(radians(frameCount/165));
+      rotate(radians(frameCount/175));
 text((quote[i]), 200, 400);
    fill((r[i]-100), (g[i]-100), (b[i])-100);
 text((who[i]) + ", " + (month[i]) + " " + (when[i]), 200, 420);
