@@ -14,7 +14,7 @@ function preload(){
 
 
 function setup() { 
-    createCanvas(windowWidth, windowHeight);
+    createCanvas(windowWidth, 1200);
 
       var roofs = table.getColumn("RoofCount");
     var hood = table.getColumn("Neighborhood");
@@ -36,7 +36,7 @@ function setup() {
      fill(185,216,57);
   noStroke();
     translate(200, i* (barWidth + barMargin)); // jump to the top right corner of the bar
-    arc(0, 0, (roofs[i]*20), barWidth,0, HALF_PI); // draw rect
+    rect(0, 0, (roofs[i]*20), barWidth,0, HALF_PI); // draw rect
 fill(33,32,30);
 
      textFont(myFont);
