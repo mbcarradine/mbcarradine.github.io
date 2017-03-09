@@ -7,7 +7,7 @@ function preload() {
 }
 
 function setup() {
-createCanvas(windowWidth, windowHeight);
+createCanvas(windowWidth, 1200);
 }
 
 function draw(){
@@ -20,7 +20,7 @@ var month = data.getColumn ("month");
 var r = data.getColumn ("r");
 var g = data.getColumn ("g");
 var b = data.getColumn ("b");
-var timeline = (windowHeight-100)
+var timeline = (1000)
 background (25);
 textFont(myFont);
 textSize(20);
@@ -47,7 +47,7 @@ text ("We'll can never truly know", (windowWidth*.80+15),65);
 translate(margin, margin); 
 //draw timeline
 fill ('white');
-rect (100,25,25,timeline);
+rect (100,25,25,995);
      textFont(myFont);
      textSize(16);
 text('2013',50, 40);
@@ -60,13 +60,24 @@ fill((r[i]), (g[i]), (b[i]));
 strokeWeight(0);
      textFont(myFont);    
       textSize(11);
-text((quote[i]), 150, 50+25*i);
-//reveal quote data
-if (mouseIsPressed) {
+text((quote[i]), 150, 45+25*i);
+//reveal quote data on hover over 'politicians'
+if (dist(mouseX,mouseY,250,100) < 100) {
+fill((r[i])-95, (g[i])-95, (b[i])-95);
+      noStroke();
+  text((who[i]) + ", " + (month[i]) + " " + (when[i]), 150, 34+25*i);
+} 
+else {
+  //ellipse(175, 100, 20, 20);
+  //ellipse(325, 100, 20, 20);
+}
+//reveal quote data on click
+ if (mouseIsPressed) {
     fill((r[i])-95, (g[i])-95, (b[i])-95);
       noStroke();
-  text((who[i]) + ", " + (month[i]) + " " + (when[i]), 150, 39+25*i);
-  }
+  text((who[i]) + ", " + (month[i]) + " " + (when[i]), 150, 34+25*i);
+  } 
+//end reveal quote data
 
 }
 }
