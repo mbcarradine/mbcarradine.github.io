@@ -7,6 +7,7 @@ function preload(){
 }
 
 function setup() {
+  createCanvas(windowWidth, windowHeight);
 
 // LEAFLET CODE
 
@@ -19,6 +20,9 @@ mymap = L.map('mapid').setView([40.753569, -73.882988], 11);
 }
 
 function drawDataPoints(){
+
+
+
 
   lat = table.getColumn("Latitude");
     long = table.getColumn("Longitude");
@@ -46,5 +50,16 @@ function drawDataPoints(){
 
 
 function draw() {
+    textSize(12);
+fill ('olivedrab');
+rect (25,200,10,10);
+text ("green roof", 40, 210);
+fill ('white');
+rect (25,225,10,10);
+text ("cool roof (white)", 40, 235);
+fill ('deepskyblue');
+rect (25, 250,10,10);
+text ("blue roof", 40, 260);
+
 }
 
