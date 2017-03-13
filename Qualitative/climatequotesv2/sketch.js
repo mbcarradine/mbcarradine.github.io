@@ -32,7 +32,7 @@ text('Evolution of Denial', 150, 25);
 textSize(16);
 text('How Are Politicians Selling their Skepticism of Climate Change?', 150, 50);
 //draw key
-  noStroke();
+     textFont(bodyFont);    
 textSize(9);
 fill (228, 95, 86);
 rect ((windowWidth*.80),10,10,10);
@@ -58,6 +58,7 @@ text('2014',50,(10+(timeline*.27)));
 text('2015',50,(10+(timeline *.52)));
 text('2016',50,(10+(timeline*.77)));
 //display data
+     textFont(bodyFont);    
 for (var i = 0; i < quote.length; i++){
 fill((r[i]), (g[i]), (b[i]));
 
@@ -67,7 +68,7 @@ text((quote[i]), 150, 45+25*i);
 
 //reveal quote data on hover
   if (dist(mouseX,mouseY,240,120 + (i*25)) < 14)  {
-fill((r[i])-65, (g[i])-65, (b[i])-65);
+fill((r[i])-50, (g[i])-50, (b[i])-50);
        textFont(bodyFont);  
   text((who[i]) + ", " + (month[i]) + " " + (when[i]), 150, (35 + i*25));
 } 

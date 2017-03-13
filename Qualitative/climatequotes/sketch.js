@@ -31,7 +31,7 @@ textSize(16);
 text('How Are Politicians Selling their Skepticism of Climate Change?', 25, 140);
 //draw key
 textFont(bodyFont);
- noStroke();
+
 textSize(12);
 fill (228, 95, 86);
 rect (25,200,10,10);
@@ -58,7 +58,7 @@ for (var i = 0; i < quote.length; i++){
 
 textFont(bodyFont);  
       textSize(15);
-      rotate(radians(frameCount/250));
+      rotate(radians(frameCount/280));
 text((quote[i]), 200, 400);
    fill((r[i]-50), (g[i]-50), (b[i])-50);
 text((who[i]) + ", " + (month[i]) + " " + (when[i]), 200, 420);
