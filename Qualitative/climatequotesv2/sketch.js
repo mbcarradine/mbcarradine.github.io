@@ -60,7 +60,7 @@ text('2016',50,(10+(timeline*.77)));
 //display data
 for (var i = 0; i < quote.length; i++){
 fill((r[i]), (g[i]), (b[i]));
-strokeWeight(0);
+
      textFont(bodyFont);    
       textSize(12);
 text((quote[i]), 150, 45+25*i);
@@ -68,6 +68,7 @@ text((quote[i]), 150, 45+25*i);
 //reveal quote data on hover
   if (dist(mouseX,mouseY,240,120 + (i*25)) < 14)  {
 fill((r[i])-65, (g[i])-65, (b[i])-65);
+       textFont(bodyFont);  
   text((who[i]) + ", " + (month[i]) + " " + (when[i]), 150, (35 + i*25));
 } 
 
@@ -77,7 +78,7 @@ else
 //reveal quote data on click
  if (mouseIsPressed) {
     fill((r[i])-50, (g[i])-50, (b[i])-50);
-
+     textFont(bodyFont);  
   text((who[i]) + ", " + (month[i]) + " " + (when[i]), 150, 34+25*i);
   } 
 //end reveal quote data
