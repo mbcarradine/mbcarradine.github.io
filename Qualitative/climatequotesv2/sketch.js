@@ -4,7 +4,7 @@ var margin = 75;
 function preload() {
   data = loadTable('denial.csv', 'csv', 'header');
   myFont = loadFont("Gotham-Black.otf");
-    bodyFont = loadFont("Gotham-Medium.otf");
+  bodyFont = loadFont("Gotham-Book.otf");
 }
 
 function setup() {
