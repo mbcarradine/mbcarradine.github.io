@@ -64,6 +64,7 @@ strokeWeight(0);
      textFont(bodyFont);    
       textSize(12);
 text((quote[i]), 150, 45+25*i);
+
 //reveal quote data on hover
   if (dist(mouseX,mouseY,240,120 + (i*25)) < 14)  {
 fill((r[i])-65, (g[i])-65, (b[i])-65);
@@ -75,7 +76,7 @@ else
 
 //reveal quote data on click
  if (mouseIsPressed) {
-    fill((r[i])-75, (g[i])-75, (b[i])-75);
+    fill((r[i])-50, (g[i])-50, (b[i])-50);
 
   text((who[i]) + ", " + (month[i]) + " " + (when[i]), 150, 34+25*i);
   } 
