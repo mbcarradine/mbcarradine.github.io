@@ -4,6 +4,7 @@ var margin = 75;
 function preload() {
   data = loadTable('denial.csv', 'csv', 'header');
   myFont = loadFont("Gotham-Black.otf");
+    bodyFont = loadFont("Gotham-Medium.otf");
 }
 
 function setup() {
@@ -20,21 +21,23 @@ var month = data.getColumn ("month");
 var r = data.getColumn ("r");
 var g = data.getColumn ("g");
 var b = data.getColumn ("b");
-var timeline = (1000)
+var timeline = (1000);
+var revealY = (100);
+var revealX = (240);
 background (25);
 textFont(myFont);
-textSize(20);
+textSize(24);
 fill('white');
 text('Evolution of Denial', 150, 25);
-textSize(14);
+textSize(16);
 text('How Are Politicians Selling their Skepticism of Climate Change?', 150, 50);
 //draw key
   noStroke();
 textSize(9);
-fill (255, 140, 140);
+fill (228, 95, 86);
 rect ((windowWidth*.80),10,10,10);
 text ("Alternative facts", (windowWidth*.80+15),20);
-fill (51, 153, 255);
+fill (66, 133, 244);
 rect ((windowWidth*.80),25,10,10);
 text ("It still gets cold sometimes", (windowWidth*.80+15),35);
 fill (102, 204, 0);
@@ -58,27 +61,27 @@ text('2016',50,(10+(timeline*.77)));
 for (var i = 0; i < quote.length; i++){
 fill((r[i]), (g[i]), (b[i]));
 strokeWeight(0);
-     textFont(myFont);    
-      textSize(11);
+     textFont(bodyFont);    
+      textSize(12);
 text((quote[i]), 150, 45+25*i);
-//reveal quote data on hover over 'politicians'
-if (dist(mouseX,mouseY,250,100) < 100) {
-fill((r[i])-95, (g[i])-95, (b[i])-95);
-      noStroke();
-  text((who[i]) + ", " + (month[i]) + " " + (when[i]), 150, 34+25*i);
+//reveal quote data on hover
+  if (dist(mouseX,mouseY,240,120 + (i*25)) < 14)  {
+fill((r[i])-65, (g[i])-65, (b[i])-65);
+  text((who[i]) + ", " + (month[i]) + " " + (when[i]), 150, (35 + i*25));
 } 
-else {
-  //ellipse(175, 100, 20, 20);
-  //ellipse(325, 100, 20, 20);
-}
+
+else 
+
+
 //reveal quote data on click
  if (mouseIsPressed) {
-    fill((r[i])-95, (g[i])-95, (b[i])-95);
-      noStroke();
+    fill((r[i])-75, (g[i])-75, (b[i])-75);
+
   text((who[i]) + ", " + (month[i]) + " " + (when[i]), 150, 34+25*i);
   } 
 //end reveal quote data
 
 }
 }
+
 

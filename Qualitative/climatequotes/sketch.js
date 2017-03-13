@@ -4,6 +4,7 @@ var margin = 50;
 function preload() {
   data = loadTable('denial.csv', 'csv', 'header');
   myFont = loadFont("Gotham-Black.otf");
+  bodyFont = loadFont("Gotham-Book.otf");
 }
 
 function setup() {
@@ -29,13 +30,13 @@ text('Evolution of Denial', 25, 100);
 textSize(16);
 text('How Are Politicians Selling their Skepticism of Climate Change?', 25, 140);
 //draw key
-
+textFont(bodyFont);
  noStroke();
 textSize(12);
-fill (255, 140, 140);
+fill (228, 95, 86);
 rect (25,200,10,10);
 text ("Alternative facts", 40, 210);
-fill (51, 153, 255);
+fill (66, 133, 244);
 rect (25,225,10,10);
 text ("It still gets cold sometimes", 40, 235);
 fill (102, 204, 0);
@@ -51,14 +52,15 @@ translate(margin, margin);
   translate(width/10, height/10);
 for (var i = 0; i < quote.length; i++){
   for (j = 0; j < 41; j++)
-    rotate((j/2) / 16);
+    rotate (2/4);
+    //rotate((j/2) / 4);
    fill((r[i]), (g[i]), (b[i]));
-strokeWeight(0);
-     textFont(myFont);    
+
+textFont(bodyFont);  
       textSize(15);
-      rotate(radians(frameCount/175));
+      rotate(radians(frameCount/250));
 text((quote[i]), 200, 400);
-   fill((r[i]-100), (g[i]-100), (b[i])-100);
+   fill((r[i]-50), (g[i]-50), (b[i])-50);
 text((who[i]) + ", " + (month[i]) + " " + (when[i]), 200, 420);
 
 
