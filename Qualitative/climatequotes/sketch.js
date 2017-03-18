@@ -53,7 +53,6 @@ translate(margin, margin);
 for (var i = 0; i < quote.length; i++){
   for (j = 0; j < 41; j++)
     rotate (2/4);
-    //rotate((j/2) / 4);
    fill((r[i]), (g[i]), (b[i]));
 
 textFont(bodyFont);  
