@@ -1,0 +1,18 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+
+g.tick line {
+
+stroke: blue;
+
+}
+
+g.tick text{
+
+font-size: 12px
+fill: purple;
+
+}

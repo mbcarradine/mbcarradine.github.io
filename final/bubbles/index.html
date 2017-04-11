@@ -66,7 +66,7 @@ var force = d3.layout.force()
     .nodes(nodes)
     .size([width, height])
     .gravity(.02)
-    .charge(0)
+    .charge(5)
     .on("tick", tick)
     .start();
 
@@ -86,9 +86,10 @@ node.append("circle")
 
 
 node.append("text")
-      .attr("dy", ".3em")
+      .attr("dy", ".2em")
       .style("text-anchor", "middle")
-      .text(function(d) { return d.text.substring(0, d.radius / 3); });
+      .text(function(d) { return d.text.substring(0, d.radius / 3); })
+
 
 
 
@@ -106,6 +107,12 @@ function create_nodes(data,node_counter) {
   if (!clusters[i] || (r > clusters[i].radius)) clusters[i] = d;
   return d;
 };
+
+// svg.append("text")
+// .attr("x","150")
+// .attr("y","150")
+// .text("some borough");
+
 
 
 
