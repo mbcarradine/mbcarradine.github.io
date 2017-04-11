@@ -4,8 +4,15 @@ html, body {
 }
 
 
-line {
+g.tick line {
 
-stroke: red;
+stroke: blue;
+
+}
+
+g.tick text{
+
+font-size: 12px
+fill: purple;
 
 }

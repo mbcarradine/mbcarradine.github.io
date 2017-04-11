@@ -1,5 +1,18 @@
-var dataArray = [5, 11, 15];
-var textArray = ['hi','welcome!','farewell'];
+var dataArray = [5, 11, 18];
+var dataDays = ['Mon','Wed','Fri'];
+
+var rainbow = d3.scaleSequential(d3.interpolateRainbow).domain([0,3]);
+var rainbowCircles = d3.scaleSequential(d3.interpolateRainbow).domain([4,8]);
+
+
+var x = d3.scaleBand()
+		  .domain(dataDays)
+		  .range([0, 170]) //pixel range
+		  .paddingInner(0.1176);
+
+var xAxis = d3.axisBottom(x);
+
+var cat20 = d3.schemeCategory20;
 
 var svg = d3.select("body").append("svg").attr("height","100%").attr("width","100%");
 
@@ -8,32 +21,36 @@ svg.selectAll("rect")
 .enter().append("rect")
 	.attr("height",function(d,i){ return d*15; })
 	.attr("width","50")
-	.attr("fill","blue")
+	.attr("fill",function(d,i){ return rainbow(i) })
 
 	.attr("x",function (d,i){ return 60*i;})
 	.attr("y",function(d,i){ return 300-(d*15); });
+svg.append("g")
+	.attr("class","x axis hidden")
+	.attr("transform","translate(0,300)")
+	.call(xAxis);
 
- 
 var newX = 300;
 svg.selectAll("circle.first")
 .data(dataArray)
 .enter().append("circle")
-	.attr("fill","red")
+	.attr("fill",function(d,i){ return rainbowCircles(i) })
 		.attr("class","first")
 		.attr("cx",function(d,i){ newX+=(d*5) + (i*10) ; return newX; })
 		.attr("cy","100")
 		.attr("r",function(d,i){ return d*3; });
 
-/* 
 var newX = 600;
-svg.selectAll("circle.second")
+svg.selectAll("ellipse")
 .data(dataArray)
-.enter().append("circle")
+.enter().append("ellipse")
 		.attr("class","second")
-		.attr("cx",function(d,i){ newX+=(d*5) + (i*10) ; return newX; })
+		.attr("fill",function(d,i){return cat20[i]; })
+		.attr("cx",function(d,i){ newX+=(d*3) + (i*20) ; return newX; })
 		.attr("cy","100")
-		.attr("r",function(d,i){ return d*3; });
-		*/
+		.attr("rx",function(d){ return d*3; })
+		.attr("ry","30");
+		
 
 var newX = 600;
 svg.selectAll("ellipse")

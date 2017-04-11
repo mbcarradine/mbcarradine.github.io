@@ -3,9 +3,24 @@ html, body {
   height: 100%;
 }
 
-
 line {
 
 stroke: red;
+}
 
+g.group0 path,
+g.group0 circle{
+stroke: red;
+fill: none;
+
+}
+
+g.hidden line,
+g.hidden path {
+display: none;
+
+}
+
+g.tick {
+stroke: none;
 }
