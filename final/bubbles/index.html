@@ -8,7 +8,6 @@
       }
 text {
   font: 9px verdana;
-
 }
 circle {
     stroke: #565352;
@@ -16,31 +15,25 @@ circle {
 }
 </style>
 <body>
-<h2 style="font-family:verdana;">Senior Residents per Cooling Center in NYC's Community Districts</h2>
+<h2 style="font-family:verdana;">Number of Senior Residents per Cooling Center in NYC's Community Districts</h2>
 <script src="https://d3js.org/d3.v3.min.js"></script>
 <script>
-
 var width = 1600,
     height = 1200,
     padding = .1, 
-    clusterPadding = 150, 
+    clusterPadding = 175, 
     maxRadius = 12;
 
 var color = d3.scale.ordinal()
-      .range(["#7A99AC", "#E4002B","#ac8d7a","#eacc98","#eacc50"]);
-
-
+      .range(["#D90000", "#FF1E00","#FF4200","#FF7E00","#FFAE00"]);
 
 d3.text("cooldata.csv", function(error, text) {
   if (error) throw error;
   var colNames = "text,size,group,MRR\n" + text;
   var data = d3.csv.parse(colNames);
-
   data.forEach(function(d) {
     d.size = +d.size;
   });
-
-
 //unique cluster/group id's
 var cs = [];
 data.forEach(function(d){
@@ -48,25 +41,19 @@ data.forEach(function(d){
             cs.push(d.group);
         }
 });
-
-
-
 var n = data.length, // total number of nodes
     m = cs.length; // number of distinct clusters
-
-
 //create clusters and nodes
 var clusters = new Array(m);
 var nodes = [];
 for (var i = 0; i<n; i++){
     nodes.push(create_nodes(data,i));
 }
-
 var force = d3.layout.force()
     .nodes(nodes)
     .size([width, height])
-    .gravity(.02)
-    .charge(5)
+    .gravity(.03)
+    .charge(0)
     .on("tick", tick)
     .start();
 
@@ -74,25 +61,57 @@ var svg = d3.select("body").append("svg")
     .attr("width", width)
     .attr("height", height);
 
-
 var node = svg.selectAll("circle")
     .data(nodes)
     .enter().append("g").call(force.drag);
 
 
 node.append("circle")
-  .style("fill", function(d) { return color(d.score); })
+    .style("fill", function (d) {
+    return color(d.MRR);
+    })
     .attr("r", function(d){return d.radius})
 
-
 node.append("text")
-      .attr("dy", ".2em")
+      .attr("dy", ".3em")
       .style("text-anchor", "middle")
-      .text(function(d) { return d.text.substring(0, d.radius / 3); })
+      .text(function(d) { return d.text.substring(0, d.radius / 3); });
 
+svg.append("text")
+    .attr("x", 0)
+    .attr("y", 1000)
+    .text("Mortality Rate Ratio (MRR)")
+    .style ("fill","white");
 
+    svg.append("text")
+    .attr("x", 0)
+    .attr("y", 1025)
+    .text("≤ 1.00")
+    .style ("fill","#FFAE00");
 
+    svg.append("text")
+    .attr("x", 0)
+    .attr("y", 1040)
+    .text("1.01 - 1.04")
+    .style ("fill","#FF7E00");
 
+    svg.append("text")
+    .attr("x", 0)
+    .attr("y", 1055)
+    .text("1.05 - 1.08")
+    .style ("fill","#FF4200");
+
+    svg.append("text")
+    .attr("x", 0)
+    .attr("y", 1070)
+    .text("1.09 - 1.12")
+    .style ("fill","#FF1E00");
+
+    svg.append("text")
+    .attr("x", 0)
+    .attr("y", 1085)
+    .text("1.13 - 1.41")
+    .style ("fill","#D90000");
 
 function create_nodes(data,node_counter) {
   var i = cs.indexOf(data[node_counter].group),
@@ -101,21 +120,13 @@ function create_nodes(data,node_counter) {
         cluster: i,
         radius: data[node_counter].size*.5,
         text: data[node_counter].text,
+        MRR: data[node_counter].MRR,
         x: Math.cos(i / m * 2 * Math.PI) * 200 + width / 2 + Math.random(),
         y: Math.sin(i / m * 2 * Math.PI) * 200 + height / 2 + Math.random()
       };
   if (!clusters[i] || (r > clusters[i].radius)) clusters[i] = d;
   return d;
 };
-
-// svg.append("text")
-// .attr("x","150")
-// .attr("y","150")
-// .text("some borough");
-
-
-
-
 function tick(e) {
     node.each(cluster(10 * e.alpha * e.alpha))
         .each(collide(.5))
@@ -123,9 +134,7 @@ function tick(e) {
         var k = "translate(" + d.x + "," + d.y + ")";
         return k;
     })
-
 }
-
 // Move d to be adjacent to the cluster node.
 function cluster(alpha) {
     return function (d) {
@@ -144,7 +153,6 @@ function cluster(alpha) {
         }
     };
 }
-
 // Resolves collisions between d and all other circles.
 function collide(alpha) {
     var quadtree = d3.geom.quadtree(nodes);
@@ -173,13 +181,11 @@ function collide(alpha) {
     };
 }
 });
-
 Array.prototype.contains = function(v) {
     for(var i = 0; i < this.length; i++) {
         if(this[i] === v) return true;
     }
     return false;
 };
-
 </script>
 

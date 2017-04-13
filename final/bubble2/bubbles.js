@@ -31,7 +31,9 @@ function ready (error, datapoints) {
       .attr("r", function(d) {
       	return radiusScale(d.Ratio)
       })
-      .attr("fill", "lightblue")
+      .attr("fill", function(d) {
+        return radiusScale(d.MRR)
+      })
       .on('click', function(d) {
       	console.log(d)
 
