@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://d3js.org/d3.v4.min.js"></script>
+        <style>
+            body{
+                text-align:center;
+                font-family:sans-serif;
+            }
+            svg{
+                margin: 25px;
+            }
+        </style>
+    </head>
+    <body>
+        <script>
+            //load json
+            //for each row 
+                // create a svg
+                //create a chart for row's year values
+            var width = 400;
+            var height = 300;
+            d3.tsv("data/LaborInNonAgricultSector.tsv",function(resp){
+                var data = resp;
+                d3.select("body")
+                  .selectAll("svg")
+                  .data(data)
+                  .enter()
+                  .append("svg")
+                  .attr("width",width)
+                  .attr("height",height)
+                  .each(function(country){
+                    console.log(country["Country Code"]);
+                    d3.select(this)
+                      .append("rect")
+                      .attr("x",0)
+                      .attr("y",0)
+                      .attr("height","100%")
+                      .attr("width","100%")
+                      .style("fill","none")
+                      .style("stroke","#000")
+                      
+                    d3.select(this)
+                      .append("text")
+                      .attr("x",10)
+                      .attr("y",20)
+                      .text(country["Country Name"])
+                      
+                    var mapX = d3.scaleLinear()
+                    .domain([0, 24])
+                    .range([0, width]);
+                
+                    var mapY = d3.scaleLinear()
+                        .domain([1, 60])
+                        .range([height, 0]);
+                    
+                    var yrValues = [];
+                    for(var column in country){
+                        if(parseInt(column)){
+                            if(country[column].length){
+                                yrValues.push(parseFloat(country[column]));    
+                            }else{
+                                yrValues.push(0);    
+                            }
+                        }
+                    }
+                    
+                    d3.select(this)
+                      .selectAll("circle")
+                      .data(yrValues)
+                      .enter()
+                      .append("circle")
+                      .attr("cx",function(d,i){
+                          return mapX(i)
+                      })
+                      .attr("cy",function(d){
+                          return mapY(d)
+                      })
+                      .attr("r",4)
+                      
+                    
+                  })
+                
+            })
+        </script>
+    </body>
+</html>
