@@ -1,0 +1,248 @@
+{
+"NYC": {
+    "Brooklyn": {
+        "Borough Park": {
+        "BPCooling1": 1284,
+        "BPCooling2": 1284,
+        "BPCooling3": 1284,
+        "BPCooling4": 1284,
+        "BPCooling5": 1284,
+        "BPCooling6": 1284,
+        "BPCooling7": 1284
+        },
+        "Bedford Stuyvesant": {
+          "Bed Stuy Cooling1": 255,
+          "Bed Stuy Cooling2": 255,
+          "Bed Stuy Cooling3": 255,
+          "Bed Stuy Cooling4": 255,
+          "Bed Stuy Cooling5": 255,
+          "Bed Stuy Cooling6": 255,
+          "Bed Stuy Cooling7": 255,
+          "Bed Stuy Cooling8": 255,
+          "Bed Stuy Cooling9": 255,
+          "Bed Stuy Cooling10": 255,
+          "Bed Stuy Cooling11": 255
+        },
+        "Bensonhurst Bay Ridge": {
+          "Bensonhurt Bay Ridge Cooling1": 3264
+        },
+        "Canarsie Flatlands": {
+          "Canarsie Flatlands Cooling1": 290,
+           "Canarsie Flatlands Cooling2": 290,
+            "Canarsie Flatlands Cooling3": 290
+        },
+        "Coney Island": {
+        "CICooling1": 286,
+        "CICooling2": 286,
+        "CICooling3": 286,
+        "CICooling4": 286,
+        "CICooling5": 286,
+        "CICooling6": 286,
+        "CICooling7": 286
+        },
+        "Flatbush E. Flatbush": {
+        "Cooling1": 2332,
+        "Cooling2": 2332,
+        "Cooling3": 2332
+        },
+        "East New York": {
+        "Cooling1": 359,
+        "Cooling2": 359
+        },
+        "Greenpoint": {
+        "Cooling1": 323,
+        "Cooling2": 323,
+         "Cooling2": 323,
+          "Cooling2": 323,
+           "Cooling2": 323
+        },
+        "Sunset Park": {
+        "Cooling1": 1797,
+        "Cooling2": 1797
+        },
+        "Williamsburg Bushwick": {
+        "Cooling1": 613,
+        "Cooling2": 613,
+        "Cooling3": 613,
+        "Cooling4": 613,
+        "Cooling5": 613,
+        "Cooling6": 613
+        },
+
+      "Downtown Brooklyn Prospect Heights Park Slope": {
+        "DBCooling1": 284,
+        "DBCooling2": 284,
+        "DBCooling3": 284,
+        "DBCooling4": 284,
+        "DBCooling5": 284,
+        "DBCooling6": 284,
+        "DBCooling7": 284,
+        "DBCooling8": 284
+        }},
+
+
+
+
+    "Queens": {
+      "Bayside Little Neck": {
+        "Cooling1": 6525
+        },
+      "Flushing Clearview": {
+      "Cooling1": 429,
+        "Cooling2": 429,
+        "Cooling3": 429,
+        "Cooling4": 429,
+        "Cooling5": 429,
+        "Cooling6": 429,
+        "Cooling7": 429
+        },
+        "Jamaica": {
+        "Cooling1": 1095,
+        "Cooling2": 1095,
+        "Cooling3": 1095,
+        "Cooling4": 1095,
+        "Cooling5": 1095,
+        "Cooling6": 1095,
+        "Cooling7": 1095
+        },
+        "Long Island City Astoria": {
+       "Cooling1": 98,
+        "Cooling2": 98,
+        "Cooling3": 98,
+        "Cooling4": 98,
+        "Cooling5": 98,
+        "Cooling6": 98
+        },
+        "The Rockaways": {
+       "Cooling1": 1562,
+        "Cooling2": 1562,
+        "Cooling3": 1562
+        },
+            "Southeast Queens": {
+       "Cooling1": 889,
+        "Cooling2": 889
+        },
+
+            "Southwest Queens": {
+       "Cooling1": 1282,
+        "Cooling2": 1282
+        },
+
+            "West Queens": {
+       "Cooling1": 499,
+        "Cooling2": 499,
+        "Cooling3": 499,
+        "Cooling1": 499,
+        "Cooling2": 499,
+        "Cooling3": 499
+        },
+
+        "Ridgewood Forest Hills": {
+        "Cooling1": 686,
+        "Cooling2": 686,
+        "Cooling3": 686,
+        "Cooling4": 686
+
+      }},
+       "Bronx": {
+        "Fordham Bronx Pk": {
+          "BxCooling1": 834,
+          "BxCooling2": 834,
+          "BxCooling3": 834,
+          "BxCooling4": 834
+        },
+        "South Bronx": {
+           "SBxCooling1": 1147,
+           "SBxCooling2": 1147,
+           "SBxCooling3": 1147,
+           "SBxCooling4": 1147,
+           "SBxCooling5": 1147,
+           "SBxCooling6": 1147,
+           "SBxCooling7": 1147,
+           "SBxCooling8": 1147,
+           "SBxCooling9": 1147,
+           "SBxCooling10": 1147,
+           "SBxCooling11": 1147,
+           "SBxCooling12": 1147
+        },
+        "Pelham Throgs Neck": {
+          "PTNCooling1": 852,
+          "PTNCooling2": 852,
+          "PTNCooling3": 852
+        },
+        "Northeast Bronx": {
+        "NEBX Cooling1": 370,
+        "NEBX Cooling1": 370,
+        "NEBX Cooling1": 370,
+        "NEBX Cooling1": 370
+        },
+        "Kingsbridge Riverdale": {
+          "KR Cooling1": 752
+        }
+      },
+       "Manhattan": {
+        "Union Sq Lower Manhattan": {
+          "Cooling1": 613,
+          "Cooling2": 613,
+          "Cooling3": 613,
+          "Cooling4": 613,
+          "Cooling5": 613,
+          "Cooling6": 613,
+          "Cooling7": 613,
+          "Cooling8": 613,
+          "Cooling9": 613
+        },
+        "Upper East Side Grammercy":  {
+          "Cooling 1": 847,
+           "Cooling 2": 847,
+            "Cooling 3": 847,
+             "Cooling 4": 847,
+              "Cooling 5": 847,
+               "Cooling 6": 847
+        },
+        "Washington Heights": {
+      "Cooling 1": 969,
+       "Cooling 2": 969,
+        "Cooling 3": 969,
+         "Cooling 4": 969,
+          "Cooling 5": 969,
+           "Cooling 6": 969,
+            "Cooling 7": 969
+        },
+        "East Harlem": {
+          "Cooling 1": 340,
+           "Cooling 2": 340,
+            "Cooling 3": 340,
+             "Cooling 4": 340,
+              "Cooling 5": 340,
+               "Cooling 6": 340,
+                "Cooling 7": 340,
+                 "Cooling 8": 340
+        },
+              "Upper West Side": {
+          "Cooling 1": 299,
+           "Cooling 2": 299,
+            "Cooling 3": 299
+        },
+
+                "Central Harlem Morningside": {
+          "Cooling 1": 278,
+           "Cooling 2": 278,
+            "Cooling 3": 278
+        },
+        "Chelsea West Village": {
+          "Cooling 1": 290,
+           "Cooling 2": 290,
+            "Cooling 3": 290,
+             "Cooling 4": 290,
+              "Cooling 5": 290,
+               "Cooling 6": 290,
+                "Cooling 7": 290
+        }
+      },
+       "Staten Island": {
+        "Northern SI": 790,
+        "Southern SI": 1910
+      }   
+  }
+}
