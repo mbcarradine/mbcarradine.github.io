@@ -6,7 +6,7 @@
 var width = window.innerWidth*.8;
 var height = window.innerHeight*.6;
 var svgContainer;
-var data, totalPopulation=0, populationSquare, sideSquare=10;
+var data, totalPopulation=0, populationSquare, sideSquare=20;
 
 var setup = function(callback){
     svgContainer = d3.select("body").append("svg")
@@ -51,30 +51,15 @@ setup(function(){
     x=0;
     y=0;
     d3.selectAll(".btn").on("click",function(){
-        //alert("hey");
+
         var val = d3.select(event.target).html();
-        if(val=="man"){
-            drawPopulation(data["manhattan"]["total"],data["manhattan"]["color"]);
-        }else if(val=="bx"){
-            drawPopulation(data["bronx"]["total"],data["bronx"]["color"]);
-                    }else if(val=="bk"){
-            drawPopulation(data["brooklyn"]["total"],data["brooklyn"]["color"]);
-                    }else if(val=="qn"){
-            drawPopulation(data["queens"]["total"],data["queens"]["color"]);
-                    }else if(val=="si"){
-            drawPopulation(data["staten island"]["total"],data["staten island"]["color"]);
+        if(val=="1995"){
+            drawPopulation(data["1995"]["total"],data["1995"]["color"]);
+        }else if(val=="1999"){
+            drawPopulation(data["1999"]["total"],data["1999"]["color"]);
+                    
         }
     })
 });      
 
-// Drawing population
-// 1. append group element
-// 2. loop over till population count
-// 3. append rect for number of square for a particular population
-// 4. return group element
 
-// Start
-// 1. call setup
-// 2. draw initial total population
-// 3. assign click events
-// 4. in click event draw burough population
