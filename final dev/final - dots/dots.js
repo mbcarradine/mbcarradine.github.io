@@ -45,7 +45,7 @@ svg.append("text")
       .attr("fill","red")
     .transition()
       .ease(Math.sqrt)
-      .attr("r", .5);
+      .attr("r", 2);
 
 
 
