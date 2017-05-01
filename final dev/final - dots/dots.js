@@ -35,17 +35,17 @@ var interval = setInterval(function() {
 svg.append("text")
 .attr("x", 380)
     .attr("y", 200)
-        .style("font-size", "50px") 
+        .style("font-size", "40px") 
         //.style("text-decoration", "underline")  
         .text("117,000");
 
   svg.append("circle")
       .data([d])
-      .attr ("r", 2)
+      .attr ("r", 1)
       .attr("fill","red")
     .transition()
       .ease(Math.sqrt)
-      .attr("r", 2);
+      .attr("r", 3);
 
 
 
