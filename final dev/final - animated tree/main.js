@@ -3,8 +3,8 @@
 // 2. load json
 // 3. define total population
 // 4. population in one square
-var width = window.innerWidth*.8;
-var height = window.innerHeight*.6;
+var width = 600
+var height = 400
 var svgContainer;
 var data, totalPopulation=0, populationSquare, sideSquare=20;
 
@@ -38,7 +38,7 @@ var drawPopulation = function(pop,color){
                      .style("fill",color)
                      .style("fill-opacity",0)
                      .transition()
-                     .delay(i*1)
+                     .delay(i*2)
                      .duration(1)
                      .style("fill-opacity",1)
          y=y+sideSquare;

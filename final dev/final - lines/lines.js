@@ -87,12 +87,12 @@ d.date = parseTime(d.date);
 
 
   var colors = d3.scaleOrdinal()
-  .domain(["outside", "noAC", "withAC"])
-  .range(["#efefa5", "#FF0000" , "#0050ff"]);
+  .domain(["outside", "noAC"])
+  .range(["#efefa5", "#FF0000"]);
 
 
   svg.selectAll('.line')
-    .data([values, noAC, withAC])
+    .data([values, noAC])
     .enter()
       .append('path')
         .attr('class', 'line')
@@ -108,20 +108,15 @@ d.date = parseTime(d.date);
 svg.append("text")
     .attr("x", 0)
     .attr("y", 310)
-    .text("Outside temperature")
+    .text("Outside temp")
     .style ("fill","#efefa5");
 
-    svg.append("text")
-    .attr("x", 0)
-    .attr("y", 160)
-    .text("Inside temp - no AC")
-    .style ("fill","#FF0000");
 
     svg.append("text")
     .attr("x", 0)
-    .attr("y", 230)
-    .text("Inside temp - with AC")
-    .style ("fill","#0050ff");
+    .attr("y", 150)
+    .text("Inside temp (no AC)")
+    .style ("fill","#FF0000");
 
 
   /* Add 'curtain' rectangle to hide entire graph */

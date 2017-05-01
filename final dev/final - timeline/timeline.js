@@ -24,7 +24,7 @@
 ];
 
 
-var svg = d3.select('#linechart').append('svg').attr('height', '500px').attr('width', '500px');
+var svg = d3.select('#linechart').append('svg').attr('height', '600px').attr('width', '600px');
 
 var xExtent = d3.extent(data, function(d, i) { return d.date; });
 var yExtent = d3.extent(data, function(d, i) { return d.linestop; });
@@ -47,7 +47,7 @@ svg.append('g')
 	.call(xAxis)
 	.selectAll("text")
     .attr("y", 0)
-    .attr("x", 9)
+    .attr("x", 15)
      .attr("dy", ".35em")
     .attr("transform", "rotate(75)")
     .style("text-anchor", "start");
@@ -69,7 +69,7 @@ var path = svg.append('g').append('path')
 	.attr('d', linestopLine(data))
 	.attr('fill', 'none')
 	.attr('stroke', '#7a7878')
-	.attr('stroke-width', 3);
+	.attr('stroke-width', 5);
 
 var totalLength = path.node().getTotalLength();
 
@@ -88,7 +88,7 @@ svg.append('g')
 	.append('circle')
 	.style("stroke", "black")
 	.attr('fill', '#c4342e')
-	.attr('r', 4)
+	.attr('r', 7)
 	.attr('cx', function(d, i) {
 		return xScale(new Date(d.date));
 	})
@@ -100,21 +100,21 @@ svg.append('g')
 		d3.select(this)
 			.transition()
 			.duration(300)
-			.attr('r', 4);
+			.attr('r', 7);
 	})
 	.on('mouseleave', function(d, i) {
 		d3.select(this)
 			.transition()
 			.duration(300)
-			.attr('r', 5);
+			.attr('r', 6);
 	})
 	.transition()
 	.duration(1500)
 	.delay(1800)
-	.attr('r', 5)
+	.attr('r', 7)
 	.transition()
-	.duration(800)
-	.attr('r', 4);
+	.duration(1800)
+	.attr('r', 6);
 
 
 
