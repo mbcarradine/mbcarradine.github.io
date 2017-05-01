@@ -62,7 +62,7 @@ svg.append("text")
     .attr("y", 400)
     .text("Number of Cooling Centers per UHF34 District")
     .style ("fill","white")
-    .style("font-size", "12px"); 
+    .style("font-size", "10px"); 
 
     svg.append("text")
     .attr("x", 0)
@@ -90,7 +90,7 @@ svg.append("text")
     .attr("y", 455)
     .text("9 - 11 Cooling Centers")
     .style ("fill","#4599ac")
-       .style("font-size", "10px");
+    .style("font-size", "10px");
 
 
 function create_nodes(data,node_counter) {
