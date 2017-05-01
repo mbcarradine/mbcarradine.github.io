@@ -61,31 +61,36 @@ svg.append("text")
     .attr("x", 0)
     .attr("y", 400)
     .text("Number of Cooling Centers per UHF34 District")
-    .style ("fill","white");
+    .style ("fill","white")
+    .style("font-size", "12px"); 
 
     svg.append("text")
     .attr("x", 0)
     .attr("y", 425)
     .text("0 - 2 Cooling Centers")
-    .style ("fill","#c4342e");
+    .style ("fill","#c4342e")
+       .style("font-size", "10px"); 
 
     svg.append("text")
     .attr("x", 0)
     .attr("y", 435)
     .text("3 - 5 Cooling Centers")
-    .style ("fill","#e1883d");
+    .style ("fill","#e1883d")
+       .style("font-size", "10px");
 
     svg.append("text")
     .attr("x", 0)
     .attr("y", 445)
     .text("6 - 8 Cooling Centers")
-    .style ("fill","#7a7878");
+    .style ("fill","#7a7878")
+       .style("font-size", "10px");
 
     svg.append("text")
     .attr("x", 0)
     .attr("y", 455)
     .text("9 - 11 Cooling Centers")
-    .style ("fill","#4599ac");
+    .style ("fill","#4599ac")
+       .style("font-size", "10px");
 
 
 function create_nodes(data,node_counter) {
