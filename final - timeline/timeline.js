@@ -77,7 +77,7 @@ path
 	.attr("stroke-dasharray", totalLength + " " + totalLength)
 	.attr("stroke-dashoffset", totalLength)
 	.transition()
-	.duration(2000)
+	.duration(3500)
     .ease(d3.easeCubicInOut)
 	.attr("stroke-dashoffset", 0);
 
@@ -87,8 +87,6 @@ svg.append('g')
 	.enter()
 	.append('circle')
 	.style("stroke", "black")
-	.transition()
-    .duration(2000)
 	.attr('fill', '#c4342e')
 	.attr('r', 7)
 	.attr('cx', function(d, i) {

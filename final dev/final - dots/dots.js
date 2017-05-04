@@ -9,7 +9,7 @@ var svg = d3.select("body").append("svg")
     .attr("height", height);
 
 var force = d3.layout.force()
-    .charge(-10)
+    .charge(-5)
     .size([width, height])
     .nodes(nodes)
     .on("tick", tick)
@@ -45,7 +45,7 @@ svg.append("text")
       .attr("fill","red")
     .transition()
       .ease(Math.sqrt)
-      .attr("r", 3);
+      .attr("r", 2);
 
 
 
