@@ -1,11 +1,11 @@
-var margin = {top: 80, right: 80, bottom: 80, left: 80},
-    width = 960 - margin.left - margin.right,
-    height = 500 - margin.top - margin.bottom;
+var margin = {top: 25, right: 25, bottom: 100, left: 50},
+    width = 650,
+    height = 400;
 
 var parseTime = d3.timeParse("%d-%b-%y");
 
 
-// Scales and axes. Note the inverted domain for the y-scale: bigger is up!
+// Scales and axes. 
 var x = d3.scaleTime().range([0, width]),
     y = d3.scaleLinear().range([height, 0]),
     xAxis = d3.axisBottom(x).tickSize(-height),

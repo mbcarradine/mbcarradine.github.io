@@ -1,54 +1,44 @@
 
-var width = 960,
-    height = 500;
 
-var nodes = [];
+var n = 1000;
 
-var svg = d3.select("body").append("svg")
-    .attr("width", width)
-    .attr("height", height);
+var nodes = d3.range(n).map(function(i) {
+  return {
+    index: i,
+    color: i < 125 ? "red" : "gray"
+  };
+});
 
-var force = d3.layout.force()
-    .charge(-5)
-    .size([width, height])
-    .nodes(nodes)
-    .on("tick", tick)
-    .start();
+var canvas = document.querySelector("canvas"),
+    context = canvas.getContext("2d"),
+    width = 600,
+    height = 400;
 
-function tick() {
-  svg.selectAll("circle")
-      .attr("cx", function(d) { return d.x; })
-      .attr("cy", function(d) { return d.y; });
+var simulation = d3.forceSimulation(nodes)
+    .force("y", d3.forceY())
+    .force("red", isolate(d3.forceX(-width / 6), function(d) { return d.color === "red"; }))
+    .force("gray", isolate(d3.forceX(width / 6), function(d) { return d.color === "gray"; }))
+    .force("charge", d3.forceManyBody().strength(-2))
+    .on("tick", ticked);
+
+function ticked() {
+  context.clearRect(0, 0, width, height);
+  context.save();
+  context.translate(width / 2, height / 2);
+  nodes.forEach(drawNode);
+  context.restore();
 }
 
-var interval = setInterval(function() {
-  var d = {
-    x: width / 2 + 2 * Math.random() - 1,
-    y: height / 2 + 2 * Math.random() - 1
-  };
-    // svg.append("text")
-    // .attr("x", 400)
-    // .attr("y", 200)
-    // .text("118,000 Seniors in NYC live without AC")
-    // //.style ("fill","#4599ac");
+function drawNode(d) {
+  context.beginPath();
+  context.moveTo(d.x + 3, d.y);
+  context.arc(d.x, d.y, 3, 0, 2 * Math.PI);
+  context.fillStyle = d.color;
+  context.fill();
+}
 
-svg.append("text")
-.attr("x", 380)
-    .attr("y", 200)
-        .style("font-size", "40px") 
-        //.style("text-decoration", "underline")  
-        .text("117,000");
-
-  svg.append("circle")
-      .data([d])
-      .attr ("r", 1)
-      .attr("fill","red")
-    .transition()
-      .ease(Math.sqrt)
-      .attr("r", 2);
-
-
-
-  if (nodes.push(d) > 117000) clearInterval(interval);
-  force.start();
-}, 1);
+function isolate(force, filter) {
+  var initialize = force.initialize;
+  force.initialize = function() { initialize.call(force, nodes.filter(filter)); };
+  return force;
+}

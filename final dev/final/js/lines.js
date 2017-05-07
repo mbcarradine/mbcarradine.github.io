@@ -18,7 +18,7 @@ var line = d3.line()
     .x(function(d) { return x(d.date); })
     .y(function(d) { return y(d.temperature); });
 
-d3.csv("tempvardata.csv",function type(d) {
+d3.csv("data/tempvardata.csv",function type(d) {
 d.date = parseTime(d.date);
   d.temperature = +d.temperature;
   return d;
@@ -50,7 +50,7 @@ d.date = parseTime(d.date);
   y.domain([70, d3.max(values, function(d) { return d.temperature +2; })]).nice;
 
   // Add an SVG element 
-  var svg = d3.select("svg")
+  var svg = d3.select("#lines").append("svg")
       .attr("width", width + margin.left + margin.right)
       .attr("height", height + margin.top + margin.bottom)
     .append("g")

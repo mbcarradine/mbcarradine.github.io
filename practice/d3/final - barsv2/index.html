@@ -68,6 +68,9 @@ var svg = d3.select("body").append("svg")
 svg.append("g")
     .attr("class", "x axis")
     .attr("transform", "translate(0," + height + ")")
+     .attr("transform", "rotate(-90)") // rotate the text!
+    .attr("x", 6)
+    .attr("dx", ".71em")
 
 svg.append("g")
     .attr("class", "y axis")
@@ -76,7 +79,7 @@ svg.append("g")
     .attr("y", 6)
     .attr("dy", ".71em")
     .style("text-anchor", "end")
-    .text("Frequency");
+    .text("Seniors without AC");
 
 // d3.tsv is a wrapper around XMLHTTPRequest, returns array of arrays (?) for a TSV file
 // type function transforms strings to numbers, dates, etc.

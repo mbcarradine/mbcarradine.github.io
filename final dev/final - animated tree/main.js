@@ -1,8 +1,4 @@
-//Setup function to:
-// 1. create svg container
-// 2. load json
-// 3. define total population
-// 4. population in one square
+
 var width = 600
 var height = 400
 var svgContainer;
