@@ -1,35 +1,6 @@
-State	Contributions	Deaths
-South Bronx	12000	11
-Arizona	2772	3.53
-California	 17000	3.25
-Colorado	 100	1.51
-Delaware	100	3.09
-Georgia	3750	 3.93
-Hawaii	5250 	0.07
-Illinois	18000	  1.14
-Indiana	3050	 3.29
-Iowa	 14753	0.71
-Kansas	8650	2.78
-Louisiana 	2796	10.16
-Maine	5000	0.9
-Michigan	800	5.06
-Minnesota	500	0.82
-Mississippi	12500	7.46
-Missouri	7350	4.64
-Montana	2534	0.76
-Nevada	15500	3.07
-New Mexico	4500	2.98
-New York	18000	4.12
-North Carolina	3750	3.87
-North Dakota	7500	0.93
-Ohio	 3600 	3.54
-Oklahoma	500	3.64
-Oregon	11250	 1.05
-Pennsylvania 	21812	3.97
-Rhode Island 	13875	0.57
-South Carolina	500	5.41
-South Dakota	2500	 0.68
-Tennessee	41596  	3.92
-Texas	 42250	2.91
-Utah	 10000	0.97
-Vermont	3500	0.75
+State, Contributions, Deaths
+Manhattan, 24150, 44
+Brooklyn, 37373, 57
+The Bronx, 20737, 23
+Queens, 33536, 40
+Staten Island, 1910, 0

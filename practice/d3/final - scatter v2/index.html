@@ -1,162 +1,384 @@
 <!DOCTYPE html>
 <html>
-<meta charset="utf-8">
+  <head>
+    <title>Scatter Plot Template</title>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <style>
+      .axis .tick line {
+        stroke-width: 2px;
+        stroke: #dddddd;
+      }
+      .axis .tick text {
+        font-size: 30px;
+        fill: #8E8883;
+      }
+      .axis .domain {
+        display: none;
+      }
+      .axis__label {
+        text-anchor: middle;
+        font-size: 50px;
+        fill: #635F5D;
+      }
+      .legend .tick text {
+        font-size: 30px;
+        fill: #8E8883;
+        font-family: sans-serif;
+        alignment-baseline: middle;
+      }
+      .legend__label {
+        font-size: 40px;
+        fill: #635F5D;
+        font-family: sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <svg width="960" height="500"></svg>
+    <script>
+      function scatterPlotMarks(selection, props){
+        const data = props.data;
+        const xScale = props.xScale;
+        const xValue = props.xValue;
+        const yScale = props.yScale;
+        const yValue = props.yValue;
+        const colorScale = props.colorScale;
+        const colorValue = props.colorValue;
+        const sizeScale = props.sizeScale;
+        const sizeValue = props.sizeValue;
+        
+        const circles = selection
+          .selectAll("circle")
+          .data(data);
+        circles
+          .exit()
+            .remove();
+        circles
+          .enter().append("circle")
+          .merge(circles)
+            .attr("cx", d => xScale(xValue(d)))
+            .attr("cy", d => yScale(yValue(d)))
+            .attr("fill", d => colorScale(colorValue(d)))
+            .attr("r", d => sizeScale(sizeValue(d)));
+      }
+      
+      function xAxis(selection, props){
+        const scale = props.scale;
+        const innerWidth = props.innerWidth;
+        const innerHeight = props.innerHeight;
+        const ticks = props.ticks;
+        const tickPadding = props.tickPadding;
+        const label = props.label;
+        const labelPadding = props.labelPadding;
 
-<style>
-body {
-  font: 11px verdana;
-}
+        const axis = d3.axisBottom()
+          .scale(scale)
+          .tickSizeInner(-innerHeight)
+          .ticks(ticks)
+          .tickPadding(tickPadding);
 
-.axis path,
-.axis line {
-  fill: none;
-  stroke: #000;
-  shape-rendering: crispEdges;
-}
+        let g = selection
+          .selectAll(".axis--x")
+          .data([null]);
+        g = g
+          .enter().append("g")
+            .attr("class", "axis axis--x")
+          .merge(g)
+            .attr("transform", `translate(0, ${innerHeight})`)
+            .call(axis);
 
-.dot {
-  stroke: #000;
-}
+        const labelText = g
+          .selectAll(".axis__label")
+          .data([null]);
+        labelText
+          .enter().append("text")
+            .attr("class", "axis__label")
+          .merge(labelText)
+            .attr("x", innerWidth / 2)
+            .attr("y", labelPadding)
+            .text(label);
+      }
 
-.tooltip {
-  position: absolute;
-  width: 2000px;
-  height: 1000px;
-  pointer-events: none;
-}
-</style>
-<body>
-<script src="http://d3js.org/d3.v3.min.js"></script>
+      function yAxis(selection, props){
+        const scale = props.scale;
+        const innerWidth = props.innerWidth;
+        const innerHeight = props.innerHeight;
+        const ticks = props.ticks;
+        const tickPadding = props.tickPadding;
+        const label = props.label;
+        const labelPadding = props.labelPadding;
 
-<script>
-var margin = {top: 20, right: 20, bottom: 30, left: 40},
-    width = 960 - margin.left - margin.right,
-    height = 500 - margin.top - margin.bottom;
+        const axis = d3.axisLeft()
+          .scale(scale)
+          .tickSizeInner(-innerWidth)
+          .ticks(ticks)
+          .tickPadding(tickPadding);
 
-/* 
- * value accessor - returns the value to encode for a given data object.
- * scale - maps value to a visual display encoding, such as a pixel position.
- * map function - maps from data value to display value
- * axis - sets up axis
- */ 
+        let g = selection
+          .selectAll(".axis--y")
+          .data([null]);
+        g = g
+          .enter().append("g")
+            .attr("class", "axis axis--y")
+          .merge(g)
+            .call(axis);
+        
+        const labelText = g
+          .selectAll(".axis__label")
+          .data([null]);
+        labelText
+          .enter().append("text")
+            .attr("class", "axis__label")
+            .attr("transform", "rotate(-90)")
+          .merge(labelText)
+            .attr("x", -innerHeight / 2)
+            .attr("y", labelPadding)
+            .text(label);
+      }
+      
+      function scatterPlot(selection, props){
+        const data = props.data;
+        const width = props.width;
+        const height = props.height;
+        const margin = props.margin;
+        const xValue = props.xValue;
+        const yValue = props.yValue;
 
-// setup x 
-var xValue = function(d) { return d.Contributions;}, // data -> value
-    xScale = d3.scale.linear().range([0, width]), // value -> display
-    xMap = function(d) { return xScale(xValue(d));}, // data -> display
-    xAxis = d3.svg.axis().scale(xScale).orient("bottom");
+        const innerWidth = width - margin.left - margin.right;
+        const innerHeight = height - margin.top - margin.bottom;
 
-// setup y
-var yValue = function(d) { return d.Deaths;}, // data -> value
-    yScale = d3.scale.linear().range([height, 0]), // value -> display
-    yMap = function(d) { return yScale(yValue(d));}, // data -> display
-    yAxis = d3.svg.axis().scale(yScale).orient("left");
+        const xScale = d3.scaleLinear()
+          .domain(d3.extent(data, xValue)).nice()
+          .range([0, innerWidth]);
 
-// setup fill color
-var cValue = function(d) { return d.State;},
-    color = d3.scale.category10();
+        const yScale = d3.scaleLinear()
+          .domain(d3.extent(data, yValue)).nice()
+          .range([innerHeight, 0]);
 
-// add the graph canvas to the body of the webpage
-var svg = d3.select("body").append("svg")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
-  .append("g")
-    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+        let g = selection
+          .selectAll("g")
+          .data([null]);
+        g = g
+          .enter().append("g")
+          .merge(g)
+            .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
-// add the tooltip area to the webpage
-var tooltip = d3.select("body").append("div")
-    .attr("class", "tooltip")
-    .style("opacity", 0);
+        xAxis(g, {
+          scale: xScale,
+          ticks: 10,
+          tickPadding: 15,
+          innerWidth: innerWidth,
+          innerHeight: innerHeight,
+          label: props.xLabel,
+          labelPadding: 85
+        });
 
-// load data
-d3.tsv("data.tsv", function(error, data) {
+        yAxis(g, {
+          scale: yScale,
+          ticks: 5,
+          tickPadding: 10,
+          labelPadding: -45,
+          innerWidth: innerWidth,
+          innerHeight: innerHeight,
+          label: props.yLabel
+        });
+        
+        scatterPlotMarks(g, {
+          data,
+          xScale,
+          xValue,
+          yScale,
+          yValue,
+          colorScale: props.colorScale,
+          colorValue: props.colorValue,
+          sizeScale: props.sizeScale,
+          sizeValue: props.sizeValue
+        });
+      }
+      
+      function sizeLegend(selection, props){
+        const x = props.x;
+        const y = props.y;
+        const scale = props.scale;
+        const spacing = props.spacing;
+        const ticks = props.ticks;
+        const tickPadding = props.tickPadding;
+        const tickFill = props.tickFill;
+        const label = props.label;
+        const labelX = props.labelX;
+        const labelY = props.labelY;
+        
+        let g = selection
+          .selectAll(".legend--size")
+          .data([null]);
+        g = g
+          .enter().append("g")
+            .attr("class", "legend legend--size")
+          .merge(g)
+            .attr("transform", `translate(${x}, ${y})`);
+        
+        const labelText = g
+          .selectAll(".legend__label")
+          .data([null]);
+        labelText
+          .enter().append("text")
+            .attr("class", "legend__label")
+          .merge(labelText)
+            .attr("x", labelX)
+            .attr("y", labelY)
+            .text(label);
+        
+        const tick = g
+          .selectAll(".tick")
+          .data(scale.ticks(ticks).filter(d => d));
+        tick
+          .exit()
+            .remove();
+        
+        const tickEnter = tick
+          .enter().append("g")
+            .attr("class", "tick");
+        tickEnter
+          .merge(tick)
+            .attr("transform", (d, i) => `translate(0, ${i * spacing})`);
+        
+        tick
+          .select("circle")
+          .merge(tickEnter.append("circle"))
+            .attr("r", scale)
+            .attr("fill", tickFill);
+        
+        tick
+          .select("text")
+          .merge(tickEnter.append("text"))
+            .attr("x", tickPadding)
+            .text(d => d);
+      }
+      
+      function colorLegend(selection, props){
+        const x = props.x;
+        const y = props.y;
+        const scale = props.scale;
+        const spacing = props.spacing;
+        const ticks = props.ticks;
+        const tickPadding = props.tickPadding;
+        const tickRadius = props.tickRadius;
+        const label = props.label;
+        const labelX = props.labelX;
+        const labelY = props.labelY;
+        
+        let g = selection
+          .selectAll(".legend--color")
+          .data([null]);
+        g = g
+          .enter().append("g")
+            .attr("class", "legend legend--color")
+          .merge(g)
+            .attr("transform", `translate(${x}, ${y})`);
+        
+        const labelText = g
+          .selectAll(".legend__label")
+          .data([null]);
+        labelText
+          .enter().append("text")
+            .attr("class", "legend__label")
+          .merge(labelText)
+            .attr("x", labelX)
+            .attr("y", labelY)
+            .text(label);
+        
+        const tick = g
+          .selectAll(".tick")
+          .data(scale.domain());
+        tick
+          .exit()
+            .remove();
+        
+        const tickEnter = tick
+          .enter().append("g")
+            .attr("class", "tick");
+        tickEnter
+          .merge(tick)
+            .attr("transform", (d, i) => `translate(0, ${i * spacing})`);
+        
+        tick
+          .select("circle")
+          .merge(tickEnter.append("circle"))
+            .attr("r", tickRadius)
+            .attr("fill", scale);
+        
+        tick
+          .select("text")
+          .merge(tickEnter.append("text"))
+            .attr("x", tickPadding)
+            .text(d => d);
+      }
+      
+      function main(){
+        const svg = d3.select("svg");
+        
+        function type(d){
+          d.sepalLength = +d.sepalLength;
+          d.sepalWidth = +d.sepalWidth;
+          d.petalLength = +d.petalLength;
+          d.petalWidth = +d.petalWidth;
+          return d;
+        }
+        
+        d3.csv("iris.csv", type, (data) => {
+          const colorValue = d => d.species;
+          const sizeValue = d => d.petalWidth;
+          const sizeMax = 12;
+          
+          const colorScale = d3.scaleOrdinal()
+            .domain(["setosa", "versicolor", "virginica"])
+            .range(["#eb8e37", "#1ac6cf", "#e35dd4"]);
 
-  // change string (from CSV) into number format
-  data.forEach(function(d) {
-    d.Contributions = +d.Contributions;
-    d.Deaths = +d.Deaths;
-//    console.log(d);
-  });
-
-  // don't want dots overlapping axis, so add in buffer to data domain
-  xScale.domain([d3.min(data, xValue)-1, d3.max(data, xValue)+1]);
-  yScale.domain([d3.min(data, yValue)-1, d3.max(data, yValue)+1]);
-
-  // x-axis
-  svg.append("g")
-      .attr("class", "x axis")
-      .attr("transform", "translate(0," + height + ")")
-      .call(xAxis)
-    .append("text")
-      .attr("class", "label")
-      .attr("x", width)
-      .attr("y", -6)
-      .style("text-anchor", "end")
-      .text("Conntributions");
-
-  // y-axis
-  svg.append("g")
-      .attr("class", "y axis")
-      .call(yAxis)
-    .append("text")
-      .attr("class", "label")
-      .attr("transform", "rotate(-90)")
-      .attr("y", 6)
-      .attr("dy", ".71em")
-      .style("text-anchor", "end")
-      .text("Deaths");
-
-  // draw dots
-  svg.selectAll(".dot")
-      .data(data)
-    .enter().append("circle")
-      .attr("class", "dot")
-      .attr("r", 3.5)
-      .attr("cx", xMap)
-      .attr("cy", yMap)
-      .style("fill", function(d) { return color(cValue(d));}) 
-      .on("mouseover", function(d) {
-          tooltip.transition()
-               .duration(200)
-               .style("opacity", .9);
-          tooltip.html(d["State"] + "<br/> (" + xValue(d) 
-	        + ", " + yValue(d) + ")")
-               .style("left", (d3.event.pageX + 5) + "px")
-               .style("top", (d3.event.pageY - 28) + "px");
-      })
-      .on("mouseout", function(d) {
-          tooltip.transition()
-               .duration(500)
-               .style("opacity", 0);
-      });
-
-  // draw legend
-  var legend = svg.selectAll(".legend")
-      .data(color.domain())
-    .enter().append("g")
-      .attr("class", "legend")
-      .attr("transform", function(d, i) {
-        return "translate("+ (i * 20 + 137) + ", 6)";
-      });
-
-  // draw legend colored rectangles
-  var boxSize = 17;
-  legend.append("rect")
-      .attr("x", 0)
-      .attr("width", boxSize)
-      .attr("height", boxSize)
-      .style("fill", color);
-
-  // draw legend text
-  legend.append("text")
-      .attr("x", -8.2)
-      .attr("y", 19)
-      .attr("dy", ".35em")
-      .style("text-anchor", "end")
-      .attr("transform","rotate(-43)")
-      .text(function(d) { return d;})
-});
-
-</script>
-</body>
+          const sizeScale = d3.scaleSqrt()
+            .domain([0, d3.max(data, sizeValue)])
+            .range([0, sizeMax]);
+          
+          svg
+            .call(scatterPlot, {
+              data,
+              width: +svg.attr("width"),
+              height: +svg.attr("height"),
+              margin: {top: 30, right: 287, bottom: 100, left: 100},
+              xValue: d => d.sepalLength,
+              xLabel: "Sepal Length",
+              yValue: d => d.petalLength,
+              yLabel: "Petal Length",
+              colorScale,
+              colorValue,
+              sizeScale,
+              sizeValue
+            })
+            .call(sizeLegend, {
+              scale: sizeScale,
+              label: "Petal Width",
+              x: 750,
+              y: 285,
+              spacing: 35,
+              ticks: 5,
+              tickPadding: 20,
+              tickFill: "gray",
+              labelX: -20,
+              labelY: -30,
+            })
+            .call(colorLegend, {
+              scale: colorScale,
+              x: 750,
+              y: 90,
+              tickRadius: 10,
+              spacing: 35,
+              tickPadding: 20,
+              label: "Species",
+              labelX: -20,
+              labelY: -30,
+            });
+        });
+      }
+      main();
+    </script>
+  </body>
 </html>

@@ -14,6 +14,7 @@ var svg = d3.select("body").append("h1")
           })
         .transition()
           .delay(1500)
-          .on("start", repeat);
+          .on("start", repeat)
+          .attr("class","nums");
 
     });

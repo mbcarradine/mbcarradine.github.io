@@ -1,6 +1,5 @@
-
-var width = 960,
-    height = 500;
+var width = 600,
+    height = 400;
 
 var nodes = [];
 
@@ -9,20 +8,19 @@ var svg = d3.select("body").append("svg")
     .attr("height", height);
 
 var force = d3.forceSimulation()
-    .charge(-5)
-    .size([width, height])
+    .force("collide", d3.forceCollide(400))
+    // .force("center", d3.forceCenter(width / 2, height / 2))
+
     .nodes(nodes)
-    .on("tick", tick)
-    .start();
+    .on("tick", tick);
 
-  // var simulation = d3.forceSimulation(data)
-  //   .force("x", d3.forceX().strength(0.002))
-  //   .force("y", d3.forceY().strength(0.002))
-  //   .force("collide", d3.forceCollide().radius(function(d) { return 5; })
-  //     .iterations(2))
-  //   .on("tick", updateNetwork);
 
-    
+// var force = d3.layout.force()
+//     .charge(-5)
+//     .size([width, height])
+//     .nodes(nodes)
+//     .on("tick", tick)
+//     .start(); 
 
 function tick() {
   svg.selectAll("circle")
@@ -30,34 +28,51 @@ function tick() {
       .attr("cy", function(d) { return d.y; });
 }
 
-var interval = setInterval(function() {
+//var interval = setInterval(function() {
+
   var d = {
     x: width / 2 + 2 * Math.random() - 1,
     y: height / 2 + 2 * Math.random() - 1
   };
-    // svg.append("text")
-    // .attr("x", 400)
-    // .attr("y", 200)
-    // .text("118,000 Seniors in NYC live without AC")
-    // //.style ("fill","#4599ac");
+
+  console.log(width / 2 + 2 * Math.random() - 1)
+
 
 svg.append("text")
 .attr("x", 380)
     .attr("y", 200)
-        .style("font-size", "40px") 
-        //.style("text-decoration", "underline")  
+        .style("font-size", "40px")  
         .text("117,000");
 
-  svg.append("circle")
-      .data([d])
-      .attr ("r", 1)
-      .attr("fill","red")
-    .transition()
-      .ease(Math.sqrt)
-      .attr("r", 2);
+  // svg.append("circle")
+  //     .data([d])
+  //     .attr ("r", 10)
+  //     .attr("fill","red")
+  //        .attr('cx', function(d){ 
+  //         d.max = Math.random();
+  //         console.log(d);
 
+  //         //return
+  //       })
+  //       .attr('cy', function(d){ 
+  //         //return d.Math.random();
+  //       })
+  //   .transition()
+  //     .ease(Math.sqrt)
+  //     .attr("r", 20)
+      // .attr('transform', 'translate(300,300)');
 
+  // if (nodes.push(d) > 117000) clearInterval(interval);
+    
 
-  if (nodes.push(d) > 117000) clearInterval(interval);
-  force.start();
-}, 1);
+    for(var i = 0; i < 10; i++) {
+      nodes.push(d);
+    }
+
+    console.log(nodes)
+     
+
+   // force.start();
+// }, 1);
+
+// clearInterval(interval);

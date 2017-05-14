@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+h1 {
+  font: 60px "Helvetica Neue";
+  background-color: black;
+  color: white;
+/*  text-align: left;*/
+  width: 960px;
+  height: 300px;
+  margin: 0;
+  position: absolute;
+}
+
+
+
+</style>
+<h1> </h1>
+
+<script src="//d3js.org/d3.v4.0.0-alpha.23.min.js"></script>
+
+<script>
+
+d3.select("h1")
+  .transition()
+    .duration(5000)
+    .on("start", function repeat() {
+      var t = d3.active(this)
+          .style("opacity", 0)
+          .remove();
+
+      d3.select("body").append("h1")
+          .style("opacity", 0)
+          .text("Perpetual Extremes")
+        .transition(t)
+          .style("opacity", 1)
+        .transition()
+          .delay(5000)
+          .on("start");
+    });
+
+</script>
