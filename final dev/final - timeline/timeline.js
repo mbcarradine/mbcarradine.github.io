@@ -1,3 +1,5 @@
+    // --this one works
+
     var data = [
 	{ date: '1896-08-04', linestop: 0 },
 	{ date: '1901-06-26', linestop: 0 },
@@ -24,7 +26,15 @@
 ];
 
 
-var svg = d3.select('#linechart').append('svg').attr('height', '600px').attr('width', '600px');
+var svgln = d3.select('#timeline').append('svg')
+.attr('height', '600px')
+.attr('width', '600px');
+
+ var tool_tip = d3.tip()
+      .attr("class", "d3-tip")
+      .offset([-8, 0])
+      .html(function(d) { return "Started on: " + d.date; });
+    svgln.call(tool_tip);
 
 var xExtent = d3.extent(data, function(d, i) { return d.date; });
 var yExtent = d3.extent(data, function(d, i) { return d.linestop; });
@@ -41,7 +51,7 @@ var yScale = d3.scaleLinear()
 var xAxis = d3.axisBottom(xScale);
 var yAxis = d3.axisLeft(yScale);
 
-svg.append('g')
+svgln.append('g')
 	.attr('id', 'xAxisG')
 	.attr('transform', 'translate(0,460)')
 	.call(xAxis)
@@ -65,7 +75,7 @@ var linestopLine = d3.line()
 	.curve(d3.curveCatmullRom.alpha(0.5));
 
 
-var path = svg.append('g').append('path')
+var path = svgln.append('g').append('path')
 	.attr('d', linestopLine(data))
 	.attr('fill', 'none')
 	.attr('stroke', '#7a7878')
@@ -81,12 +91,14 @@ path
     .ease(d3.easeCubicInOut)
 	.attr("stroke-dashoffset", 0);
 
-svg.append('g')
+svgln.append('g')
 	.selectAll('circle')
 	.data(data)
 	.enter()
 	.append('circle')
 	.style("stroke", "black")
+	 .on('mouseover', tool_tip.show)
+     .on('mouseout', tool_tip.hide)
 	.transition()
     .duration(2000)
 	.attr('fill', '#c4342e')
@@ -98,18 +110,7 @@ svg.append('g')
 	.attr('cy', function(d, i) {
 		return yScale(d.linestop);
 	})
-	.on('mouseover', function(d, i) {
-		d3.select(this)
-			.transition()
-			.duration(300)
-			.attr('r', 7);
-	})
-	.on('mouseleave', function(d, i) {
-		d3.select(this)
-			.transition()
-			.duration(300)
-			.attr('r', 6);
-	})
+
 	.transition()
 	.duration(1500)
 	.delay(1800)

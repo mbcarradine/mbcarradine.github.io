@@ -1,7 +1,7 @@
 (function() {
   var width = 1200,
   height = 900;
-var svg = d3.select("#chart")
+var svg = d3.select("#bubbles")
 .append("svg")
 .attr("height", height)
 .attr("width", width)

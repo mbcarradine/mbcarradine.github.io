@@ -1,3 +1,9 @@
+body {
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+
+}
+
+
 
 .chromeframe {
     margin: 0.2em 0;
@@ -6,18 +12,28 @@
     padding: 0.2em 0;
 }
 
- .d3-tip {
-      line-height: 10px;
+.d3-tip {
+      line-height: 1;
       padding: 6px;
-        position: absolute; 
       background: rgba(0, 0, 0, 0.8);
-      color: #eee;
-      border-radius: 2px;
-      font-size: 12px;
-       right: auto;
+      color: #fff;
+      border-radius: 4px;
+      font-size: 16px;
+      font: helvetica;
 
-
-  font: helvetica;
+    }
+ 
+    /* Creates a small triangle extender for the tooltip */
+    .d3-tip:after {
+      box-sizing: border-box;
+      display: inline;
+      font-size: 10px;
+      width: 100%;
+      line-height: 1;
+      color: rgba(0, 0, 0, 0.8);
+      content: "\25BC";
+      position: absolute;
+      text-align: center;
     }
  
     /* Style northward tooltips specifically */
@@ -45,6 +61,7 @@ a:hover {
 a:active {
     color: blue;
 }
+
 
 #slides-container {
 
@@ -91,9 +108,6 @@ left: 0;
         -webkit-transform: translate(100%,100%);
     -ms-transform: translate(100%,100%);
     transform: translate(100%,100%);
-    a:visited {
-    color: darkblue;
-}
 }
 
 #slide-4 {
@@ -108,7 +122,7 @@ left: 0;
 html, body {
 width: 100%;
 height: 100%
-font: helvetica;
+font: Neue Helvetica;
 
 }
 
@@ -118,13 +132,27 @@ bottom: 20%;
 right: 5%;
 text-align: right;
 color: #000;
-font: helvetica;
+font: Neue Helvetica;
 font-size: 56;
 
 
 
 }
 
+.introtext {
+
+position: absolute;
+top: 150px;
+text-align: left;
+left: 5%;
+color: lightgray;
+      font-size: 16px;
+      font: Neue Helvetica;
+ -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+}
 
 .caption {
 position: absolute;
@@ -132,13 +160,13 @@ bottom: 5%;
 right: 5%;
 text-align: right;
 color: #fff;
-font: helvetica;
+font: Neue Helvetica;
 }
 
 
 .image1{
 position: absolute;
-top: 5%;
+bottom: 5%;
 left: 5%;
 text-align: right;
 
@@ -146,21 +174,25 @@ text-align: right;
 }
 #slide-1 .caption{
    left: 5%;
-    right: 40%;
-    top: 60%;
-    bottom: auto;
+    bottom: 20%;
     color: #FFF;
      text-align: left;
+
 }
 
 
 #slide-2 .caption{
+/*  left: 5%;
+    bottom: 25%;
+    color: #FFF;
+     text-align: left;*/
+
 
    right: 5%;
     left: 40%;
     top: 5%;
     bottom: auto;
-    color: #FFF;
+    color: lightgray;
      text-align: right;
 }
 
@@ -177,9 +209,9 @@ text-align: right;
 #slide-4 .caption{
    left: 5%;
     right: auto;
-    top: 5%;
+    top: 2%;
     bottom: auto;
-    color: #FFF;
+    color: lightgray;
      text-align: left;
 
 }
@@ -191,29 +223,28 @@ left: 5%;
 text-align: right;
 color: #fff;
   font-size: 12px;
-  font: helvetica;
+  font: Neue Helvetica;
 
 }
 
 .slide2source{
-position: absolute;
-bottom: 5%;
-left: 5%;
-text-align: right;
+  position: fixed;
+    bottom: 2%;
+    right: 3%;
 color: #fff;
   font-size: 12px;
-  font: helvetica;
+  font: Neue Helvetica;
 
 }
 
 .slide3source{
-position: absolute;
-bottom: 30%;
+position: fixed;
+bottom: 20%;
 left: 5%;
 text-align: right;
 color: #000;
   font-size: 12px;
-  font: helvetica;
+  font: Neue Helvetica;
 
 }
 
@@ -224,7 +255,7 @@ right: 0%;
 text-align: right;
 color: #fff;
   font-size: 12px;
-  font: helvetica;
+  font: Neue Helvetica;
   text-align: right;
 
 }
@@ -237,7 +268,7 @@ left: 5%;
 text-align: left;
 color: #fff;
   font-size: 14px;
-  font: helvetica;
+  font: Neue Helvetica;
 
 }
 
@@ -249,7 +280,19 @@ left: 60%;
 text-align: left;
 color: #fff;
   font-size: 14px;
-  font: helvetica;
+  font: Neue Helvetica;
+
+}
+
+.slide3explainer{
+position: absolute;
+bottom: 40%;
+right: 10%;
+
+text-align: right;
+color: #000;
+  font-size: 120px;
+  font: Neue Helvetica;
 
 }
 p,h1{margin: 0; }
@@ -260,8 +303,8 @@ p {line-height: 1.333em;}
 
 .btn{
          width: 100px;
-           height: 35px;
-           line-height: 35px;
+           height: 25px;
+           line-height: 25px;
            text-align: center;
            border-radius: 3px;
            box-shadow: 0 0 2px;
@@ -269,11 +312,11 @@ p {line-height: 1.333em;}
            margin-right: 5px;
            cursor: pointer;
           font-size: 12px;
-          font: helvetica;
+          font: Neue Helvetica;
 
       }
       .btn:hover{
-         background-color: #100;
+         background-color: steelblue;
       }
 
 
@@ -283,6 +326,15 @@ p {line-height: 1.333em;}
 position: absolute;
 left: 0;
 top: 0;
+height: 600%;
+width: 0px;
+
+}
+
+#testhelper {
+position: absolute;
+left: 300px;
+top: 300px;
 height: 600%;
 width: 0px;
 
@@ -334,53 +386,60 @@ width: 0px;
  div.timeline {
 
                position: absolute;
-                bottom: 20%;
-
-                width: 900;
-                height: 400;   
+          /*      bottom: 40%;*/
+                width: 1200;
+                height: 550;   
                 background-color: black;
                 color: white;
-                font: helvetica;
+                font: Neue Helvetica;
   }
  
 .circle {
     position: absolute;
-     bottom: 20%;
-
-    width: 50%;
-    height: 50%;
+/*    bottom: 40%;*/
+/*    width: 50%;
+    height: 50%;*/
 
 }
 
 div.linechart{
-display: inline-block;
-width: 650;
+  position: fixed;
+    bottom: 3%;
+    right: 3%;
+/*width: 800;
 height: 400;  
-margin-right: 2px;
+margin-right: 20px;
+margin-bottom: 20px;*/
 background-color: black;
 color: white;
-font: helvetica;
+font: Neue Helvetica;
   }
 
-.line {
-    position: fixed;
-    bottom: 20%;
-    left: 5%;
+.lcht {
+
+ position: fixed;
+    bottom: 3%;
+    right: 3%;
+/*    position: fixed;
+    margin-right: 20px;
+margin-bottom: 20px;*/
+/*    bottom: 5%;
     right: 5%;
     width: 50%;
-    height: 50%;
+    height: 50%;*/
 }
 
 
  div.canvas {
-                display: inline-block;
+            /*    display: inline-block;*/
                 width: 600;
                 height: 400;   
                  bottom: 20%;
-                margin-right: 2px;
-                background-color: black;
+                  margin-top:75px;
+                 margin-left:100px;
+                background-color: lightgray;
                 color: white;
-                font: helvetica;
+                font: Neue Helvetica;
   }
  
 /*

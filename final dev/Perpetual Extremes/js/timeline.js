@@ -1,4 +1,4 @@
-var margin = {top: 25, right: 25, bottom: 100, left: 25 }; 
+var margin = {top: 0, right: 25, bottom: 0, left: 25 }; 
 
     var hwdata = [
 	{ date: '1896-08-04', linestop: 0, days: 10, info: ' 1500 dead' },
@@ -27,11 +27,16 @@ var margin = {top: 25, right: 25, bottom: 100, left: 25 };
 
 
 
-var svgln = d3.select('#timeline').append('svg')
-			.attr('height', '800px')
+var svgln = d3.select('#timeline').append("svg")
+			.attr('height', '550px')
 			.attr('width', '1200px')
-			.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+			.attr("transform", "translate(" + margin.left + "," + margin.top + ")")
 
+var tool_tip = d3.tip()
+      .attr("class", "d3-tip")
+      .offset([-8, 0])
+      .html(function(d) { return "Started on " + d.date + ", lasted " + d.days +" days"; });
+    svgln.call(tool_tip);
 
 
 var xExtent = d3.extent(hwdata, function(d, i) { return d.date; });
@@ -43,15 +48,11 @@ var xScale = d3.scaleTime()
 
 var yScale = d3.scaleLinear()
 	.domain(yExtent)
-	.range([460,240]);
+	.range([460,240]);	
 
-  // var tool_tip = d3.tip()
-  //     .attr("class", "d3-tip")
-  //     .offset([-10, 0])
-  //     .html(function(d) { return "Started " + d.date + 
-  //     	",  lasted " + d.days + " days" + 
-  //     	d.info + " "; });
-  //   svg.call(tool_tip);
+
+
+
 
 var xAxis = d3.axisBottom(xScale);
 var yAxis = d3.axisLeft(yScale);
@@ -66,7 +67,7 @@ svgln.append('g')
      .attr("dy", ".35em")
      .transition()
     .duration(0)
-    	.delay(4000)
+    	.delay(1000)
 	.attr('fill', '#000000')
 	.transition()
     .duration(2000)
@@ -74,8 +75,6 @@ svgln.append('g')
      .style("font-size", "16px")
     .attr("transform", "rotate(75)")
     .style("text-anchor", "start");
-
-
 
 
 var linestopLine = d3.line()
@@ -101,7 +100,7 @@ path
 	.attr("stroke-dasharray", totalLength + " " + totalLength)
 	.attr("stroke-dashoffset", totalLength)
 	.transition()
-		.delay(4000)
+		.delay(1000)
 	.duration(2000)
     .ease(d3.easeCubicInOut)
 	.attr("stroke-dashoffset", 0);
@@ -112,9 +111,8 @@ svgln.append('g')
 	.enter()
 	.append('circle')
 	.style("stroke", "black")
-
-	// .on('mouseover', tool_tip.show)
- //     .on('mouseout', tool_tip.hide)
+		.on('mouseover', tool_tip.show)
+     .on('mouseout', tool_tip.hide)
 	.transition()
     .duration(0)
 	.attr('fill', '#c4342e')
@@ -128,7 +126,7 @@ svgln.append('g')
 	})
 	.transition()
 	.duration(2000)
-	.delay(6000)
+	.delay(1000)
 	.attr('r', 8);
 
 

@@ -36,8 +36,8 @@ var drawdeaths = function(pop,color){
                      .style("fill-opacity",0)
                      .attr("class","tr")
                      .transition()
-                     .delay(i*2)
-                     .duration(1)
+                     .delay(i*3)
+                     .duration(20)
                      .style("fill-opacity",1)
          ty=ty+sideSquare;
  
@@ -48,7 +48,7 @@ var drawdeaths = function(pop,color){
       
 setup(function(){
     //When setup is complete
-    drawdeaths(totaldeaths,"#888888");
+    drawdeaths(totaldeaths,"#666666");
     tx=0;
     ty=0;
     d3.selectAll(".btn").on("click",function(){

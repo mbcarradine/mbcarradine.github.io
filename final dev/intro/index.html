@@ -24,7 +24,7 @@ h1 {
 
 d3.select("h1")
   .transition()
-    .duration(5000)
+    .duration(2500)
     .on("start", function repeat() {
       var t = d3.active(this)
           .style("opacity", 0)
@@ -36,7 +36,7 @@ d3.select("h1")
         .transition(t)
           .style("opacity", 1)
         .transition()
-          .delay(5000)
+          .delay(1000)
           .on("start");
     });
 

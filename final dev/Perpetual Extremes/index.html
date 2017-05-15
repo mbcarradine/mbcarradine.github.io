@@ -2,17 +2,17 @@
  <html class="no-js"> 
     <head>
         <title>Perpetual Extremes</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        <link rel="stylesheet" href="css/normalize.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<!--         <link rel="stylesheet" href="css/normalize.css"> -->
         <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+ <!--        <script src="js/vendor/modernizr-2.6.2.min.js"></script> -->
         <script src="https://d3js.org/d3.v4.min.js"></script>
-<!--         <script src="d3-tip.js"></script> -->
+        <script src="js/d3-tip.js"></script>
 
 
     </head>
     <body>
+
 
     <div id="page-content">
           
@@ -26,17 +26,32 @@
                     data-450p="transform:translate(-50%,0%);">
                     
                 <div id="slide-1" class="slide">
-                        <div class="intro">
-                
+                <div class="intro">
+                 <iframe src="https://mbcarradine.github.io/final%20dev/intro/index.html" name="frame0" scrolling="no" frameborder="no" align="left" height = "150px" width = "900px">
+                </iframe>
+        
+                  </div>
+                        <div class="introtext"
+                            data-40p="opacity: 1; transform:translate(0px,0px);"
+                            data-70p="opacity: 0; transform:translate(0px,-100%);"
+                            data-anchor-target="#helper">
+                             <h1><font color="white">How heat vulnernability has become a lethal new normal in NYC</font></h1>
+                            <br><br>
+                            <p>The term "extreme weather event" typically conjures thoughts of blizzards or hurricanes. Indeed, a Google image search of "extreme <br>weather NYC" will show you multiple pages of what you would imagine: apocolyptic flooding, a man digging his car out from two feet <br>of snow, or twisted building carnage from Hurricane Sandy--rare but thorough in its destruction. </p>
+                            <br><br>
 
-                        </div>
+                            <p>Yet New York City regularly experiences a different extreme weather event not shown in our search results. Heat waves (defined as <br>three or more days above 90 degree Farenheit) have started occurring with disturbing frequency and duration due to global warming <br>and an increasingly unforgiving urban heat island.
+                            </p>
+                          </div>
+
+
                         <div class="caption"
                             data-40p="opacity: 1; transform:translate(0px,0px);"
                             data-70p="opacity: 0; transform:translate(0px,-100%);"
                             data-anchor-target="#helper">
-                            <h1>Heatwaves are happening more often</h1>
+
                             <br>
-                            <p>Deadly heat waves have started occurring with disturbing frequency and duration<br> due to global warming and an increasingly unforgiving urban heat island. These are <br> the longest heatwaves in NYC's history since 1895.</p>
+                            <h2>These are the longest heatwaves in NYC's history since 1895</h2>
                         </div>
 
                        <div class="slide1source"
@@ -45,16 +60,13 @@
                             data-anchor-target="#helper">
                            <p>Source: <a href="http://www.adaptny.org/2016/07/27/hot-blast-from-nycs-past-a-history-of-citys-heat-waves/"> Adapt NY</a></p>
                      </div>
-                        <div class="slide1explainer"
-                            data-40p="opacity: 1; transform:translate(0px,0px);"
-                            data-70p="opacity: 0; transform:translate(0px,-100%);"
-                            data-anchor-target="#helper">
-                            <p>  </p>
-                        </div>
+                   
 
                         <div id="timeline" class="circle" 
                             data-40p="opacity: 1; transform:translate(0px,0px);"
+                 
                             data-70p="opacity: 0; transform:translate(0px,-100%);"
+
                             data-anchor-target="#helper">
                        </div>
                  </div>
@@ -68,17 +80,17 @@
                             data-260p="opacity: 0; transform:translate(-100px,0px);"
                             data-anchor-target="#helper" >
                    
-                            <h1>It can be hotter inside during a heat wave</h1>
+                            <h1><font color="white">It can be hotter inside during a heat wave</font></h1>
                             <br>
-                            <p>This unique study tracked indoor temperature within a 7th floor southeast-facing apartment in Harlem. People often believe they're taking refuge from extreme temperatures by staying indoors but this is not always the case. Even when it cools down at night, building materials can trap the heat inside. </p>
+                            <p>This unique study tracked indoor temperatures within a 7th floor southeast-facing apartment<br>(without AC) during August of 2016. People often believe they're taking refuge from extreme <br>temperatures by staying indoors but this is not always the case. Even when it cools down outside,<br>building materials trap heat inside and occupants are subjected to higher ambient temperatures. </p>
                       </div>
                
-                      <div id="linechart" class="line"
-                          data-130p="opacity: 0; transform:translate(0px,-200%);"
+                      <div id="linechart" class="lcht"
+                       data-130p="opacity: 0; transform:translate(0px,-200%);"
                             data-180p="opacity: 1; transform:translate(0px,0px);"
                             data-250p=""
                             data-260p="opacity: 0; transform:translate(-100px,0px);"
-                            data-anchor-target="#helper" >
+                            data-anchor-target="#helper" > 
                       </div>
 
                        <div class="slide2source" 
@@ -92,6 +104,8 @@
                  </div>
 
 
+
+
                     <div id="slide-3" class="slide">
                         <div class="caption"
                             data-250p="opacity: 0; transform:translate(300px,0px);"
@@ -99,7 +113,7 @@
                             data-anchor-target="#helper">
                             <h1>12.5% of NYC Seniors Lack AC at Home</h1>
                             <br>
-                            <p>The city does provide free air conditioning to at-risk seniors but many don't want <br>to assume the utility bills. And even though cooling centers are available throughout <br>the city, this low-mobility population is more inclined to <a href="http://www.wnyc.org/story/306827-open-secret-about-cooling-centers/">stay at home.</a></p>
+                            <p>Senior citizens are the most vulnerable population during an extreme heat event, especially <br>those without air conditioning at home. The city does provide free air conditioners to low-income <br>seniors, but many aren't able to assume the utility bills. And even though cooling centers are <br>available throughout the city, this low-mobility population is more inclined to <a href="http://www.wnyc.org/story/306827-open-secret-about-cooling-centers/">stay at home.</a></p>
                         </div>
                     
                         <div class="slide3source" 
@@ -109,28 +123,39 @@
                                
                                 <p>Source: <a href="http://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2155,719b87,107,Summarize">NYC Environment and Health Data Portal (2013)</a> </p>
                         </div>
+
                       <div class="numbers">
+
                         <iframe src="https://mbcarradine.github.io/final%20dev/final%20-%20numbers/index.html" name="frame1" scrolling="auto" frameborder="no" align="right" height = "600px" width = "600px"> 
                          </iframe>
                          <br> 
 
                          </div>
                             <br><br><br> <br><br><br><br><br><br>
-                            <div>     
+                            <div class="canvas">     
                             <canvas width="600" height="400"></canvas>
+
+                         <div class="slide3explainer" 
+                                   data-250p="opacity: 0; transform:translate(300px,0px);"
+                                    data-300p="opacity: 1; transform:translate(0px,0px);"
+                                    data-anchor-target="#helper">
+                               
+                                <p>people</p>
+                        </div>
+
                     </div>
                    
                   
-         </div>
+                </div>
 
                     <div id="slide-4" class="slide">
                         <div class="caption"
-                            data-430p="opacity: 0;"
+                            data-410p="opacity: 0;"
                             data-450p="opacity: 1;"
                             data-anchor-target="#helper">
-                            <h1>Learning from Chicago</h1>
-                            <br>
-                            <p>The 1995 Chicago heat wave is equally known for its high death toll and poor response <br>by city officials. Over 600 people died, and the iconic images of refrigerated mobile <br> morgues brought in to handle the overflow of bodies seemingly shamed city officials into <br>overhauling their heat response plan. <br><br>A similar heat wave in 1999 yielded a far lower death toll. This was primarly due to the city <br> providing free and direct transportation to cooling centers and having police officers go <br>door-to-door, checking on seniors and dispatching EMTs when necessary. <br><br>NYC currently does not include these practices in their heat response plan. </p>
+                  <h1><font color="white">Learning from Chicago</font></h1>
+                    
+                            <p>The 1995 Chicago heat wave is equally known for its high death toll and poor response <br>by city officials. Over 650 people died, and the iconic images of refrigerated mobile <br> morgues brought in to handle the overflow of bodies seemingly shamed city officials into <br>overhauling their heat response plan. <br><br>A similar heat wave in 1999 yielded a far lower death toll. This was primarly due to the city <br> providing free and direct transportation to cooling centers and having police officers go <br>door-to-door, checking on seniors and dispatching EMTs when necessary. <br><br>NYC currently does not include these practices in their heat emergency response plan. </p>
                             <br>
                          
                                   <div id="treemap" class="tr"></div>
@@ -138,14 +163,14 @@
                                        <div class="btn">1999 deaths</div>
                         
                         <div class="slide4source" 
-                         data-430p="opacity: 0;"
+                         data-410p="opacity: 0;"
                             data-450p="opacity: 1;"
                             data-anchor-target="#helper">
                             <p> Each rectangle = 2 deaths </p>
                             <p>Source: <a href="http://press.uchicago.edu/Misc/Chicago/443213in.html">"Dying Alone"</a> interview with Eric Klinenberg</p>
 
                         </div>
-                    </div>
+                    </div> 
                 </div>
             </div>
 
@@ -166,7 +191,10 @@
         <!-- Include Skrollr.js -->
         <script src="js/skrollr.min.js"></script>
         <script type="text/javascript">
-            var s = skrollr.init();
+          window.onload = skrollr.init();
+
+
+            // var s = skrollr.init();
         </script>
         
  <script src="js/timeline.js"></script>

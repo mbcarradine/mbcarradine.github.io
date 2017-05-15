@@ -60,11 +60,11 @@ d.date = parseTime(d.date);
       .attr("class", "axis")
       .attr("transform", "translate(0," + height + ")")
       .call(d3.axisBottom(x)
-              .tickFormat(d3.timeFormat("%Y-%m-%d")))
+              .tickFormat(d3.timeFormat("%m/%d")))
       .selectAll("text")  
         .style("text-anchor", "end")
         .attr("dx", "-1.2em")
-        .attr("dy", ".15em")
+        .attr("dy", "-3em")
           .attr('fill', '#ffffff')
           .style("font-size", "12px")
         .attr("transform", "rotate(-65)");
@@ -83,7 +83,8 @@ d.date = parseTime(d.date);
       .selectAll("text")  
         .attr("dx", "-.8em")
         .attr("dy", ".15em")
-              .style("font-size", "12px")
+            .style("font-size", "12px")
+            .attr("font-family", "Helvetica")
           .attr('fill', '#ffffff');
 
 
@@ -113,14 +114,16 @@ svg.append("text")
     .attr("y", 310)
     .text("Outside temp")
        .style("font-size", "16px")
+    .attr("font-family", "Helvetica")
     .style ("fill","#efefa5");
 
 
     svg.append("text")
     .attr("x", 0)
-    .attr("y", 150)
+    .attr("y", 175)
     .text("Inside temp (no AC)")
-       .style("font-size", "16px")
+    .style("font-size", "16px")
+    .attr("font-family", "Helvetica")
     .style ("fill","#FF0000");
 
 
@@ -137,8 +140,8 @@ svg.append("text")
 
   /* Create a shared transition for anything we're animating */
   var t = svg.transition()
-    .delay(200)
-    .duration(2000)
+    .delay(800)
+    .duration(3000)
  .ease(d3.easeLinear)
     .on('end', function() {
       d3.select('line.guide')
