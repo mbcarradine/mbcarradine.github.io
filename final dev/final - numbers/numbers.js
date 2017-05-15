@@ -4,7 +4,7 @@ var format = d3.format(",d");
 
 var svg = d3.select("body").append("h1")
   .transition()
-    .duration(1500)
+    .duration(5000)
     .on("start", function repeat() {
       d3.active(this)
           .tween("text", function() {
@@ -13,7 +13,7 @@ var svg = d3.select("body").append("h1")
             return function(t) { that.text(format(i(t))); };
           })
         .transition()
-          .delay(1500)
+          .delay(2500)
           .on("start", repeat);
 
     });
