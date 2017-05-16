@@ -54,9 +54,9 @@ setup(function(){
     d3.selectAll(".btn").on("click",function(){
 
         var val = d3.select(event.target).html();
-        if(val=="1995 deaths"){
+        if(val=="See 1995"){
             drawdeaths(data["1995"]["total"],data["1995"]["color"]);
-        }else if(val=="1999 deaths"){
+        }else if(val=="See 1999"){
             drawdeaths(data["1999"]["total"],data["1999"]["color"]);
                     
         }
