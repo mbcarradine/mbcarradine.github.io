@@ -28,15 +28,22 @@ function ticked() {
   context.translate(width / 5, height / 3);
   nodes.forEach(drawNode);
   context.restore();
+  context.fillStyle = "black";
+context.fillText("No AC",10,85);
+context.font = "28px Helvetica";
+//   context.fillStyle = "black";
+// context.fillText("AC",1,200);
+// context.font = "28px Helvetica";
 }
 
 function drawNode(d) {
   context.beginPath(d.x + 100, d.y);
   context.moveTo(d.x + 10, d.y);
-  context.arc(d.x, d.y, 2, 10, 10 * Math.PI);
+  context.arc(d.x, d.y, 2.2, 10, 10 * Math.PI);
   context.fillStyle = d.color;
   context.fill();
 }
+
 
 function isolate(force, filter) {
   var initialize = force.initialize;

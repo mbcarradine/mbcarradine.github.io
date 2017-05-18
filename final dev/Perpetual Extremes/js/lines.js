@@ -63,10 +63,11 @@ d.date = parseTime(d.date);
               .tickFormat(d3.timeFormat("%m/%d")))
       .selectAll("text")  
         .style("text-anchor", "end")
-        .attr("dx", "-1.2em")
-        .attr("dy", "-3em")
+        .attr("dx", "-1em")
+        .attr("dy", "-1em")
           .attr('fill', '#ffffff')
-          .style("font-size", "12px")
+                .style("font-size", "14px")
+                            .attr("font-family", "Helvetica")
         .attr("transform", "rotate(-65)");
  
   // svg.append("g")
@@ -81,9 +82,9 @@ d.date = parseTime(d.date);
       .attr("transform", "translate(" + width + ",0)")
       .call(yAxis)
       .selectAll("text")  
-        .attr("dx", "-.8em")
-        .attr("dy", ".15em")
-            .style("font-size", "12px")
+        .attr("dx", "-.6em")
+        .attr("dy", "-.5em")
+            .style("font-size", "13px")
             .attr("font-family", "Helvetica")
           .attr('fill', '#ffffff');
 
@@ -99,7 +100,7 @@ d.date = parseTime(d.date);
       .append('path')
         .attr('class', 'line')
         .attr('fill', 'none')
-        .attr('stroke-width', 3)
+        .attr('stroke-width', 5)
         .style('stroke', function(d) {
  return colors(Math.random() * 1);
 
@@ -111,18 +112,18 @@ d.date = parseTime(d.date);
         //adding line labels
 svg.append("text")
     .attr("x", 0)
-    .attr("y", 310)
+    .attr("y", 360)
     .text("Outside temp")
-       .style("font-size", "16px")
+       .style("font-size", "18px")
     .attr("font-family", "Helvetica")
     .style ("fill","#efefa5");
 
 
     svg.append("text")
     .attr("x", 0)
-    .attr("y", 175)
+    .attr("y", 165)
     .text("Inside temp (no AC)")
-    .style("font-size", "16px")
+    .style("font-size", "18px")
     .attr("font-family", "Helvetica")
     .style ("fill","#FF0000");
 
@@ -132,7 +133,7 @@ svg.append("text")
     .attr('x', -1 * width)
     .attr('y', -1 * height)
     .attr('height', height)
-    .attr('width', width)
+    .attr('width', width + 10)
     .attr('class', 'curtain')
     .attr('transform', 'rotate(180)')
     .style('fill', '#000000')

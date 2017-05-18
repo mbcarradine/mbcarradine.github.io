@@ -92,6 +92,9 @@ left: 0;
 #slide-1 {
     background-color: black;
     background-size: cover;
+    font: Helvetica;
+font-style: medium;
+font-size: 14;
 }
 
 #slide-2 {
@@ -116,19 +119,22 @@ left: 0;
         -webkit-transform: translate(100%,0%);
     -ms-transform: translate(100%,0%);
     transform: translate(100%,0%);
+
 }
 
 
 html, body {
 width: 100%;
 height: 100%
-font: Neue Helvetica;
+font: Helvetica;
+font-style: medium;
+font-size: 14;
 
 }
 
 .numbers{
 position: absolute;
-bottom: 20%;
+bottom: 10%;
 right: 5%;
 text-align: right;
 color: #000;
@@ -164,11 +170,13 @@ font: Neue Helvetica;
 }
 
 
-.image1{
+.image2{
 position: absolute;
-bottom: 5%;
-left: 5%;
-text-align: right;
+bottom: 40%;
+left: 2%;
+
+
+
 
 
 }
@@ -177,6 +185,7 @@ text-align: right;
     bottom: 20%;
     color: #FFF;
      text-align: left;
+          line-height: 120%;
 
 }
 
@@ -194,6 +203,7 @@ text-align: right;
     bottom: auto;
     color: lightgray;
      text-align: right;
+          line-height: 120%;
 }
 
 
@@ -204,21 +214,25 @@ text-align: right;
     bottom: auto;
     color: #000;
     text-align: left;
+         line-height: 120%;
 }
 
 #slide-4 .caption{
+
    left: 5%;
     right: auto;
     top: 2%;
     bottom: auto;
     color: lightgray;
      text-align: left;
+     line-height: 110%;
+
 
 }
 
 .slide1source{
 position: absolute;
-bottom: 5%;
+bottom: 2%;
 left: 5%;
 text-align: right;
 color: #fff;
@@ -239,7 +253,7 @@ color: #fff;
 
 .slide3source{
 position: fixed;
-bottom: 20%;
+ bottom: 2%;
 left: 5%;
 text-align: right;
 color: #000;
@@ -286,7 +300,7 @@ color: #fff;
 
 .slide3explainer{
 position: absolute;
-bottom: 40%;
+bottom: 30%;
 right: 10%;
 
 text-align: right;
@@ -389,7 +403,8 @@ width: 0px;
           /*      bottom: 40%;*/
                 width: 1200;
                 height: 550;  
-                left: 2%; 
+    /*            left: 2%; */
+                bottom: 2%;
                 background-color: black;
                 color: white;
                 font: Neue Helvetica;
@@ -397,17 +412,18 @@ width: 0px;
  
 .circle {
     position: absolute;
-    left: 2%;
+/*    left: 2%;*/
 /*    bottom: 40%;*/
 /*    width: 50%;
     height: 50%;*/
+        bottom: 2%;
 
 }
 
 div.linechart{
   position: fixed;
-    bottom: 3%;
-    right: 3%;
+    bottom: 1%;
+    right: 1%;
 /*width: 800;
 height: 400;  
 margin-right: 20px;
@@ -420,8 +436,8 @@ font: Neue Helvetica;
 .lcht {
 
  position: fixed;
-    bottom: 3%;
-    right: 3%;
+    bottom: 1%;
+    right: 1%;
 /*    position: fixed;
     margin-right: 20px;
 margin-bottom: 20px;*/
