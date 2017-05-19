@@ -415,34 +415,27 @@ width: 0px;
         bottom: 3%;
 
 }
+/*HI ELENA, this is the div for the line chart on slide 2*/
 
 div.linechart{
   position: fixed;
     bottom: 1%;
     right: 1%;
-/*width: 800;
-height: 400;  
-margin-right: 20px;
-margin-bottom: 20px;*/
+
 background-color: black;
 color: white;
 font: Neue Helvetica;
   }
+
 
 .lcht {
 
  position: fixed;
     bottom: 1%;
     right: 1%;
-/*    position: fixed;
-    margin-right: 20px;
-margin-bottom: 20px;*/
-/*    bottom: 5%;
-    right: 5%;
-    width: 50%;
-    height: 50%;*/
 }
 
+/*BYE ELENA! :)*/
 
  div.canvas {
             /*    display: inline-block;*/
