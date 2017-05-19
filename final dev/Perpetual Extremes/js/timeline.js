@@ -100,7 +100,7 @@ path
 	.attr("stroke-dasharray", totalLength + " " + totalLength)
 	.attr("stroke-dashoffset", totalLength)
 	.transition()
-		.delay(1000)
+		.delay(800)
 	.duration(2000)
     .ease(d3.easeCubicInOut)
 	.attr("stroke-dashoffset", 0);
@@ -111,8 +111,8 @@ svgln.append('g')
 	.enter()
 	.append('circle')
 	.style("stroke", "black")
-		.on('mouseover', tool_tip.show)
-     .on('mouseout', tool_tip.hide)
+	.on('mouseover', tool_tip.show)
+    .on('mouseout', tool_tip.hide)
 	.transition()
     .duration(0)
 	.attr('fill', '#c4342e')
@@ -126,7 +126,7 @@ svgln.append('g')
 	})
 	.transition()
 	.duration(2000)
-	.delay(1000)
+	.delay(800)
 	.attr('r', 8);
 
 

@@ -398,9 +398,9 @@ width: 0px;
                position: absolute;
           /*      bottom: 40%;*/
                 width: 1200;
-                height: 550;  
+                height: 350;  
     /*            left: 2%; */
-                bottom: 2%;
+                bottom: 3%;
                 background-color: black;
                 color: white;
                 font: Neue Helvetica;
@@ -412,7 +412,7 @@ width: 0px;
 /*    bottom: 40%;*/
 /*    width: 50%;
     height: 50%;*/
-        bottom: 2%;
+        bottom: 3%;
 
 }
 

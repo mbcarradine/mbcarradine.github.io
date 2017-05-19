@@ -10,8 +10,8 @@ var nodes = d3.range(n).map(function(i) {
 
 var canvas = document.querySelector("canvas"),
     context = canvas.getContext("2d"),
-    width = 600,
-    height = 400;
+    width = 700,
+    height = 500;
 
 var simulation = d3.forceSimulation(nodes)
     .force("y", d3.forceY())
@@ -29,15 +29,15 @@ function ticked() {
   nodes.forEach(drawNode);
   context.restore();
   context.fillStyle = "black";
-context.fillText("No AC",10,85);
+context.fillText("No AC",10,150);
 context.font = "28px Helvetica";
-//   context.fillStyle = "black";
-// context.fillText("AC",1,200);
-// context.font = "28px Helvetica";
+  context.fillStyle = "black";
+context.fillText("Has AC",275,150);
+context.font = "28px Helvetica";
 }
 
 function drawNode(d) {
-  context.beginPath(d.x + 100, d.y);
+  context.beginPath(d.x + 120, d.y);
   context.moveTo(d.x + 10, d.y);
   context.arc(d.x, d.y, 2.2, 10, 10 * Math.PI);
   context.fillStyle = d.color;
