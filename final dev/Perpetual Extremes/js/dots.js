@@ -1,4 +1,4 @@
-
+// function propdots() {
 var n = 2000;
 
 var nodes = d3.range(n).map(function(i) {
@@ -50,3 +50,4 @@ function isolate(force, filter) {
   force.initialize = function() { initialize.call(force, nodes.filter(filter)); };
   return force;
 }
+// }
