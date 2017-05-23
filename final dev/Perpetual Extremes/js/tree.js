@@ -1,4 +1,4 @@
-
+// function treemap() {
 var width = 1000
 var height = 450
 var svgContainer;
@@ -67,4 +67,4 @@ setup(function(){
     })
 });      
 
-
+// }

@@ -3,8 +3,6 @@ body {
 
 }
 
-
-
 .chromeframe {
     margin: 0.2em 0;
     background: #ccc;
@@ -23,7 +21,7 @@ body {
 
     }
  
-    /* Creates a small triangle extender for the tooltip */
+
     .d3-tip:after {
       box-sizing: border-box;
       display: inline;
@@ -36,7 +34,7 @@ body {
       text-align: center;
     }
  
-    /* Style northward tooltips specifically */
+
     .d3-tip.n:after {
       margin: -2px 0 0 0;
       top: 100%;
@@ -132,14 +130,15 @@ font-size: 14;
 
 }
 
-.numbers{
-position: absolute;
-bottom: 10%;
-right: 5%;
+.numcounter{
+position: relative;
+top: 100px;
+right: 100px;
+z-index:2;
 text-align: right;
 color: #000;
-font: Neue Helvetica;
-font-size: 56;
+  font-size: 120px;
+  font: Neue Helvetica;
 
 
 
@@ -295,13 +294,16 @@ color: #fff;
 }
 
 .slide3explainer{
-position: absolute;
-bottom: 30%;
-right: 10%;
+ position: fixed;
+    bottom: 5%;
+    right: 1%;
 
-text-align: right;
+
+/* width: 300px;
+height: 200px;*/
+/*text-align: right;*/
 color: #000;
-  font-size: 120px;
+  font-size: 100px;
   font: Neue Helvetica;
 
 }
@@ -397,10 +399,10 @@ width: 0px;
 
                position: absolute;
           /*      bottom: 40%;*/
-                width: 1200;
-                height: 350;  
+             /*   width: 1200;
+                height: 500; */ 
     /*            left: 2%; */
-                bottom: 3%;
+                bottom: 8%;
                 background-color: black;
                 color: white;
                 font: Neue Helvetica;
@@ -412,7 +414,7 @@ width: 0px;
 /*    bottom: 40%;*/
 /*    width: 50%;
     height: 50%;*/
-        bottom: 3%;
+        bottom: 8%;
 
 }
 /*HI ELENA, this is the div for the line chart on slide 2*/
@@ -420,7 +422,7 @@ width: 0px;
 div.linechart{
   position: fixed;
     bottom: 1%;
-    right: 1%;
+    right: 5%;
 
 background-color: black;
 color: white;
@@ -432,16 +434,17 @@ font: Neue Helvetica;
 
  position: fixed;
     bottom: 1%;
-    right: 1%;
+    right: 5%;
 }
 
 /*BYE ELENA! :)*/
 
  div.canvas {
             /*    display: inline-block;*/
+              position: fixed;
                 width: 600;
                 height: 400;   
-                 bottom: 20%;
+       /*          bottom: 20%;*/
                   margin-top:75px;
                  margin-left:100px;
                 background-color: lightgray;

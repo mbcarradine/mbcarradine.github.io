@@ -1,10 +1,8 @@
 
 var format = d3.format(",d");
-
-
 var svg = d3.select("body").append("h1")
   .transition()
-    .duration(5000)
+    .duration(15000)
     .on("start", function repeat() {
       d3.active(this)
           .tween("text", function() {
@@ -13,8 +11,7 @@ var svg = d3.select("body").append("h1")
             return function(t) { that.text(format(i(t))); };
           })
         .transition()
-          .delay(2000)
-          .on("start", repeat)
-          .attr("class","nums");
+          .delay(5000)
+          .on("start", repeat);
 
     });

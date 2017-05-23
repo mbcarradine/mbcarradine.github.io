@@ -28,13 +28,13 @@ var margin = {top: 0, right: 25, bottom: 0, left: 25 };
 
 
 var svgln = d3.select('#timeline').append("svg")
-			.attr('height', '550px')
+			.attr('height', '400px')
 			.attr('width', '1200px')
 			.attr("transform", "translate(" + margin.left + "," + margin.top + ")")
 
 var tool_tip = d3.tip()
       .attr("class", "d3-tip")
-      .offset([-8, 0])
+      .offset([-20, 120])
       .html(function(d) { return "Started on " + d.date + ", lasted " + d.days +" days"; });
     svgln.call(tool_tip);
 
@@ -48,7 +48,7 @@ var xScale = d3.scaleTime()
 
 var yScale = d3.scaleLinear()
 	.domain(yExtent)
-	.range([460,240]);	
+	.range([335,140]);	
 
 
 
@@ -59,12 +59,13 @@ var yAxis = d3.axisLeft(yScale);
 
 svgln.append('g')
 	.attr('id', 'xAxisG')
-	.attr('transform', 'translate(0,460)')
+	.attr('transform', 'translate(0,335)')
 	.call(xAxis)
 	.selectAll("text")
     .attr("y", 0)
     .attr("x", 15)
      .attr("dy", ".35em")
+          .attr("dy", ".35em")
      .transition()
     .duration(0)
     	.delay(1000)
