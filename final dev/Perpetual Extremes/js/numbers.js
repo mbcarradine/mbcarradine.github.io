@@ -11,7 +11,7 @@ var svg = d3.select("body").append("h1")
             return function(t) { that.text(format(i(t))); };
           })
         .transition()
-          .delay(5000)
+          .delay(50000)
           .on("start", repeat);
 
     });

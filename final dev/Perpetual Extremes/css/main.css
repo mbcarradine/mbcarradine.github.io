@@ -120,6 +120,20 @@ font-size: 14;
 
 }
 
+/*h2 {
+  font: 400 120px/500px "Helvetica Neue";
+   font-size: 100px;
+  text-align: center;
+  width: 400;
+  height: 200;
+  margin: 0;
+  position: fixed;
+  top: 50px;
+right: 100px;
+text-align: center;
+color: #000;
+}*/
+
 
 html, body {
 width: 100%;
@@ -134,13 +148,11 @@ font-size: 14;
 position: fixed;
 top: 50px;
 right: 100px;
-/*z-index:2;*/
+
 text-align: center;
 color: #000;
   font-size: 100px;
   font: Neue Helvetica;
-
-
 
 }
 
@@ -169,10 +181,6 @@ font: Neue Helvetica;
 position: absolute;
 bottom: 40%;
 left: 2%;
-
-
-
-
 
 }
 #slide-1 .caption{
