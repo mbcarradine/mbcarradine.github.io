@@ -2,7 +2,7 @@
 var format = d3.format(",d");
 var svg = d3.select("body").append("h1")
   .transition()
-    .duration(15000)
+    .duration(50000)
     .on("start", function repeat() {
       d3.active(this)
           .tween("text", function() {
