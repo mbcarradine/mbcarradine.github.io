@@ -1,6 +1,6 @@
 body {
    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-   font-weight: 500;
+   font-weight: 550;
 }
 
 .chromeframe {
@@ -334,6 +334,7 @@ p {line-height: 1.333em;}
            cursor: pointer;
           font-size: 12px;
           font: Neue Helvetica;
+          font-weight: 600;
 
       }
       .btn:hover{
