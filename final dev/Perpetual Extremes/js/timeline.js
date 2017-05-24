@@ -101,7 +101,7 @@ path
 	.attr("stroke-dasharray", totalLength + " " + totalLength)
 	.attr("stroke-dashoffset", totalLength)
 	.transition()
-		.delay(800)
+		.delay(1000)
 	.duration(2000)
     .ease(d3.easeCubicInOut)
 	.attr("stroke-dashoffset", 0);
@@ -127,7 +127,7 @@ svgln.append('g')
 	})
 	.transition()
 	.duration(2000)
-	.delay(800)
+	.delay(1000)
 	.attr('r', 8);
 
 
