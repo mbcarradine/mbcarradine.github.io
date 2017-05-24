@@ -335,6 +335,7 @@ p {line-height: 1.333em;}
           font-size: 12px;
           font: Neue Helvetica;
           font-weight: 600;
+          font-color: red;
 
       }
       .btn:hover{
