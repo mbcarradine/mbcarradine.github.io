@@ -332,10 +332,11 @@ p {line-height: 1.333em;}
            float: left;
            margin-right: 5px;
            cursor: pointer;
+          font-color: red;
           font-size: 12px;
           font: Neue Helvetica;
           font-weight: 600;
-          font-color: red;
+
 
       }
       .btn:hover{
