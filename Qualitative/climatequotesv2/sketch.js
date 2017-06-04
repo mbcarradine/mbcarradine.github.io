@@ -45,7 +45,7 @@ rect ((windowWidth*.80),40,10,10);
 text ("It's not worth the money", (windowWidth*.80+15),50);
 fill (192, 192, 192);
 rect ((windowWidth*.80),55,10,10);
-text ("We'll can never truly know", (windowWidth*.80+15),65);
+text ("We can never truly know", (windowWidth*.80+15),65);
 
 translate(margin, margin); 
 //draw timeline

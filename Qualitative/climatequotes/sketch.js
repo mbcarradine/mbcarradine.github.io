@@ -44,7 +44,7 @@ rect (25, 250,10,10);
 text ("It's not worth the money", 40, 260);
 fill (192, 192, 192);
 rect (25, 275,10,10);
-text ("We'll can never truly know", 40,285);
+text ("We can never truly know", 40,285);
 translate(margin, margin); 
 
 
