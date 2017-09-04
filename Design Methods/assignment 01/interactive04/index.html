@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link href='https://fonts.googleapis.com/css?family=Siemreap' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Habibi' rel='stylesheet'>
         
 
 <style>
 body {
     background-color: black;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Habibi';font-size: 42px;
     font-size: 42px;
 }
 h1 {
@@ -61,10 +61,7 @@ p {
 } 
 
 pre {
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-        text-align: right;
-
+ 
 } 
 big {  /*  */
  color: white;
@@ -74,94 +71,60 @@ big {  /*  */
     text-transform: uppercase;
 }
 
-small {
- color: white;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 50%;
-     text-align: center;
-}
+
 
 #left1 div {
-    width: 7000px;
-    height: 100px;
-    color: white;
-     text-align: left;
-     font-size: 80px;
+    width: 800px;
+    height: 50%;
+    font-family: 'Habibi';
+    font-size: 32px;
 
+   position: relative;
+    -webkit-animation: mymove 10s ; /* Safari 4.0 - 8.0 */
+    animation: mymove 10s ;
 
+}
+#left1:hover div {
+  -webkit-animation-play-state: paused; /* Safari 4.0 - 8.0 */
+    animation-play-state: paused;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+    from {top: 0px;}
+    to {top: 200px;}
+}
+
+@keyframes mymove {
+    from {top: 0px;}
+    to {top: 200px;}
 }
 
 
 #left2 div {
-    width: 850px;
-    height: 100px;
-    color: black;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 48px;
-     text-align: left;
+    width: 800px;
+    height: 100%;
+    font-family: 'Habibi';
+    font-size: 32px;
 
+   position: relative;
+    -webkit-animation: mymoveagain 10s ; /* Safari 4.0 - 8.0 */
+    animation: mymoveagain 10s ;
+}
+#left2:hover div {
+  -webkit-animation-play-state: paused; /* Safari 4.0 - 8.0 */
+    animation-play-state: paused;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymoveagain {
+    from {left: 0px;}
+    to {left: 801px;}
 }
 
-
-#left3 div {
-    width: 700px;
-    height: 100px;
-    color: black;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 48px;
-     text-align: left;
-
+@keyframes mymoveagain {
+    from {left: 0px;}
+    to {left: 801px;}
 }
 
-#left4 div {
-    width: 550px;
-    height: 100px;
-    color: black;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 48px;
-     text-align: left;
-
-}
-
-#left5 div {
-    width: 450px;
-    height: 100px;
-    color: black;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 48px;
-     text-align: left;
-
-}
-
-#left6 div {
-    width: 300px;
-    height: 100px;
-    color: black;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 48px;
-     text-align: left;
-
-}
-
-#left7 div {
-    width: 200px;
-    height: 100px;
-    color: black;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 48px;
-     text-align: left;
-
-}
-
-#left8 div {
-    width: 200px;
-    height: 100px;
-    color: black;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 48px;
-     text-align: left;
-
-}
 
 
 </style>
@@ -174,11 +137,19 @@ small {
 
 
 <div id="left1">
-  <div style="background-color:black;"> When the historians find us we'll be in our homes, plugged into our hubs, skin and bones. A frozen smile on every face as the stories replay: <i>this must have been a wonderful place.
+  <div style="background-color:white;"> <pre>when the historians find us 
+we'll be in our homes
+plugged into our hubs, skin and bones
+</pre>
 </div>
 
 
-
+<div id="left2">
+  <div style="background-color:white;"> <pre>
+a frozen smile on every face
+as the stories replay
+this must have been <b>a wonderful place</b> </pre>
+</div>
 
 
 
