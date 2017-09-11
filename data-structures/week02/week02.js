@@ -8,7 +8,7 @@ var content = fs.readFileSync('data/m09.txt');
 var $ = cheerio.load(content);
 
 $('table').find('tbody tr').each(function(i, elem) { //addresses reside inside of a table within tbody 
-         var addr = $(elem).find('td').eq(0) //finding data cells and iterating 
+         var addr = $(elem).find('td').eq(0) //finding data cells
          .contents() //getting children of td
          .eq(6) //index where address is found
          .text()
