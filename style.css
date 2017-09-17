@@ -8,7 +8,8 @@ h1, h2, h3, h4{
 	line-height: 1.1em;
 	margin: 0 0 .5em 0;
 }
-h1{ font-size: 1.7em; }
+h1{ font-size: 1.7em;
+color: #EEEEEE; }
 h2{ font-size: 1.5em; }
 a{
 	color: black;
@@ -22,7 +23,7 @@ a{
 body{
     font-family: helvetica; 
     font-size: 80%; 
-    color: white;
+    color: #EEEEEE;
     line-height: 1.2em; 
     width: 100%; 
     margin: 0; 
