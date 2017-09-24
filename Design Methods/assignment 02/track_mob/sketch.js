@@ -11,7 +11,7 @@ function setup() {
 
 // LEAFLET CODE
 
-mymap = L.map('mapid').setView([40.7354989, -73.9918813], 17.5);
+mymap = L.map('mapid').setView([40.7354989, -73.9918813], 17);
   L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/dark-v9/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWJjYXJyYWRpbmUiLCJhIjoiY2l6ZWxmeGh6MjJicjJ2cW9ncDh3ZzVpMiJ9.QMaUpzAhGuRXJZcP9-TtdQ', {
   maxZoom: 22,
   id: 'mapbox.streets'
