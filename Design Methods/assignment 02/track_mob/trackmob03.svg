@@ -1137,12 +1137,12 @@
 </font>
 
 	<rect style="fill:#161414;" width="750" height="1334"/>
-<text transform="matrix(1 0 0 1 50.9722 1275.6948)" style="fill:#E0DBDB; font-family:'LibreFranklin-Regular'; font-size:14.4px;">Male</text>
-<text transform="matrix(1 0 0 1 50.9717 1305.0947)" style="fill:#E0DBDB; font-family:'LibreFranklin-Regular'; font-size:14.4px;">Female</text>
-<circle style="fill:#EF4F4E;" cx="40.73" cy="1298.752" r="7.844"/>
-<circle style="fill:#5B809D;" cx="40.73" cy="1269.968" r="7.844"/>
-<rect x="30.403" y="1257.24" style="fill:none;stroke:#E6E7E8;stroke-width:0.75;stroke-miterlimit:10;" width="82.662" height="55.188"/>
-<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="182.3152" y1="656.2974" x2="616.8541" y2="656.2974">
+<text transform="matrix(1 0 0 1 63.9722 1245.6948)" style="fill:#E0DBDB; font-family:'LibreFranklin-Regular'; font-size:14.4px;">Male</text>
+<text transform="matrix(1 0 0 1 63.9717 1275.0947)" style="fill:#E0DBDB; font-family:'LibreFranklin-Regular'; font-size:14.4px;">Female</text>
+<circle style="fill:#EF4F4E;" cx="53.73" cy="1268.752" r="7.844"/>
+<circle style="fill:#5B809D;" cx="53.73" cy="1239.968" r="7.844"/>
+<rect x="43.403" y="1227.24" style="fill:none;stroke:#E6E7E8;stroke-width:0.75;stroke-miterlimit:10;" width="82.662" height="55.188"/>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="166.3152" y1="717.2974" x2="600.8541" y2="717.2974">
 	<stop  offset="0" style="stop-color:#FFFFFF"/>
 	<stop  offset="0.6461" style="stop-color:#404041;stop-opacity:0.3"/>
 	<stop  offset="0.7744" style="stop-color:#3E3E3F;stop-opacity:0.5538"/>
@@ -1151,40 +1151,40 @@
 	<stop  offset="0.9606" style="stop-color:#141415;stop-opacity:0.922"/>
 	<stop  offset="1" style="stop-color:#000000"/>
 </linearGradient>
-<rect x="182.315" y="385.793" style="fill:url(#SVGID_1_);" width="434.539" height="541.009"/>
-<text transform="matrix(1.0345 0 0 1 179.6221 370.4893)" style="fill:#E6E7E8; font-family:'LibreFranklin-Regular'; font-size:19.6px;">9am</text>
-<text transform="matrix(1.0345 0 0 1 317.8643 322.8882)" style="fill:#E6E7E8; font-family:'LibreFranklin-Regular'; font-size:19.6px;">Time of Day</text>
-<text transform="matrix(1.0345 0 0 1 55.6533 458.0303)" style="fill:#F1F1F2; font-family:'LibreFranklin-Regular'; font-size:19.6px;">Plastic Cup</text>
-<text transform="matrix(1.0345 0 0 1 96.2354 578.3633)"><tspan x="0" y="0" style="fill:#F1F1F2; font-family:'LibreFranklin-Regular'; font-size:19.6px;">Cart of</tspan><tspan x="-49.725" y="23.52" style="fill:#F1F1F2; font-family:'LibreFranklin-Regular'; font-size:19.6px;">possessions</tspan></text>
-<text transform="matrix(1.0345 0 0 1 67.7314 711.6392)"><tspan x="0" y="0" style="fill:#F1F1F2; font-family:'LibreFranklin-Regular'; font-size:19.6px;">Cardboard</tspan><tspan x="58.329" y="23.52" style="fill:#F1F1F2; font-family:'LibreFranklin-Regular'; font-size:19.6px;">sign</tspan></text>
-<text transform="matrix(1.0345 0 0 1 86.1113 843.1733)" style="fill:#F1F1F2; font-family:'LibreFranklin-Regular'; font-size:19.6px;">Nothing</text>
-<ellipse style="fill:#EF4F4E;" cx="528.956" cy="572.044" rx="10.55" ry="10.914"/>
-<ellipse style="fill:#EF4F4E;" cx="518.888" cy="445.003" rx="10.55" ry="10.914"/>
-<ellipse style="fill:#EF4F4E;" cx="497.788" cy="445.003" rx="10.55" ry="10.914"/>
-<ellipse style="fill:#EF4F4E;" cx="307.099" cy="445.43" rx="10.55" ry="10.914"/>
-<ellipse style="fill:#5B809D;" cx="229.651" cy="572.044" rx="10.55" ry="10.914"/>
-<ellipse style="fill:#5B809D;" cx="214.756" cy="834.563" rx="10.55" ry="10.914"/>
-<ellipse style="fill:#5B809D;" cx="237.506" cy="834.563" rx="10.55" ry="10.914"/>
-<ellipse style="fill:#5B809D;" cx="204.206" cy="445.43" rx="10.55" ry="10.914"/>
-<ellipse style="fill:#5B809D;" cx="261.281" cy="572.044" rx="10.55" ry="10.914"/>
-<ellipse style="fill:#5B809D;" cx="296.549" cy="833.547" rx="10.55" ry="10.914"/>
-<ellipse style="fill:#5B809D;" cx="237.506" cy="859.025" rx="10.55" ry="10.914"/>
-<ellipse style="fill:#5B809D;" cx="327.824" cy="709.54" rx="10.55" ry="10.914"/>
-<ellipse style="fill:#5B809D;" cx="350.574" cy="709.54" rx="10.55" ry="10.914"/>
-<ellipse style="fill:#5B809D;" cx="475.323" cy="445.003" rx="10.55" ry="10.914"/>
-<ellipse style="fill:#5B809D;" cx="499.431" cy="470.486" rx="10.55" ry="10.914"/>
-<ellipse style="fill:#5B809D;" cx="413.941" cy="572.044" rx="10.55" ry="10.914"/>
-<ellipse style="fill:#5B809D;" cx="457.771" cy="572.044" rx="10.55" ry="10.914"/>
-<ellipse style="fill:#5B809D;" cx="561.708" cy="445.003" rx="10.55" ry="10.914"/>
-<ellipse style="fill:#5B809D;" cx="539.988" cy="445.003" rx="10.55" ry="10.914"/>
-<ellipse style="fill:#5B809D;" cx="379.304" cy="445.43" rx="10.55" ry="10.914"/>
-<text transform="matrix(1.0345 0 0 1 566.5732 370.4893)" style="fill:#E6E7E8; font-family:'LibreFranklin-Regular'; font-size:19.6px;">11pm</text>
-<ellipse style="fill:#5B809D;" cx="556.965" cy="833.547" rx="10.55" ry="10.914"/>
-<ellipse style="fill:#5B809D;" cx="529.438" cy="833.547" rx="10.55" ry="10.914"/>
-<ellipse style="fill:#5B809D;" cx="571.883" cy="709.54" rx="10.55" ry="10.914"/>
-<ellipse style="fill:#EF4F4E;" cx="296.174" cy="708.957" rx="10.55" ry="10.914"/>
-<ellipse style="fill:#EF4F4E;" cx="224.931" cy="708.957" rx="10.55" ry="10.914"/>
-<ellipse style="fill:#EF4F4E;" cx="319.083" cy="470.058" rx="10.55" ry="10.914"/>
-<text transform="matrix(1 0 0 1 30.0237 89.8071)"><tspan x="0" y="0" style="fill:#F1F1F2; font-family:'LibreFranklin-Medium'; font-size:26px;">Most of the people I encountered</tspan><tspan x="0" y="33.2" style="fill:#F1F1F2; font-family:'LibreFranklin-Medium'; font-size:26px;">either used a plastic cup for donations,</tspan><tspan x="0" y="66.4" style="fill:#F1F1F2; font-family:'LibreFranklin-Medium'; font-size:26px;">a cardboard sign to relay a message</tspan><tspan x="0" y="99.6" style="fill:#F1F1F2; font-family:'LibreFranklin-Medium'; font-size:26px;">or they sat with a large cart of their</tspan><tspan x="0" y="132.8" style="fill:#F1F1F2; font-family:'LibreFranklin-Medium'; font-size:26px;">possessions while asking for change.</tspan></text>
-<text transform="matrix(1 0 0 1 328.7981 1128.8071)"><tspan x="0" y="0" style="fill:#F1F1F2; font-family:'LibreFranklin-Medium'; font-size:26px;">Of the people who didn&#x2019;t have</tspan><tspan x="-34.837" y="33.2" style="fill:#F1F1F2; font-family:'LibreFranklin-Medium'; font-size:26px;">any of these items with them, all </tspan><tspan x="134.288" y="66.4" style="fill:#F1F1F2; font-family:'LibreFranklin-Medium'; font-size:26px;">of them were men.</tspan></text>
+<rect x="166.315" y="446.793" style="fill:url(#SVGID_1_);" width="434.539" height="541.009"/>
+<text transform="matrix(1.0345 0 0 1 163.6221 431.4893)" style="fill:#E6E7E8; font-family:'LibreFranklin-Regular'; font-size:19.6px;">9am</text>
+<text transform="matrix(1.0345 0 0 1 310.8643 383.8882)" style="fill:#E6E7E8; font-family:'LibreFranklin-Regular'; font-size:19.6px;">Time of Day</text>
+<text transform="matrix(1.0345 0 0 1 50.6533 520.0303)" style="fill:#F1F1F2; font-family:'LibreFranklin-Regular'; font-size:19.6px;">Plastic Cup</text>
+<text transform="matrix(1.0345 0 0 1 90.2354 639.3633)"><tspan x="0" y="0" style="fill:#F1F1F2; font-family:'LibreFranklin-Regular'; font-size:19.6px;">Cart of</tspan><tspan x="-49.725" y="23.52" style="fill:#F1F1F2; font-family:'LibreFranklin-Regular'; font-size:19.6px;">possessions</tspan></text>
+<text transform="matrix(1.0345 0 0 1 55.7314 772.6392)"><tspan x="0" y="0" style="fill:#F1F1F2; font-family:'LibreFranklin-Regular'; font-size:19.6px;">Cardboard</tspan><tspan x="58.329" y="23.52" style="fill:#F1F1F2; font-family:'LibreFranklin-Regular'; font-size:19.6px;">sign</tspan></text>
+<text transform="matrix(1.0345 0 0 1 82.1113 904.1733)" style="fill:#F1F1F2; font-family:'LibreFranklin-Regular'; font-size:19.6px;">Nothing</text>
+<ellipse style="fill:#EF4F4E;" cx="512.956" cy="633.044" rx="10.55" ry="10.914"/>
+<ellipse style="fill:#EF4F4E;" cx="502.888" cy="506.003" rx="10.55" ry="10.914"/>
+<ellipse style="fill:#EF4F4E;" cx="481.788" cy="506.003" rx="10.55" ry="10.914"/>
+<ellipse style="fill:#EF4F4E;" cx="291.099" cy="506.43" rx="10.55" ry="10.914"/>
+<ellipse style="fill:#5B809D;" cx="213.651" cy="633.044" rx="10.55" ry="10.914"/>
+<ellipse style="fill:#5B809D;" cx="198.756" cy="895.563" rx="10.55" ry="10.914"/>
+<ellipse style="fill:#5B809D;" cx="221.506" cy="895.563" rx="10.55" ry="10.914"/>
+<ellipse style="fill:#5B809D;" cx="188.206" cy="506.43" rx="10.55" ry="10.914"/>
+<ellipse style="fill:#5B809D;" cx="245.281" cy="633.044" rx="10.55" ry="10.914"/>
+<ellipse style="fill:#5B809D;" cx="280.549" cy="894.547" rx="10.55" ry="10.914"/>
+<ellipse style="fill:#5B809D;" cx="221.506" cy="920.025" rx="10.55" ry="10.914"/>
+<ellipse style="fill:#5B809D;" cx="311.824" cy="770.54" rx="10.55" ry="10.914"/>
+<ellipse style="fill:#5B809D;" cx="334.574" cy="770.54" rx="10.55" ry="10.914"/>
+<ellipse style="fill:#5B809D;" cx="459.323" cy="506.003" rx="10.55" ry="10.914"/>
+<ellipse style="fill:#5B809D;" cx="483.431" cy="531.486" rx="10.55" ry="10.914"/>
+<ellipse style="fill:#5B809D;" cx="397.941" cy="633.044" rx="10.55" ry="10.914"/>
+<ellipse style="fill:#5B809D;" cx="441.771" cy="633.044" rx="10.55" ry="10.914"/>
+<ellipse style="fill:#5B809D;" cx="545.708" cy="506.003" rx="10.55" ry="10.914"/>
+<ellipse style="fill:#5B809D;" cx="523.988" cy="506.003" rx="10.55" ry="10.914"/>
+<ellipse style="fill:#5B809D;" cx="363.304" cy="506.43" rx="10.55" ry="10.914"/>
+<text transform="matrix(1.0345 0 0 1 550.5732 431.4893)" style="fill:#E6E7E8; font-family:'LibreFranklin-Regular'; font-size:19.6px;">11pm</text>
+<ellipse style="fill:#5B809D;" cx="540.965" cy="894.547" rx="10.55" ry="10.914"/>
+<ellipse style="fill:#5B809D;" cx="513.438" cy="894.547" rx="10.55" ry="10.914"/>
+<ellipse style="fill:#5B809D;" cx="555.883" cy="770.54" rx="10.55" ry="10.914"/>
+<ellipse style="fill:#EF4F4E;" cx="280.174" cy="769.957" rx="10.55" ry="10.914"/>
+<ellipse style="fill:#EF4F4E;" cx="208.931" cy="769.957" rx="10.55" ry="10.914"/>
+<ellipse style="fill:#EF4F4E;" cx="303.083" cy="531.058" rx="10.55" ry="10.914"/>
+<text transform="matrix(1 0 0 1 41.0237 81.8071)"><tspan x="0" y="0" style="fill:#F1F1F2; font-family:'LibreFranklin-Medium'; font-size:26px;">Most of the people I encountered</tspan><tspan x="0" y="33.2" style="fill:#F1F1F2; font-family:'LibreFranklin-Medium'; font-size:26px;">either used a plastic cup for</tspan><tspan x="0" y="66.4" style="fill:#F1F1F2; font-family:'LibreFranklin-Medium'; font-size:26px;">donations, a cardboard sign to </tspan><tspan x="0" y="99.6" style="fill:#F1F1F2; font-family:'LibreFranklin-Medium'; font-size:26px;">relay a message or they sat with a </tspan><tspan x="0" y="132.8" style="fill:#F1F1F2; font-family:'LibreFranklin-Medium'; font-size:26px;">large cart of possessions while </tspan><tspan x="0" y="166" style="fill:#F1F1F2; font-family:'LibreFranklin-Medium'; font-size:26px;">asking for change.</tspan></text>
+<text transform="matrix(1 0 0 1 348.7981 1128.8071)"><tspan x="0" y="0" style="fill:#F1F1F2; font-family:'LibreFranklin-Medium'; font-size:26px;">Of the people who didn&#x2019;t have</tspan><tspan x="-29.326" y="33.2" style="fill:#F1F1F2; font-family:'LibreFranklin-Medium'; font-size:26px;">any of these items with them, all</tspan><tspan x="134.288" y="66.4" style="fill:#F1F1F2; font-family:'LibreFranklin-Medium'; font-size:26px;">of them were men.</tspan></text>
 </svg>

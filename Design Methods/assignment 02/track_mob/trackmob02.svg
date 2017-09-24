@@ -1137,73 +1137,70 @@
 </font>
 
 	<rect style="fill:#161414;" width="750" height="1334"/>
-<ellipse transform="matrix(0.9998 -0.0175 0.0175 0.9998 -5.047 7.0961)" style="fill:#5B809D;" cx="404.043" cy="292.712" rx="12.396" ry="12.823"/>
-<ellipse transform="matrix(0.9998 -0.0175 0.0175 0.9998 -5.5248 6.6049)" style="fill:#5B809D;" cx="375.659" cy="319.841" rx="12.396" ry="12.823"/>
-<ellipse transform="matrix(0.9998 -0.0175 0.0175 0.9998 -6.4658 6.6295)" style="fill:#5B809D;" cx="376.601" cy="373.768" rx="12.396" ry="12.823"/>
-<ellipse transform="matrix(0.9998 -0.0175 0.0175 0.9998 -5.9992 6.6173)" style="fill:#5B809D;" cx="376.134" cy="347.028" rx="12.396" ry="12.823"/>
-<ellipse transform="matrix(0.9998 -0.0175 0.0175 0.9998 -16.5893 6.7539)" style="fill:#5B809D;" cx="378.665" cy="953.851" rx="12.396" ry="12.823"/>
-<ellipse transform="matrix(0.9998 -0.0175 0.0175 0.9998 -17.0717 6.7665)" style="fill:#5B809D;" cx="379.147" cy="981.495" rx="12.396" ry="12.823"/>
-<ellipse transform="matrix(0.9998 -0.0175 0.0175 0.9998 -13.1346 6.7141)" style="fill:#5B809D;" cx="378.114" cy="755.894" rx="12.396" ry="12.823"/>
-<ellipse transform="matrix(0.9998 -0.0175 0.0175 0.9998 -19.8175 7.2917)" style="fill:#5B809D;" cx="407.864" cy="1139.077" rx="12.396" ry="12.823"/>
-<ellipse transform="matrix(0.9998 -0.0175 0.0175 0.9998 -7.142 7.127)" style="fill:#5B809D;" cx="404.767" cy="412.758" rx="12.396" ry="12.823"/>
-<ellipse transform="matrix(0.9998 -0.0175 0.0175 0.9998 -8.1139 6.6437)" style="fill:#5B809D;" cx="376.59" cy="468.205" rx="12.396" ry="12.823"/>
-<ellipse transform="matrix(0.9998 -0.0175 0.0175 0.9998 -8.9226 6.6534)" style="fill:#5B809D;" cx="376.741" cy="514.542" rx="12.396" ry="12.823"/>
-<ellipse transform="matrix(0.9998 -0.0175 0.0175 0.9998 -11.3249 7.1809)" style="fill:#5B809D;" cx="405.762" cy="652.445" rx="12.396" ry="12.823"/>
-<ellipse transform="matrix(0.9998 -0.0175 0.0175 0.9998 -10.8775 7.1692)" style="fill:#5B809D;" cx="405.314" cy="626.802" rx="12.396" ry="12.823"/>
-<ellipse transform="matrix(0.9998 -0.0175 0.0175 0.9998 -14.4539 6.7304)" style="fill:#5B809D;" cx="378.387" cy="831.493" rx="12.396" ry="12.823"/>
-<ellipse transform="matrix(0.9998 -0.0175 0.0175 0.9998 -9.2797 7.154)" style="fill:#5B809D;" cx="405.246" cy="535.252" rx="12.396" ry="12.823"/>
-<ellipse transform="matrix(0.9998 -0.0175 0.0175 0.9998 -9.7774 6.6669)" style="fill:#5B809D;" cx="377.088" cy="563.522" rx="12.396" ry="12.823"/>
-<ellipse transform="matrix(0.9998 -0.0175 0.0175 0.9998 -15.6444 6.7355)" style="fill:#5B809D;" cx="378.085" cy="899.704" rx="12.396" ry="12.823"/>
-<line style="fill:#E6E7E8;stroke:#A6A8AB;stroke-miterlimit:10;" x1="389.455" y1="191.354" x2="393.976" y2="1256.54"/>
-<ellipse transform="matrix(0.9998 -0.0175 0.0175 0.9998 -10.2248 6.6786)" style="fill:#5B809D;" cx="377.536" cy="589.165" rx="12.396" ry="12.823"/>
-<ellipse transform="matrix(0.9998 -0.0175 0.0175 0.9998 -16.1162 6.7479)" style="fill:#EF4F4E;" cx="378.556" cy="926.738" rx="12.396" ry="12.823"/>
-<path style="fill:#EF4F4E;" d="M396.436,448.836c5.215,4.594,13.038,3.95,17.473-1.44c4.435-5.39,3.803-13.483-1.412-18.078
-	c-5.215-4.594-13.038-3.95-17.473,1.44S391.22,444.242,396.436,448.836z"/>
-<ellipse transform="matrix(0.9998 -0.0175 0.0175 0.9998 -15.1838 6.7495)" style="fill:#EF4F4E;" cx="379.117" cy="873.319" rx="12.396" ry="12.823"/>
-<ellipse transform="matrix(0.9998 -0.0175 0.0175 0.9998 -20.7395 6.7988)" style="fill:#5B809D;" cx="379.162" cy="1191.656" rx="12.396" ry="12.823"/>
-<ellipse transform="matrix(0.9998 -0.0175 0.0175 0.9998 -18.6437 6.7663)" style="fill:#5B809D;" cx="378.351" cy="1071.559" rx="12.396" ry="12.823"/>
-<ellipse transform="matrix(0.9998 -0.0175 0.0175 0.9998 -20.2921 6.7871)" style="fill:#EF4F4E;" cx="378.715" cy="1166.013" rx="12.396" ry="12.823"/>
-<ellipse transform="matrix(0.9998 -0.0175 0.0175 0.9998 -21.187 6.8105)" style="fill:#EF4F4E;" cx="379.61" cy="1217.299" rx="12.396" ry="12.823"/>
-<ellipse transform="matrix(0.9998 -0.0175 0.0175 0.9998 -17.7609 6.7684)" style="fill:#EF4F4E;" cx="378.908" cy="1020.983" rx="12.396" ry="12.823"/>
-<line style="fill:none;stroke:#808184;stroke-width:0.5;stroke-miterlimit:10;" x1="361.256" y1="394.889" x2="418.984" y2="393.881"/>
-<line style="fill:none;stroke:#808184;stroke-width:0.5;stroke-miterlimit:10;" x1="364.176" y1="1036.452" x2="421.904" y2="1035.444"/>
-<line style="fill:none;stroke:#808184;stroke-width:0.5;stroke-miterlimit:10;" x1="360.347" y1="817.098" x2="418.075" y2="816.091"/>
-<line style="fill:none;stroke:#808184;stroke-width:0.5;stroke-miterlimit:10;" x1="362.351" y1="606.635" x2="420.079" y2="605.627"/>
+<ellipse transform="matrix(0.9998 -0.0175 0.0175 0.9998 -5.6777 6.8223)" style="fill:#5B809D;" cx="388.043" cy="328.712" rx="12.396" ry="12.823"/>
+<ellipse transform="matrix(0.9998 -0.0175 0.0175 0.9998 -6.1555 6.3311)" style="fill:#5B809D;" cx="359.659" cy="355.841" rx="12.396" ry="12.823"/>
+<ellipse transform="matrix(0.9998 -0.0175 0.0175 0.9998 -7.0965 6.3558)" style="fill:#5B809D;" cx="360.601" cy="409.768" rx="12.396" ry="12.823"/>
+<ellipse transform="matrix(0.9998 -0.0175 0.0175 0.9998 -6.6299 6.3435)" style="fill:#5B809D;" cx="360.134" cy="383.028" rx="12.396" ry="12.823"/>
+<ellipse transform="matrix(0.9998 -0.0175 0.0175 0.9998 -17.2201 6.4801)" style="fill:#5B809D;" cx="362.665" cy="989.851" rx="12.396" ry="12.823"/>
+<ellipse transform="matrix(0.9998 -0.0175 0.0175 0.9998 -17.7024 6.4928)" style="fill:#5B809D;" cx="363.147" cy="1017.495" rx="12.396" ry="12.823"/>
+<ellipse transform="matrix(0.9998 -0.0175 0.0175 0.9998 -13.7653 6.4404)" style="fill:#5B809D;" cx="362.114" cy="791.894" rx="12.396" ry="12.823"/>
+<ellipse transform="matrix(0.9998 -0.0175 0.0175 0.9998 -20.4482 7.0179)" style="fill:#5B809D;" cx="391.864" cy="1175.077" rx="12.396" ry="12.823"/>
+<ellipse transform="matrix(0.9998 -0.0175 0.0175 0.9998 -7.7727 6.8533)" style="fill:#5B809D;" cx="388.767" cy="448.758" rx="12.396" ry="12.823"/>
+<ellipse transform="matrix(0.9998 -0.0175 0.0175 0.9998 -8.7447 6.37)" style="fill:#5B809D;" cx="360.59" cy="504.205" rx="12.396" ry="12.823"/>
+<ellipse transform="matrix(0.9998 -0.0175 0.0175 0.9998 -9.5533 6.3796)" style="fill:#5B809D;" cx="360.741" cy="550.542" rx="12.396" ry="12.823"/>
+<ellipse transform="matrix(0.9998 -0.0175 0.0175 0.9998 -11.9557 6.9071)" style="fill:#5B809D;" cx="389.762" cy="688.445" rx="12.396" ry="12.823"/>
+<ellipse transform="matrix(0.9998 -0.0175 0.0175 0.9998 -11.5082 6.8954)" style="fill:#5B809D;" cx="389.314" cy="662.802" rx="12.396" ry="12.823"/>
+<ellipse transform="matrix(0.9998 -0.0175 0.0175 0.9998 -15.0846 6.4566)" style="fill:#5B809D;" cx="362.387" cy="867.493" rx="12.396" ry="12.823"/>
+<ellipse transform="matrix(0.9998 -0.0175 0.0175 0.9998 -9.9104 6.8803)" style="fill:#5B809D;" cx="389.246" cy="571.252" rx="12.396" ry="12.823"/>
+<ellipse transform="matrix(0.9998 -0.0175 0.0175 0.9998 -10.4081 6.3932)" style="fill:#5B809D;" cx="361.088" cy="599.522" rx="12.396" ry="12.823"/>
+<ellipse transform="matrix(0.9998 -0.0175 0.0175 0.9998 -16.2751 6.4618)" style="fill:#5B809D;" cx="362.085" cy="935.704" rx="12.396" ry="12.823"/>
+<ellipse transform="matrix(0.9998 -0.0175 0.0175 0.9998 -10.8556 6.4049)" style="fill:#5B809D;" cx="361.536" cy="625.165" rx="12.396" ry="12.823"/>
+<ellipse transform="matrix(0.9998 -0.0175 0.0175 0.9998 -16.7469 6.4741)" style="fill:#EF4F4E;" cx="362.556" cy="962.738" rx="12.396" ry="12.823"/>
+<path style="fill:#EF4F4E;" d="M380.436,484.836c5.215,4.594,13.038,3.95,17.473-1.44c4.435-5.39,3.803-13.483-1.412-18.078
+	c-5.215-4.594-13.038-3.95-17.473,1.44S375.22,480.242,380.436,484.836z"/>
+<ellipse transform="matrix(0.9998 -0.0175 0.0175 0.9998 -15.8145 6.4758)" style="fill:#EF4F4E;" cx="363.117" cy="909.319" rx="12.396" ry="12.823"/>
+<ellipse transform="matrix(0.9998 -0.0175 0.0175 0.9998 -21.3702 6.525)" style="fill:#5B809D;" cx="363.162" cy="1227.656" rx="12.396" ry="12.823"/>
+<ellipse transform="matrix(0.9998 -0.0175 0.0175 0.9998 -19.2744 6.4926)" style="fill:#5B809D;" cx="362.351" cy="1107.559" rx="12.396" ry="12.823"/>
+<ellipse transform="matrix(0.9998 -0.0175 0.0175 0.9998 -20.9228 6.5133)" style="fill:#EF4F4E;" cx="362.715" cy="1202.013" rx="12.396" ry="12.823"/>
+<ellipse transform="matrix(0.9998 -0.0175 0.0175 0.9998 -21.8177 6.5367)" style="fill:#EF4F4E;" cx="363.61" cy="1253.299" rx="12.396" ry="12.823"/>
+<ellipse transform="matrix(0.9998 -0.0175 0.0175 0.9998 -18.3916 6.4946)" style="fill:#EF4F4E;" cx="362.908" cy="1056.983" rx="12.396" ry="12.823"/>
+<text transform="matrix(1 0 0 1 132.957 748.0742)" style="fill:#E0DBDB; font-family:'LibreFranklin-Regular'; font-size:28px;">Conscious</text>
+<text transform="matrix(1 0 0 1 490.1572 748.0942)" style="fill:#E0DBDB; font-family:'LibreFranklin-Regular'; font-size:28px;">Sleeping</text>
+<text transform="matrix(1 0 0 1 287.5176 246.7026)" style="fill:#E0DBDB; font-family:'LibreFranklin-Regular'; font-size:20px;">Monday</text>
+<text transform="matrix(1 0 0 1 281.5176 1262.0425)" style="fill:#E0DBDB; font-family:'LibreFranklin-Regular'; font-size:20px;">Friday</text>
+<text transform="matrix(1 0 0 1 61.9722 1246.6948)" style="fill:#E0DBDB; font-family:'LibreFranklin-Regular'; font-size:14.4px;">Male</text>
+<text transform="matrix(1 0 0 1 61.9717 1276.0947)" style="fill:#E0DBDB; font-family:'LibreFranklin-Regular'; font-size:14.4px;">Female</text>
+<circle style="fill:#EF4F4E;" cx="51.73" cy="1269.752" r="7.844"/>
+<circle style="fill:#5B809D;" cx="51.73" cy="1240.968" r="7.844"/>
+<rect x="41.403" y="1228.24" style="fill:none;stroke:#E6E7E8;stroke-width:0.75;stroke-miterlimit:10;" width="82.662" height="55.188"/>
+<text transform="matrix(1 0 0 1 41.0237 81.8071)"><tspan x="0" y="0" style="fill:#F1F1F2; font-family:'LibreFranklin-Medium'; font-size:26px;">Some people  were comfortable </tspan><tspan x="0" y="33.2" style="fill:#F1F1F2; font-family:'LibreFranklin-Medium'; font-size:26px;">sleeping on the street, but those</tspan><tspan x="0" y="66.4" style="fill:#F1F1F2; font-family:'LibreFranklin-Medium'; font-size:26px;">individuals were typically men.</tspan></text>
 <g>
 	<g>
-		
-			<line style="fill:none;stroke:#E6E7E8;stroke-width:0.5;stroke-miterlimit:10;" x1="359.026" y1="710.626" x2="382.58" y2="710.877"/>
+		<line style="fill:none;stroke:#E6E7E8;stroke-width:0.5;stroke-miterlimit:10;" x1="453.371" y1="740.5" x2="407" y2="740.5"/>
 		<g>
-			<polygon style="fill:#E6E7E8;" points="359.466,707.593 359.401,713.667 356.397,710.598 			"/>
+			<polygon style="fill:#E6E7E8;" points="452.964,743.537 452.964,737.463 456,740.5 			"/>
 		</g>
 	</g>
 </g>
-<text transform="matrix(1 0 0 1 94.957 707.0742)" style="fill:#E0DBDB; font-family:'LibreFranklin-Regular'; font-size:28px;">Conscious</text>
-<text transform="matrix(1 0 0 1 536.1572 711.0942)" style="fill:#E0DBDB; font-family:'LibreFranklin-Regular'; font-size:28px;">Sleeping</text>
 <g>
 	<g>
-		
-			<line style="fill:none;stroke:#E6E7E8;stroke-width:0.5;stroke-miterlimit:10;" x1="422.521" y1="710.849" x2="398.967" y2="710.598"/>
+		<line style="fill:none;stroke:#E6E7E8;stroke-width:0.5;stroke-miterlimit:10;" x1="297.629" y1="740.5" x2="344" y2="740.5"/>
 		<g>
-			<polygon style="fill:#E6E7E8;" points="422.082,713.882 422.146,707.808 425.15,710.877 			"/>
+			<polygon style="fill:#E6E7E8;" points="298.036,737.463 298.036,743.537 295,740.5 			"/>
 		</g>
 	</g>
 </g>
-<text transform="matrix(1 0 0 1 303.5176 202.7026)" style="fill:#E0DBDB; font-family:'LibreFranklin-Regular'; font-size:20px;">Monday</text>
-<text transform="matrix(1 0 0 1 303.5176 1258.0425)" style="fill:#E0DBDB; font-family:'LibreFranklin-Regular'; font-size:20px;">Friday</text>
 <g>
 	<g>
-		
-			<line style="fill:none;stroke:#E6E7E8;stroke-width:0.5;stroke-miterlimit:10;" x1="333.737" y1="230.16" x2="333.988" y2="206.606"/>
+		<line style="fill:none;stroke:#E6E7E8;stroke-width:0.5;stroke-miterlimit:10;" x1="325.5" y1="299.371" x2="325.5" y2="253"/>
 		<g>
-			<polygon style="fill:#E6E7E8;" points="330.705,229.72 336.778,229.785 333.709,232.789 			"/>
+			<polygon style="fill:#E6E7E8;" points="322.463,298.964 328.537,298.964 325.5,302 			"/>
 		</g>
 	</g>
 </g>
-<text transform="matrix(1 0 0 1 651.9722 1232.6948)" style="fill:#E0DBDB; font-family:'LibreFranklin-Regular'; font-size:14.4px;">Male</text>
-<text transform="matrix(1 0 0 1 651.9717 1262.0947)" style="fill:#E0DBDB; font-family:'LibreFranklin-Regular'; font-size:14.4px;">Female</text>
-<circle style="fill:#EF4F4E;" cx="641.73" cy="1255.752" r="7.844"/>
-<circle style="fill:#5B809D;" cx="641.73" cy="1226.968" r="7.844"/>
-<rect x="631.403" y="1214.24" style="fill:none;stroke:#E6E7E8;stroke-width:0.75;stroke-miterlimit:10;" width="82.662" height="55.188"/>
-<text transform="matrix(1 0 0 1 38.0237 47.8071)"><tspan x="0" y="0" style="fill:#F1F1F2; font-family:'LibreFranklin-Medium'; font-size:26px;">Some people  were comfortable </tspan><tspan x="0" y="33.2" style="fill:#F1F1F2; font-family:'LibreFranklin-Medium'; font-size:26px;">sleeping on the street, but those</tspan><tspan x="0" y="66.4" style="fill:#F1F1F2; font-family:'LibreFranklin-Medium'; font-size:26px;">individuals were typically men.</tspan></text>
+<line style="fill:none;stroke:#A6A8AB;stroke-miterlimit:10;" x1="374.5" y1="228.927" x2="374.5" y2="1285.073"/>
+<line style="fill:none;stroke:#808184;stroke-width:0.5;stroke-miterlimit:10;" x1="349.5" y1="648.5" x2="399.5" y2="648.5"/>
+<line style="fill:none;stroke:#808184;stroke-width:0.5;stroke-miterlimit:10;" x1="349" y1="429.5" x2="399" y2="429.5"/>
+<line style="fill:none;stroke:#808184;stroke-width:0.5;stroke-miterlimit:10;" x1="349" y1="851.5" x2="399" y2="851.5"/>
+<line style="fill:none;stroke:#808184;stroke-width:0.5;stroke-miterlimit:10;" x1="350" y1="1074.5" x2="400" y2="1074.5"/>
 </svg>
