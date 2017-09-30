@@ -32,11 +32,11 @@ function drawDataPoints(){
   date = table.getColumn("Date");
 
     for(var i=0; i<25; i++){
-      var col = '#161414';
+      var col = '#E8D9C2';
       if(gender[i]==="M"){
-        col = '#5B809D';
+        col = '#E8D9C2';
       }else if(gender[i]==="F"){
-        col= '#EF4F4E';
+        col= '#B65040';
       }
 
       var circle = L.circle([lat[i], long[i]], {
