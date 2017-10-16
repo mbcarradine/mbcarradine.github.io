@@ -2,8 +2,8 @@
 <html>
 <head>
 <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-	<meta charset="utf-8"/>
-	<title></title>
+  <meta charset="utf-8"/>
+  <title></title>
 </head>
 <body>
 
@@ -16,69 +16,66 @@
   <h1> SPORTS</h1>
 </div>
 
-<div class="main">
- 
-</div>
+
 
 <div class="container">
-	<div>
-	<a class="twitter-timeline" data-width="350" data-height="8000" data-theme="#FFFFAA" data-link-color="#333333" href="https://twitter.com/maxbcsez/lists/news?ref_src=twsrc%5Etfw" data-chrome="transparent noborders noscrollbar" data-color="#AAAAAA"></a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-	</div>
+  <div>
+  <a class="twitter-timeline" data-width="350" data-height="8000" data-theme="#FFFFAA" data-link-color="#333333" href="https://twitter.com/maxbcsez/lists/news?ref_src=twsrc%5Etfw" data-chrome="transparent noborders noscrollbar" data-color="#AAAAAA"></a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div>
 
-	<div>
-	<a class="twitter-timeline" data-width="350" data-height="8000" data-theme="#FFFFAA" data-link-color="#333333" href="https://twitter.com/maxbcsez/lists/politicians?ref_src=twsrc%5Etfw" data-chrome="transparent noborders noscrollbar" data-color="#AAAAAA"></a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-	</div>
-
-
-	<div>
-	<a class="twitter-timeline" data-width="350" data-height="8000" data-theme="#FFFFAA" data-link-color="#333333" href="https://twitter.com/maxbcsez/lists/sports?ref_src=twsrc%5Etfw" data-chrome="transparent noborders noscrollbar" data-color="#AAAAAA"></a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-	</div>
+  <div>
+  <a class="twitter-timeline" data-width="350" data-height="8000" data-theme="#FFFFAA" data-link-color="#333333" href="https://twitter.com/maxbcsez/lists/politicians?ref_src=twsrc%5Etfw" data-chrome="transparent noborders noscrollbar" data-color="#AAAAAA"></a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div>
 
 
+  <div>
+  <a class="twitter-timeline" data-width="350" data-height="8000" data-theme="#FFFFAA" data-link-color="#333333" href="https://twitter.com/maxbcsez/lists/sports?ref_src=twsrc%5Etfw" data-chrome="transparent noborders noscrollbar" data-color="#AAAAAA"></a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div>
 
 
-</div>
-	
+ </div> 
 
 <script data-cfasync="false" src="js/jquery.js"></script>
 
 
 <script src="js/moment-with-locales.js"></script>
 <script>
-// var NowMoment = moment();
-// var NowDate = new Date();
-//   var eDisplayMoment = document.getElementById('displayMoment');
-//   eDisplayMoment.innerHTML = NowMoment;
-
-
 function update() {
   $('#displayMoment').html(moment().format('MMMM DD YYYY H:mm:ss'));
 }
-
 setInterval(update, 1000);
-
-
   </script>
-<script>
-//scroll to bottom
+
+<!-- <script>
 setInterval(function(){
 
     //time to scroll to bottom
-  var page =  $("html, body").animate({ scrollTop: $(document).height() }, 70000);
-$(document).on('click', function() {
-    page.stop(), 10000;
-});
+    $("html, body").animate({ scrollTop: $(document).height() }, 10000);
 
-  setTimeout(function() {
-       $('html, body').animate({scrollTop:0}, 8000);
+    //scroll to top
+    setTimeout(function() {
+       $('html, body').animate({scrollTop:0}, 1000);
     },1000);//call every 2000 miliseconds
 
 },1000);//call every 2000 miliseconds
 
+</script> -->
 
+
+<script>
+//scroll to bottom
+setInterval(function(){
+    //time to scroll to bottom
+  var page =  $("html, body").animate({ scrollTop: $(document).height() }, 35000);
+$(document).on('click', function() {
+    page.stop(), 10000;
+});
+  setTimeout(function() {
+       $('html, body').animate({scrollTop:0}, 1000);
+    },1000);//call every 2000 miliseconds
+},1000);//call every 2000 miliseconds
     //scroll to top
     
-
 </script>
 
 
@@ -87,22 +84,18 @@ body {
     background-color: #f7f7f7;
     font-size: 8px;
 }
-
 .container{
   display: flex;
   margin-top: -25px;
 }
-
 .container > div {
   flex: 1; /*grow*/
     font-size: 24px;
-
 }
 /* The navigation bar */
 .navbar {
       display: flex;
       text-align: center;
-
     overflow: hidden;
     background-color: #333;
     position: fixed; /* Set the navbar to fixed position */
@@ -110,6 +103,8 @@ body {
     width: 100%; /* Full width */
     font-size: 24px;
 }
+
+
 #displayMoment {
   color: #F3F0E9;
 font-family: 'Roboto Slab', serif;
@@ -124,9 +119,6 @@ width: 100%;
     left: 1px;
     transform: translate(-1px,-1px);
     -ms-transform: translate(-1px,-1px);
-
-
-
 }
 /* Links inside the navbar */
 .navbar a {
@@ -137,58 +129,49 @@ width: 100%;
     text-decoration: none;
     font-size: 24px;
 }
-
 .navbar h1 {
   color: #F3F0E9;
     flex: 1; /*grow*/
      font-size: 22px;
- 	letter-spacing: 15px;
- 	text-align: left;
-
-
-
+  letter-spacing: 15px;
+  text-align: left;
 }
-
 /* Main content inside nav bar */
 .main {
     margin-top: 30px; /* Add a top margin to avoid content overlay */
     font-size: 24px;
 }
-
   h1 {
   color: #F3F0E9;
     flex: 1; /*grow*/
-
 font-family: 'Roboto Slab', serif;
  text-align: left;
  font-size: 22px;
   line-height: 46px;
-
-   	letter-spacing: 12px;
+    letter-spacing: 12px;
 } 
-
 p {
     color: #F3F0E9;
      text-align: justify;
     position: absolute;
-	top: 0px;
-	letter-spacing: 2px;
-	line-height: 20px;
-	 font-size: 10px;
+  top: 0px;
+  letter-spacing: 2px;
+  line-height: 20px;
+   font-size: 10px;
 } 
 a:link {
     color: white;
     background-color: transparent;
     text-decoration: none;
      font-size: 14px;
-     	top: 0px;
+      top: 0px;
 }
 a:visited {
     color: white;
     background-color: transparent;
     text-decoration: none;
         font-size: 14px;
-        	top: 0px;
+          top: 0px;
 }
 a:hover {
     color: gray;
