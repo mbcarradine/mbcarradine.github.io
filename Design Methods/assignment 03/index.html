@@ -11,29 +11,30 @@
 
 <div id="displayMoment"></div>
 
-  <h1> NEWS</h1>
-  <h1> POLITICS</h1>
-  <h1> SPORTS</h1>
+  <h1>&nbsp NEWS</h1>
+  <h1>&nbsp POLITICS</h1>
+  <h1>&nbsp SPORTS</h1>
 </div>
 
 
 
 <div class="container">
   <div>
-  <a class="twitter-timeline" data-width="350" data-height="8000" data-theme="#FFFFAA" data-link-color="#333333" href="https://twitter.com/maxbcsez/lists/news?ref_src=twsrc%5Etfw" data-chrome="transparent noborders noscrollbar" data-color="#AAAAAA"></a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <a class="twitter-timeline" data-width="350" data-height="7300" data-theme="#FFFFAA" data-link-color="#333333" href="https://twitter.com/maxbcsez/lists/news?ref_src=twsrc%5Etfw" data-chrome="transparent noborders noscrollbar nofooter" data-color="#3452d8"></a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
   </div>
 
   <div>
-  <a class="twitter-timeline" data-width="350" data-height="8000" data-theme="#FFFFAA" data-link-color="#333333" href="https://twitter.com/maxbcsez/lists/politicians?ref_src=twsrc%5Etfw" data-chrome="transparent noborders noscrollbar" data-color="#AAAAAA"></a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <a class="twitter-timeline" data-width="350" data-height="7300" data-theme="#FFFFAA" data-link-color="#333333" href="https://twitter.com/maxbcsez/lists/politicians?ref_src=twsrc%5Etfw" data-chrome="transparent noborders noscrollbar nofooter" data-color="#3452d8"></a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
   </div>
 
 
   <div>
-  <a class="twitter-timeline" data-width="350" data-height="8000" data-theme="#FFFFAA" data-link-color="#333333" href="https://twitter.com/maxbcsez/lists/sports?ref_src=twsrc%5Etfw" data-chrome="transparent noborders noscrollbar" data-color="#AAAAAA"></a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <a class="twitter-timeline" data-width="350" data-height="7300" data-theme="#FFFFAA" data-link-color="#333333" href="https://twitter.com/maxbcsez/lists/sports?ref_src=twsrc%5Etfw" data-chrome="transparent noborders noscrollbar nofooter" data-color="#3452d8"></a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
   </div>
 
 
  </div> 
+
 
 <script data-cfasync="false" src="js/jquery.js"></script>
 
@@ -48,17 +49,13 @@ setInterval(update, 1000);
 
 <!-- <script>
 setInterval(function(){
-
     //time to scroll to bottom
     $("html, body").animate({ scrollTop: $(document).height() }, 10000);
-
     //scroll to top
     setTimeout(function() {
        $('html, body').animate({scrollTop:0}, 1000);
     },1000);//call every 2000 miliseconds
-
 },1000);//call every 2000 miliseconds
-
 </script> -->
 
 
@@ -66,9 +63,11 @@ setInterval(function(){
 //scroll to bottom
 setInterval(function(){
     //time to scroll to bottom
-  var page =  $("html, body").animate({ scrollTop: $(document).height() }, 35000);
+  var page =  $("html, body").animate({ scrollTop: $(document).height() }, 38000);
 $(document).on('click', function() {
     page.stop(), 10000;
+
+
 });
   setTimeout(function() {
        $('html, body').animate({scrollTop:0}, 1000);
@@ -84,10 +83,13 @@ body {
     background-color: #f7f7f7;
     font-size: 8px;
 }
+
+#.twitter-timeline {height:7300px !important;}
+
 .container{
   display: flex;
-  margin-top: -25px;
-}
+/*  margin-top: -25px;
+*/}
 .container > div {
   flex: 1; /*grow*/
     font-size: 24px;
@@ -103,8 +105,6 @@ body {
     width: 100%; /* Full width */
     font-size: 24px;
 }
-
-
 #displayMoment {
   color: #F3F0E9;
 font-family: 'Roboto Slab', serif;
@@ -136,6 +136,8 @@ width: 100%;
   letter-spacing: 15px;
   text-align: left;
 }
+
+
 /* Main content inside nav bar */
 .main {
     margin-top: 30px; /* Add a top margin to avoid content overlay */
