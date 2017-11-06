@@ -3,14 +3,53 @@
   <head>
     <meta charset="UTF-8">
     <title>Last 72 hours of gun deaths</title>
+
+
+<div class="container">
+  <div>
+  <a class="twitter-timeline" data-width="350" data-height="1000" data-theme="#FFFFAA" data-link-color="#333333" href="https://twitter.com/maxbcsez/lists/nra" data-chrome="transparent noborders noscrollbar nofooter" data-color="#3452d8"></a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div>
+
+
     <script src="libraries/p5.js" type="text/javascript"></script>
 
     <script src="libraries/p5.dom.js" type="text/javascript"></script>
     <script src="libraries/p5.sound.js" type="text/javascript"></script>
-
     <script src="guns.js" type="text/javascript"></script>
 
-    <style> body {padding: 0; margin: 0;} canvas {vertical-align: top;} </style>
+    <style> 
+
+
+    body {
+    padding: 0; 
+    margin: 0;
+}
+  
+    canvas 
+    {vertical-align: top;
+    }
+  
+  .container{
+  display: flex;
+/*  margin-top: -25px;
+*/}
+.container > div {
+  flex: 1; /*grow*/
+    font-size: 24px;
+}
+
+#.twitter-timeline {height:7300px !important;}
+
+.container{
+  display: flex;
+/*  margin-top: -25px;
+*/}
+.container > div {
+  flex: 1; /*grow*/
+    font-size: 24px;
+}
+
+     </style>
   </head>
   <body>
   </body>
