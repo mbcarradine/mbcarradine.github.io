@@ -57,8 +57,9 @@ textSize(16);
 
 textAlign(RIGHT)
 
-text ('Source', windowWidth - 50, windowHeight - 65);
+text ('Sources', windowWidth - 50, windowHeight - 65);
 text ('The Gun Violence Archive', windowWidth - 50, windowHeight - 50);
+text ('Center for Responsive Politics', windowWidth - 50, windowHeight - 35);
 
 textAlign(LEFT)
  frameRate(10);
