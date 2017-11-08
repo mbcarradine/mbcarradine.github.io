@@ -1,301 +1,301 @@
-month,state,city,killinj,# Killed,# Injured,Address,r,g,b
-5-Nov-17,California,Oakland,2,1,1,1700 block of 78th Ave,255,40,0
-5-Nov-17,North Carolina,Hubert,0,0,0,221 Riggs Rd,255,40,0
-5-Nov-17,North Carolina,Durham,0,0,0,E Main St and S Elm St,255,40,0
-5-Nov-17,Alabama,Tuscaloosa,1,0,1,1400 block of 6th Street,255,40,0
-5-Nov-17,Arkansas,North Little Rock,1,1,0,Henderson Road and East Valentine Road,255,40,0
-5-Nov-17,Texas,Sutherland Springs,57,27,30,216 4th St,255,40,0
-5-Nov-17,South Carolina,Laurens,1,1,0,100 Block of Colonial Acres Rd,255,40,0
-5-Nov-17,South Carolina,Walterboro,3,1,2,2444 Robertson Blvd,255,40,0
-5-Nov-17,Louisiana,Baton Rouge,1,1,0,1900 block of Bradfield Avenue,255,40,0
-5-Nov-17,Florida,Naples,1,1,0,1100 Block of 6th Ave N,255,40,0
-5-Nov-17,Indiana,New Albany,1,1,0,2750 Charlestown Rd,255,40,0
-5-Nov-17,Indiana,Indianapolis,1,0,1,4000 Brentwood Dr,255,40,0
-5-Nov-17,Mississippi,Meridian,2,1,1,Poplar Springs Drive,255,40,0
-5-Nov-17,Florida,Lake Worth,1,1,0,400 Block of S F St,255,40,0
-5-Nov-17,Florida,Jacksonville,1,0,1,St Nicholas Ave,255,40,0
-5-Nov-17,Indiana,Franklin,1,0,1,1500 block of Younce St,255,40,0
-5-Nov-17,Florida,Tampa,0,0,0,E Giddens Ave,255,40,0
-5-Nov-17,Illinois,Chicago,0,0,0,6700 S East End Ave,255,40,0
-5-Nov-17,Illinois,Chicago,1,1,0,10500 S Green St,255,40,0
-5-Nov-17,Illinois,Chicago,1,0,1,500 E 38th St,255,40,0
-5-Nov-17,Kansas,Kansas City,1,1,0,2600 block of N 21st St,255,40,0
-5-Nov-17,Kansas,Overland Park,0,0,0,9600 block of Outlook Dr,255,40,0
-5-Nov-17,Texas,Dallas,1,1,0,8411 La Prada Dr E,255,40,0
-5-Nov-17,Illinois,Rockford,0,0,0,E State St and Dawn Ave,255,40,0
-5-Nov-17,Texas,Dallas,1,0,1,7400 block of Piedmont Dr,255,40,0
-5-Nov-17,Connecticut,Bridgeport,1,0,1,1300 block of Sylvan Ave,255,40,0
-4-Nov-17,Connecticut,Norwalk,1,0,1,64 Wall St,255,40,0
-4-Nov-17,New York,Brooklyn,1,1,0,254 Wortman Ave,255,40,0
-4-Nov-17,Tennessee,Nashville,0,0,0,1027 12th Ave N,255,40,0
-4-Nov-17,Minnesota,Redwood (county),1,0,1,N/A,255,40,0
-4-Nov-17,Michigan,Cedar Springs,0,0,0,4175 17 Mile Rd NE,255,40,0
-4-Nov-17,Michigan,Saginaw,1,1,0,422 McGregor St,255,40,0
-4-Nov-17,Alabama,Birmingham,1,1,0,400 block of Oporto Madrid boulevard,255,40,0
-4-Nov-17,Minnesota,Minneapolis,2,0,2,Jackson and Harrison,255,40,0
-4-Nov-17,California,Fresno,0,0,0,1401 N Clovis Ave,255,40,0
-4-Nov-17,New York,Corona (Queens),1,1,0,146th Terr,255,40,0
-4-Nov-17,Montana,Billings,1,1,0,2618 King Ave W,255,40,0
-4-Nov-17,New Jersey,Atlantic City,0,0,0,1 block of S South Carolina Ave,255,40,0
-4-Nov-17,Texas,Austin,4,0,4,N Lamar Blvd and Masterson Pass,255,40,0
-4-Nov-17,Missouri,Columbia,1,0,1,500 block of Hickman,255,40,0
-4-Nov-17,California,Azusa,0,0,0,Citrus Ave and Alosta Ave,255,40,0
-4-Nov-17,New York,Rochester,1,0,1,161 Berlin St,255,40,0
-4-Nov-17,New York,Stony Creek,0,0,0,N/A,255,40,0
-4-Nov-17,Ohio,Youngstown,1,0,1,300 block of W Chalmers,255,40,0
-4-Nov-17,Ohio,Youngstown,4,0,4,2810 Market St,255,40,0
-4-Nov-17,California,Santa Monica,5,1,4,1515 Ocean Avenue,255,40,0
-4-Nov-17,California,Bakersfield,4,1,3,1001 S Union Ave,255,40,0
-4-Nov-17,Indiana,Evansville,1,0,1,900 block of Columbia St,255,40,0
-4-Nov-17,Louisiana,New Orleans,1,0,1,8800 block of Apricot Street,255,40,0
-4-Nov-17,Louisiana,Marrero,1,0,1,6500 Block of Lapalco Blvd,255,40,0
-4-Nov-17,Indiana,Anderson,1,0,1,900 block of Walnut St,255,40,0
-4-Nov-17,Indiana,Indianapolis,1,1,0,3500 N Mission Dr,255,40,0
-4-Nov-17,South Carolina,Aiken,1,0,1,Richardsons Lake Rd,255,40,0
-4-Nov-17,Virginia,Portsmouth,1,0,1,2200 block of Columbus Ave,255,40,0
-4-Nov-17,Virginia,Portsmouth,1,0,1,1100 block of Virginia Ave,255,40,0
-4-Nov-17,North Carolina,Greenville,1,0,1,100 Block of Ridge Pl,255,40,0
-4-Nov-17,Tennessee,Memphis,1,1,0,N Highland Rd and James Rd,255,40,0
-4-Nov-17,North Carolina,Lexington,1,1,0,Bruce St,255,40,0
-4-Nov-17,Illinois,Chicago,1,0,1,1200 West 89th St,255,40,0
-4-Nov-17,Mississippi,Jackson,1,1,0,3200 block of Woodview,255,40,0
-4-Nov-17,Mississippi,Columbus,2,1,1,120 22nd St S,255,40,0
-4-Nov-17,North Carolina,Charlotte,1,0,1,6000 Block of Dove Tree Ln,255,40,0
-4-Nov-17,North Carolina,Greenville,1,0,1,Green St and Howell St,255,40,0
-4-Nov-17,North Carolina,Claremont,1,1,0,4000 Block of Old Catawba Rd,255,40,0
-4-Nov-17,California,Bakersfield,1,1,0,1800 block of Planz Rd,255,40,0
-4-Nov-17,North Carolina,Charlotte,1,0,1,2200 Block of Jennings St,255,40,0
-4-Nov-17,California,Kings Beach,2,2,0,8489 Trout Ave,255,40,0
-4-Nov-17,Illinois,Chicago,2,0,2,2200 S Oakley Ave,255,40,0
-4-Nov-17,California,Norwalk,2,0,2,10602 Imperial Hwy,255,40,0
-4-Nov-17,California,Bakersfield,0,0,0,300 block of S Union Ave,255,40,0
-4-Nov-17,South Carolina,Mc Clellanville (Mcclellanville),1,0,1,2000 Block of Hill Rd,255,40,0
-4-Nov-17,Illinois,Chicago,1,0,1,1300 S Troy St,255,40,0
-4-Nov-17,Illinois,Chicago,2,0,2,11600 S Racine Ave,255,40,0
-4-Nov-17,Alabama,Mobile,0,0,0,N/A,255,40,0
-4-Nov-17,Illinois,Chicago,1,1,0,3900 W 47th St,255,40,0
-4-Nov-17,Kentucky,Louisville,0,0,0,9901 La Grange Rd,255,40,0
-4-Nov-17,Alabama,Birmingham,1,1,0,1400 block of 90th Pl N,255,40,0
-4-Nov-17,Illinois,Chicago,1,0,1,7400 S Colfax Ave,255,40,0
-4-Nov-17,Maryland,Baltimore,1,0,1,4200 block of E Monument St,255,40,0
-4-Nov-17,Louisiana,Kenner,1,1,0,Compromise Street and 6th Street,255,40,0
-4-Nov-17,Florida,West Palm Beach,1,0,1,900 Block of Abraham Ave,255,40,0
-4-Nov-17,Florida,Jacksonville,1,0,1,678 A Philip Randolph Blvd,255,40,0
-4-Nov-17,Florida,Jacksonville,2,0,2,2800 Sophia St,255,40,0
-4-Nov-17,Maryland,Baltimore,2,1,1,2800 block of Elgin Ave,255,40,0
-4-Nov-17,Virginia,Norfolk,3,1,2,I-264,255,40,0
-4-Nov-17,Florida,Defuniak Springs,0,0,0,Quebec Ave,255,40,0
-4-Nov-17,Florida,Orlando,2,1,1,2652 N Orange Blossom Trail,255,40,0
-4-Nov-17,Indiana,Lafayette,0,0,0,30 Concho Ct,255,40,0
-4-Nov-17,Missouri,Saint Louis,1,1,0,7900 block of Church Rd,255,40,0
-4-Nov-17,Missouri,Saint Louis,1,1,0,Martin Luther King Dr and Billups Ave,255,40,0
-4-Nov-17,New York,Ithaca,0,0,0,100 block of N Plain St,255,40,0
-4-Nov-17,Illinois,Chicago,2,1,1,100 block of E 117th Pl,255,40,0
-4-Nov-17,Illinois,Chicago,2,0,2,5600 S Emerald Ave,255,40,0
-4-Nov-17,New York,Buffalo,1,0,1,100 block of Berwyn Ave,255,40,0
-4-Nov-17,New York,Buffalo,1,0,1,N/A,255,40,0
-4-Nov-17,Illinois,Chicago,1,0,1,1300 S Homan Ave,255,40,0
-4-Nov-17,Illinois,Chicago,1,0,1,5900 S Campbell Ave,255,40,0
-4-Nov-17,New York,Auburn,0,0,0,19 Dill St,255,40,0
-4-Nov-17,Illinois,Chicago,1,0,1,7900 S Kolin Ave,255,40,0
-4-Nov-17,Illinois,Rockford,0,0,0,800 Blinn Ct,255,40,0
-4-Nov-17,Texas,San Antonio,1,1,0,New Laredo Hwy and Briggs Ave,255,40,0
-4-Nov-17,Illinois,Rockford,0,0,0,200 Oakwood Ave,255,40,0
-4-Nov-17,Ohio,Cincinnati,1,0,1,Kings Run Dr and Este Ave,255,40,0
-4-Nov-17,Ohio,Millbury,0,0,0,28200 block of Bradner Rd,255,40,0
-4-Nov-17,Texas,Lubbock,1,0,1,2915 Amherst St,255,40,0
-4-Nov-17,Connecticut,Bridgeport,0,0,0,Stratford Ave and Carroll Ave,255,40,0
-4-Nov-17,Massachusetts,Methuen,0,0,0,Weybossett St and Clifton Rd,255,40,0
-4-Nov-17,Texas,Amarillo,0,0,0,200 block of N Monroe St,255,40,0
-4-Nov-17,Texas,Waco,2,0,2,700 block of Frost Ave,255,40,0
-4-Nov-17,New Hampshire,Exeter (Brentwood),1,1,0,Pine Rd,255,40,0
-4-Nov-17,Texas,Waco,0,0,0,3001 Wenz Ave,255,40,0
-4-Nov-17,Colorado,Parker,1,0,1,10841 Twenty Mile Rd,255,40,0
-4-Nov-17,Arkansas,Clarksville,1,1,0,Taylor Street & Cline Road,255,40,0
-4-Nov-17,Tennessee,Memphis,1,0,1,Peabody Avenue and McLean Street,255,40,0
-4-Nov-17,Ohio,Cincinnati,1,0,1,1900 block of Knob Court,255,40,0
-4-Nov-17,Nevada,Las Vegas,1,1,0,S Torrey Pines Dr and Linda Ln,255,40,0
-4-Nov-17,Louisiana,New Orleans,1,1,0,4900 block of LaFaye Street,255,40,0
-4-Nov-17,Colorado,Colorado Springs,1,0,1,32 S Tejon St,255,40,0
-4-Nov-17,Pennsylvania,Philadelphia,1,0,1,1500 block of S Etting St,255,40,0
-4-Nov-17,Arizona,Phoenix,1,1,0,28th Ave and Cactus Rd,255,40,0
-4-Nov-17,Massachusetts,Lowell,1,0,1,John St and Lee St,255,40,0
-4-Nov-17,Massachusetts,Boston,0,0,0,33 Kingsdale St,255,40,0
-4-Nov-17,Massachusetts,Brockton,0,0,0,82 Lowell St,255,40,0
-3-Nov-17,Virginia,Newport News,1,1,0,Skiffes Creek Cir,255,40,0
-3-Nov-17,Texas,San Antonio,1,1,0,Barclay St and Colima St,255,40,0
-3-Nov-17,New Jersey,Somers Point,0,0,0,50 Somers Points Mays Landings Rd,255,40,0
-3-Nov-17,Colorado,Colorado Springs,1,0,1,4165 Lacy Ln,255,40,0
-3-Nov-17,Massachusetts,Plymouth,0,0,0,710 State Rd,255,40,0
-3-Nov-17,Kansas,Topeka,1,0,1,SE 4th St and SE Lime St,255,40,0
-3-Nov-17,Washington,Auburn,1,1,0,37600 block of 44th Ave S,255,40,0
-3-Nov-17,New Mexico,Rio Rancho,1,1,0,1704 NM Hwy 528 NW,255,40,0
-3-Nov-17,New York,Utica,0,0,0,Elm St,255,40,0
-3-Nov-17,Florida,Mayo,1,0,1,1368 SE CR 420,255,40,0
-3-Nov-17,Arkansas,Batesville,2,1,1,Neeley Street,255,40,0
-3-Nov-17,Michigan,Lansing,1,0,1,100 block of Mason Street,255,40,0
-3-Nov-17,Florida,Jacksonville,1,0,1,13000 block of Blue Eagle Way,255,40,0
-3-Nov-17,Michigan,Mattawan,1,0,1,Main St and W McGillen Ave,255,40,0
-3-Nov-17,Oregon,Jackson (county),0,0,0,N/A,255,40,0
-3-Nov-17,Kentucky,Paducah (Lone Oak),1,0,1,211 N Concord Ave,255,40,0
-3-Nov-17,Maryland,Baltimore,1,0,1,1900 block of Hollins St,255,40,0
-3-Nov-17,Illinois,Chicago,1,0,1,1300 S Spaulding Ave,255,40,0
-3-Nov-17,Montana,Helena,0,0,0,10 block of S Ewing,255,40,0
-3-Nov-17,New York,Buffalo,1,1,0,140 Allen St,255,40,0
-3-Nov-17,Illinois,Chicago,1,0,1,S Wentworth Ave and W 63rd St,255,40,0
-3-Nov-17,Minnesota,Minneapolis,4,0,4,10th Ave S and E 24th St,255,40,0
-3-Nov-17,Pennsylvania,Uniontown,1,1,0,1 Pershing Ave,255,40,0
-3-Nov-17,Kentucky,Lexington,0,0,0,3751 Appian Way,255,40,0
-3-Nov-17,California,Suisun City,1,1,0,1200 block of Anderson Dr,255,40,0
-3-Nov-17,Missouri,Saint Elizabeth,0,0,0,W Main St and Hwy 179,255,40,0
-3-Nov-17,Michigan,Lansing,1,0,1,626 Marshall St,255,40,0
-3-Nov-17,New Jersey,Brick,0,0,0,Lake Shore Way,255,40,0
-3-Nov-17,California,Baldwin Park,1,1,0,3100 block of Frazier St,255,40,0
-3-Nov-17,California,Gardena,4,0,4,E 163rd St and S Main St,255,40,0
-3-Nov-17,Texas,Austin,1,0,1,Jonathan Dr and E Highland Mall Blvd,255,40,0
-3-Nov-17,Ohio,Columbus,1,0,1,1600 block of Walsh Ave,255,40,0
-3-Nov-17,Pennsylvania,Belle Vernon,0,0,0,117 Irons St,255,40,0
-3-Nov-17,Iowa,Mason City,0,0,0,500 block of N Madison Ave,255,40,0
-3-Nov-17,New York,Bronx,1,1,0,Bronx Blvd and E 224th St,255,40,0
-3-Nov-17,Kansas,Kansas City,1,1,0,234 N 78th St,255,40,0
-3-Nov-17,Michigan,Jackson,1,1,0,300 Block of Moorman Dr,255,40,0
-3-Nov-17,Missouri,Saint Louis,3,0,3,9800 Halls Ferry Rd,255,40,0
-3-Nov-17,Pennsylvania,Philadelphia,1,0,1,21st St and Passyunk Ave,255,40,0
-3-Nov-17,Pennsylvania,Chester,1,0,1,900 block of Lamokin St,255,40,0
-3-Nov-17,Georgia,Columbus,1,0,1,Farr Rd and Wandering Lane,255,40,0
-3-Nov-17,Massachusetts,Worcester,0,0,0,647 Chandler St,255,40,0
-3-Nov-17,Massachusetts,Worcester,0,0,0,7 Neponset St,255,40,0
-3-Nov-17,New Jersey,Morristown,0,0,0,Jersey Ave,255,40,0
-3-Nov-17,Georgia,Atlanta,0,0,0,Chamblee Tucker Rd,255,40,0
-3-Nov-17,Georgia,Atlanta,1,0,1,5600 N Henry Blvd,255,40,0
-3-Nov-17,North Carolina,Supply,0,0,0,Blackbeard Rd,255,40,0
-3-Nov-17,Tennessee,Camden,1,1,0,Jayson St,255,40,0
-3-Nov-17,Tennessee,Nashville,2,0,2,100 block of Haynes Park Ct,255,40,0
-3-Nov-17,California,Oakland,1,0,1,4200 block of MacArthur Blvd,255,40,0
-3-Nov-17,North Carolina,Reidsville,0,0,0,100 Block of Arlington St,255,40,0
-3-Nov-17,North Carolina,Harrisburg,0,0,0,N/A,255,40,0
-3-Nov-17,Louisiana,Kinder,1,1,0,6th Avenue,255,40,0
-3-Nov-17,Louisiana,Bossier City,0,0,0,1300 block of Hamilton Circle,255,40,0
-3-Nov-17,North Carolina,Charlotte,0,0,0,Cranbrook Ln,255,40,0
-3-Nov-17,Indiana,Fort Wayne,0,0,0,8215 N River Rd,255,40,0
-3-Nov-17,Louisiana,Baton Rouge,1,0,1,2100 Block of Capri Dr,255,40,0
-3-Nov-17,Virginia,Portsmouth,1,0,1,50 block of Swanson Pkwy,255,40,0
-3-Nov-17,Maryland,Baltimore,0,0,0,201 Key Hwy,255,40,0
-3-Nov-17,Georgia,Braselton,1,0,1,GA 211 and Friendship Rd,255,40,0
-3-Nov-17,Tennessee,Nashville,1,0,1,222 Thompson Ln,255,40,0
-3-Nov-17,Tennessee,Memphis,1,0,1,Hamilton St and Park Ave,255,40,0
-3-Nov-17,Arkansas,Cabot,0,0,0,Gun Club Road,255,40,0
-3-Nov-17,Mississippi,Hattiesburg,1,0,1,MS 42 Bypass,255,40,0
-3-Nov-17,New York,Buffalo,1,0,1,10 Wood Ave,255,40,0
-3-Nov-17,North Carolina,Charlotte,0,0,0,Arden St,255,40,0
-3-Nov-17,New York,Rochester,0,0,0,Clinton Ave and Rauber St,255,40,0
-3-Nov-17,New York,Rochester,0,0,0,100 block of 6th St,255,40,0
-3-Nov-17,New York,Buffalo,4,0,4,147 Roosevelt Ave,255,40,0
-3-Nov-17,South Carolina,York,1,1,0,700 Block of Will Jones Cir,255,40,0
-3-Nov-17,North Carolina,Charlotte,1,0,1,1300 Block of Waterlily Ln,255,40,0
-3-Nov-17,North Carolina,Salisbury,1,1,0,510 E Innes St,255,40,0
-3-Nov-17,California,San Bernardino,2,0,2,3500 block of 21st St,255,40,0
-3-Nov-17,New York,Buffalo,1,0,1,100 block of Walden Ave,255,40,0
-3-Nov-17,South Carolina,North Charleston,1,1,0,5500 Block of Betty Ct,255,40,0
-3-Nov-17,California,Ceres,1,1,0,3400 block of McGee Rd,255,40,0
-3-Nov-17,North Carolina,Supply,1,1,0,2800 Block of Paddlewheel Trail,255,40,0
-3-Nov-17,Alabama,Piedmont (Borden Springs),1,0,1,CR 49 and CR 92,255,40,0
-3-Nov-17,Alabama,Ohatchee,1,1,0,Boiling Springs Rd,255,40,0
-3-Nov-17,Kentucky,Manchester,0,0,0,415 Clay County High Rd,255,40,0
-3-Nov-17,Alabama,Birmingham,1,1,0,421 Oporto Madrid Blvd,255,40,0
-3-Nov-17,Alabama,Huntsville,1,0,1,Glacier St,255,40,0
-3-Nov-17,Kentucky,Keavy,1,0,1,Locust Grove Road,255,40,0
-3-Nov-17,Illinois,Chicago,1,0,1,7400 S Halsted St,255,40,0
-3-Nov-17,Florida,Vero Beach,0,0,0,4355 27th Ave,255,40,0
-3-Nov-17,Illinois,Chicago,1,0,1,6200 S Union Ave,255,40,0
-3-Nov-17,Illinois,Chicago,1,0,1,5400 W Madison St,255,40,0
-3-Nov-17,Florida,West Palm Beach,1,0,1,Division Ave and 6th St,255,40,0
-3-Nov-17,Maryland,Essex,0,0,0,1500 block of Williams Ave,255,40,0
-3-Nov-17,Maryland,Hagerstown,1,0,1,901 Dual Hwy,255,40,0
-3-Nov-17,Mississippi,Macon,1,1,0,Jefferson Street,255,40,0
-3-Nov-17,Mississippi,Laurel,1,1,0,Holly Dr,255,40,0
-3-Nov-17,New Jersey,Sicklerville,0,0,0,100 block of Vanderbilt Ct,255,40,0
-3-Nov-17,Delaware,Newark,0,0,0,N/A,255,40,0
-3-Nov-17,Florida,Jacksonville,2,1,1,1300 Block of 6th St,255,40,0
-3-Nov-17,Florida,Miami,1,0,1,NW 49th St and 19th Ave,255,40,0
-3-Nov-17,Florida,Orlando,1,0,1,2001 Rivertree Cir,255,40,0
-3-Nov-17,Maryland,Baltimore,0,0,0,2300 block of E Monument St,255,40,0
-3-Nov-17,Florida,Port Orange,1,1,0,4801 S Clyde Morris Blvd,255,40,0
-3-Nov-17,Florida,Tallahassee,1,1,0,1112 S Magnolia Dr,255,40,0
-3-Nov-17,District of Columbia,Washington,3,0,3,43 K Street NW,255,40,0
-3-Nov-17,Missouri,Kansas City,1,1,0,6th and Cleveland,255,40,0
-3-Nov-17,Missouri,Kansas City,1,1,0,N 78th St and I-70,255,40,0
-3-Nov-17,New York,New York (Manhattan),1,1,0,Ave D and E 8th St,255,40,0
-3-Nov-17,Maryland,Montgomery County (county),0,0,0,I-270 near Shady Grove Rd,255,40,0
-3-Nov-17,New York,Big Flats,1,1,0,Reasor Hollow Rd,255,40,0
-3-Nov-17,Texas,Dallas,1,1,0,10100 block of Juan Dr,255,40,0
-3-Nov-17,Nebraska,Omaha,0,0,0,N 28th St and Reynolds St,255,40,0
-3-Nov-17,Texas,Houston,1,0,1,Nagle St and Alabama St S,255,40,0
-3-Nov-17,Texas,Lufkin,1,1,0,1401 Kurth Dr,255,40,0
-3-Nov-17,Utah,Layton,1,1,0,I-15 and Layton Pkwy,255,40,0
-3-Nov-17,Louisiana,Lacombe,5,1,4,27600 block of Mirmar Street,255,40,0
-3-Nov-17,Nevada,Henderson,0,0,0,200 block of Bismark Way,255,40,0
-3-Nov-17,Louisiana,Kinder,1,1,0,13918 US-165,255,40,0
-3-Nov-17,Massachusetts,Leominster,0,0,0,N/A,255,40,0
-3-Nov-17,Massachusetts,Boston,0,0,0,Ruthven St,255,40,0
-3-Nov-17,Arizona,Phoenix,1,1,0,Indian School Rd and 15th Ave,255,40,0
-3-Nov-17,Texas,Austin,1,0,1,6000 block of Airport Blvd,255,40,0
-3-Nov-17,Kansas,Lawrence,0,0,0,N/A,255,40,0
-2-Nov-17,Michigan,Inkster,1,1,0,Colgate and Wellington,255,40,0
-2-Nov-17,Ohio,Toledo,0,0,0,500 block of Columbus St,255,40,0
-2-Nov-17,Illinois,Chicago,1,0,1,1400 block of E 69th Pl,255,40,0
-2-Nov-17,Ohio,Dayton (Huber Heights),1,0,1,8250 Schoolgate Dr,255,40,0
-2-Nov-17,Illinois,Moline,0,0,0,10 block of Vale Ct,255,40,0
-2-Nov-17,Ohio,West Portsmouth,0,0,0,2884 Careys Run Pond Creek Rd,255,40,0
-2-Nov-17,Connecticut,Wethersfield,0,0,0,Middletown Ave,255,40,0
-2-Nov-17,Connecticut,Wethersfield,1,1,0,Alison Ln,255,40,0
-2-Nov-17,Illinois,Peoria,0,0,0,3400 W Oakcrest Dr,255,40,0
-2-Nov-17,Michigan,Lansing,1,0,1,Irving Ave,255,40,0
-2-Nov-17,Wisconsin,Milwaukee,1,0,1,4600 Block of W Capitol Dr,255,40,0
-2-Nov-17,Oregon,Madras,1,0,1,SW L St and S Adams Dr,255,40,0
-2-Nov-17,Kentucky,Radcliff,2,1,1,672 Knox Blvd,255,40,0
-2-Nov-17,Texas,Mabank,2,2,0,239 Forest Lane Dr,255,40,0
-2-Nov-17,Nevada,Henderson,1,0,1,900 block of Seven Hills Dr,255,40,0
-2-Nov-17,Kentucky,Lexington,0,0,0,Village Dr,255,40,0
-2-Nov-17,Pennsylvania,Milford,2,1,1,Milford Rd,255,40,0
-2-Nov-17,Missouri,Saint Louis,3,0,3,2005 N Florissant Ave,255,40,0
-2-Nov-17,Arizona,Tucson,1,0,1,N/A,255,40,0
-2-Nov-17,Missouri,Ashland,2,2,0,500 Block of Nickman Road,255,40,0
-2-Nov-17,Pennsylvania,Pittsburgh,1,0,1,NA,255,40,0
-2-Nov-17,Florida,Fort Lauderdale (Lauderhill),1,1,0,1700 block of NW 58th,255,40,0
-2-Nov-17,Virginia,Danville,1,1,0,3500 W Main St,255,40,0
-2-Nov-17,Michigan,Battle Creek,0,0,0,Gardinia St,255,40,0
-2-Nov-17,New Hampshire,Conway,2,0,2,57 Washington St,255,40,0
-2-Nov-17,Pennsylvania,Philadelphia,2,2,0,3500 block of Amber St,255,40,0
-2-Nov-17,Oregon,Sweet Home,0,0,0,2225 Long St,255,40,0
-2-Nov-17,Indiana,Evansville,2,0,2,Monroe Ave and S Evans Ave,255,40,0
-2-Nov-17,North Carolina,Charlotte,1,0,1,1900 block of Anderson Street,255,40,0
-2-Nov-17,North Carolina,Charlotte,0,0,0,3100 block of Monroe Road,255,40,0
-2-Nov-17,New York,Corning,0,0,0,W William St and Park Ln,255,40,0
-2-Nov-17,Oregon,Hillsboro,0,0,0,N/A,255,40,0
-2-Nov-17,Georgia,Savannah,1,0,1,Haven Drive,255,40,0
-2-Nov-17,Georgia,Savannah,2,1,1,11709 Largo Drive,255,40,0
-2-Nov-17,Maryland,Randallstown,0,0,0,4000 Offutt Rd,255,40,0
-2-Nov-17,Oklahoma,Tulsa,1,1,0,1200 block of S Winston Ave,255,40,0
-2-Nov-17,California,Bakersfield,0,0,0,2900 block of Daken St,255,40,0
-2-Nov-17,Massachusetts,Worcester,0,0,0,91 Murray Ave,255,40,0
-2-Nov-17,New Jersey,Trenton,1,0,1,800 block of E State St,255,40,0
-2-Nov-17,Illinois,Freeport,0,0,0,1100 S Galena Ave,255,40,0
-2-Nov-17,Illinois,Waukegan,2,0,2,1400 block of Dugdale Rd,255,40,0
-2-Nov-17,Tennessee,Memphis,0,0,0,2856 Hickory Hill Rd,255,40,0
-2-Nov-17,New Jersey,Paterson,0,0,0,Rosa Parks Blvd and Hamilton Ave,255,40,0
-2-Nov-17,Tennessee,Humboldt,0,0,0,Burrow St,255,40,0
-2-Nov-17,New Jersey,Swedesboro (Woolwich Township),0,0,0,US 322 and NJ Tnpke,255,40,0
-2-Nov-17,Louisiana,New Orleans,1,0,1,4900 block of Ray Avenue,,,
-2-Nov-17,Louisiana,Port Allen,1,1,0,Burbridge Street,,,
-2-Nov-17,Louisiana,New Orleans,0,0,0,Spain Street,,,
-2-Nov-17,Arkansas,Genoa,1,1,0,Genoa Road,,,
-2-Nov-17,New Jersey,Bayville,0,0,0,41 Frederick Dr,,,
-2-Nov-17,California,North Highlands,1,1,0,5300 block of President Ave,,,
-2-Nov-17,Maryland,Baltimore,1,1,0,200 block of S Collins Ave,,,
-2-Nov-17,Indiana,Fort Wayne,0,0,0,2522 Wells St,,,
-2-Nov-17,Louisiana,Lafayette,0,0,0,Louisiana Ave and Carmel Dr,,,
-2-Nov-17,Louisiana,Arnaudville,1,1,0,1000 block of Kennedy Drive,,,
-2-Nov-17,Maryland,Baltimore,1,1,0,700 block of Mura St,,,
-2-Nov-17,Maryland,Baltimore,1,1,0,5400 block of Moores Run Dr,,,
-2-Nov-17,Indiana,Owen (county),1,1,0,N/A,,,
+month,state,city,killinj,# Injured,Address,r,g,b
+5-Nov-17,California,Oakland,1,1,1700 block of 78th Ave,255,40,0
+5-Nov-17,North Carolina,Hubert,0,0,221 Riggs Rd,255,40,0
+5-Nov-17,North Carolina,Durham,0,0,E Main St and S Elm St,255,40,0
+5-Nov-17,Alabama,Tuscaloosa,0,1,1400 block of 6th Street,255,40,0
+5-Nov-17,Arkansas,North Little Rock,1,0,Henderson Road and East Valentine Road,255,40,0
+5-Nov-17,Texas,Sutherland Springs,27,30,216 4th St,255,40,0
+5-Nov-17,South Carolina,Laurens,1,0,100 Block of Colonial Acres Rd,255,40,0
+5-Nov-17,South Carolina,Walterboro,1,2,2444 Robertson Blvd,255,40,0
+5-Nov-17,Louisiana,Baton Rouge,1,0,1900 block of Bradfield Avenue,255,40,0
+5-Nov-17,Florida,Naples,1,0,1100 Block of 6th Ave N,255,40,0
+5-Nov-17,Indiana,New Albany,1,0,2750 Charlestown Rd,255,40,0
+5-Nov-17,Indiana,Indianapolis,0,1,4000 Brentwood Dr,255,40,0
+5-Nov-17,Mississippi,Meridian,1,1,Poplar Springs Drive,255,40,0
+5-Nov-17,Florida,Lake Worth,1,0,400 Block of S F St,255,40,0
+5-Nov-17,Florida,Jacksonville,0,1,St Nicholas Ave,255,40,0
+5-Nov-17,Indiana,Franklin,0,1,1500 block of Younce St,255,40,0
+5-Nov-17,Florida,Tampa,0,0,E Giddens Ave,255,40,0
+5-Nov-17,Illinois,Chicago,0,0,6700 S East End Ave,255,40,0
+5-Nov-17,Illinois,Chicago,1,0,10500 S Green St,255,40,0
+5-Nov-17,Illinois,Chicago,0,1,500 E 38th St,255,40,0
+5-Nov-17,Kansas,Kansas City,1,0,2600 block of N 21st St,255,40,0
+5-Nov-17,Kansas,Overland Park,0,0,9600 block of Outlook Dr,255,40,0
+5-Nov-17,Texas,Dallas,1,0,8411 La Prada Dr E,255,40,0
+5-Nov-17,Illinois,Rockford,0,0,E State St and Dawn Ave,255,40,0
+5-Nov-17,Texas,Dallas,0,1,7400 block of Piedmont Dr,255,40,0
+5-Nov-17,Connecticut,Bridgeport,0,1,1300 block of Sylvan Ave,255,40,0
+4-Nov-17,Connecticut,Norwalk,0,1,64 Wall St,255,40,0
+4-Nov-17,New York,Brooklyn,1,0,254 Wortman Ave,255,40,0
+4-Nov-17,Tennessee,Nashville,0,0,1027 12th Ave N,255,40,0
+4-Nov-17,Minnesota,Redwood (county),0,1,N/A,255,40,0
+4-Nov-17,Michigan,Cedar Springs,0,0,4175 17 Mile Rd NE,255,40,0
+4-Nov-17,Michigan,Saginaw,1,0,422 McGregor St,255,40,0
+4-Nov-17,Alabama,Birmingham,1,0,400 block of Oporto Madrid boulevard,255,40,0
+4-Nov-17,Minnesota,Minneapolis,0,2,Jackson and Harrison,255,40,0
+4-Nov-17,California,Fresno,0,0,1401 N Clovis Ave,255,40,0
+4-Nov-17,New York,Corona (Queens),1,0,146th Terr,255,40,0
+4-Nov-17,Montana,Billings,1,0,2618 King Ave W,255,40,0
+4-Nov-17,New Jersey,Atlantic City,0,0,1 block of S South Carolina Ave,255,40,0
+4-Nov-17,Texas,Austin,0,4,N Lamar Blvd and Masterson Pass,255,40,0
+4-Nov-17,Missouri,Columbia,0,1,500 block of Hickman,255,40,0
+4-Nov-17,California,Azusa,0,0,Citrus Ave and Alosta Ave,255,40,0
+4-Nov-17,New York,Rochester,0,1,161 Berlin St,255,40,0
+4-Nov-17,New York,Stony Creek,0,0,N/A,255,40,0
+4-Nov-17,Ohio,Youngstown,0,1,300 block of W Chalmers,255,40,0
+4-Nov-17,Ohio,Youngstown,0,4,2810 Market St,255,40,0
+4-Nov-17,California,Santa Monica,1,4,1515 Ocean Avenue,255,40,0
+4-Nov-17,California,Bakersfield,1,3,1001 S Union Ave,255,40,0
+4-Nov-17,Indiana,Evansville,0,1,900 block of Columbia St,255,40,0
+4-Nov-17,Louisiana,New Orleans,0,1,8800 block of Apricot Street,255,40,0
+4-Nov-17,Louisiana,Marrero,0,1,6500 Block of Lapalco Blvd,255,40,0
+4-Nov-17,Indiana,Anderson,0,1,900 block of Walnut St,255,40,0
+4-Nov-17,Indiana,Indianapolis,1,0,3500 N Mission Dr,255,40,0
+4-Nov-17,South Carolina,Aiken,0,1,Richardsons Lake Rd,255,40,0
+4-Nov-17,Virginia,Portsmouth,0,1,2200 block of Columbus Ave,255,40,0
+4-Nov-17,Virginia,Portsmouth,0,1,1100 block of Virginia Ave,255,40,0
+4-Nov-17,North Carolina,Greenville,0,1,100 Block of Ridge Pl,255,40,0
+4-Nov-17,Tennessee,Memphis,1,0,N Highland Rd and James Rd,255,40,0
+4-Nov-17,North Carolina,Lexington,1,0,Bruce St,255,40,0
+4-Nov-17,Illinois,Chicago,0,1,1200 West 89th St,255,40,0
+4-Nov-17,Mississippi,Jackson,1,0,3200 block of Woodview,255,40,0
+4-Nov-17,Mississippi,Columbus,1,1,120 22nd St S,255,40,0
+4-Nov-17,North Carolina,Charlotte,0,1,6000 Block of Dove Tree Ln,255,40,0
+4-Nov-17,North Carolina,Greenville,0,1,Green St and Howell St,255,40,0
+4-Nov-17,North Carolina,Claremont,1,0,4000 Block of Old Catawba Rd,255,40,0
+4-Nov-17,California,Bakersfield,1,0,1800 block of Planz Rd,255,40,0
+4-Nov-17,North Carolina,Charlotte,0,1,2200 Block of Jennings St,255,40,0
+4-Nov-17,California,Kings Beach,2,0,8489 Trout Ave,255,40,0
+4-Nov-17,Illinois,Chicago,0,2,2200 S Oakley Ave,255,40,0
+4-Nov-17,California,Norwalk,0,2,10602 Imperial Hwy,255,40,0
+4-Nov-17,California,Bakersfield,0,0,300 block of S Union Ave,255,40,0
+4-Nov-17,South Carolina,Mc Clellanville (Mcclellanville),0,1,2000 Block of Hill Rd,255,40,0
+4-Nov-17,Illinois,Chicago,0,1,1300 S Troy St,255,40,0
+4-Nov-17,Illinois,Chicago,0,2,11600 S Racine Ave,255,40,0
+4-Nov-17,Alabama,Mobile,0,0,N/A,255,40,0
+4-Nov-17,Illinois,Chicago,1,0,3900 W 47th St,255,40,0
+4-Nov-17,Kentucky,Louisville,0,0,9901 La Grange Rd,255,40,0
+4-Nov-17,Alabama,Birmingham,1,0,1400 block of 90th Pl N,255,40,0
+4-Nov-17,Illinois,Chicago,0,1,7400 S Colfax Ave,255,40,0
+4-Nov-17,Maryland,Baltimore,0,1,4200 block of E Monument St,255,40,0
+4-Nov-17,Louisiana,Kenner,1,0,Compromise Street and 6th Street,255,40,0
+4-Nov-17,Florida,West Palm Beach,0,1,900 Block of Abraham Ave,255,40,0
+4-Nov-17,Florida,Jacksonville,0,1,678 A Philip Randolph Blvd,255,40,0
+4-Nov-17,Florida,Jacksonville,0,2,2800 Sophia St,255,40,0
+4-Nov-17,Maryland,Baltimore,1,1,2800 block of Elgin Ave,255,40,0
+4-Nov-17,Virginia,Norfolk,1,2,I-264,255,40,0
+4-Nov-17,Florida,Defuniak Springs,0,0,Quebec Ave,255,40,0
+4-Nov-17,Florida,Orlando,1,1,2652 N Orange Blossom Trail,255,40,0
+4-Nov-17,Indiana,Lafayette,0,0,30 Concho Ct,255,40,0
+4-Nov-17,Missouri,Saint Louis,1,0,7900 block of Church Rd,255,40,0
+4-Nov-17,Missouri,Saint Louis,1,0,Martin Luther King Dr and Billups Ave,255,40,0
+4-Nov-17,New York,Ithaca,0,0,100 block of N Plain St,255,40,0
+4-Nov-17,Illinois,Chicago,1,1,100 block of E 117th Pl,255,40,0
+4-Nov-17,Illinois,Chicago,0,2,5600 S Emerald Ave,255,40,0
+4-Nov-17,New York,Buffalo,0,1,100 block of Berwyn Ave,255,40,0
+4-Nov-17,New York,Buffalo,0,1,N/A,255,40,0
+4-Nov-17,Illinois,Chicago,0,1,1300 S Homan Ave,255,40,0
+4-Nov-17,Illinois,Chicago,0,1,5900 S Campbell Ave,255,40,0
+4-Nov-17,New York,Auburn,0,0,19 Dill St,255,40,0
+4-Nov-17,Illinois,Chicago,0,1,7900 S Kolin Ave,255,40,0
+4-Nov-17,Illinois,Rockford,0,0,800 Blinn Ct,255,40,0
+4-Nov-17,Texas,San Antonio,1,0,New Laredo Hwy and Briggs Ave,255,40,0
+4-Nov-17,Illinois,Rockford,0,0,200 Oakwood Ave,255,40,0
+4-Nov-17,Ohio,Cincinnati,0,1,Kings Run Dr and Este Ave,255,40,0
+4-Nov-17,Ohio,Millbury,0,0,28200 block of Bradner Rd,255,40,0
+4-Nov-17,Texas,Lubbock,0,1,2915 Amherst St,255,40,0
+4-Nov-17,Connecticut,Bridgeport,0,0,Stratford Ave and Carroll Ave,255,40,0
+4-Nov-17,Massachusetts,Methuen,0,0,Weybossett St and Clifton Rd,255,40,0
+4-Nov-17,Texas,Amarillo,0,0,200 block of N Monroe St,255,40,0
+4-Nov-17,Texas,Waco,0,2,700 block of Frost Ave,255,40,0
+4-Nov-17,New Hampshire,Exeter (Brentwood),1,0,Pine Rd,255,40,0
+4-Nov-17,Texas,Waco,0,0,3001 Wenz Ave,255,40,0
+4-Nov-17,Colorado,Parker,0,1,10841 Twenty Mile Rd,255,40,0
+4-Nov-17,Arkansas,Clarksville,1,0,Taylor Street & Cline Road,255,40,0
+4-Nov-17,Tennessee,Memphis,0,1,Peabody Avenue and McLean Street,255,40,0
+4-Nov-17,Ohio,Cincinnati,0,1,1900 block of Knob Court,255,40,0
+4-Nov-17,Nevada,Las Vegas,1,0,S Torrey Pines Dr and Linda Ln,255,40,0
+4-Nov-17,Louisiana,New Orleans,1,0,4900 block of LaFaye Street,255,40,0
+4-Nov-17,Colorado,Colorado Springs,0,1,32 S Tejon St,255,40,0
+4-Nov-17,Pennsylvania,Philadelphia,0,1,1500 block of S Etting St,255,40,0
+4-Nov-17,Arizona,Phoenix,1,0,28th Ave and Cactus Rd,255,40,0
+4-Nov-17,Massachusetts,Lowell,0,1,John St and Lee St,255,40,0
+4-Nov-17,Massachusetts,Boston,0,0,33 Kingsdale St,255,40,0
+4-Nov-17,Massachusetts,Brockton,0,0,82 Lowell St,255,40,0
+3-Nov-17,Virginia,Newport News,1,0,Skiffes Creek Cir,255,40,0
+3-Nov-17,Texas,San Antonio,1,0,Barclay St and Colima St,255,40,0
+3-Nov-17,New Jersey,Somers Point,0,0,50 Somers Points Mays Landings Rd,255,40,0
+3-Nov-17,Colorado,Colorado Springs,0,1,4165 Lacy Ln,255,40,0
+3-Nov-17,Massachusetts,Plymouth,0,0,710 State Rd,255,40,0
+3-Nov-17,Kansas,Topeka,0,1,SE 4th St and SE Lime St,255,40,0
+3-Nov-17,Washington,Auburn,1,0,37600 block of 44th Ave S,255,40,0
+3-Nov-17,New Mexico,Rio Rancho,1,0,1704 NM Hwy 528 NW,255,40,0
+3-Nov-17,New York,Utica,0,0,Elm St,255,40,0
+3-Nov-17,Florida,Mayo,0,1,1368 SE CR 420,255,40,0
+3-Nov-17,Arkansas,Batesville,1,1,Neeley Street,255,40,0
+3-Nov-17,Michigan,Lansing,0,1,100 block of Mason Street,255,40,0
+3-Nov-17,Florida,Jacksonville,0,1,13000 block of Blue Eagle Way,255,40,0
+3-Nov-17,Michigan,Mattawan,0,1,Main St and W McGillen Ave,255,40,0
+3-Nov-17,Oregon,Jackson (county),0,0,N/A,255,40,0
+3-Nov-17,Kentucky,Paducah (Lone Oak),0,1,211 N Concord Ave,255,40,0
+3-Nov-17,Maryland,Baltimore,0,1,1900 block of Hollins St,255,40,0
+3-Nov-17,Illinois,Chicago,0,1,1300 S Spaulding Ave,255,40,0
+3-Nov-17,Montana,Helena,0,0,10 block of S Ewing,255,40,0
+3-Nov-17,New York,Buffalo,1,0,140 Allen St,255,40,0
+3-Nov-17,Illinois,Chicago,0,1,S Wentworth Ave and W 63rd St,255,40,0
+3-Nov-17,Minnesota,Minneapolis,0,4,10th Ave S and E 24th St,255,40,0
+3-Nov-17,Pennsylvania,Uniontown,1,0,1 Pershing Ave,255,40,0
+3-Nov-17,Kentucky,Lexington,0,0,3751 Appian Way,255,40,0
+3-Nov-17,California,Suisun City,1,0,1200 block of Anderson Dr,255,40,0
+3-Nov-17,Missouri,Saint Elizabeth,0,0,W Main St and Hwy 179,255,40,0
+3-Nov-17,Michigan,Lansing,0,1,626 Marshall St,255,40,0
+3-Nov-17,New Jersey,Brick,0,0,Lake Shore Way,255,40,0
+3-Nov-17,California,Baldwin Park,1,0,3100 block of Frazier St,255,40,0
+3-Nov-17,California,Gardena,0,4,E 163rd St and S Main St,255,40,0
+3-Nov-17,Texas,Austin,0,1,Jonathan Dr and E Highland Mall Blvd,255,40,0
+3-Nov-17,Ohio,Columbus,0,1,1600 block of Walsh Ave,255,40,0
+3-Nov-17,Pennsylvania,Belle Vernon,0,0,117 Irons St,255,40,0
+3-Nov-17,Iowa,Mason City,0,0,500 block of N Madison Ave,255,40,0
+3-Nov-17,New York,Bronx,1,0,Bronx Blvd and E 224th St,255,40,0
+3-Nov-17,Kansas,Kansas City,1,0,234 N 78th St,255,40,0
+3-Nov-17,Michigan,Jackson,1,0,300 Block of Moorman Dr,255,40,0
+3-Nov-17,Missouri,Saint Louis,0,3,9800 Halls Ferry Rd,255,40,0
+3-Nov-17,Pennsylvania,Philadelphia,0,1,21st St and Passyunk Ave,255,40,0
+3-Nov-17,Pennsylvania,Chester,0,1,900 block of Lamokin St,255,40,0
+3-Nov-17,Georgia,Columbus,0,1,Farr Rd and Wandering Lane,255,40,0
+3-Nov-17,Massachusetts,Worcester,0,0,647 Chandler St,255,40,0
+3-Nov-17,Massachusetts,Worcester,0,0,7 Neponset St,255,40,0
+3-Nov-17,New Jersey,Morristown,0,0,Jersey Ave,255,40,0
+3-Nov-17,Georgia,Atlanta,0,0,Chamblee Tucker Rd,255,40,0
+3-Nov-17,Georgia,Atlanta,0,1,5600 N Henry Blvd,255,40,0
+3-Nov-17,North Carolina,Supply,0,0,Blackbeard Rd,255,40,0
+3-Nov-17,Tennessee,Camden,1,0,Jayson St,255,40,0
+3-Nov-17,Tennessee,Nashville,0,2,100 block of Haynes Park Ct,255,40,0
+3-Nov-17,California,Oakland,0,1,4200 block of MacArthur Blvd,255,40,0
+3-Nov-17,North Carolina,Reidsville,0,0,100 Block of Arlington St,255,40,0
+3-Nov-17,North Carolina,Harrisburg,0,0,N/A,255,40,0
+3-Nov-17,Louisiana,Kinder,1,0,6th Avenue,255,40,0
+3-Nov-17,Louisiana,Bossier City,0,0,1300 block of Hamilton Circle,255,40,0
+3-Nov-17,North Carolina,Charlotte,0,0,Cranbrook Ln,255,40,0
+3-Nov-17,Indiana,Fort Wayne,0,0,8215 N River Rd,255,40,0
+3-Nov-17,Louisiana,Baton Rouge,0,1,2100 Block of Capri Dr,255,40,0
+3-Nov-17,Virginia,Portsmouth,0,1,50 block of Swanson Pkwy,255,40,0
+3-Nov-17,Maryland,Baltimore,0,0,201 Key Hwy,255,40,0
+3-Nov-17,Georgia,Braselton,0,1,GA 211 and Friendship Rd,255,40,0
+3-Nov-17,Tennessee,Nashville,0,1,222 Thompson Ln,255,40,0
+3-Nov-17,Tennessee,Memphis,0,1,Hamilton St and Park Ave,255,40,0
+3-Nov-17,Arkansas,Cabot,0,0,Gun Club Road,255,40,0
+3-Nov-17,Mississippi,Hattiesburg,0,1,MS 42 Bypass,255,40,0
+3-Nov-17,New York,Buffalo,0,1,10 Wood Ave,255,40,0
+3-Nov-17,North Carolina,Charlotte,0,0,Arden St,255,40,0
+3-Nov-17,New York,Rochester,0,0,Clinton Ave and Rauber St,255,40,0
+3-Nov-17,New York,Rochester,0,0,100 block of 6th St,255,40,0
+3-Nov-17,New York,Buffalo,0,4,147 Roosevelt Ave,255,40,0
+3-Nov-17,South Carolina,York,1,0,700 Block of Will Jones Cir,255,40,0
+3-Nov-17,North Carolina,Charlotte,0,1,1300 Block of Waterlily Ln,255,40,0
+3-Nov-17,North Carolina,Salisbury,1,0,510 E Innes St,255,40,0
+3-Nov-17,California,San Bernardino,0,2,3500 block of 21st St,255,40,0
+3-Nov-17,New York,Buffalo,0,1,100 block of Walden Ave,255,40,0
+3-Nov-17,South Carolina,North Charleston,1,0,5500 Block of Betty Ct,255,40,0
+3-Nov-17,California,Ceres,1,0,3400 block of McGee Rd,255,40,0
+3-Nov-17,North Carolina,Supply,1,0,2800 Block of Paddlewheel Trail,255,40,0
+3-Nov-17,Alabama,Piedmont (Borden Springs),0,1,CR 49 and CR 92,255,40,0
+3-Nov-17,Alabama,Ohatchee,1,0,Boiling Springs Rd,255,40,0
+3-Nov-17,Kentucky,Manchester,0,0,415 Clay County High Rd,255,40,0
+3-Nov-17,Alabama,Birmingham,1,0,421 Oporto Madrid Blvd,255,40,0
+3-Nov-17,Alabama,Huntsville,0,1,Glacier St,255,40,0
+3-Nov-17,Kentucky,Keavy,0,1,Locust Grove Road,255,40,0
+3-Nov-17,Illinois,Chicago,0,1,7400 S Halsted St,255,40,0
+3-Nov-17,Florida,Vero Beach,0,0,4355 27th Ave,255,40,0
+3-Nov-17,Illinois,Chicago,0,1,6200 S Union Ave,255,40,0
+3-Nov-17,Illinois,Chicago,0,1,5400 W Madison St,255,40,0
+3-Nov-17,Florida,West Palm Beach,0,1,Division Ave and 6th St,255,40,0
+3-Nov-17,Maryland,Essex,0,0,1500 block of Williams Ave,255,40,0
+3-Nov-17,Maryland,Hagerstown,0,1,901 Dual Hwy,255,40,0
+3-Nov-17,Mississippi,Macon,1,0,Jefferson Street,255,40,0
+3-Nov-17,Mississippi,Laurel,1,0,Holly Dr,255,40,0
+3-Nov-17,New Jersey,Sicklerville,0,0,100 block of Vanderbilt Ct,255,40,0
+3-Nov-17,Delaware,Newark,0,0,N/A,255,40,0
+3-Nov-17,Florida,Jacksonville,1,1,1300 Block of 6th St,255,40,0
+3-Nov-17,Florida,Miami,0,1,NW 49th St and 19th Ave,255,40,0
+3-Nov-17,Florida,Orlando,0,1,2001 Rivertree Cir,255,40,0
+3-Nov-17,Maryland,Baltimore,0,0,2300 block of E Monument St,255,40,0
+3-Nov-17,Florida,Port Orange,1,0,4801 S Clyde Morris Blvd,255,40,0
+3-Nov-17,Florida,Tallahassee,1,0,1112 S Magnolia Dr,255,40,0
+3-Nov-17,District of Columbia,Washington,0,3,43 K Street NW,255,40,0
+3-Nov-17,Missouri,Kansas City,1,0,6th and Cleveland,255,40,0
+3-Nov-17,Missouri,Kansas City,1,0,N 78th St and I-70,255,40,0
+3-Nov-17,New York,New York (Manhattan),1,0,Ave D and E 8th St,255,40,0
+3-Nov-17,Maryland,Montgomery County (county),0,0,I-270 near Shady Grove Rd,255,40,0
+3-Nov-17,New York,Big Flats,1,0,Reasor Hollow Rd,255,40,0
+3-Nov-17,Texas,Dallas,1,0,10100 block of Juan Dr,255,40,0
+3-Nov-17,Nebraska,Omaha,0,0,N 28th St and Reynolds St,255,40,0
+3-Nov-17,Texas,Houston,0,1,Nagle St and Alabama St S,255,40,0
+3-Nov-17,Texas,Lufkin,1,0,1401 Kurth Dr,255,40,0
+3-Nov-17,Utah,Layton,1,0,I-15 and Layton Pkwy,255,40,0
+3-Nov-17,Louisiana,Lacombe,1,4,27600 block of Mirmar Street,255,40,0
+3-Nov-17,Nevada,Henderson,0,0,200 block of Bismark Way,255,40,0
+3-Nov-17,Louisiana,Kinder,1,0,13918 US-165,255,40,0
+3-Nov-17,Massachusetts,Leominster,0,0,N/A,255,40,0
+3-Nov-17,Massachusetts,Boston,0,0,Ruthven St,255,40,0
+3-Nov-17,Arizona,Phoenix,1,0,Indian School Rd and 15th Ave,255,40,0
+3-Nov-17,Texas,Austin,0,1,6000 block of Airport Blvd,255,40,0
+3-Nov-17,Kansas,Lawrence,0,0,N/A,255,40,0
+2-Nov-17,Michigan,Inkster,1,0,Colgate and Wellington,255,40,0
+2-Nov-17,Ohio,Toledo,0,0,500 block of Columbus St,255,40,0
+2-Nov-17,Illinois,Chicago,0,1,1400 block of E 69th Pl,255,40,0
+2-Nov-17,Ohio,Dayton (Huber Heights),0,1,8250 Schoolgate Dr,255,40,0
+2-Nov-17,Illinois,Moline,0,0,10 block of Vale Ct,255,40,0
+2-Nov-17,Ohio,West Portsmouth,0,0,2884 Careys Run Pond Creek Rd,255,40,0
+2-Nov-17,Connecticut,Wethersfield,0,0,Middletown Ave,255,40,0
+2-Nov-17,Connecticut,Wethersfield,1,0,Alison Ln,255,40,0
+2-Nov-17,Illinois,Peoria,0,0,3400 W Oakcrest Dr,255,40,0
+2-Nov-17,Michigan,Lansing,0,1,Irving Ave,255,40,0
+2-Nov-17,Wisconsin,Milwaukee,0,1,4600 Block of W Capitol Dr,255,40,0
+2-Nov-17,Oregon,Madras,0,1,SW L St and S Adams Dr,255,40,0
+2-Nov-17,Kentucky,Radcliff,1,1,672 Knox Blvd,255,40,0
+2-Nov-17,Texas,Mabank,2,0,239 Forest Lane Dr,255,40,0
+2-Nov-17,Nevada,Henderson,0,1,900 block of Seven Hills Dr,255,40,0
+2-Nov-17,Kentucky,Lexington,0,0,Village Dr,255,40,0
+2-Nov-17,Pennsylvania,Milford,1,1,Milford Rd,255,40,0
+2-Nov-17,Missouri,Saint Louis,0,3,2005 N Florissant Ave,255,40,0
+2-Nov-17,Arizona,Tucson,0,1,N/A,255,40,0
+2-Nov-17,Missouri,Ashland,2,0,500 Block of Nickman Road,255,40,0
+2-Nov-17,Pennsylvania,Pittsburgh,0,1,NA,255,40,0
+2-Nov-17,Florida,Fort Lauderdale (Lauderhill),1,0,1700 block of NW 58th,255,40,0
+2-Nov-17,Virginia,Danville,1,0,3500 W Main St,255,40,0
+2-Nov-17,Michigan,Battle Creek,0,0,Gardinia St,255,40,0
+2-Nov-17,New Hampshire,Conway,0,2,57 Washington St,255,40,0
+2-Nov-17,Pennsylvania,Philadelphia,2,0,3500 block of Amber St,255,40,0
+2-Nov-17,Oregon,Sweet Home,0,0,2225 Long St,255,40,0
+2-Nov-17,Indiana,Evansville,0,2,Monroe Ave and S Evans Ave,255,40,0
+2-Nov-17,North Carolina,Charlotte,0,1,1900 block of Anderson Street,255,40,0
+2-Nov-17,North Carolina,Charlotte,0,0,3100 block of Monroe Road,255,40,0
+2-Nov-17,New York,Corning,0,0,W William St and Park Ln,255,40,0
+2-Nov-17,Oregon,Hillsboro,0,0,N/A,255,40,0
+2-Nov-17,Georgia,Savannah,0,1,Haven Drive,255,40,0
+2-Nov-17,Georgia,Savannah,1,1,11709 Largo Drive,255,40,0
+2-Nov-17,Maryland,Randallstown,0,0,4000 Offutt Rd,255,40,0
+2-Nov-17,Oklahoma,Tulsa,1,0,1200 block of S Winston Ave,255,40,0
+2-Nov-17,California,Bakersfield,0,0,2900 block of Daken St,255,40,0
+2-Nov-17,Massachusetts,Worcester,0,0,91 Murray Ave,255,40,0
+2-Nov-17,New Jersey,Trenton,0,1,800 block of E State St,255,40,0
+2-Nov-17,Illinois,Freeport,0,0,1100 S Galena Ave,255,40,0
+2-Nov-17,Illinois,Waukegan,0,2,1400 block of Dugdale Rd,255,40,0
+2-Nov-17,Tennessee,Memphis,0,0,2856 Hickory Hill Rd,255,40,0
+2-Nov-17,New Jersey,Paterson,0,0,Rosa Parks Blvd and Hamilton Ave,255,40,0
+2-Nov-17,Tennessee,Humboldt,0,0,Burrow St,255,40,0
+2-Nov-17,New Jersey,Swedesboro (Woolwich Township),0,0,US 322 and NJ Tnpke,255,40,0
+2-Nov-17,Louisiana,New Orleans,0,1,4900 block of Ray Avenue,,,
+2-Nov-17,Louisiana,Port Allen,1,0,Burbridge Street,,,
+2-Nov-17,Louisiana,New Orleans,0,0,Spain Street,,,
+2-Nov-17,Arkansas,Genoa,1,0,Genoa Road,,,
+2-Nov-17,New Jersey,Bayville,0,0,41 Frederick Dr,,,
+2-Nov-17,California,North Highlands,1,0,5300 block of President Ave,,,
+2-Nov-17,Maryland,Baltimore,1,0,200 block of S Collins Ave,,,
+2-Nov-17,Indiana,Fort Wayne,0,0,2522 Wells St,,,
+2-Nov-17,Louisiana,Lafayette,0,0,Louisiana Ave and Carmel Dr,,,
+2-Nov-17,Louisiana,Arnaudville,1,0,1000 block of Kennedy Drive,,,
+2-Nov-17,Maryland,Baltimore,1,0,700 block of Mura St,,,
+2-Nov-17,Maryland,Baltimore,1,0,5400 block of Moores Run Dr,,,
+2-Nov-17,Indiana,Owen (county),1,0,N/A,,,

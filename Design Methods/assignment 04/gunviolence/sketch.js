@@ -15,7 +15,7 @@ b: 0
 
 function preload() {
   data = loadTable('gundata20171105.csv', 'csv', 'header');
-    quotes = loadTable('quotes.csv', 'csv', 'header');
+  quotes = loadTable('quotes.csv', 'csv', 'header');
 
    headFont = loadFont("Inconsolata.otf");
    bodyFont = loadFont("Inconsolata.otf");
@@ -28,7 +28,7 @@ createCanvas(windowWidth, windowHeight);
 function draw(){
 var state = data.getColumn ("state");
 var city = data.getColumn ("city");
-var killinj = parseInt(data.getColumn ("killinj"));
+var killinj = int(data.getColumn ("killinj"));
 var month = data.getColumn ("month");
 var r = data.getColumn ("r");
 var g = data.getColumn ("g");
@@ -37,8 +37,6 @@ var b = data.getColumn ("b");
 var name = quotes.getColumn ("name");
 var quote = quotes.getColumn ("quote");
 var amount = quotes.getColumn ("amount");
-
-
 
 
 //var timeline = (windowHeight-75)
@@ -53,8 +51,6 @@ text ('The past 72 hours', 25, 125);
 
 textFont(bodyFont);
 textSize(16);
-
-
 textAlign(RIGHT)
 
 text ('Sources', windowWidth - 50, windowHeight - 65);
@@ -62,7 +58,7 @@ text ('The Gun Violence Archive', windowWidth - 50, windowHeight - 50);
 text ('Center for Responsive Politics', windowWidth - 50, windowHeight - 35);
 
 textAlign(LEFT)
- frameRate(10);
+frameRate(10);
 for (j = 0; j < name.length; j++){
   	textSize(14);
 
@@ -74,46 +70,33 @@ if (y > height || y < 0){
 speed = speed * -1;
 }
 
-
-  }
+ }
 //display data
- // translate(width/50, height/50);
- frameRate(8);
+ //translate(width/50, height/50);
+frameRate(8);
 for (var i = 0; i < state.length; i++){
    translate (20);
    fill(255, 40, 0);
 
-  rotate(radians(frameCount/500));
+rotate(radians(frameCount/500));
 
-//text((city[i]) + ", " + (state[i]),x, ([i]+5));
-
-//text((city[i]) + ", " + (state[i]), Math.floor((Math.random() * 1000) + 0), -1000 + y + [i]* 15);
 textFont(bodyFont);
-textSize(16);
-//textAlign(CENTER);
-text((city[i]) + ", " + (state[i]), ((Math.random() * 1000)), -1000 + y + [i]* 15);
-textSize(parseInt(16 * (parseInt(killinj[i]))));
-if (x > width || x < 0){
-speed = speed * -1;
-}
+textSize((14 * killinj[i])+1);
+text((city[i]) + ", " + (state[i]) + ", " + (killinj[i]), ((Math.random() * 1000)), -100 + (Math.random() * 1000));
+//textSize(killinj[i]);
+    if (x > width || x < 0){
+    speed = speed * -1;
+    }
 
-if (y > 5000 || y <  - 5000)
-{
-speed = speed * -1;
-}
+    if (y > 5000 || y <  - 5000)
+    {
+    speed = speed * -1;
+    }
 
-x = x + speed
-y = y + speed
+    x = x + speed
+    y = y + speed
 
-  } //close loop
-
-
-
-
-} //close draw
+      } //close loop
+    } //close draw
 
  
-
-
-
-
