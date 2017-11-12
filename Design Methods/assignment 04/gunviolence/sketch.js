@@ -61,7 +61,7 @@ for(var k=0; k < nums.length; k++){
  sum += parseInt(nums[k]);
 }
 
-text (sum + ' killed in the past three days', 25, 75);
+text (sum + ' killed in the past 72 hours', 25, 75);
 
 //text (sum + 'The past 72 hours', 25, 125);
 
