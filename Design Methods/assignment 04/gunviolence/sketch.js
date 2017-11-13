@@ -15,7 +15,9 @@ b: 0
 };
 
 function preload() {
-  data = loadTable('all72hrs.csv', 'csv', 'header');
+ data = loadTable('all72hrs.csv', 'csv', 'header');
+ // data = loadTable('https://drive.google.com/file/d/16rpVVYMgTv2DG_-zLNeDDE1_S4baUKCk/view?usp=sharing', 'csv', 'header');
+
   quotes = loadTable('thetweets.csv', 'csv','header');
 
    headFont = loadFont("Inconsolata.otf");
