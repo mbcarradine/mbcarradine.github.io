@@ -77,7 +77,7 @@ textAlign(RIGHT)
 text ('Sources', windowWidth - 50, windowHeight - 65);
 text ('@NRA Twitter', windowWidth - 50, windowHeight - 50);
 text ('The Gun Violence Archive', windowWidth - 50, windowHeight - 35);
-text ('Last updated: Nov 14, 2017 at 18:20 EST', windowWidth - 50, windowHeight - 20);
+text ('Last updated: Nov 16, 2017 at 16:20 EST', windowWidth - 50, windowHeight - 20);
 
 textAlign(LEFT)
 frameRate(10);
@@ -118,7 +118,7 @@ text((city[i]) + ", " + (state[i]), ((Math.random() * 1000)), -100 + (Math.rando
     speed = speed * -1;
     }
 
-    if (y > 5000 || y <  - 5000)
+    if (y > 3000 || y <  - 3000)
     {
     speed = speed * -1;
     }
