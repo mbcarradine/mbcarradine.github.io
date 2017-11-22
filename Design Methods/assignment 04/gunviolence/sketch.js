@@ -16,7 +16,6 @@ b: 0
 
 function preload() {
  data = loadTable('all72hrs.csv', 'csv', 'header');
- // data = loadTable('https://drive.google.com/file/d/16rpVVYMgTv2DG_-zLNeDDE1_S4baUKCk/view?usp=sharing', 'csv', 'header');
 
   quotes = loadTable('thetweets.csv', 'csv','header');
 
@@ -65,9 +64,6 @@ for(var k=0; k < nums.length; k++){
 
 text (sum + ' killed in the past 72 hours', 25, 75);
 
-//text (sum + 'The past 72 hours', 25, 125);
-
-
 
 
 textFont(bodyFont);
@@ -77,7 +73,7 @@ textAlign(RIGHT)
 text ('Sources', windowWidth - 50, windowHeight - 65);
 text ('@NRA Twitter', windowWidth - 50, windowHeight - 50);
 text ('The Gun Violence Archive', windowWidth - 50, windowHeight - 35);
-text ('Last updated: Nov 18, 2017 at 16:00 EST', windowWidth - 50, windowHeight - 20);
+text ('Last updated: Nov 21, 2017 at 22:00 EST', windowWidth - 50, windowHeight - 20);
 
 textAlign(LEFT)
 frameRate(10);
