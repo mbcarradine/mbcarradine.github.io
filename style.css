@@ -1,6 +1,4 @@
-/*
-* multi-line comment
-*/
+
 p{ line-height: 1em; }
 h1, h2, h3, h4{
     color: black;
@@ -18,10 +16,9 @@ a{
 	a:hover,
 	a:active{ text-decoration: underline; }
 
-/* you can structure your code's white space so that it is as readable for when you come back in the future or for other people to read and edit quickly */
 
 body{
-    font-family: helvetica; 
+font-family: 'Montserrat', sans-serif;
     font-size: 80%; 
     color: #EEEEEE;
     line-height: 1.2em; 
@@ -34,7 +31,7 @@ body{
 #logo{
 	width: 35%;
 	margin-top: 5px;
-	font-family: helvetica;
+font-family: 'Montserrat', sans-serif;
 	display: inline-block;
 	color: white;
 }
