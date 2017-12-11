@@ -81,6 +81,8 @@ font-family: 'Montserrat', sans-serif;
 			}
 			#nav ul li a:active{ background-color: #ff8f00; 
 							font-family: 'Montserrat', sans-serif;
+															color: red;
+
 }
 
 #content{
