@@ -66,9 +66,10 @@ setInterval(function(){
   var page =  $("html, body").animate({ scrollTop: $(document).height() }, 100000);
 
 $(document).on('click', function() {
- $('html, body').animate({scrollTop:0}, 1000);
+    page.stop(), 10000;
+
 });
-  
+
   setTimeout(function() {
        $('html, body').animate({scrollTop:0}, 1000);
     },1000);//call every 2000 miliseconds
