@@ -3,7 +3,7 @@ var margin = 50;
 var x = 0;
 var j = 0;
 var y = 0;
-var speed = .001;
+var speed = .002;
 var headFont
 var bodyFont
 var totaldead = 0;
@@ -73,7 +73,7 @@ textAlign(RIGHT)
 text ('Sources', windowWidth - 50, windowHeight - 65);
 text ('@NRA Twitter', windowWidth - 50, windowHeight - 50);
 text ('The Gun Violence Archive', windowWidth - 50, windowHeight - 35);
-text ('Last updated: Dec 6, 2017 at 11:25 EST', windowWidth - 50, windowHeight - 20);
+text ('Last updated: Dec 11, 2017 at 18:25 EST', windowWidth - 50, windowHeight - 20);
 
 textAlign(LEFT)
 frameRate(10);

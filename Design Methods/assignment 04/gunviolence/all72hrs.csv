@@ -1,243 +1,205 @@
 ,Date,State,City,Address,Killed,Injured
-,December 5 2017,Illinois,Chicago,6400 S Parnell Ave,0,1,
-,December 5 2017,Illinois,Chicago,1100 S Mason Ave,0,1,
-,December 5 2017,Missouri,Saint Louis,McCausland Ave and Manchester Ave,0,1,
-,December 5 2017,Kansas,Wichita,2600 block of S Jewett St,0,1,
-,December 5 2017,Kansas,Topeka,I-70 and MacVicar Ave,0,0,
-,December 5 2017,Pennsylvania,Philadelphia,27th St and Lehigh Ave,0,1,
-,December 5 2017,Alabama,Tuscaloosa,3300 block of Stillman Blvd,0,1,
-,December 5 2017,Louisiana,Kenner,2800 block of Richland St,0,0,
-,December 5 2017,Alaska,Anchorage,5700 block of Rocky Mountain Ct,1,0,
-,December 5 2017,Washington,Tacoma,1400 block of S 37th St,1,0,
-,December 5 2017,Wisconsin,Milwaukee,Wisconsin Ave,0,0,
-,December 5 2017,Iowa,Waterloo,400 block of Thompson Ave,0,1,
-,December 5 2017,Iowa,Cascade,717 1st Avenue E,0,1,
-,December 5 2017,New York,Bronx,Brook Ave,1,0,
-,December 5 2017,Kentucky,Park City,1786 Oak Grove Church Road,0,1,
-,December 5 2017,Louisiana,Baton Rouge,5400 block of Banyan Trace Dr,1,1,
-,December 5 2017,Florida,Pembroke Pines,Taft St and 86th Ave,0,0,
-,December 5 2017,Massachusetts,Brockton,Auna Dr,0,0,
-,December 5 2017,Nevada,Las Vegas,Desert Inn Rd and Theme Rd,0,1,
-,December 5 2017,Massachusetts,Boston,E 9th St and Mercer St,0,1,
-,December 5 2017,Washington,Pierce (county),N/A,0,0,
-,December 4 2017,Massachusetts,Attleboro,148 South Ave,1,0,
-,December 4 2017,Georgia,Madison,Slaughter Veasley Road,2,0,
-,December 4 2017,Maryland,Baltimore,4500 block of Pall Mall Rd,0,1,
-,December 4 2017,South Carolina,Greenwood,Camden Rd,0,1,
-,December 4 2017,Wisconsin,Milwaukee,1404 Mineral St,1,0,
-,December 4 2017,Maryland,Baltimore,1800 block of Pennsylvania Ave,0,0,
-,December 4 2017,Oklahoma,Tulsa,Tecumseh St,0,0,
-,December 4 2017,Ohio,Columbus,200 block of S Wayne Ave,2,0,
-,December 4 2017,West Virginia,Logan (county),WV 10,0,0,
-,December 4 2017,South Carolina,Greenville,80 Block of Allen St,0,1,
-,December 4 2017,New York,Brooklyn,150 E 18th St,0,1,
-,December 4 2017,Maryland,North East,100 block of Inverness Dr,0,1,
-,December 4 2017,Georgia,Jasper,Grandview Rd,1,0,
-,December 4 2017,Delaware,Milford,200 block of S Washington St,0,1,
-,December 4 2017,Texas,Fort Worth,5400 block of Woodway Dr,0,1,
-,December 4 2017,Utah,American Fork,633 S 500 E,0,1,
-,December 4 2017,Michigan,Detroit,5300 block of Marseilles,1,0,
-,December 4 2017,South Carolina,Columbia,100 Block of Country Mill Rd,0,0,
-,December 4 2017,South Carolina,Columbia,325 Percival Rd,1,0,
-,December 4 2017,Ohio,Cleveland,E 112th St and Parkridge Dr,1,0,
-,December 4 2017,Ohio,Cincinnati,W 8th St and Overlook Ave,0,1,
-,December 4 2017,Illinois,Chicago,300 W Marquette Rd,0,1,
-,December 4 2017,Illinois,Chicago,7400 S Stewart Ave,0,1,
-,December 4 2017,Illinois,Harrisburg,200 W South St,0,0,
-,December 4 2017,Missouri,Kansas City,18th St and Benton Blvd,1,0,
-,December 4 2017,Illinois,Quincy,N/A,0,0,
-,December 4 2017,Georgia,Tifton,3rd St and Commerce Way,1,0,
-,December 4 2017,Kentucky,Louisville,12400 Old Shelbyville Rd,0,0,
-,December 4 2017,Kentucky,Louisville,6415 Outer Loop,0,0,
-December 4 2017,Ohio,Columbus (Gahanna),Penny Ln,0,1,
-,December 4 2017,New York,Buffalo,106 Sumner Pl,0,1,
-,December 4 2017,Tennessee,Memphis,Poplar Ave and McLean Blvd,0,0,
-,December 4 2017,Delaware,Wilmington (Edgemoor),5029 Governor Printz Blvd,2,0,
-,December 4 2017,Indiana,Evansville,Washington Ave,0,0,
-,December 4 2017,Indiana,Evansville,15000 Old Henderson Rd,0,0,
-,December 4 2017,Tennessee,Memphis,Edith Ave,1,0,
-,December 4 2017,Maryland,Baltimore,100 block of N Pack St,0,0,
-,December 4 2017,Florida,Miami,1300 block of NW 24th St,1,0,
-,December 4 2017,Montana,Bozeman,Leeward Ct,0,1,
-,December 4 2017,Pennsylvania,Pittsburgh,800 Rectenwald St,0,0,
-,December 4 2017,Texas,Houston,Connorvale Ln,0,1,
-,December 4 2017,Texas,San Antonio,1500 block of Santa Monica,0,0,
-,December 4 2017,Indiana,Indianapolis,2800 Anna Ln,1,0,
-,December 4 2017,California,Arcata,736 F St,0,0,
-,December 4 2017,New Jersey,Trenton,600 block of Whittaker Ave,0,1,
-,December 4 2017,New Jersey,Jersey City,Nunda Ave,0,1,
-,December 4 2017,Connecticut,Waterbury,1700 block of Thomaston Ave,1,0,
-,December 4 2017,Wisconsin,Plymouth,N/A,0,1,
-,December 4 2017,Illinois,Chicago,2400 N Ridgeway Ave,0,1,
-,December 4 2017,Illinois,Chicago,900 W 87th St,0,1,
-,December 4 2017,Oregon,Portland,8900 block of SE Rhone St,0,0,
-,December 4 2017,Alabama,Mobile,800 block of Holcombe Avenue,0,1,
-,December 4 2017,Illinois,Chicago,4900 W Hubbard St,0,1,
-,December 4 2017,Illinois,Chicago,700 W 129th Pl,0,1,
-December 4 2017,North Carolina,Durham,500 Block of Liberty St,0,1,
-,December 4 2017,North Carolina,Durham,2000 Block of Bedford St,0,1,
-,December 4 2017,Idaho,Boise,8900 block of Shellie Ln,0,1,
-,December 4 2017,Missouri,Saint Louis,4780 S Spring Ave,1,0,
-,December 4 2017,Alaska,Anchorage,68th and O'Brien,0,1,
-,December 4 2017,Pennsylvania,Pittsburgh,Penn Ave and S Braddock Ave,0,1,
-,December 4 2017,Pennsylvania,Pittsburgh,7200 block of Everton St,2,2,
-,December 4 2017,Oregon,Portland,9100 block of SE Duke St,0,0,
-,December 4 2017,Kansas,Wichita,800 block of W University Ave,0,0,
-,December 4 2017,Florida,Clewiston,944 Kentucky Ave,0,2,
-,December 4 2017,Pennsylvania,Philadelphia,Bridge St and Loretto Ave,0,1,
-,December 4 2017,Alabama,Dothan (Kinsey),Chevy Dr,1,0,
-,December 4 2017,Alabama,Birmingham,2800 block of SW 32nd Pl,1,0,
-,December 4 2017,Pennsylvania,Johnstown,Solomon St,0,0,
-,December 4 2017,Louisiana,New Orleans,4900 block of Major Drive,1,0,
-,December 4 2017,Florida,Belle Glade,500 Block of SW Ave B,0,1,
-,December 4 2017,Washington,Moses Lake,1214 S Pioneer Way,0,0,
-,December 4 2017,Mississippi,Jackson,700 block of McCluer Rd,0,0,
-,December 4 2017,Washington,Bremerton,400 block of Willow St,0,1,
-,December 4 2017,New Jersey,Irvington,800 block of Grove St,1,0,
-,December 4 2017,New Jersey,Pleasantville,800 block of Cedar Ln,0,0,
-,December 4 2017,Louisiana,New Orleans,Tynecastle Drive and Pressburg Stree,0,1,
-,December 4 2017,Louisiana,New Orleans,4800 block of Nottingham Drive,0,1,
-,December 4 2017,Georgia,Augusta,1800 Block of Karian Dr,1,1,
-,December 4 2017,Florida,Jacksonville,5956 Covered Creek Ln,0,1,
-December 4 2017,California,Fresno,California Ave and Martin Luther King Blvd,0,1,
-,December 4 2017,California,Emeryville,1555 40th St,0,2,
-,December 4 2017,North Carolina,Greenville,5068 NC 33,0,0,
-,December 4 2017,Florida,Leesburg,US 441 and Lake St,0,0,
-,December 4 2017,Florida,Panama City Beach,100 Cabana Cay Cir,1,0,
-,December 4 2017,Alabama,Mobile,Westchester Drive,1,0,
-,December 4 2017,Louisiana,Shreveport,2000 block of Talbot Street,1,0,
-,December 4 2017,Louisiana,New Orleans,7800 block of S Coronet Court,0,1,
-,December 4 2017,Iowa,Iowa City,Lakeside Dr and Amber Ln,0,0,
-,December 4 2017,Massachusetts,Boston,9 Everett St,0,1,
-,December 4 2017,Mississippi,Laurel,16th Avenue,1,0,
-,December 4 2017,New York,South Jamesport,N/A,1,0,
-,December 4 2017,Connecticut,Bridgeport,1 Barnum Dyke,1,0,
-,December 4 2017,Texas,San Marcos,4020 Monterey Oak,1,1,
-,December 4 2017,Massachusetts,New Bedford,15 Bullard St,0,0,
-,December 4 2017,New Hampshire,Hooksett,Londonderry Turnpike and Whitehall Rd,0,0,
-,December 4 2017,Connecticut,Hamden,Rte 15,0,0,
-,December 3 2017,Utah,Salt Lake City,45 W and 300 S,0,2,
-,December 3 2017,New Jersey,Bridgeton,Walnut St and Siebel St,0,1,
-,December 3 2017,Georgia,Atlanta,1900 block of Terry Mill Road,1,0,
-,December 3 2017,Wisconsin,Madison,1754 Thierer Road,0,0,
-,December 3 2017,Maryland,Baltimore,3700 block of S Hanover St,1,2,
-,December 3 2017,West Virginia,Huntington,3000 block of 7th Ave,0,1,
-,December 3 2017,Missouri,Saint Louis,4700 block of Genevieve Ave,1,0,
-,December 3 2017,South Carolina,Columbia,Cricket Tree Ln,0,2,
-December 3 2017,South Carolina,Columbia,Berryhill Rd,0,1,
-,December 3 2017,South Dakota,Sioux Falls,1500 block of E 10th St,0,1,
-,December 3 2017,Illinois,Rockford,400 Irving Ave,0,1,
-,December 3 2017,Missouri,Columbia,3200 block of Mexico Gravel Rd,0,0,
-,December 3 2017,Oklahoma,Bristow,N/A,0,0,
-,December 3 2017,Missouri,Columbia,Loch Ln and Braemore Rd,0,1,
-,December 3 2017,Texas,La Marque,800 block of Retama,1,0,
-,December 3 2017,Massachusetts,Lowell,430 Broadway,0,0,
-,December 3 2017,Texas,San Antonio,5000 Village Ct,0,1,
-,December 3 2017,Illinois,Romeoville,400 Healy Ave,0,1,
-,December 3 2017,Tennessee,Nashville,N/A,0,1,
-,December 3 2017,South Carolina,Florence,Sammys Lane,0,0,
-,December 3 2017,Kansas,Wichita,2600 block of E Wilma,1,1,
-,December 3 2017,Kansas,Holton,802 Ohio Ave,0,0,
-,December 3 2017,Illinois,Champaign,2700 block of Dale Dr,0,1,
-,December 3 2017,Louisiana,Harvey,3840 Dulaney Lane,0,1,
-,December 3 2017,Ohio,Toledo,2600 block of Consaul St,0,1,
-,December 3 2017,Ohio,Toledo,300 block of Burger St,0,2,
-,December 3 2017,Tennessee,Nashville,3000 block of Cliff Dr,2,0,
-,December 3 2017,Ohio,Columbus,1200 block of Brookway Rd,0,1,
-,December 3 2017,Ohio,Columbus,1420 East 5th Avenue,1,0,
-,December 3 2017,Missouri,Saint Louis (Wellston),6200 block of Bartmer,1,0,
-,December 3 2017,New York,Livingston,Manortown Rd,0,0,
-,December 3 2017,Missouri,Kansas City,Walnut St and E 40th St,1,0,
-,December 3 2017,Ohio,Cincinnati (Avondale),1000 block of Burton Ave,0,1,
-December 3 2017,New York,Buffalo,400 block of Prospect Ave,0,1,
-,December 3 2017,Indiana,Lake Station,1201 Ripley St,0,0,
-,December 3 2017,Missouri,Saint Louis (Sunset Hills),3600 Lindbergh Blvd,0,0,
-,December 3 2017,New York,Buffalo,Roslyn St,0,0,
-,December 3 2017,Georgia,Moultrie,800 Northside Dr,0,1,
-,December 3 2017,Tennessee,Lebanon,Hobbs Ave,0,1,
-,December 3 2017,Virginia,Roanoke,600 block of Lucerne St NW,1,0,
-,December 3 2017,Kansas,Topeka,1800 block of SE 10th Ave,0,1,
-,December 3 2017,Pennsylvania,Erie,200 block of Maiden Ln,0,1,
-,December 3 2017,Colorado,Colorado Springs,4800 block of San Amels Way,0,1,
-,December 3 2017,Tennessee,Memphis,600 block of Madison,1,3,
-,December 3 2017,Colorado,Boulder,1400 block of Pearl St,0,0,
-,December 3 2017,Tennessee,Memphis,Raleigh Millington Rd and Egypt Central Rd,0,1,
-,December 3 2017,Indiana,Fort Wayne,Winter St,1,0,
-,December 3 2017,Indiana,Indianapolis,400 N Keystone Ave,0,1,
-,December 3 2017,District of Columbia,Washington,400 block of Oakwood St SE,0,0,
-,December 3 2017,Tennessee,Nashville,3000 block of Moorewood Dr,0,1,
-,December 3 2017,New York,Rochester (Gates),2361 Buffalo Rd,0,0,
-,December 3 2017,Tennessee,Memphis,7700 block of Parkmont Dr,1,0,
-,December 3 2017,New York,Schenectady,Crane St,0,1,
-,December 3 2017,New Jersey,Bayonne,19th St and Ave C,0,1,
-,December 3 2017,Tennessee,Chattanooga,Tulip Ave,0,1,
-,December 3 2017,California,Antioch,Empire Mine Rd,1,0,
-,December 3 2017,Utah,Salt Lake City,2 N Medical Dr,0,0,
-,December 3 2017,California,Bakersfield,N/A,0,0,
-December 3 2017,Colorado,Colorado Springs,500 block of S Nevada Ave,1,0,
-,December 3 2017,Pennsylvania,Hawley,28 Robin Ln,0,1,
-,December 3 2017,California,Santa Ana,923 S Standard Ave,1,0,
-,December 3 2017,Pennsylvania,Johnstown,600 block of Pine St,1,0,
-,December 3 2017,New Jersey,Pleasantville,600 block of Tilton Rd,1,2,
-,December 3 2017,New Jersey,Weehawken,NJ 495,0,0,
-,December 3 2017,New Jersey,Camden,Louis St and Chestnut St,0,1,
-,December 3 2017,California,Crescent City,686 G St,0,0,
-,December 3 2017,California,Hoopa,N/A,0,0,
-,December 3 2017,Texas,San Antonio,Marbach and Loop 1604,0,1,
-,December 3 2017,Oregon,Portland,11600 block of NE Knott St,0,0,
-,December 3 2017,Alabama,Dale (county),1000 block of Highway 231 North,1,0,
-,December 3 2017,Tennessee,Memphis,656 Marshall Ave,1,3,
-,December 3 2017,Alabama,Birmingham,3000 block of 29th Ct North,1,1,
-,December 3 2017,Mississippi,Gulfport,3100 block of 6th Avenue,0,1,
-,December 3 2017,Illinois,Chicago,4500 S Hermitage Ave,0,1,
-,December 3 2017,Tennessee,Kodak,Joyce Way,0,1,
-,December 3 2017,Illinois,Joliet,1462 Sterling Ave,1,0,
-,December 3 2017,Ohio,Fairborn (Beavercreek),2760 Towne Dr,0,1,
-,December 3 2017,Illinois,Chicago,1 block of W 79th St,0,1,
-,December 3 2017,Illinois,Chicago,5000 S Winchester Ave,1,0,
-,December 3 2017,Ohio,Williamsburg,300 block of West Main Street,0,1,
-,December 3 2017,Kentucky,Louisville,1500 block of Oleanda Avenue,0,1,
-,December 3 2017,New Jersey,Jersey City,Warner Ave,1,3,
-,December 3 2017,Kansas,Wichita,4000 block of S Stearman Ct,1,0,
-December 3 2017,Louisiana,Baton Rouge,12000 block of Parnell Dr,1,0,
-,December 3 2017,Maryland,Frostburg,Hill St,0,2,
-,December 3 2017,Wisconsin,Appleton,N Owaissa and E Marquette,0,0,
-,December 3 2017,Missouri,Saint Louis,2318 N Euclid,0,4,
-,December 3 2017,Maryland,Baltimore,900 block of N Eden St,0,1,
-,December 3 2017,Mississippi,Jackson,Natchez Trace,0,0,
-,December 3 2017,California,Vista,E Vista Way and Old Taylor St,0,0,
-,December 3 2017,California,Fresno,Calwa and Martin Luther King Jr Blvd,0,3,
-,December 3 2017,Louisiana,Marrero,2716 Hardwood Drive,1,0,
-,December 3 2017,California,Sacramento,Norwood and Fairbanks,1,0,
-,December 3 2017,New York,Elmira,600 block of Broadway Ave,0,0,
-,December 3 2017,Oregon,Ontario,SE 3rd St and E Idaho Ave,0,1,
-,December 3 2017,New York,New York (Manhattan),W 175th St and Broadway,1,0,
-,December 3 2017,New York,Brooklyn,523 Gates Ave,0,1,
-,December 3 2017,Washington,Vancouver,4600 block of NE 132nd Pl,0,1,
-,December 3 2017,Maryland,Baltimore,3200 block of E Monument St,0,1,
-,December 3 2017,Florida,Hollywood,3441 Hollywood Blvd,0,1,
-,December 3 2017,Pennsylvania,Chester,6 E 21st St,0,1,
-,December 3 2017,Washington,Kent,25100 74th Ave S,1,0,
-,December 3 2017,Florida,Fort Pierce,I-95,0,0,
-,December 3 2017,Texas,Longview,100 block of Evergreen St,0,0,
-,December 3 2017,Texas,San Antonio,7000 Block of Hallie Ridge,0,1,
-,December 3 2017,Texas,Texarkana,3600 block of Jones St,1,0,
-,December 3 2017,Florida,Miami,NW 13th Ave,0,0,
-,December 3 2017,South Carolina,Adams Run,6103 Parkers Ferry Rd,0,0,
-December 3 2017,Georgia,Savannah,11750 Abercorn St,0,1,
-,December 3 2017,Florida,Orlando,4700 Block of Danzig Ct,1,2,
-,December 3 2017,California,Long Beach,Atlantic Ave,0,1,
-,December 3 2017,North Carolina,Raleigh,2800 Block of Filbert St,0,1,
-,December 3 2017,California,Riverside,Van Buren Blvd,1,0,
-,December 3 2017,Kentucky,Martha,Pigeon Roost Rd,0,0,
-,December 3 2017,California,Fresno,Cedar Ave and McKinley Ave,0,0,
-,December 3 2017,California,Ben Lomond,100 block of Ridge Rd,1,0,
-,December 3 2017,North Carolina,Charlotte,4400 Block of Roadway St,1,0,
-,December 3 2017,North Carolina,Charlotte,4400 Block of Courtney Ridge Ln,0,2,
-,December 3 2017,Florida,Palm Bay,Kosuth Rd,0,1,
-,December 3 2017,Florida,West Palm Beach,600 Block of 34th St,1,0,
-,December 3 2017,Oklahoma,Lawton,NW Andrews Ave and NW 14th St,0,0,
-,December 3 2017,Florida,Tampa,900 Block of E Fowler Ave,1,1,
-,December 3 2017,Florida,Fruitland Park,Sunnyside Dr and Lake Unity Rd,1,0,
-,December 3 2017,Florida,Orlando,4255 Barwood Dr,0,1,
-,December 3 2017,New York,Brooklyn,600 Coney Island Ave,0,1,
+December 11 2017,Colorado,CO,Denver,1000 block,0,1
+,December 11 2017,Florida,West Palm Beach,5110 Palm Hill Dr,1,0
+,December 11 2017,Mississippi,Jackson,1600 block of 1st Avenue,0,1
+,December 11 2017,Mississippi,Jackson,W Capitol Street,0,1
+,December 11 2017,Florida,Saint Petersburg,N/A,0,0
+,December 11 2017,Oklahoma,Oklahoma City,1200 W Memorial Rd,0,0
+,December 11 2017,Missouri,Saint Louis,8400 block of N Broadway,1,0
+,December 11 2017,New York,Niagara Falls,1500 block of Willow Ave,0,1
+,December 11 2017,Illinois,Aurora,I-290,0,1
+,December 10 2017,Texas,San Antonio,1301 Aquarena Springs Dr,0,2
+,December 10 2017,Ohio,Dayton,600 block of W Fairview Ave,1,0
+,December 10 2017,Ohio,Columbus,900 block of Rarig Ave,1,0
+,December 10 2017,Ohio,Columbus,2400 block of Ottawa Dr,1,1
+,December 10 2017,Oregon,Springfield,645 Main St,0,0
+,December 10 2017,Pennsylvania,Erie,W 18th St and Sassafras St,0,0
+,December 10 2017,Oregon,Eugene,W 2nd Ave and Blair Blvd,0,0
+,December 10 2017,Illinois,Chicago,5900 S Wood St,0,1
+,December 10 2017,Wisconsin,Milwaukee,3800 block of W North Ave,1,0
+,December 10 2017,Pennsylvania,Mckeesport (Port Vue),New York Ave,0,1
+,December 10 2017,Pennsylvania,Philadelphia,1200 block of Greeby St,1,0
+,December 10 2017,Massachusetts,Boston,Orleans St and Marginal St,1,0
+,December 10 2017,Pennsylvania,Philadelphia,3200 block of Rorer St,1,0
+,December 10 2017,Michigan,Flint,1600 block of Liberty Street,0,1
+,December 10 2017,New York,Buffalo,200 block of Guilford St,0,1
+,December 10 2017,New York,Corona (Queens),4-24 Astoria Blvd,0,0
+,December 10 2017,Wisconsin,Milwaukee,3800 block of W North Ave,1,0
+,December 10 2017,Pennsylvania,Mckeesport (Port Vue),New York Ave,0,1
+,December 10 2017,Pennsylvania,Philadelphia,1200 block of Greeby St,1,0
+,December 10 2017,Massachusetts,Boston,Orleans St and Marginal St,1,0
+,December 10 2017,Pennsylvania,Philadelphia,3200 block of Rorer St,1,0
+,December 10 2017,Michigan,Flint,1600 block of Liberty Street,0,1
+,December 10 2017,New York,Buffalo,200 block of Guilford St,0,1
+,December 10 2017,Colorado,Denver,800 block of Monaco Parkway,0,1
+,December 10 2017,Arkansas,Lepanto,Mills Cir,0,1
+,December 10 2017,Colorado,Colorado Springs,Hancock Expressway and S Circle Dr,0,2
+,December 10 2017,Colorado,Denver,N Monaco Pkwy and E Colfax Ave,0,2
+,December 10 2017,Texas,Killeen,516 N 8th St,0,2
+,December 10 2017,Utah,Salt Lake City (Taylorsville),742 W Sunny River Rd,1,0
+,December 10 2017,Ohio,Columbus,2044 Lockbourne Rd,1,2
+,December 10 2017,Delaware,Wilmington,200 block of N Rodney St,0,1
+,December 10 2017,Virginia,Chesapeake,800 block of Tybourne Ct,1,0
+,December 10 2017,Virginia,Norfolk,1000 block of Ivaloo St,1,1
+,December 10 2017,Tennessee,Nashville,1204 Murfreesboro Pike,0,1
+,December 10 2017,Tennessee,Nashville,3807 Gallatin Pike,1,0
+,December 10 2017,New York,Brooklyn,5304 Avenue L,0,0
+,December 10 2017,New York,Buffalo,517 Goodyear Ave,0,0
+,December 10 2017,New York,Holland,South Main St,0,0
+,December 10 2017,New York,Corona (Queens),4-24 Astoria Blvd,0,1
+,December 10 2017,Alabama,New Hope,New Hope Highway,0,0
+,December 10 2017,Tennessee,Memphis,2900 block of Elbert,1,0
+,December 10 2017,South Carolina,Columbia,2016 Clemson Rd,0,1
+,December 10 2017,California,Eureka,Felt Rd,0,0
+,December 10 2017,South Dakota,Deadwood,531 Main St,0,0
+,December 10 2017,Georgia,Decatur,4943 Snapfinger Woods Dr,1,0
+,December 10 2017,Mississippi,Meridian,500 block of 56th Avenue,0,1
+,December 10 2017,Kentucky,Lexington,Danielle Ln,0,0
+,December 10 2017,Tennessee,Nashville,2511 Elm Hill Pike,0,1
+,December 10 2017,Florida,Melbourne,Almeida Ct and Eber Blvd,0,0
+,December 10 2017,Florida,Port Saint Lucie,600 Block of NW Fairhaven Dr,0,0
+,December 10 2017,Michigan,Detroit,Northfield St and W Warren Ave,0,1
+,December 10 2017,Florida,Jacksonville,32nd St and Silver St,0,1
+,December 10 2017,Florida,Jacksonville,5266 Beach Blvd,1,0
+,December 10 2017,Pennsylvania,Philadelphia,68th St and Malvern Ave,0,1
+,December 10 2017,Oklahoma,Oklahoma City,S Sooner Rd and SE 59th St,1,0
+,December 10 2017,Pennsylvania,Lancaster,700 block of 1st St,1,0
+,December 10 2017,Florida,Jacksonville,2712 Cesery Blvd,0,2
+,December 10 2017,Alabama,Birmingham,1200 block of Beacon Parkway East,1,0
+,December 10 2017,Alabama,Mobile,I-10,1,0
+,December 10 2017,Louisiana,Lafayette,1400 block of SE Evangeline Thruway,1,0
+,December 10 2017,Louisiana,New Orleans,1000 block of Milan Street,0,1
+,December 10 2017,Florida,Manatee (county),N/A,0,1
+,December 10 2017,Florida,Winter Haven,1108 Spirit Lake Rd,0,1
+,December 10 2017,Oklahoma,Oklahoma City,N Blackwelder Ave and NW 47th St,0,1
+,December 10 2017,Florida,Orlando,North Ln and Drexel Ave,0,1
+,December 10 2017,Oklahoma,Oklahoma City,N Blackwelder Ave and NW 15th St,0,1
+December 10 2017,Florida,Orlando,San Antonio Ave and Americana Blvd,0,1,
+,December 10 2017,Illinois,Chicago,2700 West 23rd Pl,0,1
+,December 10 2017,Illinois,Chicago,10600 S Perry Ave,1,1
+,December 10 2017,New York,Bronx,Carter Ave,0,0
+,December 10 2017,Missouri,Lees Summit,700 block of SW Windsong Cir,0,2
+,December 10 2017,Illinois,Chicago,5300 S Washtenaw Ave,1,0
+,December 10 2017,Illinois,Chicago,1300 S Komensky Ave,1,0
+,December 10 2017,Illinois,Chicago,6400 S Western Ave,0,1
+,December 10 2017,Mississippi,Waynesboro,Wayne Street,0,3
+,December 10 2017,Louisiana,New Orleans,Rampart Street and Montegut Street,0,1
+,December 10 2017,Texas,Austin,1100 Congress Ave,0,0
+,December 10 2017,Texas,College Station,1711 Harvey Mitchell Pkwy S,0,0
+,December 10 2017,Connecticut,Bridgeport,Stratford Ave,0,1
+,December 10 2017,New Mexico,Taos,N/A,0,0
+,December 9 2017,Pennsylvania,Philadelphia,600 block of E Westmoreland St,0,1
+,December 9 2017,Michigan,Detroit,10631 Whittier Ave,0,1
+,December 9 2017,Michigan,Sterling Heights,42295 Parkside Cir,1,0
+,December 9 2017,Georgia,Columbus,6499 Veterans Pkwy,0,0
+,December 9 2017,Maine,Manchester,543 Prescott Rd,2,0
+,December 9 2017,Connecticut,New London,4 Orchard St,1,0
+,December 9 2017,Colorado,Colorado Springs,3000 Mallard Dr,0,0
+,December 9 2017,Massachusetts,Lowell,W 6th St and Aiken Ave,0,1
+,December 9 2017,Ohio,Akron,3300 block of Linda St,1,0
+,December 9 2017,Massachusetts,Boston,Proctor St,0,1
+,December 9 2017,Colorado,Colorado Springs,Saratoga Dr and Carmel Cir,0,2
+,December 9 2017,North Carolina,Asheville,275 Deaverview Rd,1,
+,December 9 2017,Minnesota,Waite Park,460 Park Meadows Drive,1,0
+,December 9 2017,Pennsylvania,Philadelphia,100 block of W Chew Ave,0,1
+,December 9 2017,Nevada,Las Vegas,4000 block of Overbrook Dr,1,1
+,December 9 2017,Oregon,Portland,638 SW 5th Ave,0,0
+,December 9 2017,Pennsylvania,Chester,1100 block of Brown St,0,1
+,December 9 2017,Pennsylvania,Chester,1100 block of W 3rd St,0,2
+,December 9 2017,Pennsylvania,Chester,1600 block of W 12th St,0,2
+,December 9 2017,New York,Rochester,Norton St and Teralta St,0,2
+,December 9 2017,Pennsylvania,Glen Campbell,Fire Tower Rd,0,1
+,December 9 2017,Illinois,Rockford,2100 Glenwood Ave,0,0
+,December 9 2017,Arkansas,Pine Bluff,Cypress Drive,0,0
+,December 9 2017,Texas,Fort Worth,2000 block of North Houston St,0,0
+,December 9 2017,Pennsylvania,Johnstown,McMillen St and Oak St,1,0
+,December 9 2017,Indiana,Fort Wayne,3400 S Anthony Blvd,0,1
+,December 9 2017,New Mexico,Albuquerque,Coors Blvd and Eduardo Rd,0,1
+,December 9 2017,Wisconsin,Milwaukee,22nd and Mineral,1,0
+,December 9 2017,Maryland,Baltimore,2900 block of E Monument St,0,0
+,December 9 2017,California,Bakersfield,2320 Mount Vernon Ave,1,1
+,December 9 2017,Maryland,Baltimore,5600 block of Groveland Ave,0,1
+,December 9 2017,Delaware,Dover,Fieldstone Ct and Kenton Rd,1,1
+,December 9 2017,New Mexico,Albuquerque,6600 Menaul Blvd NE,0,1
+,December 9 2017,Virginia,Petersburg,2300 block of Navajo Ct,0,1
+,December 9 2017,Virginia,Chesapeake,1400 block of Greenbrier Pkwy,0,2
+,December 9 2017,California,Bakersfield,Bernard St and Camino Real,1,0
+,December 9 2017,Nevada,Las Vegas,1591 N Decatur Blvd,1,
+,December 9 2017,Minnesota,Minneapolis (Brooklyn Park),5841 73rd Ave N,0,0
+,December 9 2017,Minnesota,Saint Paul,1744 Suburban Ave,0,0
+,December 9 2017,Minnesota,Minneapolis,W Broadway Ave and Irving Ave N,0,0
+,December 9 2017,Minnesota,Saint Paul,Como and Dale,0,0
+,December 9 2017,New York,Niagara Falls,2901 Pine Ave,0,0
+,December 9 2017,Maryland,Baltimore,3200 Block of Spaulding Ave,1,0
+,December 9 2017,Florida,Cape Coral,NE 33rd Ln,0,0
+,December 9 2017,Arkansas,Rose Bud,400 block of Sidon Rd,1,0
+,December 9 2017,Tennessee,Chattanooga,6200 Lee Hwy,0,1
+,December 9 2017,Indiana,New Castle,4600 IN 234,0,1
+,December 9 2017,Tennessee,Memphis,4251 Winchester Rd,0,1
+,December 9 2017,Tennessee,Memphis,1350 S Faronia Square,1,0
+,December 9 2017,Florida,Miami,1704 NW 7th St,0,1
+,December 9 2017,Tennessee,Memphis,3200 block of Allison,1,1
+,December 9 2017,Georgia,Newnan,125 Covey Trl,1,0
+,December 9 2017,Michigan,Battle Creek,6431 B Dr N,0,0
+,December 9 2017,South Carolina,Aiken,200 Block of Cherry Hills Dr,0,1
+,December 9 2017,North Carolina,Charlotte,2205 Kilborne Dr,3,1
+,December 9 2017,North Carolina,Kinston,Towerhill Rd,0,1
+,December 9 2017,Kentucky,Garrison,Bill Chain Rd,0,1
+,December 9 2017,Florida,Cape Coral,5200 Block of SW 9th Pl,2,0
+,December 9 2017,Texas,North Richland Hills,7400 block of College Cir S,3,0
+,December 9 2017,Iowa,Mason City,200 block of 12th St SE,0,1
+,December 9 2017,Florida,Orlando,2201 S Orange Blossom Trl,1,0
+,December 9 2017,Florida,Pompano Beach (North Lauderdale),,0,2
+,December 9 2017,Alabama,Tuscaloosa,5000 block of Clover Road,1,0
+,December 9 2017,Florida,Bradenton,2600 Block of 39th Ave W,0,1
+,December 9 2017,Texas,San Antonio,Rittman Rd and FM 78,1,0
+,December 9 2017,Louisiana,Duson,N/A,1,0
+,December 9 2017,Florida,Altamonte Springs,Crane Cir,0,1
+,December 9 2017,Texas,Houston,4800 block of Laura Koppe Rd,1,0
+,December 9 2017,Nevada,Las Vegas,Ann Rd and Tropical Pkwy,1,0
+,December 9 2017,Illinois,Chicago Heights,3000 S Trumbull Ave,0,1
+,December 9 2017,Illinois,Chicago,2900 West Roosevelt Road,0,1
+,December 9 2017,Nebraska,Lincoln,N 11th St and Q St,0,0
+,December 9 2017,Texas,Hardin (county),Sugar Maple Rd,1,0
+,December 9 2017,Illinois,Chicago,4200 W Congress Pkwy,0,1
+,December 9 2017,Illinois,Chicago,2200 N Lorel Ave,0,2
+,December 9 2017,Illinois,Chicago,10200 S State St,1,0
+,December 9 2017,Alaska,Anchorage,Arctic Blvd and Northern Lights blvd,0,0
+,December 9 2017,Kansas,Wichita,2200 block of N Parkridge St,1,1
+,December 9 2017,Alabama,Mobile (Chickasaw),N/A,0,1
+,December 9 2017,Kansas,Hays,3400 block of Vine St,0,1
+,December 9 2017,Missouri,Saint Peters,2 Mid Rivers Mall Dr,0,0
+,December 9 2017,Missouri,Hazelwood,5370 Knoll Creek Dr,0,2
+,December 9 2017,Oklahoma,Tulsa,2200 block of E 67th St,0,1
+,December 9 2017,Oklahoma,Choctaw,S Henney Rd and SE 15th St,0,0
+,December 9 2017,South Carolina,Columbia,Two Notch Rd and Parklane Rd,0,2
+,December 9 2017,Oklahoma,Oklahoma City,NE 16th St and N Martin Luther King Ave,0,1
+,December 8 2017,New York,Syracuse,900 block of Comstock Avenue,0,
+,December 8 2017,Florida,Stuart,2400 Block of SE Harrison St,0,0
+,December 8 2017,New Hampshire,Concord (Boscawen),154 N Main St,0,0
+,December 8 2017,District of Columbia,Washington,6900 Georgia Ave NW,1,0
+,December 8 2017,New York,Rochester,Arch St,0,1
+,December 8 2017,Ohio,Dayton,8700 block of North Dixie Drive,0,1
+,December 8 2017,Virginia,Charlottesville,Wertland St,0,0
+,December 8 2017,Oklahoma,Oklahoma City,NW Wilshire Blvd and N County Line Rd,0,0
+,December 8 2017,Virginia,Stafford,217 Garrisonville Rd,0,0
+,December 8 2017,Maryland,Capitol Heights (Seat Pleasant),402 69th Pl,1,1
+,December 8 2017,Illinois,Champaign,2000 Cynthia Dr,0,1
+,December 8 2017,California,Bakersfield,100 block of Candy Street,0,0
+,December 8 2017,California,Bakersfield,Edison Hwy,1,0
+,December 8 2017,Alabama,Mobile,Lubel Street,1,0
+,December 8 2017,Louisiana,Bossier City,2000 block of Bey Street,0,0
+,December 8 2017,Illinois,Champaign,610 W University Ave,0,3
+,December 8 2017,Florida,Miami,11000 SW 200th St,0,2
+,December 8 2017,Minnesota,Minneapolis,1615 N 25th,0,0
+,December 8 2017,District of Columbia,Washington,200 Florida Avenue NE,0,0
+,December 8 2017,Maryland,Baltimore,2400 Block of Edmondson Ave,0,1
+,December 8 2017,Texas,Fort Worth,3500 block of Rogers Ave,1,1
+,December 8 2017,Minnesota,Minneapolis (Brooklyn Park),73rd and Zane,0,0
+,December 8 2017,Maryland,Baltimore,Lafayette Ave and N Monroe St,0,0
+,December 8 2017,Pennsylvania,Tionesta,N/A,0,1
+,December 8 2017,Maryland,Essex,900 Block of Ashbridge Dr,1,0
+December 8 2017,Kentucky,Louisville,5000 block of Rossmoor Drive,1,0,
+,December 8 2017,Michigan,Almont,4800 block of Shoemaker Rd,0,0
+,December 8 2017,Texas,Austin,5000 block of Regency Dr,0,1
+,December 8 2017,North Carolina,Longwood,Carlon Rd NW and George Daniels Rd NW,1,0
