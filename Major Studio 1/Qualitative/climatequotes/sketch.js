@@ -22,17 +22,17 @@ var r = data.getColumn ("r");
 var g = data.getColumn ("g");
 var b = data.getColumn ("b");
 var timeline = (windowHeight-75)
-background (25);
+background (10);
 textFont(myFont);
-textSize(26);
+textSize(30);
 fill('white');
 text('Evolution of Denial', 25, 100);
-textSize(16);
+textSize(20);
 text('How Are Politicians Selling their Skepticism of Climate Change?', 25, 140);
 //draw key
 textFont(bodyFont);
 
-textSize(12);
+textSize(14);
 fill (251, 154, 153);
 rect (25,200,10,10);
 text ("Alternative facts", 40, 210);
