@@ -3,8 +3,8 @@ var margin = 50;
 
 function preload() {
   data = loadTable('denial.csv', 'csv', 'header');
-  myFont = loadFont("Gotham-Black.otf");
-  bodyFont = loadFont("Gotham-Book.otf");
+  myFont = loadFont("Roboto.otf");
+  bodyFont = loadFont("Roboto.otf");
 }
 
 function setup() {
@@ -33,13 +33,13 @@ text('How Are Politicians Selling their Skepticism of Climate Change?', 25, 140)
 textFont(bodyFont);
 
 textSize(12);
-fill (228, 95, 86);
+fill (251, 154, 153);
 rect (25,200,10,10);
 text ("Alternative facts", 40, 210);
-fill (66, 133, 244);
+fill (166, 206, 227);
 rect (25,225,10,10);
 text ("It still gets cold sometimes", 40, 235);
-fill (102, 204, 0);
+fill (178, 223, 138);
 rect (25, 250,10,10);
 text ("It's not worth the money", 40, 260);
 fill (192, 192, 192);
