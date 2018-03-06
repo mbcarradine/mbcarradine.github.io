@@ -24,7 +24,7 @@ var b = data.getColumn ("b");
 var timeline = (windowHeight-75)
 background (0,0,0);
 textFont(myFont);
-textSize(30);
+textSize(40);
 fill('white');
 text('Evolution of Denial', 25, 100);
 textSize(20);
@@ -57,7 +57,7 @@ for (var i = 0; i < quote.length; i++){
 
 textFont(bodyFont);  
       textSize(15);
-      rotate(radians(frameCount/480));
+      rotate(radians(frameCount/180));
 text((quote[i]), 200, 400);
    fill((r[i]-50), (g[i]-50), (b[i])-50);
 text((who[i]) + ", " + (month[i]) + " " + (when[i]), 200, 420);
