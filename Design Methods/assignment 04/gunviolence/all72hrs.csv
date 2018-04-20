@@ -1,245 +1,276 @@
 ,Date,State,City,Address,Killed,Injured
-February 23 2018,Illinois,Rockford,400 S Henrietta Ave,1,0,
-,February 23 2018,Illinois,Rockford,7200 Harrison Ave,1,0
-,February 23 2018,Virginia,Blacksburg,3401 Bruin Ln,0,0
-,February 23 2018,Florida,Tallahassee,2200 block of Oxford Rd,0,0
-,February 23 2018,Florida,Tarpon Springs,300 S Florida Ave,0,1
-,February 23 2018,Florida,Bradenton,N/A,0,0
-,February 23 2018,Florida,Fort Meade,Martin Luther King Jr Blvd and Charleston Ave S,1,0
-,February 23 2018,Florida,Dade City,36850 FL 52,0,0
-,February 23 2018,Michigan,Detroit,17300 block of Braile St,1,0
-,February 23 2018,Illinois,Centralia,N Maple St and E Rexford St,0,0
-,February 23 2018,Indiana,Lafayette,610 S Earl Ave,0,0
-,February 23 2018,Ohio,Cleveland,10225 Berea Rd,1,0
-,February 23 2018,California,Oxnard,Carty Dr and Robert Ave,0,0
-,February 23 2018,California,Long Beach,Anaheim St,1,0
-,February 23 2018,Alabama,Montgomery,4000 block of Smiley Circle,0,1
-,February 23 2018,Louisiana,Baton Rouge,2615 Oak Villa Blvd,0,1
-,February 23 2018,Missouri,Saint Louis,Eichelberger St and S 38th St,1,0
-,February 23 2018,Ohio,Grove City,2110 Stringtown Rd,0,1
-,February 23 2018,Ohio,Lakewood,1400 block of Olivewood Ave,1,1
-,February 23 2018,Pennsylvania,Allentown,343 Hamilton St,0,1
-,February 23 2018,Texas,Denton,4007 N Interstate 35,0,1
-,February 23 2018,Illinois,Harvey,36 W 159th St,0,1
-,February 23 2018,Louisiana,Hammond,500 W University Ave,0,2
-,February 23 2018,North Carolina,Fayetteville,200 block of Tiffany Court,1,0
-,February 23 2018,Illinois,Chicago,3100 W Pershing Rd,0,0
-,February 22 2018,California,Sacramento,39th St and H St,0,0
-,February 22 2018,Virginia,Roanoke (Cave Spring),4152 4880 Brambleton Ave,0,0
-,February 22 2018,Virginia,Newport News,36th St and Madison Ave,0,1
-,February 22 2018,Georgia,Decatur,Flat Shoals Rd and Shropshire Ln,1,0
-,February 22 2018,South Carolina,North Augusta,430 Murrah Rd,0,0
-,February 22 2018,Illinois,Chicago,11200 S King Dr,1,0
-,February 22 2018,Ohio,Columbus,Melrose Ave,0,0
-,February 22 2018,Tennessee,Nashville,Jefferson St,0,1
-,February 22 2018,Michigan,Lincoln Park,4234 Fort St,0,0
-,February 22 2018,Florida,Orlando,1500 block of Echo Lake Ct,1,0
-,February 22 2018,Delaware,Wilmington,400 block of N Clayton St,0,0
-,February 22 2018,Florida,Apopka,13th St and Hawthorne Ave,0,1
-,February 22 2018,Florida,Summerfield,13730 SE 53rd Ave,0,0
-,February 22 2018,Florida,North Miami Beach,1425 NE 163rd St,0,0
-,February 22 2018,Florida,Fort Myers,4651 Park Windsor Dr,0,0
-,February 22 2018,Florida,Cocoa,School St,0,0
-,February 22 2018,Florida,Daytona Beach,400 E International Speedway Blvd,0,0
-,February 22 2018,Indiana,Merrillville,6201 Opportunity Ln,1,0
-,February 22 2018,New Mexico,Albuquerque,1500 block of 2nd St,1,0
-,February 22 2018,Maryland,Baltimore,5900 block of York Rd,0,0
-,February 22 2018,Maryland,Bladensburg,4221 Kenilworth Ave,0,1
-,February 22 2018,Alabama,Birmingham,1st Street West,0,1
-,February 22 2018,North Carolina,Hendersonville,Holbert Road,1,0
-,February 22 2018,Louisiana,New Orleans,Governor Nicholls Street and North Broad Street,0,1
-,February 22 2018,Ohio,Millersport,2705 Lynn Ave,0,0
-,February 22 2018,Florida,Fort Myers,4651 Park Windsor Dr,0,0
-,February 22 2018,Florida,Cocoa,School St,0,0
-,February 22 2018,Florida,Daytona Beach,400 E International Speedway Blvd,0,0
-,February 22 2018,Indiana,Merrillville,6201 Opportunity Ln,1,0
-,February 22 2018,New Mexico,Albuquerque,1500 block of 2nd St,1,0
-,February 22 2018,Maryland,Baltimore,5900 block of York Rd,0,0
-,February 22 2018,Maryland,Bladensburg,4221 Kenilworth Ave,0,1
-,February 22 2018,Alabama,Birmingham,1st Street West,0,1
-,February 22 2018,North Carolina,Hendersonville,Holbert Road,1,0
-,February 22 2018,Louisiana,New Orleans,Governor Nicholls Street and North Broad Street,0,1
-,February 22 2018,Ohio,Millersport,2705 Lynn Ave,0,0
-,February 22 2018,California,Nevada City,Forest View Dr,0,1
-,February 22 2018,Kentucky,Hulen,68 Charles Collett Road,0,1
-,February 22 2018,Louisiana,New Orleans,Walmsley Street and Vendome Street,0,0
-,February 22 2018,Alabama,Birmingham,800 block of 4th Avenue West,1,0
-,February 22 2018,Missouri,Saint Louis,1200 block of Hoyt Dr,3,0
-,February 22 2018,Missouri,Saint Louis,Fay Drive and Canyon Drive,2,0
-,February 22 2018,Missouri,Saint Louis,Ellenwood Ave and Morganford Rd,0,0
-,February 22 2018,Pennsylvania,Allentown,200 block of N 15th St,0,1
-,February 22 2018,Texas,Schertz,4000 block of Brook Hollow Dr,1,0
-,February 22 2018,Pennsylvania,Pittsburgh (Wilkinsburg),1700 block of Laketon Rd,1,0
-,February 22 2018,Pennsylvania,Pittsburgh (Bellevue),Shiloh Ave,0,0
-,February 22 2018,Georgia,Atlanta,Fulton St SW and McDaniel SW,0,1
-,February 22 2018,Georgia,Atlanta,I-20,0,1
-,February 22 2018,Arkansas,Rector,LaSalle Street,1,0
-,February 22 2018,Illinois,Chicago,7000 S Morgan St,1,0
-,February 22 2018,Texas,Houston,8900 Chimney Rock Rd,0,1
-,February 22 2018,Washington,Vancouver,3300 block of East 13th St,0,0
-,February 22 2018,New Jersey,Newark,500 block of S 19th St,1,0
-,February 22 2018,New York,Niagara Falls,600 block of 22nd St,0,0
-,February 22 2018,Texas,San Antonio,23100 block of US 281 S,0,0
-,February 22 2018,California,Indio (Bermuda Dunes),78900 block of Runaway Bay Dr,0,0
-,February 22 2018,Arizona,Phoenix,99th Ave and Broadway Rd,1,0
-,February 22 2018,California,Salinas,Simas St and Market St,0,1
-,February 22 2018,Massachusetts,Framingham,Bishop St,0,0
-,February 22 2018,Massachusetts,Boston,65 Gates St,0,0
-,February 22 2018,California,San Jose,2900 block of Tuers Rd,0,1
-,February 21 2018,Pennsylvania,Philadelphia,5700 block of Broad St,1,0
-,February 21 2018,West Virginia,Huntington,1100 block of 9th Ave,0,2
-,February 21 2018,California,San Diego,5301 55th St,0,0
-,February 21 2018,Kansas,Allen,1208 Road 345,0,0
-,February 21 2018,Wisconsin,Madison,6702 Raymond Rd,0,0
-,February 21 2018,Wisconsin,Madison,4217 W Beltline Hwy,0,1
-,February 21 2018,Virginia,Wakefield,100 block of Rolfe Hwy,0,1
-,February 21 2018,Wisconsin,Madison,702 Pflaum Rd,0,0
-,February 21 2018,California,Glendora,N/A,0,0
-,February 21 2018,California,Bakersfield,1000 block of Quincy St,0,0
-,February 21 2018,Arizona,Peoria,9621 W Speckled Gecko Dr,0,0
-,February 21 2018,Washington,Seattle (Des Moines),1400 block of S 234th St,0,0
-,February 21 2018,Alabama,Montgomery,1600 block of Westcott Street,1,2
-February 21 2018,Tennessee,Dyersburg,N Fowlkes Ave and Tucker St,0,0,
-,February 21 2018,Oklahoma,Tulsa,800 block of N Rockford Ave,0,0
-,February 21 2018,New Mexico,Albuquerque,N/A,0,0
-,February 21 2018,South Carolina,Myrtle Beach,2925 Carriage Row Ln,0,0
-,February 21 2018,Delaware,Dover,50 block of Periwinkle Ct,0,0
-,February 21 2018,Tennessee,Jackson,30 block of Farmington Dr,0,1
-,February 21 2018,California,Chico,W 6th St and Walnut St,0,0
-,February 21 2018,Maryland,Baltimore,100 block of Mount St,0,1
-,February 21 2018,Maryland,Baltimore,3800 block of Oakford Ave,1,0
-,February 21 2018,Maryland,Baltimore,2800 block of Jefferson St,0,0
-,February 21 2018,Maryland,Baltimore,200 block of N Payson St,1,0
-,February 21 2018,Illinois,Chicago,2600 N Kimball Ave,0,2
-,February 21 2018,Virginia,Newport News,900 block of Taylor Ave,0,1
-,February 21 2018,Maryland,Upton (county),500 block of McMechen St,1,0
-,February 21 2018,North Dakota,Jamestown,US 281 and I-94,1,0
-,February 21 2018,Maryland,Cumberland,Boone St and Oak St,0,1
-,February 21 2018,Minnesota,Minneapolis (Brooklyn Center),6000 block of Colfax Ave N,0,1
-,February 21 2018,Illinois,Chicago,300 E 51st St,0,3
-,February 21 2018,Illinois,Chicago (Burnham),2400 State St,1,0
-,February 21 2018,Delaware,Dover,74 Par Haven Dr,0,0
-,February 21 2018,Illinois,Aurora,Bevier Pl and 4th Ave,0,0
-,February 21 2018,Ohio,Lancaster,N Memorial Dr and Lincoln Ave,0,0
-,February 21 2018,Texas,Tyler,5514 S Broadway Ave,0,0
-,February 21 2018,Kentucky,Dawson Springs,Logan Road,0,2
-,February 21 2018,Illinois,Chicago,3700 W Addison St,0,1
-February 21 2018,February 21 2018,Illinois,Chicago,3700 W Addison St,0,1
-,February 21 2018,Illinois,Chicago,1 S Menard Ave,0,1
-,February 21 2018,Delaware,Wilmington,Lancaster Ave and S Clayton St,0,1
-,February 21 2018,Florida,Jacksonville,Seminary St and Kings Rd,0,1
-,February 21 2018,Texas,San Antonio,4803 Manitou Dr,1,1
-,February 21 2018,Wisconsin,Milwaukee,1212 W KEEFE AVE,0,0
-,February 21 2018,Wisconsin,Milwaukee,1725 N 28TH ST,0,0
-,February 21 2018,Maryland,Brandywine,Chadds Ford Dr and Chadsey Ln,2,0
-,February 21 2018,Wisconsin,Sturtevant (Mount Pleasant),WI 31 and Graceland Blvd,0,0
-,February 21 2018,Hawaii,Kailua Kona,O'io St,0,1
-,February 21 2018,New Jersey,Asbury Park,405 Ridge Ave,1,1
-,February 21 2018,Louisiana,New Orleans,N/A,0,0
-,February 21 2018,Arizona,Phoenix,3600 block of Lewis Avenue,4,0
-,February 21 2018,Michigan,Madison,2100 block of Packers Ave,0,0
-,February 21 2018,Alabama,Birmingham,First Avenue South,0,1
-,February 21 2018,California,Ventura,2350 S Victoria Ave,0,0
-,February 21 2018,Michigan,Detroit,SANTA CLARA AVE AND BENTLER ST,0,0
-,February 21 2018,Michigan,Detroit,15000 BLOCK OF EVANSTON ST,0,0
-,February 21 2018,Alabama,Gurley,174 Brock Rd,0,0
-,February 21 2018,Mississippi,Hernando,McCracken Road and Slocum Road,1,0
-,February 21 2018,Louisiana,Duson,9200 block of Cameron Street,0,0
-,February 21 2018,Louisiana,Pineville,3655 Trinity Church Rd,0,0
-,February 21 2018,Texas,Austin,2901 Read Granberry Trail,0,0
-,February 21 2018,Illinois,Chicago,2900 E 83rd St,0,1
-,February 21 2018,Indiana,Kokomo,N/A,0,0
-February 21 2018,Ohio,Newark,150 Price Rd,0,0,
-,February 21 2018,Ohio,Cleveland,15110 St Clair Ave,0,0
-,February 21 2018,Texas,Stratford,100 S Poplar St,0,1
-,February 21 2018,Illinois,Bethalto,800 S Moreland Rd,0,0
-,February 21 2018,Pennsylvania,York,I-83,0,0
-,February 21 2018,Nebraska,Wood River,I-80,0,0
-,February 21 2018,New York,Rochester,400 block of Cottage St,0,1
-,February 21 2018,South Carolina,North Augusta,1200 block of Weston Street,0,0
-,February 21 2018,Illinois,Chicago,1400 S St Louis Ave,0,1
-,February 21 2018,Mississippi,Jackson,Deer Park Street,0,1
-,February 21 2018,Mississippi,Vicksburg,North Washington Street,0,1
-,February 21 2018,Indiana,Griffith,600 N Wiggs St,0,0
-,February 21 2018,New Jersey,Paterson,12th Ave,0,0
-,February 21 2018,New Jersey,Paterson,Godwin Ave,0,0
-,February 21 2018,South Carolina,Spartanburg,S Liberty St,0,1
-,February 21 2018,Georgia,Kingston,Norton Rd,1,0
-,February 21 2018,Pennsylvania,Hatfield,300 block of W Broad St,0,0
-,February 21 2018,Florida,Lake Worth (Lantana),700 block of S Broadway St,0,0
-,February 21 2018,Florida,Boynton Beach,1800 block of N Seacrest Blvd,0,1
-,February 21 2018,Florida,Boynton Beach,3600 block of S Federal Hwy,0,0
-,February 21 2018,Pennsylvania,Philadelphia,200 block of W Roosevelt Blvd,0,2
-,February 21 2018,North Carolina,Roxboro,100 block of Person Court,0,1
-,February 21 2018,Georgia,Atlanta,Cleveland Ave,0,1
-,February 21 2018,Missouri,Poplar Bluff,1200 Camp Rd,0,0
-,February 21 2018,Louisiana,New Orleans,2000 St Anthony St,0,2
-February 21 2018,Louisiana,Slidell,39100 Natchez Dr,0,0,
-,February 21 2018,Illinois,Carterville,200 McNeil St,0,0
-,February 21 2018,Vermont,Dorset,US 7,0,0
-,February 21 2018,Washington,Yakima,300 block of N 8th St,0,1
-,February 21 2018,Massachusetts,Marshfield,9 Surrey Rd,0,0
-,February 21 2018,Massachusetts,Boston,238 Columbia Rd,0,0
-,February 21 2018,New York,Patchogue (East Patchogue),Peekskill Ave,0,0
-,February 21 2018,Connecticut,Naugatuck,Longview Terrace,0,0
-,February 21 2018,Washington,Eatonville,43100 block of Mountain Hwy E,1,0
-,February 21 2018,New Hampshire,Manchester,375 Lake Ave,0,0
-,February 21 2018,District of Columbia,Washington,3400 block of 22nd St SE,0,0
-,February 21 2018,District of Columbia,Washington,4919 Kansas Ave NW,0,1
-,February 21 2018,Massachusetts,West Yarmouth,77 MA 28,0,0
-,February 21 2018,California,Pomona,800 block of E La Verne Ave,0,1
-,February 21 2018,New Mexico,Albuquerque,145 Louisiana Blvd NE,0,1
-,February 21 2018,Massachusetts,Stoughton,278 Washington St,0,0
-,February 21 2018,California,Grand Terrace,Main St and Taylor St,0,0
-,February 21 2018,California,Antioch,900 block of W 3rd St,1,1
-,February 20 2018,North Carolina,Wilmington,3500 block of S College Rd,0,0
-,February 20 2018,Colorado,Denver,W Louisiana Ave and S Federal Blvd,0,2
-,February 20 2018,Massachusetts,New Bedford,130 Chestnut St,0,1
-,February 20 2018,Virginia,Portsmouth,3200 block of Brighton St,0,1
-,February 20 2018,Oklahoma,Elmore City,N/A,0,1
-,February 20 2018,Virginia,Newport News,Maple Ave and 19th St,0,1
-,February 20 2018,California,Bakersfield,1600 Truxtun Ave,0,0
-,February 20 2018,Virginia,Portsmouth,3200 block of Brighton St,0,1
-,February 20 2018,Oklahoma,Elmore City,N/A,0,1
-,February 20 2018,Virginia,Newport News,Maple Ave and 19th St,0,1
-,February 20 2018,California,Bakersfield,1600 Truxtun Ave,0,0
-,February 20 2018,North Carolina,Asheboro,2625 Buffalo Ford Rd,1,0
-,February 20 2018,Maryland,Frederick,400 block of Carrollton Dr,0,0
-,February 20 2018,Virginia,Newport News,800 block of Lassiter Dr,1,0
-,February 20 2018,Ohio,Springfield,731 E Home Rd,0,0
-,February 20 2018,California,Ceres,Hatch Rd and Central Ave,0,0
-,February 20 2018,Washington,Seattle,E Yesler Way and 25th Ave S,0,1
-,February 20 2018,Colorado,Denver,5500 block of N Tulsa Way,0,1
-,February 20 2018,Rhode Island,Providence,Mowry St and Admiral St,0,0
-,February 20 2018,Alabama,Bessemer,2600 block of Clarendon Ave,0,1
-,February 20 2018,Oklahoma,Tulsa,5900 block of E Marshall St,0,0
-,February 20 2018,Tennessee,Memphis,3941 Riverdale Rd,0,1
-,February 20 2018,New Mexico,Albuquerque,Carlisle Blvd and Comanche Rd,1,0
-,February 20 2018,New Mexico,Albuquerque,800 Odelia Rd NE,0,0
-,February 20 2018,Georgia,Atlanta,N/A,0,0
-,February 20 2018,Delaware,Dover,Saulsbury Rd and Forrest Ave,0,0
-,February 20 2018,Illinois,Bloomington,900 W Olive St,0,0
-,February 20 2018,Kentucky,Louisville,1700 block of Bernheim Ln,0,1
-,February 20 2018,South Carolina,Summerville,14105 Parkview Ln,0,
-,February 20 2018,Virginia,Richmond,Williamsburg Rd and Scott St,0,1
-,February 20 2018,Georgia,Valdosta,400 block of Murray Rd,0,0
-,February 20 2018,Massachusetts,New Bedford,130 Chestnut St,0,1
-,February 20 2018,Virginia,Portsmouth,3200 block of Brighton St,0,1
-,February 20 2018,Oklahoma,Elmore City,N/A,0,1
-,February 20 2018,Virginia,Newport News,Maple Ave and 19th St,0,1
-,February 20 2018,California,Bakersfield,1600 Truxtun Ave,0,0
-,February 20 2018,North Carolina,Asheboro,2625 Buffalo Ford Rd,1,0
-,February 20 2018,Maryland,Frederick,400 block of Carrollton Dr,0,0
-,February 20 2018,Virginia,Newport News,800 block of Lassiter Dr,1,0
-,February 20 2018,Ohio,Springfield,731 E Home Rd,0,0
-,February 20 2018,California,Ceres,Hatch Rd and Central Ave,0,0
-,February 20 2018,Washington,Seattle,E Yesler Way and 25th Ave S,0,1
-,February 20 2018,Colorado,Denver,5500 block of N Tulsa Way,0,1
-,February 20 2018,Rhode Island,Providence,Mowry St and Admiral St,0,0
-,February 20 2018,Alabama,Bessemer,2600 block of Clarendon Ave,0,1
-,February 20 2018,Oklahoma,Tulsa,5900 block of E Marshall St,0,0
-,February 20 2018,Tennessee,Memphis,3941 Riverdale Rd,0,1
-,February 20 2018,New Mexico,Albuquerque,Carlisle Blvd and Comanche Rd,1,0
-,February 20 2018,New Mexico,Albuquerque,800 Odelia Rd NE,0,0
-,February 20 2018,Georgia,Atlanta,N/A,0,0
-,February 20 2018,Delaware,Dover,Saulsbury Rd and Forrest Ave,0,0
+April 19 2018,April 19 2018,Nebraska,Omaha,Ames Ave and N 36th St,0,1
+,April 19 2018,Virginia,Richmond,German School Rd,0,0
+,April 19 2018,Georgia,Warner Robins,203 Diggs Blvd,0,0
+,April 19 2018,New Hampshire,Rochester,105 Whitehouse Rd,0,0
+,April 19 2018,Virginia,Richmond,4700 Walmsley Blvd,0,1
+,April 19 2018,Rhode Island,Providence,112 Briggs St,0,1
+,April 19 2018,North Carolina,Charlotte,9200 block of Harrisburg Rd,0,1
+,April 19 2018,Virginia,Henrico,800 block of Pleasant Street,0,2
+,April 19 2018,Kansas,Kansas City,N/A,0,1
+,April 19 2018,Iowa,Davenport,300 E 14th St,0,0
+,April 19 2018,Florida,Trenton,1122 E Wade St,3,0
+,April 19 2018,Ohio,Cleveland,Euclid Ave and E 36th St,0,1
+,April 19 2018,Florida,Port Charlotte,5121 Melbourne St,0,0
+,April 19 2018,Alabama,Arab,Lookout Dr,0,0
+,April 19 2018,Louisiana,Rayne,300 Branche Street,0,0
+,April 19 2018,Florida,Boynton Beach,1200 block of NW 4th St,0,1
+,April 19 2018,Missouri,Kansas City,Park Ave E and E 36th St,1,0
+,April 19 2018,Missouri,Independence,S Oxford Ave and E Independence Ave,1,0
+,April 19 2018,Alaska,Anchorage,810 W Tudor Rd,0,0
+,April 19 2018,Kansas,Topeka,300 block of SE Lawrence St,0,0
+,April 19 2018,Kansas,Topeka,1700 block of SE Morrison St,0,1
+,April 19 2018,Ohio,Dayton,1500 block of Wesleyan Rd,0,0
+,April 19 2018,Ohio,Xenia,1920 US-68,0,1
+,April 19 2018,Maryland,Baltimore,4200 block of Sheldon Ave,0,1
+,April 19 2018,Maryland,Baltimore,1700 block of Register Ave,1,1
+,April 19 2018,Wisconsin,Milwaukee,2564 N 15th St,0,0
+,April 19 2018,Minnesota,Minneapolis,4400 block of 44th Ave S,0,0
+,April 19 2018,Michigan,Detroit,Monica St and Florence St,0,0
+,April 19 2018,Michigan,Detroit,9300 block of E Jefferson Ave,0,0
+,April 19 2018,Michigan,Detroit,15400 block of Steel St,1,0
+,April 19 2018,Michigan,Detroit,8400 block of Plainview Ave,0,1
+,April 19 2018,Maryland,Baltimore,1400 block of Union Ave,0,1
+,April 18 2018,Washington,Seattle (Burien),15800 block of 1st Ave S,0,0
+,April 18 2018,Oklahoma,Tulsa,35 N Sheridan Rd,0,1
+,April 18 2018,Utah,Salt Lake City,1950 W N Temple,0,0
+,April 18 2018,South Carolina,Myrtle Beach,204 Mr Joe White Ave,0,0
+,April 18 2018,Oklahoma,Tulsa,100 N College Ave,0,1
+,April 18 2018,South Carolina,Chesnee,Kirk Dr,0,1
+,April 18 2018,Virginia,Richmond,4000 block of Old Brook Rd,0,1
+,April 18 2018,Virginia,Richmond,2300 block of Ambrose St,0,1
+,April 18 2018,South Carolina,Columbia,East Chapel Drive,0,1
+,April 18 2018,South Carolina,Ladson,1000 Block of Royle Rd,0,1
+,April 18 2018,Maine,Greene,Park Ln,0,1
+,April 18 2018,North Carolina,Matthews,3000 block of Rainbow Ridge Drive,0,0
+,April 18 2018,Pennsylvania,Lancaster,460 S Duke St,0,1
+,April 18 2018,Georgia,Atlanta,N/A,0,0
+,April 18 2018,California,Turlock,300 block of Minaret Ave,0,0
+,April 18 2018,Rhode Island,Providence,Penn St,0,0
+,April 18 2018,Massachusetts,Boston,453 Old Colony Ave,0,0
+,April 18 2018,Connecticut,Naugatuck,CT 8,0,0
+,April 18 2018,Pennsylvania,Bristol,800 block of Patterson Ave,0,0
+,April 18 2018,Texas,Dallas,N St Paul St and Pacific Ave,0,0
+,April 18 2018,New Jersey,Trenton,Martin Luther King Jr. Blvd and Race St,0,0
+,April 18 2018,Texas,Dallas,2500 block of Healey Dr,1,0
+,April 18 2018,Missouri,Springfield,9400 block of E State Hwy YY,1,0
+,April 18 2018,Georgia,Social Circle,Knox Chapel Rd,1,0
+,April 18 2018,Georgia,Douglasville,8470 Earl D Lee Blvd,1,0
+,April 18 2018,Missouri,Saint Louis,4200 block of Manchester Ave,0,1
+,April 18 2018,Louisiana,New Orleans,S Claiborne Ave and 1st St,1,0
+,April 18 2018,Louisiana,New Orleans,3600 block of South Roman Street,1,1
+,April 18 2018,Tennessee,Englewood,TN 39,1,0
+,April 18 2018,Louisiana,Houma,Lafayette Street and Magnolia Street,0,1
+,April 18 2018,California,Anaheim,1180 W Ball Rd,0,0
+,April 18 2018,Indiana,Indianapolis,10174 Tinton Ct,0,2
+,April 18 2018,Pennsylvania,Philadelphia,67th St and Trinity St,0,2
+,April 18 2018,Ohio,Youngstown,Seneca Ave,0,0
+,April 18 2018,California,Oakland,1400 block of 7th St,1,1
+,April 18 2018,Florida,Fort Lauderdale,900 block of W Sunrise Blvd,1,0
+,April 18 2018,South Carolina,Clover,1200 block of Bowling Green Dr,0,1
+,April 18 2018,Illinois,Normal,700 block of W Orlando Ave,0,0
+,April 18 2018,Florida,Orlando,Ardsley Dr and Knollwood St,0,0
+,April 18 2018,Florida,Apopka,228 W Main St,0,0
+,April 18 2018,Florida,Ocala,NW 19th Ave,0,0
+,April 18 2018,Florida,Cape Coral,1790 NE Pine Island Rd,0,0
+,April 18 2018,Mississippi,West Point,5th Street,0,1
+April 18 2018,April 18 2018,Mississippi,Nettleton,N/A,0,1
+,April 18 2018,Florida,Jacksonville,2750 John Prom Blvd,0,0
+,April 18 2018,Mississippi,Jackson,University Boulevard and Winter Street,1,0
+,April 18 2018,Louisiana,New Orleans,Paris Avenue and Crescent Street,0,0
+,April 18 2018,Louisiana,New Orleans,3901 Behrman Hwy,1,0
+,April 18 2018,California,Gardena,S Vermont Ave and W Redondo Beach Blvd,0,1
+,April 18 2018,Mississippi,Jackson,800 block of Fairfax Circle,0,1
+,April 18 2018,Arkansas,Helena,Cherry Street,0,0
+,April 18 2018,Kentucky,Roanoke,Valley Creek Road and Gray Road,0,1
+,April 18 2018,South Carolina,Hartsville,700 block of 8th Street,1,0
+,April 18 2018,Alabama,Mobile,550 Rickarby Street,0,1
+,April 18 2018,Alabama,Birmingham,4900 block of Airport Highway,0,1
+,April 18 2018,Virginia,Roanoke,2700 block of Shenandoah Ave,0,2
+,April 18 2018,North Carolina,Rockingham,Maner Rd,1,2
+,April 18 2018,Tennessee,Memphis,Lamar Ave and Castalia St,0,0
+,April 18 2018,Tennessee,Nashville,Elm Hill Pike,0,2
+,April 18 2018,Texas,The Colony,6300 block of FM423,0,1
+,April 18 2018,Pennsylvania,Philadelphia,S 63rd St and Reedland St,0,1
+,April 18 2018,New York,Syracuse,608 1st N St,0,0
+,April 18 2018,Kansas,Leavenworth,1400 block of 6th Ave,0,1
+,April 18 2018,Alabama,Birmingham,800 block of 49th St N,0,1
+,April 18 2018,Alaska,Willow,Parks Hwy,0,0
+,April 18 2018,New York,Staten Island,100 block of Targee St,0,0
+,April 18 2018,New York,Staten Island,Arlington Place and South Ave,0,0
+,April 18 2018,Hawaii,Honolulu,3510 Kalihi St,0,1
+April 18 2018,April 18 2018,Hawaii,Honolulu,3510 Kalihi St,0,1
+,April 18 2018,Indiana,Oaktown,3300 block of E Cardinal Rd,1,1
+,April 18 2018,Indiana,Evansville,4600 block of Spring Valley Rd,0,1
+,April 18 2018,New York,Albany,Myrtle Ave and Philip St,0,1
+,April 18 2018,New York,Brooklyn,175 Hart St,1,0
+,April 18 2018,Ohio,Dayton (Trotwood),40 Pinewood Cir,2,0
+,April 18 2018,Colorado,Pueblo,100 block of Egan Ave,0,1
+,April 18 2018,Ohio,Elyria,200 block of Washington Ave,0,0
+,April 18 2018,North Carolina,Asheville,73 Hansel Ave,4,3
+,April 18 2018,Rhode Island,Providence,Sunbury St and River Ave,0,0
+,April 18 2018,Florida,Pensacola,Fairfield Dr and Ruby Ave,0,1
+,April 18 2018,Florida,Lake Worth,7900 Jog Rd,0,0
+,April 18 2018,Wisconsin,Milwaukee,2471 W Auer Ave,0,0
+,April 18 2018,Florida,West Palm Beach,Okeechobee Rd and Wilkens Ave,0,1
+,April 18 2018,Maryland,Baltimore,900 block of Chauncey Ave,0,0
+,April 18 2018,Illinois,Chicago,5600 block of S Maryland Ave,0,1
+,April 18 2018,Illinois,Chicago,1100 block of N Leclaire Ave,0,1
+,April 18 2018,Illinois,Chicago,1300 block of W 91st St,0,1
+,April 18 2018,Texas,San Antonio,3903 Eisenhauer Rd,1,0
+,April 18 2018,Indiana,Gary,401 W Ridge Road,1,0
+,April 18 2018,Ohio,Cleveland,E 124th St and Union Ave,0,1
+,April 18 2018,Minnesota,Minneapolis,Lowry Ave N and Emerson Ave N,0,0
+,April 18 2018,Minnesota,Saint Paul,Thomas Ave and St Albans St N,0,0
+,April 18 2018,Minnesota,Saint Paul,Earl St and Maryland Ave E,0,0
+,April 18 2018,New York,Freeport,292 N Main St,0,1
+April 18 2018,April 18 2018,Minnesota,Saint Paul,800 block of Marshall Ave,0,0
+,April 18 2018,Illinois,Chicago,3800 block of W Lexington St,1,0
+,April 18 2018,Minnesota,Minneapolis,Chicago Ave and E 32nd St,0,0
+,April 18 2018,Michigan,Detroit,800 block of Crawford St,0,0
+,April 18 2018,Michigan,Detroit,15700 block of Wabash St,0,0
+,April 18 2018,Michigan,Detroit,19300 block of Revere St,0,0
+,April 18 2018,Michigan,Detroit,7300 block of W Outer Dr,0,0
+,April 18 2018,Michigan,Detroit,Oakfield St and Clarita St,0,0
+,April 18 2018,Pennsylvania,Trafford,Duquesne Ave,0,0
+,April 18 2018,Michigan,Detroit,Van Buren St and Rosemont Ave,0,1
+,April 18 2018,Pennsylvania,Pittsburgh,7900 block of Susquehanna St,0,1
+,April 18 2018,Michigan,Kalamazoo,6830 E N Ave,1,0
+,April 18 2018,Michigan,Detroit,700 block of Campbell St,0,0
+,April 18 2018,Michigan,Detroit,6500 block of Greenview Ave,0,0
+,April 18 2018,Maryland,Lexington Park,21000 block of Liberty St,1,0
+,April 18 2018,Maryland,Baltimore,4800 block of Alhambra Ave,0,1
+,April 18 2018,Maryland,Baltimore,700 block of E 43rd St,1,0
+,April 18 2018,Maryland,Baltimore,1900 block of Penrose St,1,0
+,April 18 2018,Maryland,Baltimore,1000 block of W Lombard St,1,0
+,April 18 2018,Maryland,Baltimore,Kenwood Ave and Ashland Ave,0,1
+,April 18 2018,Delaware,Seaford,24000 block of Clench Jean Ln,0,0
+,April 18 2018,District of Columbia,Washington,1300 block of Connecticut Ave NW,0,0
+,April 18 2018,District of Columbia,Washington,900 block of Quincy St NW,0,0
+,April 18 2018,California,Bakersfield,30th St and Q St,0,0
+,April 18 2018,Missouri,Saint Louis,N/A,0,1
+April 18 2018,April 18 2018,California,Bakersfield,30th St and Q St,0,0
+,April 18 2018,Missouri,Saint Louis,N/A,0,1
+,April 18 2018,Maryland,Park Hall,20343 Hermanville Rd,0,0
+,April 18 2018,Texas,Victoria,3506 Swan Dr,0,1
+,April 18 2018,Utah,Salt Lake City,1132 E Princeton Ave,1,0
+,April 18 2018,Nevada,Reno,Brinkby Ave,0,1
+,April 17 2018,Georgia,Thomasville,520 Fletcher St,0,0
+,April 17 2018,Mississippi,Iuka,N/A,0,1
+,April 17 2018,North Dakota,Minot,3800 Highway 2 And 52 W,0,0
+,April 17 2018,Texas,Belton,3272 US-190 Frontage Rd,0,1
+,April 17 2018,Ohio,Sandusky,2600 block of Merriweather Rd,0,1
+,April 17 2018,Oregon,Portland,1100 block of NE 99th Ave,0,0
+,April 17 2018,Oklahoma,Tishomingo,1400 block of N Elks Rd,1,0
+,April 17 2018,Kansas,Bunker Hill,4115 193rd St,0,0
+,April 17 2018,California,Inglewood,1100 N La Brea Ave #100,2,1
+,April 17 2018,Utah,Salt Lake City,400 E and 600 S,0,0
+,April 17 2018,Georgia,Columbus,2026 Floyd Rd,0,1
+,April 17 2018,Oklahoma,Enid,1000 block of N Adams St,0,1
+,April 17 2018,Indiana,Merrillville,359 E 81st Ave,0,1
+,April 17 2018,California,Red Bluff,Rio St and Willow St,0,0
+,April 17 2018,South Carolina,North Charleston,2170 Ashley Phosphate Rd,0,1
+,April 17 2018,Missouri,Marshfield,Pleasant Church Rd,2,1
+,April 17 2018,Kansas,Wichita,2900 block of S Sayles,1,0
+,April 17 2018,Massachusetts,Fall River,Covel St and Bedford St,0,0
+,April 17 2018,Utah,Magna,8400 W 2700 S,1,0
+April 17 2018,April 17 2018,Missouri,Saint Louis,4100 block of Camellia Ave,0,1
+,April 17 2018,Missouri,Springfield,National Ave,0,0
+,April 17 2018,Illinois,East Moline,1300 block of 12th Ave,0,0
+,April 17 2018,Virginia,Salem,1866 Salem Commons Ln,0,2
+,April 17 2018,Texas,Wichita Falls,1400 block of Gladiolous St,1,0
+,April 17 2018,Florida,Cape Coral,1700 block of SW 31st Ln,0,1
+,April 17 2018,Indiana,Indianapolis,S Arlington Ave and E Southport Rd,0,1
+,April 17 2018,Louisiana,Harvey,1100 block of Pailet Avenue,0,1
+,April 17 2018,Louisiana,Lafayette,804 Martin Luther King Jr Dr,0,0
+,April 17 2018,Louisiana,Shreveport,6100 block of Tierra Drive,0,1
+,April 17 2018,North Carolina,Winston Salem (Winston-salem),3460 Robinhood Rd,0,0
+,April 17 2018,Georgia,Macon,Roff Ave and Hendley St,0,1
+,April 17 2018,Ohio,Niles,Smith St,0,0
+,April 17 2018,California,Anaheim,300 block of N State College Blvd,0,0
+,April 17 2018,Florida,Plantation,9000 NW 9th St,1,0
+,April 17 2018,Indiana,South Bend,1300 block of King St,0,1
+,April 17 2018,North Carolina,High Point,1908 Franklin Ave,2,0
+,April 17 2018,California,Stockton,4100 block of Colfax Ct,1,0
+,April 17 2018,Ohio,Dayton,7070 Miller Ln,0,0
+,April 17 2018,Arkansas,Russellville,Shiloh Rd,2,0
+,April 17 2018,Alabama,Birmingham,4009 Vanderbilt Rd,0,1
+,April 17 2018,Texas,Houston,S Post Oak Rd and W Bellfort Ave,0,1
+,April 17 2018,Florida,Molino,Molino Rd and Hwy 95 A N,0,0
+,April 17 2018,California,Delhi,10000 block of Shanks Rd,0,0
+,April 17 2018,Mississippi,Jackson,4573 Bullard St,1,0
+April 17 2018,April 17 2018,Florida,Molino,Molino Rd and Hwy 95 A N,0,0
+,April 17 2018,California,Delhi,10000 block of Shanks Rd,0,0
+,April 17 2018,Mississippi,Jackson,4573 Bullard St,1,0
+,April 17 2018,Louisiana,Abbeville,200 block of Vermilion Street,1,0
+,April 17 2018,North Carolina,Greenville,Sampson St and Bloomfield St,0,1
+,April 17 2018,West Virginia,Beckley,W Neville St and Pike St,1,0
+,April 17 2018,Virginia,Lynchburg,3200 block of Forest Brook Rd,0,1
+,April 17 2018,Arkansas,Hot Springs National Park (Hot Springs),213 Detroit St,0,0
+,April 17 2018,North Carolina,Charlotte,5709 Electra Ln,0,1
+,April 17 2018,Arkansas,Blytheville,South First Street and Sawyer Street,0,1
+,April 17 2018,Arkansas,Jonesboro,600-block of Gladiolus Dr,0,0
+,April 17 2018,Florida,Spring Hill,N/A,0,0
+,April 17 2018,Arkansas,Jonesboro,3000 block of County Road 745,0,1
+,April 17 2018,Alabama,Danville,Johnson Chapel Road,0,1
+,April 17 2018,South Carolina,Union,100 block of Morning Glory Drive,0,0
+,April 17 2018,Kentucky,Columbia,Montgomery Street,0,0
+,April 17 2018,Alabama,Mobile,701 North Joachim Street,0,1
+,April 17 2018,Alabama,Tuscaloosa,226 49th Ave E,0,1
+,April 17 2018,Alabama,Birmingham (Homewood),209 Lakeshore Pkwy,0,1
+,April 17 2018,California,Bakersfield,Wible Rd and Wood Ln,0,1
+,April 17 2018,Illinois,South Beloit,5100 block of Cheney Dr,0,0
+,April 17 2018,California,Oakland,8600 block of Bancroft Ave,0,1
+,April 17 2018,Indiana,Indianapolis,3960 Meadows Dr,0,0
+,April 17 2018,Georgia,Americus,312 Ashby St,0,0
+,April 17 2018,Kentucky,Burkesville,Lawsons Bottom Rd,1,0
+,April 17 2018,Ohio,Cleveland,12100 block of Emery Ave,1,
+,April 17 2018,Pennsylvania,Connellsville,300 block of Hill St,2,1
+,April 17 2018,Louisiana,New Orleans,S Derbigny St and Josephine St,0,1
+,April 17 2018,Louisiana,New Orleans,8000 block of Trapier St,0,1
+,April 17 2018,Arizona,Phoenix,7th St and Northern Ave,1,0
+,April 17 2018,New York,Staten Island,Steuben St and Britton Ave,0,0
+,April 17 2018,Kansas,Topeka,1800 block of SW Lincoln St,0,1
+,April 17 2018,Illinois,Rockford,Lyle St and Sawyer Rd,0,0
+,April 17 2018,New York,Hampton Bays,86 Argonne Rd E,0,0
+,April 17 2018,New York,Bronx,3836 White Plains Rd,1,1
+,April 17 2018,Colorado,Evans,3400 block of Belmont Ave,0,0
+,April 17 2018,Ohio,Dayton (Kettering),900 block of Fairacres Dr,0,0
+,April 17 2018,Connecticut,Westport,I-95,0,0
+,April 17 2018,Illinois,Chicago,3900 block of West Roosevelt Rd,0,1
+,April 17 2018,Illinois,Chicago,200 block of W 87th St,1,1
+,April 17 2018,Florida,Pensacola,N/A,0,0
+,April 17 2018,Florida,Palm Bay,1901 Degroodt Rd SW,0,0
+,April 17 2018,Florida,Cocoa,6900 Block of Melaleuca Dr,0,0
+,April 17 2018,New York,Syracuse,100 block of W Pleasant St,0,1
+,April 17 2018,Wisconsin,Milwaukee,6083 N 37th St,0,0
+,April 17 2018,Wisconsin,Milwaukee,S 22nd St and W Orchard St,1,0
+,April 17 2018,Wisconsin,Racine,Marquette St,0,0
+,April 17 2018,Wisconsin,Racine,2100 block of Shoop St,0,0
+,April 17 2018,Illinois,Chicago,11600 block of S Ada St,0,1
+,April 17 2018,Wisconsin,Beloit,5100 block of Cheney Dr,0,0
+April 17 2018,April 17 2018,Minnesota,Saint Paul,400 block of Dayton Ave,0,0
+,April 17 2018,Minnesota,Saint Paul,135 Winnipeg Ave,0,0
+,April 17 2018,Minnesota,Lakeville,7743 Upper 167 St W,0,0
+,April 17 2018,Minnesota,Saint Paul,7 St E and Ocean St,0,0
+,April 17 2018,Minnesota,Saint Paul (Maplewood),Highwood Ave and McKnight Rd,0,0
+,April 17 2018,Minnesota,Minneapolis,614 S 3rd St,0,0
+,April 17 2018,Minnesota,Minneapolis,Plymouth Ave and Irving Ave,0,0
+,April 17 2018,Michigan,Detroit,11400 block of Warwick St,0,1
+,April 17 2018,Minnesota,Rochester,3108 E River Rd,0,0
+,April 17 2018,Michigan,Detroit,Camley St and Morang Dr,0,0
+,April 17 2018,Michigan,Detroit,11400 block of Flanders St,0,0
+,April 17 2018,Indiana,Gary,1400 block of E 35th Pl,1,1
+,April 17 2018,Michigan,Detroit,6000 block of W Outer Dr,0,1
+,April 17 2018,Michigan,Detroit,Murray Hill St and W Outer Dr,0,0
+,April 17 2018,Michigan,Detroit,18100 block of Hoover St,0,0
+,April 17 2018,Michigan,Detroit,Dix St and Springwells St,0,0
+,April 17 2018,Michigan,Detroit,Evergreen Rd and W 7 Mile Rd,0,1
+,April 17 2018,Michigan,Detroit,9300 block of Kentucky St,0,1
+,April 17 2018,Michigan,Rochester (Rochester Hills),Francis Ave,0,0
+,April 17 2018,Maryland,Baltimore,3500 block of Greenmount Ave,0,1
+,April 17 2018,Delaware,Dover,400 Block of E Water St,0,0
+,April 17 2018,Maryland,Baltimore,200 block of N Warwick Ave,0,1
+,April 17 2018,Delaware,New Castle,50 block of Birkshire Rd,0,0
+,April 17 2018,Delaware,Harrington,50 block of Clark St,0,1
+,April 17 2018,Delaware,Dover,50 block of Ann Ave,0,0
