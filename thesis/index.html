@@ -1,0 +1,1836 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+    <title>The Influencers</title>
+
+<head>
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,400" rel="stylesheet">
+</head>
+
+<style>
+body {
+font-family: 'Poppins', sans-serif;
+        background-color: #111010;
+        color: #fefefe;
+        padding: 0px;
+        font-size: 12px;
+ margin:0;
+ right:0;
+ bottom:0;
+ margin-top: 50px;
+     cursor: default;
+
+
+      }
+
+
+
+
+/*#buttons {
+font-family: 'Poppins', sans-serif;
+        background-color: #111010;
+        color: #fefefe;
+        padding: 0px;
+        font-size: 12px;
+        position: relative;
+}*/
+
+
+
+h1 {
+
+font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 40px;
+
+    text-align: right;
+      }
+
+p{
+
+font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 13px;
+margin-right: 5px;
+    text-align: right;
+  
+}
+
+div.tooltip {
+  text-align: left;
+  padding: 2px;
+  width:300px;
+  font: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-style: 300;
+  background: #111010;
+  opacity: 10;
+  border: 1px;
+  position:absolute;
+  z-index:1000px;
+    border-radius: 10px;
+ border-style: solid;
+    border-color: gray;
+
+
+}
+
+
+div.tooltip:hover .tooltip {
+    display: block;
+     border-style: solid;
+       border: 1px;
+       cursor: pointer;
+
+    border-color: gray;
+}
+
+
+a:link {
+   color: #67a8df;
+}
+
+/* visited link */
+a:visited {
+   color: #67a8df;
+}
+
+/* mouse over link */
+a:hover {
+   color: #67a8df;
+}
+
+/* selected link */
+a:active {
+   color: #67a8df;
+}
+
+
+
+.key
+{
+
+
+ text-align: left;
+  padding: 2px;
+  width:300px;
+  font: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-style: 300;
+  background: #111010;
+  opacity: 10;
+  border: 2px;
+  position:absolute;
+  z-index:1000px;
+    border-radius: 10px;
+ border-style: solid;
+    border-color: gray;
+
+}
+
+
+
+.moretext{
+ text-align: left;
+  padding: 2px;
+  width:300px;
+  font: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-style: 300;
+  background: #111010;
+  opacity: 10;
+  border: 2px;
+  position:absolute;
+  z-index:1000px;
+    border-radius: 10px;
+ border-style: solid;
+    border-color: gray;
+    cursor: default;
+
+
+}
+
+.moretext text {
+  color: #fff;
+    cursor: pointer;
+
+
+}
+
+
+
+
+.btn1{
+         width: 150px;
+           height: 30px;
+           line-height: 27px;
+           text-align: center;
+           border-radius: 1px;
+           box-shadow: 0 0 1px;
+           cursor: pointer;
+           font-size: 13px;
+            float: left;
+      }
+
+       .btn1:hover{
+         background-color: #ccc;
+      }
+
+.btn2{
+         width: 150px;
+           height: 30px;
+           line-height: 27px;
+           text-align: center;
+           border-radius: 1px;
+           box-shadow: 0 0 1px;
+           cursor: pointer;
+           font-size: 13px;
+              float: left;
+      }
+
+       .btn2:hover{
+         background-color: #ccc;
+      }
+
+.btn3{
+         width: 150px;
+           height: 30px;
+           line-height: 27px;
+           text-align: center;
+           border-radius: 1px;
+                      float: left;
+           box-shadow: 0 0 1px;
+
+           cursor: pointer;
+           font-size: 13px;
+
+      }
+
+       .btn3:hover{
+         background-color: #ccc;
+      }
+.btn4{
+         width: 150px;
+           height: 30px;
+           line-height: 27px;
+           text-align: center;
+
+           border-radius: 1px;
+                      float: left;
+           box-shadow: 0 0 1px;
+
+           cursor: pointer;
+           font-size: 13px;
+
+      }
+
+       .btn4:hover{
+         background-color: #ccc;
+      }
+
+  .btn5{
+         width: 150px;
+           height: 30px;
+           line-height: 27px;
+           text-align: center;
+           border-radius: 1px;
+                      float: left;
+           box-shadow: 0 0 1px;
+
+           cursor: pointer;
+           font-size: 13px;
+
+      }
+
+       .btn5:hover{
+         background-color: #ccc;
+      }
+
+  .btn6{
+         width: 150px;
+           height: 30px;
+           line-height: 27px;
+           text-align: center;
+           border-radius: 1px;
+                      float: left;
+           box-shadow: 0 0 1px;
+
+           cursor: pointer;
+           font-size: 13px;
+
+      }
+
+       .btn6:hover{
+         background-color: #ccc;
+      }
+
+        .btn7{
+         width: 150px;
+           height: 30px;
+           line-height: 27px;
+           text-align: center;
+           border-radius: 1px;
+                      float: left;
+           box-shadow: 0 0 1px;
+
+           cursor: pointer;
+           font-size: 13px;
+
+      }
+
+       .btn7:hover{
+         background-color: #ccc;
+      }
+
+        .btn8{
+         width: 150px;
+           height: 30px;
+           line-height: 27px;
+           text-align: center;
+           border-radius: 1px;
+              float: left;
+           box-shadow: 0 0 1px;
+           cursor: pointer;
+           font-size: 13px;
+
+      }
+
+       .btn8:hover{
+         background-color: #ccc;
+      }
+
+        .btn9{
+         width: 150px;
+           height: 30px;
+           line-height: 27px;
+           text-align: center;
+           border-radius: 1px;
+            float: left;
+           box-shadow: 0 0 1px;
+
+           cursor: pointer;
+           font-size: 13px;
+
+      }
+
+       .btn9:hover{
+         background-color: #ccc;
+      }
+
+      .btn10{
+         width: 150px;
+           height: 30px;
+           line-height: 27px;
+           text-align: center;
+           border-radius: 1px;
+            float: left;
+           box-shadow: 0 0 1px;
+           cursor: pointer;
+           font-size: 13px;
+
+      }
+
+       .btn10:hover{
+         background-color: #ccc;
+      }
+
+.btn11{
+         width: 150px;
+           height: 30px;
+           line-height: 27px;
+           text-align: center;
+           border-radius: 1px;
+           cursor: pointer;
+           font-size: 13px;
+           box-shadow: 0 0 1px;
+            float: left;
+      }
+
+       .btn11:hover{
+         background-color: #ccc;
+      }
+
+
+.btn12{
+         width: 150px;
+           height: 30px;
+           line-height: 27px;
+           text-align: center;
+           border-radius: 1px;
+           cursor: pointer;
+           box-shadow: 0 0 1px;
+
+           font-size: 13px;
+            float: left;
+
+      }
+
+       .btn12:hover{
+         background-color: #ccc;
+
+      }
+
+.btn13{
+         width: 150px;
+           height: 30px;
+           line-height: 27px;
+           text-align: center;
+           border-radius: 1px;
+           box-shadow: 0 0 1px;
+           cursor: pointer;
+           font-size: 13px;
+            float: left;
+      }
+
+       .btn13:hover{
+         background-color: #ccc;
+      }
+
+
+.node rect {
+  cursor: move;
+  fill-opacity: .9;
+  shape-rendering: crispEdges;
+}
+
+.node text {
+  color: #fff;
+    cursor: move;
+
+
+}
+
+.link {
+  fill: none;
+  stroke-opacity: .4;
+}
+
+
+
+.link:hover {
+ stroke-opacity: 100;
+  fill:none;
+
+
+
+}
+
+.link:active {
+  stroke-opacity: 100;
+  fill:none;
+}
+
+
+</style>
+<div style="  margin-top: 18px; right: 20px;  position: absolute;  ">
+
+<div>
+<p>Who were the financial forces behind the most expensive 2016 Senate races?</p>
+
+
+</div> 
+
+</div>
+
+<div style="  margin-top: -50px; right: 20px;  position: absolute;">
+
+
+
+<h1>
+
+The Influencers
+</h1>
+
+
+
+
+
+   <div class='btn1'>Conservative Sources</div> <div class='btn2'>Liberal Sources</div> <div class='btn3'>Independent Sources</div>
+   <br> <div class='btn4'>Over $1M</div>
+   <div class='btn5'>Dark Sources</div> <div class='btn6'>Women</div><br>
+    <div class='btn9'>Over 65yrs Old</div>
+   <div class='btn10'>People</div> <br> <div class='btn11'>Super PACs</div><br><div class='btn8'>All</div>
+   <div class='btn12'>PACs</div> <br> <div class='btn13'>Others</div><br>
+</div>
+<body>
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+
+<script src="sankey.js"></script>
+
+
+<script>
+
+// set the dimensions and margins of the graph
+var margin = {top: 10, right: 25, bottom: 30, left: 25},
+  
+
+width = 1800;   
+//width = (window.innerWidth)*1.30,
+//height = window.innerHeight + 400
+   
+   // width = 1500 - margin.left - margin.right,
+   // height = 1500 - margin.top - margin.bottom;
+height= 1500;
+
+//height = (window.innerHeight)*2.25
+
+
+// format variables
+var formatNumber = d3.format(",.0f"),    // zero decimal places
+    format = function(d) { return formatNumber(d); },
+    //color = 
+    color = d3.scaleOrdinal(d3.Greys);
+
+
+var div = d3.select("body").append("div")
+    .attr("class", "tooltip")
+    .style("opacity", 0);    
+
+// append the svg object to the body of the page
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", 
+          "translate(" + margin.left + "," + margin.top + ")")
+    .style("fill", "#fefefe");
+
+// Set the sankey diagram properties
+var sankey = d3.sankey()
+    .nodeWidth(210)
+    .nodePadding(21)
+    .size([width, height]);
+
+var path = sankey.link();
+
+
+
+// load the data
+d3.json("sankey.json", function(error, graph) {
+
+  sankey
+      .nodes(graph.nodes)
+      .links(graph.links)
+      .layout(32);
+
+
+
+//Text block under buttons
+    var language = [{
+      x: width - 520,
+      y: 200,
+   
+      all_line1: "The battle for control of the US Senate hinged on these close elections.",
+      all_line2: "And another line will go right... here",
+      all_line3: "I shouldn't have much more to say about it.",
+
+      con_line1: "An explainer paragraph here about conservative sources!",
+      con_line2: "And another line will go right... here",
+      con_line3: "I shouldn't have much more to say about it.",
+
+      lib_line1: "An explainer paragraph here about liberal sources!",
+      lib_line2: "And another line will go right... here",
+      lib_line3: "I shouldn't have much more to say about it.",
+
+      ind_line1: "Groups giving to both Democrats and Republicans are quite rare. The",
+      ind_line2: "Democrat and Republican Indepdence USA supported both won. They also voted",
+      ind_line3: "on party lines for tax and healthcare and Supreme Court confirmations",
+
+      o1m_line1: "State-specific super PACs (Granite State Solutions and Fighting for Ohio)",
+      o1m_line2: "were more likely to be funded by 1-2 donors giving over $1M. Dark sources mostly",
+      o1m_line3: "gave over $1M, with One Nation giving $22M to the Senate Leadership Fund.",
+
+      dark_line1: "These 'dark' sources have no disclosure requirements which means",
+      dark_line2: "we have no way of knowing the sources of their funding. Dark sources",
+      dark_line3: "could be corporations, unions or '501c'-type non-profit groups.",
+
+      wom_line1: "Only 6 of the 36 individual top donors were women (17%). The three ",
+      wom_line2: "conservative top female donors contributed a total of $21.9M to these",
+      wom_line3: "outside sources, while the three liberal donors contributed $3.4M",
+
+      o65_line1: "People over the age of 65 are disproportionately represented in this",
+      o65_line2: "group of top donors. 72% of the individual contributors were over the age ",
+      o65_line3: "of 65 (26 of 36) at the time of their donations in the 15-16 cycle.",
+
+      ppl_line1: "An explainer paragraph here about people sources!",
+      ppl_line2: "And another line will go right... here",
+      ppl_line3: "I shouldn't have much more to say about it.",
+
+
+      spacs_line1: "An explainer paragraph here about people sources!",
+      spacs_line2: "And another line will go right... here",
+      spacs_line3: "I shouldn't have much more to say about it.",
+
+      pacs_line1: "An explainer paragraph here about people sources!",
+      pacs_line2: "And another line will go right... here",
+      pacs_line3: "I shouldn't have much more to say about it.",
+
+      other_line1: "An explainer paragraph here about people sources!",
+      other_line2: "And another line will go right... here",
+      other_line3: "I shouldn't have much more to say about it."
+
+    }];
+
+    //TO DO
+
+
+
+
+//color key
+svg.selectAll("moretext") 
+      .data(language)
+      .enter().append("line")
+      .style("stroke", "#FF0000")  
+    .attr("x1", (width - 650))     
+    .attr("y1", height * .95)      
+    .attr("x2", (width - 600))    
+    .attr("y2", height * .95);
+
+     svg.selectAll("moretext") 
+      .data(language)
+      .enter().append("text")
+      .text("Conservative")
+      .attr("x", (width - 600))
+      .attr("y", height *.95);
+
+    svg.selectAll("moretext") 
+      .data(language)
+      .enter().append("line")
+      .style("stroke", "#6495ED")  
+    .attr("x1", (width - 650))     
+    .attr("y1", height * .96)      
+    .attr("x2", (width - 600))    
+    .attr("y2", height * .96);
+
+    svg.selectAll("moretext") 
+      .data(language)
+      .enter().append("text")
+      .text("Liberal")
+      .attr("x", (width - 600))
+      .attr("y", height *.96);
+
+        svg.selectAll("moretext") 
+      .data(language)
+      .enter().append("line")
+      .style("stroke", "yellow")  // colour the line
+    .attr("x1", (width - 650))     
+    .attr("y1", height * .97)      // y position of the first end of the line
+    .attr("x2", (width - 600))    
+    .attr("y2", height * .97);
+
+       svg.selectAll("moretext") 
+      .data(language)
+      .enter().append("text")
+      .text("Independent")
+      .attr("x", (width - 600))
+      .attr("y", height *.97);
+   
+
+       svg.selectAll("moretext") 
+      .data(language)
+      .enter().append("line")
+      .style("stroke", "gray") 
+      .style("stroke-dasharray", 5) // colour the line
+    .attr("x1", (width - 650))     
+    .attr("y1", height * .98)      // y position of the first end of the line
+    .attr("x2", (width - 600))    
+    .attr("y2", height * .98);
+
+       svg.selectAll("moretext") 
+      .data(language)
+      .enter().append("text")
+      .text("Dark")
+      .attr("x", (width - 600))
+      .attr("y", height *.98);
+
+
+  
+
+
+
+// holder.append("line")          // attach a line
+//     .style("stroke", "red")  // colour the line
+//     .attr("x1", 100)     // x position of the first end of the line
+//     .attr("y1", 50)      // y position of the first end of the line
+//     .attr("x2", 150)     // x position of the second end of the line
+//     .attr("y2", 50);
+
+//     holder.append("line")          // attach a line
+//     .style("stroke", "blue")  // colour the line
+//     .attr("x1", 100)     // x position of the first end of the line
+//     .attr("y1", 55)      // y position of the first end of the line
+//     .attr("x2", 150)     // x position of the second end of the line
+//     .attr("y2", 55);
+
+   // .style("opacity",0); 
+
+
+//Explainer footer
+ svg.selectAll("moretext") 
+      .data(language)
+      .enter().append("text")
+      .text("METHODOLOGY + SOURCES")
+      .attr("x", (width - 650))
+      .attr("y", (height)*1.02)
+    .on("mouseover", function(d) {
+       div.transition()
+         .duration(1)
+         .style("opacity", .9);
+    div.html(
+      "Most expensive races were identified via the " + 
+
+
+       '<a href="https://www.opensecrets.org/overview/topraces.php?cycle=2016&display=currcandsout" target="_blank">Center for Responsive Politics' +  "</a>"  
+       + "<br>" + "<br>" +
+"Top outside sources per race identified by referencing the " + 
+       '<a href="https://www.fec.gov/data/" target="_blank">Federal Election Commission' + 
+       //with a link
+           "</a>"   + 
+        "<br>" + "<br>" +
+        " Receipts for each outside group (excluding dark sources) were also sourced from the FEC and aggregated to identify top ten sources of their receipts. " 
+       + "<br>" + "<br>" +
+        "Biographical data sourced from publicly available online sources." 
+)
+
+     //  "All quantitative data sourced from the Center for Responsive Politics and the Federal Election Commission.")
+
+      .style("left", (d3.event.pageX) - 300 + "px")
+         .style("top", (d3.event.pageY - 350) + "px");
+  })
+
+   .on("mouseout", function(d) {
+       div.transition()
+         .duration(1800)
+         .style("opacity", 0)})
+
+
+   var bubbles = [{x: width - 550, y: 480, c: 0, st: 83}, {x: width - 550, y: 585, c: 1, st:84}, {x: width - 550, y: 690, c:1, st:85}, {x: width - 550, y: 795, c:0, st:86}, {x: width - 550, y: 900, c:0, st:87}, {x: width - 550, y: 1005, c:0, st:88}]
+
+//add winners circles
+svg.selectAll("circle")
+    .data(bubbles)
+    .enter().append("circle")
+    .attr("cx", function(d) { return d.x; })
+    .attr("cy", function(d) { return d.y; }) 
+    .attr("r", 35)
+    .style("opacity", .7)
+    .style("stroke", function (d) {
+        if(d.c==0) 
+        {return "#FF0000";} 
+      else if(d.c==1) 
+        {return "#6495ED";} 
+    else {
+        return 0;}
+      })
+    .style("stroke-width", 2)
+    .style("stroke-opacity", .7)
+.style("fill", function (d) {
+        if(d.st==83) 
+        {return "url(#toomey)"} 
+      else if(d.st==85) 
+        {return "url(#masto)";} 
+      else if(d.st==84) 
+        {return "url(#hassan)";} 
+      else if(d.st==86) 
+        {return "url(#burr)";} 
+      else if(d.st==87) 
+        {return "url(#rubio)";} 
+      else if(d.st==88) 
+        {return "url(#portman)";} 
+
+    else {
+        return 0;}
+      })
+    ;
+
+    //  .style("fill","url(#masto)") ;
+
+
+//draw default links
+  var link = svg.append("g").selectAll(".link")
+      .data(graph.links)
+    .enter().append("path")
+      .attr("class", "link")
+      .attr("d", path)
+
+   .on("mouseover", function(d) {
+       div.transition()
+         .duration(1)
+         .style("opacity", .9);
+    div.html(
+        '<a href= "'+d.source.url+'" target="_blank">' + //with a link
+        d.source.name +
+        "</a>" +
+        "<br/>" + d.amt  + " to " + d.target.name + "\n" +  "<br>" + d.source.img
+         +  "<br>" + d.abt2 + "\n")
+      .style("left", (d3.event.pageX) + 20 + "px")
+         .style("top", (d3.event.pageY - 100) + "px");
+  })
+
+   .on("mouseout", function(d) {
+       div.transition()
+         .duration(1800)
+         .style("opacity", 0)})
+
+      .style("stroke-dasharray", function (d) {
+        if(d.value==20.2) 
+        {return 10;} 
+      else if(d.value==20.4) 
+        {return 10;} 
+    else {
+        return 0;}
+      })  
+      .style("stroke-width", function(d) { return Math.max(2, d.dy); }) 
+      .style("stroke", function (d) {
+        if(d.conlib == 0) 
+        {return "#FF0000";} 
+      else if(d.conlib==2)
+      {return "yellow";}
+    else {
+        return "#6495ED";}
+      })
+      .sort(function(a, b) { return b.dy - a.dy; });
+
+
+// add in the nodes and center the center node text
+  var node = svg.append("g").selectAll(".node")
+      .data(graph.nodes)
+    .enter().append("g")
+      .attr("class", "node")
+      .attr("transform", function(d) { 
+        if(d.node==40)
+          {return "translate(" + (d.x - 40 ) + "," + d.y + ")"; }
+        else if (d.node==74)
+        {return "translate(" + (d.x - 32 ) + "," + d.y + ")"; }
+       else if (d.node==42)
+        {return "translate(" + (d.x - 35 ) + "," + d.y + ")"; }
+       else if (d.node==30)
+        {return "translate(" + (d.x - 3 ) + "," + d.y + ")"; }
+
+          else if (d.node==53)
+        {return "translate(" + (d.x - 40 ) + "," + d.y + ")"; }
+           else if (d.node==10)
+        {return "translate(" + (d.x - 35 ) + "," + d.y + ")"; }
+               else if (d.node==20)
+        {return "translate(" + (d.x - 45 ) + "," + d.y + ")"; }
+                   else if (d.node==65)
+        {return "translate(" + (d.x - 15 ) + "," + d.y + ")"; }
+     else if (d.node==64)
+        {return "translate(" + (d.x - 5 ) + "," + d.y + ")"; }
+
+                else if (d.node==89)
+        {return "translate(" + (d.x - 1 ) + "," + d.y + ")"; }
+
+      else if(d.node==88) //FL
+      {return "translate(" + d.x + ","  + (d.y  = (0, (d.dy + 905))) + ")";}
+       else if (d.node==87) //OH
+      {return "translate(" + d.x + ","  + (d.y  = (0, (d.dy + 1010))) + ")"; }
+       else if (d.node==86) //NC
+      {return "translate(" + d.x + ","  + (d.y  = (0, (d.dy + 800))) + ")"; }
+          else if (d.node==85) //NV
+      {return "translate(" + d.x + ","  + (d.y  = (0, (d.dy + 695))) + ")"; }
+                  else if (d.node==84) //Nh
+      {return "translate(" + d.x + ","  + (d.y  = (0, (d.dy + 590))) + ")"; }
+
+      else if (d.node==83) //PA
+      {return "translate(" + d.x + ","  + (d.y  = (0, (d.dy + 485))) + ")"; }
+     
+     // else if (d.node==31)
+     //  {return "translate(" + d.x  + ","  + (d.y  = (0, (d.dy + 400))) + ")"; }
+
+
+        else
+		  return "translate(" + d.x + "," + d.y + ")"; }) //manipulate node offset here
+    
+
+      // .call(d3.drag()
+      //   .subject(function(d) {
+      //     return d;
+      //   })
+      //   .on("start", function() {
+      //     this.parentNode.appendChild(this);
+      //   })
+      //   .on("start", movestuff));
+
+sankey.relayout()
+link.attr("d", path);
+
+
+// add the rectangles for the nodes
+ // node.append("rect")
+ //     .attr("height", 10)
+ //      //function(d) { return d.dy; })
+ //     .attr("width", 10)
+ //     .style("fill", "#111010")
+ //     .style("opacity", 0)
+
+
+// add in the title for the nodes
+  node.append("text")
+      .attr("x", 2)
+      .attr("y", function(d) { return d.dy / 6; })
+      .attr("dy", ".25em")
+     // .attr("text-anchor", "start") //
+     // .attr("transform", null)
+      .text(function(d) { return d.name; })
+       .attr("text-anchor", "start") 
+    .filter(function(d) { return d.x < width / 2; })
+      .attr("x", .1 + sankey.nodeWidth())
+      .attr("text-anchor", "end")
+        .attr("x", .1 + sankey.nodeWidth())
+      .style("fill", "#fefefe")
+    ;
+
+
+
+//button 8 reset
+d3.selectAll(".btn8").on("click",function(){
+    location.reload()
+
+
+  })
+
+
+
+//button1 Conservative Sources
+d3.selectAll(".btn1").on("click",function(){
+  var val = d3.select(event.target).html();
+  if(val="Conservative Sources"){
+    var link = svg.append("g").selectAll(".link")
+      .data(graph.links)
+    .enter().append("path")
+      .attr("class", "link")
+      .attr("d", path)
+      .style("stroke-dasharray", function (d) {
+        if(d.value==20.2) 
+        {return 10;} 
+      else if(d.value==20.4) 
+        {return 10;} 
+    else {
+        return 0;}
+      })  
+     
+      .style("stroke-width", 3)
+
+      .style("stroke", function (d) {
+        if(d.conlib ==0) 
+        {return "#FF0000";} 
+      else if(d.conlib==2)
+      {return "#111010";}
+
+    else {
+        return "#111010";}
+      })
+
+  .sort(function(a, b) { return b.dy - a.dy; })
+
+ .on("mouseover", function(d) {
+       div.transition()
+         .duration(1)
+         .style("opacity", .9);
+    div.html(
+        '<a href= "'+d.source.url+'" target="_blank">' + //with a link
+        d.source.name +
+        "</a>" +
+        "<br/>" + d.amt  + " to " + d.target.name + "\n" +  "<br>"
+         +  "<br>" + d.abt2 + "\n")
+  .style("left", (d3.event.pageX) + 20 + "px")
+         .style("top", (d3.event.pageY - 100) + "px");
+  })
+
+   .on("mouseout", function(d) {
+       div.transition()
+         .duration(1800)
+         .style("opacity", 0)})
+}
+  svg.selectAll("moretext")
+      .data(language)
+      .enter().append("text")
+      .text(function(d) {
+        return d.con_line1;})
+      .attr("x", function(d) {return d.x;})
+      .attr("y", function(d) {return d.y;})
+            .attr("text-anchor", "end")
+
+//line2
+       svg.selectAll("moretext")
+      .data(language)
+      .enter().append("text")
+      .text(function(d) {return d.con_line2;})
+      .attr("x", function(d) {return d.x;})
+      .attr("y", function(d) {return d.y + 20;})
+          .attr("text-anchor", "end")
+
+//line3
+      svg.selectAll("moretext")
+      .data(language)
+      .enter().append("text")
+      .text(function(d) {return d.con_line3;})
+      .attr("x", function(d) {return d.x;})
+      .attr("y", function(d) {return d.y + 40;})
+      .attr("text-anchor", "end")
+
+
+  })
+
+
+//button 3 Independent Sources
+d3.selectAll(".btn3").on("click",function(){
+  var val = d3.select(event.target).html();
+  if(val="Independent Sources"){
+    var link = svg.append("g").selectAll(".link")
+      .data(graph.links)
+    .enter().append("path")
+      .attr("class", "link")
+      .attr("d", path)
+      .style("stroke-dasharray", function (d) {
+        if(d.value==20.2) 
+        {return 10;} 
+      else if(d.value==20.4) 
+        {return 10;} 
+    else {
+        return 0;}
+      })  
+          .style("stroke-width", 2)
+    //  .style("stroke-width", function(d) { return Math.max(2, d.dy); }) 
+      .style("stroke", function (d) {
+        if(d.conlib ==0) 
+        {return "#111010";} 
+      else if(d.conlib==2)
+      {return "yellow";}
+
+    else {
+        return "#111010";}
+      })
+      .sort(function(a, b) { return b.dy - a.dy; })
+       .on("mouseover", function(d) {
+       div.transition()
+         .duration(1)
+         .style("opacity", .9);
+    div.html(
+        '<a href= "'+d.source.url+'" target="_blank">' + //with a link
+        d.source.name +
+        "</a>" +
+        "<br/>" + d.amt  + " to " + d.target.name + "\n" +  "<br>"
+         +  "<br>" + d.abt2 + "\n")
+      .style("left", (d3.event.pageX) + 20 + "px")
+         .style("top", (d3.event.pageY - 100) + "px");
+  })
+
+   .on("mouseout", function(d) {
+       div.transition()
+         .duration(1800)
+         .style("opacity", 0)})
+}
+  svg.selectAll("moretext")
+      .data(language)
+      .enter().append("text")
+      .text(function(d) {
+        return d.ind_line1;})
+      .attr("x", function(d) {return d.x;})
+      .attr("y", function(d) {return d.y;})
+            .attr("text-anchor", "end")
+
+//line2
+       svg.selectAll("moretext")
+      .data(language)
+      .enter().append("text")
+      .text(function(d) {return d.ind_line2;})
+      .attr("x", function(d) {return d.x;})
+      .attr("y", function(d) {return d.y + 20;})
+          .attr("text-anchor", "end")
+
+//line3
+      svg.selectAll("moretext")
+      .data(language)
+      .enter().append("text")
+      .text(function(d) {return d.ind_line3;})
+      .attr("x", function(d) {return d.x;})
+      .attr("y", function(d) {return d.y + 40;})
+      .attr("text-anchor", "end")
+
+  })
+
+
+
+//button2 liberal sources  
+d3.selectAll(".btn2").on("click",function(){
+  var val = d3.select(event.target).html();
+  if(val="Liberal Sources"){
+    var link = svg.append("g").selectAll(".link")
+      .data(graph.links)
+    .enter().append("path")
+      .attr("class", "link")
+      .attr("d", path)
+      .style("stroke-dasharray", function (d) {
+        if(d.value==20.2) 
+        {return 10;} 
+      else if(d.value==20.4) 
+        {return 10;} 
+    else {
+        return 0;}
+      })  
+      .style("stroke-width", 3)
+      .style("stroke", function (d) {
+        if(d.conlib ==0) 
+        {return "#111010";} 
+      else if(d.conlib==2)
+      {return "#111010";}
+
+    else {
+        return "#6495ED";}
+      })
+      .sort(function(a, b) { return b.dy - a.dy; })
+      .on("mouseover", function(d) {
+       div.transition()
+         .duration(1)
+         .style("opacity", .9);
+    div.html(
+        '<a href= "'+d.source.url+'" target="_blank">' + //with a link
+        d.source.name +
+        "</a>" +
+        "<br/>" + d.amt  + " to " + d.target.name + "\n" +  "<br>"
+         +  "<br>" + d.abt2 + "\n")
+  .style("left", (d3.event.pageX) + 20 + "px")
+         .style("top", (d3.event.pageY - 100) + "px");
+  })
+
+   .on("mouseout", function(d) {
+       div.transition()
+         .duration(1800)
+         .style("opacity", 0)})
+
+
+}
+ svg.selectAll("moretext")
+      .data(language)
+      .enter().append("text")
+      .text(function(d) {
+        return d.lib_line1;})
+      .attr("x", function(d) {return d.x;})
+      .attr("y", function(d) {return d.y;})
+      .attr("text-anchor", "end")
+
+//line2
+       svg.selectAll("moretext")
+      .data(language)
+      .enter().append("text")
+      .text(function(d) {return d.lib_line2;})
+      .attr("x", function(d) {return d.x;})
+      .attr("y", function(d) {return d.y + 20;})
+      .attr("text-anchor", "end")
+//line3
+      svg.selectAll("moretext")
+      .data(language)
+      .enter().append("text")
+      .text(function(d) {return d.lib_line3;})
+      .attr("x", function(d) {return d.x;})
+      .attr("y", function(d) {return d.y + 40;})
+      .attr("text-anchor", "end")
+
+  })
+
+
+//button 4 Over 1m
+d3.selectAll(".btn4").on("click",function(){
+  var val = d3.select(event.target).html();
+  if(val="Over $1m"){
+    var link = svg.append("g").selectAll(".link")
+      .data(graph.links)
+    .enter().append("path")
+      .attr("class", "link")
+      .attr("d", path)
+      .style("stroke-dasharray", function (d) {
+        if(d.value==20.2) 
+        {return 10;} 
+      else if(d.value==20.4) 
+        {return 10;} 
+    else {
+        return 0;}
+      })  
+           .style("stroke-width", 2)
+
+     // .style("stroke-width", function(d) { return Math.max(2, d.dy); }) 
+      .style("stroke", function (d) {
+        if(d.conlib ==0 && d.source.over1m ==1)
+        {return "#FF0000";} 
+      else if(d.conlib==2 && d.source.over1m==1)
+      {return "yellow";}
+     else if(d.conlib==1 && d.source.over1m==1)
+      {return "#6495ED";}
+
+    else {
+        return "#111010";}
+      })
+      .sort(function(a, b) { return b.dy - a.dy; }) .on("mouseover", function(d) {
+       div.transition()
+         .duration(1)
+         .style("opacity", .9);
+    div.html(
+        '<a href= "'+d.source.url+'" target="_blank">' + //with a link
+        d.source.name +
+        "</a>" +
+        "<br/>" + d.amt  + " to " + d.target.name + "\n" +  "<br>"
+         +  "<br>" + d.abt2 + "\n")
+     .style("left", (d3.event.pageX) + 20 + "px")
+         .style("top", (d3.event.pageY - 100) + "px");
+  })
+
+   .on("mouseout", function(d) {
+       div.transition()
+         .duration(1800)
+         .style("opacity", 0)})
+}
+ svg.selectAll("moretext")
+      .data(language)
+      .enter().append("text")
+      .text(function(d) {
+        return d.o1m_line1;})
+      .attr("x", function(d) {return d.x;})
+      .attr("y", function(d) {return d.y;})
+      .attr("text-anchor", "end")
+//line2
+       svg.selectAll("moretext")
+      .data(language)
+      .enter().append("text")
+      .text(function(d) {return d.o1m_line2;})
+      .attr("x", function(d) {return d.x;})
+      .attr("y", function(d) {return d.y + 20;})
+      .attr("text-anchor", "end")
+//line3
+      svg.selectAll("moretext")
+      .data(language)
+      .enter().append("text")
+      .text(function(d) {return d.o1m_line3;})
+      .attr("x", function(d) {return d.x;})
+      .attr("y", function(d) {return d.y + 40;})
+      .attr("text-anchor", "end")
+
+
+  })
+
+//button 5 Dark Sources
+d3.selectAll(".btn5").on("click",function(){
+  var val = d3.select(event.target).html();
+  if(val="Dark Sources"){
+    var link = svg.append("g").selectAll(".link")
+      .data(graph.links)
+    .enter().append("path")
+      .attr("class", "link")
+      .attr("d", path)
+      .style("stroke-dasharray", function (d) {
+        if(d.value==20.2) 
+        {return 10;} 
+      else if(d.value==20.4) 
+        {return 10;} 
+    else {
+        return 0;}
+      })  
+      .style("stroke-width", 3)
+     // .style("stroke-width", function(d) { return Math.max(2, d.dy); }) 
+      .style("stroke", function (d) {
+        if(d.conlib ==0 && d.source.darkgroups==1)
+        {return "#FF0000";} 
+      else if(d.conlib==2 && d.source.darkgroups==1)
+      {return "yellow";}
+     else if(d.conlib==1 && d.source.darkgroups==1)
+      {return "#6495ED";}
+
+    else {
+        return "#111010";}
+      })
+      .sort(function(a, b) { return b.dy - a.dy; }) .on("mouseover", function(d) {
+       div.transition()
+         .duration(1)
+         .style("opacity", .9);
+    div.html(
+        '<a href= "'+d.source.url+'" target="_blank">' + //with a link
+        d.source.name +
+        "</a>" +
+        "<br/>" + d.amt  + " to " + d.target.name + "\n" +  "<br>"
+         +  "<br>" + d.abt2 + "\n")
+   .style("left", (d3.event.pageX) + 20 + "px")
+         .style("top", (d3.event.pageY - 100) + "px");
+  })
+
+   .on("mouseout", function(d) {
+       div.transition()
+         .duration(1800)
+         .style("opacity", 0)})
+}
+ svg.selectAll("moretext")
+      .data(language)
+      .enter().append("text")
+      .text(function(d) {
+        return d.dark_line1;})
+      .attr("x", function(d) {return d.x;})
+      .attr("y", function(d) {return d.y;})
+      .attr("text-anchor", "end")
+//line2
+       svg.selectAll("moretext")
+      .data(language)
+      .enter().append("text")
+      .text(function(d) {return d.dark_line2;})
+      .attr("x", function(d) {return d.x;})
+      .attr("y", function(d) {return d.y + 20;})
+      .attr("text-anchor", "end")
+//line3
+      svg.selectAll("moretext")
+      .data(language)
+      .enter().append("text")
+      .text(function(d) {return d.dark_line3;})
+      .attr("x", function(d) {return d.x;})
+      .attr("y", function(d) {return d.y + 40;})
+      .attr("text-anchor", "end")
+
+
+  })
+
+//button 6 women
+d3.selectAll(".btn6").on("click",function(){
+  var val = d3.select(event.target).html();
+  if(val="Dark Sources"){
+    var link = svg.append("g").selectAll(".link")
+      .data(graph.links)
+    .enter().append("path")
+      .attr("class", "link")
+      .attr("d", path)
+      .style("stroke-dasharray", function (d) {
+        if(d.value==20.2) 
+        {return 10;} 
+      else if(d.value==20.4) 
+        {return 10;} 
+    else {
+        return 0;}
+      })  
+          .style("stroke-width", 2)
+
+    //  .style("stroke-width", function(d) { return Math.max(2, d.dy); }) 
+      .style("stroke", function (d) {
+        if(d.conlib ==0 && d.source.gender==1)
+        {return "#FF0000";} 
+      else if(d.conlib==2 && d.source.gender==1)
+      {return "yellow";}
+     else if(d.conlib==1 && d.source.gender==1)
+      {return "#6495ED";}
+
+    else {
+        return "#111010";}
+      })
+      .sort(function(a, b) { return b.dy - a.dy; }) .on("mouseover", function(d) {
+       div.transition()
+         .duration(1)
+         .style("opacity", .9);
+    div.html(
+        '<a href= "'+d.source.url+'" target="_blank">' + //with a link
+        d.source.name +
+        "</a>" +
+        "<br/>" + d.amt  + " to " + d.target.name + "\n" +  "<br>"
+         +  "<br>" + d.abt2 + "\n")
+     .style("left", (d3.event.pageX) + 20 + "px")
+         .style("top", (d3.event.pageY - 100) + "px");
+  })
+
+   .on("mouseout", function(d) {
+       div.transition()
+         .duration(1800)
+         .style("opacity", 0)})
+
+
+}
+  svg.selectAll("moretext")
+      .data(language)
+      .enter().append("text")
+      .text(function(d) {
+        return d.wom_line1;})
+      .attr("x", function(d) {return d.x;})
+      .attr("y", function(d) {return d.y;})
+      .attr("text-anchor", "end")
+//line2
+       svg.selectAll("moretext")
+      .data(language)
+      .enter().append("text")
+      .text(function(d) {return d.wom_line2;})
+      .attr("x", function(d) {return d.x;})
+      .attr("y", function(d) {return d.y + 20;})
+      .attr("text-anchor", "end")
+//line3
+      svg.selectAll("moretext")
+      .data(language)
+      .enter().append("text")
+      .text(function(d) {return d.wom_line3;})
+      .attr("x", function(d) {return d.x;})
+      .attr("y", function(d) {return d.y + 40;})
+      .attr("text-anchor", "end")
+
+  })
+
+//button 9 Over 65
+d3.selectAll(".btn9").on("click",function(){
+  var val = d3.select(event.target).html();
+  if(val="Under 65 Yrs Old"){
+    var link = svg.append("g").selectAll(".link")
+      .data(graph.links)
+    .enter().append("path")
+      .attr("class", "link")
+      .attr("d", path)
+      .style("stroke-dasharray", function (d) {
+        if(d.value==20.2) 
+        {return 10;} 
+      else if(d.value==20.4) 
+        {return 10;} 
+    else {
+        return 0;}
+      })  
+      .style("stroke-width", 3)
+     // .style("stroke-width", function(d) { return Math.max(2, d.dy); }) 
+      .style("stroke", function (d) {
+        if(d.conlib ==0 && d.source.over65==1)
+        {return "#FF0000";} 
+      else if(d.conlib==2 && d.source.over65==1)
+      {return "yellow";}
+     else if(d.conlib==1 && d.source.over65==1)
+      {return "#6495ED";}
+
+    else {
+        return "#111010";}
+      })
+      .sort(function(a, b) { return b.dy - a.dy; }) 
+      .on("mouseover", function(d) {
+       div.transition()
+         .duration(1)
+         .style("opacity", .9);
+    div.html(
+        '<a href= "'+d.source.url+'" target="_blank">' + //with a link
+        d.source.name +
+        "</a>" +
+        "<br/>" + d.amt  + " to " + d.target.name + "\n" +  "<br>"
+         +  "<br>" + d.abt2 + "\n")
+    .style("left", (d3.event.pageX) + 20 + "px")
+         .style("top", (d3.event.pageY - 100) + "px");
+  })
+
+   .on("mouseout", function(d) {
+       div.transition()
+         .duration(1800)
+         .style("opacity", 0)})
+}
+  svg.selectAll("moretext")
+      .data(language)
+      .enter().append("text")
+      .text(function(d) {
+        return d.o65_line1;})
+      .attr("x", function(d) {return d.x;})
+      .attr("y", function(d) {return d.y;})
+      .attr("text-anchor", "end")
+//line2
+       svg.selectAll("moretext")
+      .data(language)
+      .enter().append("text")
+      .text(function(d) {return d.o65_line2;})
+      .attr("x", function(d) {return d.x;})
+      .attr("y", function(d) {return d.y + 20;})
+      .attr("text-anchor", "end")
+//line3
+      svg.selectAll("moretext")
+      .data(language)
+      .enter().append("text")
+      .text(function(d) {return d.o65_line3;})
+      .attr("x", function(d) {return d.x;})
+      .attr("y", function(d) {return d.y + 40;})
+      .attr("text-anchor", "end")
+
+  })
+
+//button 10 People
+d3.selectAll(".btn10").on("click",function(){
+
+  var val = d3.select(event.target).html();
+  if(val="Individual"){
+    var link = svg.append("g").selectAll(".link")
+      .data(graph.links)
+    .enter().append("path")
+      .attr("class", "link")
+      .attr("d", path)
+      .style("stroke-dasharray", function (d) {
+        if(d.value==20.2) 
+        {return 10;} 
+      else if(d.value==20.4) 
+        {return 10;} 
+    else {
+        return 0;}
+      })  
+      .style("stroke-width", 3)
+     // .style("stroke-width", function(d) { return Math.max(2, d.dy); }) 
+      .style("stroke", function (d) {
+        if(d.conlib ==0 && d.source.person==1)
+        {return "#FF0000";} 
+      else if(d.conlib==2 && d.source.person==1)
+      {return "yellow";}
+     else if(d.conlib==1 && d.source.person==1)
+      {return "#6495ED";}
+
+    else {
+        return "#111010";}
+      })
+      .sort(function(a, b) { return b.dy - a.dy; })
+       .on("mouseover", function(d) {
+       div.transition()
+         .duration(1)
+         .style("opacity", .9);
+    div.html(
+        '<a href= "'+d.source.url+'" target="_blank">' + //with a link
+        d.source.name +
+        "</a>" +
+        "<br/>" + d.amt  + " to " + d.target.name + "\n" +  "<br>"
+         +  "<br>" + d.abt2 + "\n")
+  .style("left", (d3.event.pageX) + 20 + "px")
+         .style("top", (d3.event.pageY - 100) + "px");
+  })
+
+   .on("mouseout", function(d) {
+       div.transition()
+         .duration(1800)
+         .style("opacity", 0)})
+}
+  svg.selectAll("moretext")
+      .data(language)
+      .enter().append("text")
+      .text(function(d) {
+        return d.ppl_line1;})
+      .attr("x", function(d) {return d.x;})
+      .attr("y", function(d) {return d.y;})
+      .attr("text-anchor", "end")
+//line2
+       svg.selectAll("moretext")
+      .data(language)
+      .enter().append("text")
+      .text(function(d) {return d.ppl_line2;})
+      .attr("x", function(d) {return d.x;})
+      .attr("y", function(d) {return d.y + 20;})
+      .attr("text-anchor", "end")
+//line3
+      svg.selectAll("moretext")
+      .data(language)
+      .enter().append("text")
+      .text(function(d) {return d.ppl_line3;})
+      .attr("x", function(d) {return d.x;})
+      .attr("y", function(d) {return d.y + 40;})
+      .attr("text-anchor", "end")
+
+
+  })
+
+
+//button 11 Super PACs
+d3.selectAll(".btn11").on("click",function(){
+
+  var val = d3.select(event.target).html();
+  if(val="Individual"){
+    var link = svg.append("g").selectAll(".link")
+      .data(graph.links)
+    .enter().append("path")
+      .attr("class", "link")
+      .attr("d", path)
+      .style("stroke-dasharray", function (d) {
+        if(d.value==20.2) 
+        {return 10;} 
+      else if(d.value==20.4) 
+        {return 10;} 
+    else {
+        return 0;}
+      })  
+      .style("stroke-width", 3)
+     // .style("stroke-width", function(d) { return Math.max(2, d.dy); }) 
+      .style("stroke", function (d) {
+        if(d.conlib ==0 && d.type==2)
+        {return "#FF0000";} 
+      else if(d.conlib==2 && d.type==2)
+      {return "yellow";}
+     else if(d.conlib==1 && d.type==2)
+      {return "#6495ED";}
+
+    else {
+        return "#111010";}
+      })
+      .sort(function(a, b) { return b.dy - a.dy; })
+       .on("mouseover", function(d) {
+       div.transition()
+         .duration(1)
+         .style("opacity", .9);
+    div.html(
+        '<a href= "'+d.source.url+'" target="_blank">' + //with a link
+        d.source.name +
+        "</a>" +
+        "<br/>" + d.amt  + " to " + d.target.name + "\n" +  "<br>"
+         +  "<br>" + d.abt2 + "\n")
+  .style("left", (d3.event.pageX) + 20 + "px")
+         .style("top", (d3.event.pageY - 100) + "px");
+  })
+
+   .on("mouseout", function(d) {
+       div.transition()
+         .duration(1800)
+         .style("opacity", 0)})
+}
+  svg.selectAll("moretext")
+      .data(language)
+      .enter().append("text")
+      .text(function(d) {
+        return d.spacs_line1;})
+      .attr("x", function(d) {return d.x;})
+      .attr("y", function(d) {return d.y;})
+      .attr("text-anchor", "end")
+//line2
+       svg.selectAll("moretext")
+      .data(language)
+      .enter().append("text")
+      .text(function(d) {return d.spacs_line2;})
+      .attr("x", function(d) {return d.x;})
+      .attr("y", function(d) {return d.y + 20;})
+      .attr("text-anchor", "end")
+//line3
+      svg.selectAll("moretext")
+      .data(language)
+      .enter().append("text")
+      .text(function(d) {return d.spacs_line3;})
+      .attr("x", function(d) {return d.x;})
+      .attr("y", function(d) {return d.y + 40;})
+      .attr("text-anchor", "end")
+
+
+  })
+
+
+//button 11 PACs
+d3.selectAll(".btn12").on("click",function(){
+
+  var val = d3.select(event.target).html();
+  if(val="Individual"){
+    var link = svg.append("g").selectAll(".link")
+      .data(graph.links)
+    .enter().append("path")
+      .attr("class", "link")
+      .attr("d", path)
+      .style("stroke-dasharray", function (d) {
+        if(d.value==20.2) 
+        {return 10;} 
+      else if(d.value==20.4) 
+        {return 10;} 
+    else {
+        return 0;}
+      })  
+      .style("stroke-width", 3)
+     // .style("stroke-width", function(d) { return Math.max(2, d.dy); }) 
+      .style("stroke", function (d) {
+        if(d.conlib ==0 && d.type==3)
+        {return "#FF0000";} 
+      else if(d.conlib==2 && d.type==3)
+      {return "yellow";}
+     else if(d.conlib==1 && d.type==3)
+      {return "#6495ED";}
+
+    else {
+        return "#111010";}
+      })
+      .sort(function(a, b) { return b.dy - a.dy; })
+       .on("mouseover", function(d) {
+       div.transition()
+         .duration(1)
+         .style("opacity", .9);
+    div.html(
+        '<a href= "'+d.source.url+'" target="_blank">' + //with a link
+        d.source.name +
+        "</a>" +
+        "<br/>" + d.amt  + " to " + d.target.name + "\n" +  "<br>"
+         +  "<br>" + d.abt2 + "\n")
+  .style("left", (d3.event.pageX) + 20 + "px")
+         .style("top", (d3.event.pageY - 100) + "px");
+  })
+
+   .on("mouseout", function(d) {
+       div.transition()
+         .duration(1800)
+         .style("opacity", 0)})
+}
+  svg.selectAll("moretext")
+      .data(language)
+      .enter().append("text")
+      .text(function(d) {
+        return d.pacs_line1;})
+      .attr("x", function(d) {return d.x;})
+      .attr("y", function(d) {return d.y;})
+      .attr("text-anchor", "end")
+//line2
+       svg.selectAll("moretext")
+      .data(language)
+      .enter().append("text")
+      .text(function(d) {return d.pacs_line2;})
+      .attr("x", function(d) {return d.x;})
+      .attr("y", function(d) {return d.y + 20;})
+      .attr("text-anchor", "end")
+//line3
+      svg.selectAll("moretext")
+      .data(language)
+      .enter().append("text")
+      .text(function(d) {return d.pacs_line3;})
+      .attr("x", function(d) {return d.x;})
+      .attr("y", function(d) {return d.y + 40;})
+      .attr("text-anchor", "end")
+
+
+  })
+
+
+//button 12 Others
+d3.selectAll(".btn13").on("click",function(){
+
+  var val = d3.select(event.target).html();
+  if(val="Individual"){
+    var link = svg.append("g").selectAll(".link")
+      .data(graph.links)
+    .enter().append("path")
+      .attr("class", "link")
+      .attr("d", path)
+      .style("stroke-dasharray", function (d) {
+        if(d.value==20.2) 
+        {return 10;} 
+      else if(d.value==20.4) 
+        {return 10;} 
+    else {
+        return 0;}
+      })  
+      .style("stroke-width", 3)
+     // .style("stroke-width", function(d) { return Math.max(2, d.dy); }) 
+      .style("stroke", function (d) {
+        if(d.conlib ==0 && d.type>3)
+        {return "#FF0000";} 
+      else if(d.conlib==2 && d.type>3)
+      {return "yellow";}
+     else if(d.conlib==1 && d.type>3)
+      {return "#6495ED";}
+
+    else {
+        return "#111010";}
+      })
+      .sort(function(a, b) { return b.dy - a.dy; })
+       .on("mouseover", function(d) {
+       div.transition()
+         .duration(1)
+         .style("opacity", .9);
+    div.html(
+        '<a href= "'+d.source.url+'" target="_blank">' + //with a link
+        d.source.name +
+        "</a>" +
+        "<br/>" + d.amt  + " to " + d.target.name + "\n" +  "<br>"
+         +  "<br>" + d.abt2 + "\n")
+  .style("left", (d3.event.pageX) + 20 + "px")
+         .style("top", (d3.event.pageY - 100) + "px");
+  })
+
+   .on("mouseout", function(d) {
+       div.transition()
+         .duration(1800)
+         .style("opacity", 0)})
+}
+  svg.selectAll("moretext")
+      .data(language)
+      .enter().append("text")
+      .text(function(d) {
+        return d.others_line1;})
+      .attr("x", function(d) {return d.x;})
+      .attr("y", function(d) {return d.y;})
+      .attr("text-anchor", "end")
+//line2
+       svg.selectAll("moretext")
+      .data(language)
+      .enter().append("text")
+      .text(function(d) {return d.others_line2;})
+      .attr("x", function(d) {return d.x;})
+      .attr("y", function(d) {return d.y + 20;})
+      .attr("text-anchor", "end")
+//line3
+      svg.selectAll("moretext")
+      .data(language)
+      .enter().append("text")
+      .text(function(d) {return d.others_line3;})
+      .attr("x", function(d) {return d.x;})
+      .attr("y", function(d) {return d.y + 40;})
+      .attr("text-anchor", "end")
+
+
+  })
+
+
+
+
+ //  function movestuff(d) {
+ //    d3.select(this)
+ // .attr("transform", function(d) { 
+ //        if(d.node==88) //FL
+ //      {return "translate(" + d.x + ","  + (d.y  = (0, (d.dy + 905))) + ")";}
+ //       else if (d.node==87) //OH
+ //      {return "translate(" + d.x + ","  + (d.y  = (0, (d.dy + 1010))) + ")"; }
+ //       else if (d.node==86) //NC
+ //      {return "translate(" + d.x + ","  + (d.y  = (0, (d.dy + 800))) + ")"; }
+ //          else if (d.node==85) //NV
+ //      {return "translate(" + d.x + ","  + (d.y  = (0, (d.dy + 695))) + ")"; }
+ //                  else if (d.node==84) //Nh
+ //      {return "translate(" + d.x + ","  + (d.y  = (0, (d.dy + 590))) + ")"; }
+
+ //      else if (d.node==83) //PA
+ //      {return "translate(" + d.x + ","  + (d.y  = (0, (d.dy + 485))) + ")"; }
+     
+ //     else if (d.node==31)
+ //      {return "translate(" + (d.x - 30) + ","  + (d.y  = (0, (d.dy + 200))) + ")"; }
+
+ //        else
+ //      return "translate("  + d.x + "," + (d.y = Math.max(  0, Math.min(height - d.dy, d3.event.y))) + ")";})
+
+
+ //    sankey.relayout();
+ //    link.attr("d", path);
+ //  }
+
+
+});
+
+</script>
+<svg>
+<pattern id="masto" height="100%" width="100%" patternContentUnits="objectBoundingBox">
+<image height="1" width="1" preserveAspectRatio="none" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NVmasto.png">
+</image>
+</pattern>
+
+<pattern id="toomey" height="100%" width="100%" patternContentUnits="objectBoundingBox">
+<image height="1" width="1" preserveAspectRatio="none" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="PAToomey.png">
+</image>
+</pattern>
+
+
+<pattern id="hassan" height="100%" width="100%" patternContentUnits="objectBoundingBox">
+<image height="1" width="1" preserveAspectRatio="none" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NHhassan.png">
+</image>
+</pattern>
+
+
+<pattern id="burr" height="100%" width="100%" patternContentUnits="objectBoundingBox">
+<image height="1" width="1" preserveAspectRatio="none" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NCburr.png">
+</image>
+</pattern>
+
+
+<pattern id="portman" height="100%" width="100%" patternContentUnits="objectBoundingBox">
+<image height="1" width="1" preserveAspectRatio="none" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="OHportman.png">
+</image>
+</pattern>
+
+
+<pattern id="rubio" height="100%" width="100%" patternContentUnits="objectBoundingBox">
+<image height="1" width="1" preserveAspectRatio="none" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="FLrubio.png">
+</image>
+</pattern>
+
+</svg>
+
+</body>
