@@ -45,11 +45,33 @@ font-family: 'Poppins', sans-serif;
     text-align: right;
       }
 
+      h5 {
+
+font-family: 'Poppins', sans-serif;
+    color: #fff;
+
+
+    text-align: right;
+      }
+
+  .explained{
+font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 13px;
+    text-align: right;
+
+
+         width: 450px;
+       
+            float: left;
+
+  }
+
 p{
 
 font-family: 'Poppins', sans-serif;
     color: #fff;
-    font-size: 13px;
+    font-size: 16px;
 margin-right: 5px;
     text-align: right;
   
@@ -233,7 +255,7 @@ a:active {
            line-height: 27px;
            text-align: center;
            border-radius: 1px;
-                      float: left;
+            float: left;
            box-shadow: 0 0 1px;
 
            cursor: pointer;
@@ -419,11 +441,26 @@ a:active {
   fill:none;
 }
 
+h3 {
+         width: 150px;
+           height: 30px;
+           text-align: center;
+
+            float: left;
+
+           cursor: pointer;
+           font-size: 13px;
+           position: absolute;
+
+      }
+
+
 
 </style>
 <div style="  margin-top: 18px; right: 20px;  position: absolute;  ">
 
 <div>
+
 <p>Who were the financial forces behind the most expensive 2016 Senate races?</p>
 
 
@@ -450,7 +487,22 @@ The Influencers
     <div class='btn9'>Over 65yrs Old</div>
    <div class='btn10'>People</div> <br> <div class='btn11'>Super PACs</div><br><div class='btn8'>All</div>
    <div class='btn12'>PACs</div> <br> <div class='btn13'>Others</div><br>
+
+
+<div class='explained'><div style="  margin-top: 40px;  position: absolute;">
+
+What do we know about the entities who supply the largest financial streams into outside spending groups?
+From left to right, these are the top ten sources of funds for the 
+top ten outside spending groups who spent money in the six most expensive 
+2016 US Senate elections. </div>
+
 </div>
+</div>
+
+
+
+
+
 <body>
 
 <script src="https://d3js.org/d3.v4.min.js"></script>
@@ -465,8 +517,8 @@ var margin = {top: 10, right: 25, bottom: 30, left: 25},
   
 
 width = 1800;   
-//width = (window.innerWidth)*1.30,
-//height = window.innerHeight + 400
+width2 = (window.innerWidth)
+height2 = (window.innerHeight)
    
    // width = 1500 - margin.left - margin.right,
    // height = 1500 - margin.top - margin.bottom;
@@ -517,20 +569,20 @@ d3.json("sankey.json", function(error, graph) {
 
 //Text block under buttons
     var language = [{
-      x: width - 520,
-      y: 200,
+      x: width2 -65,
+      y: height - (height - 230),
    
-      all_line1: "The battle for control of the US Senate hinged on these close elections.",
-      all_line2: "And another line will go right... here",
-      all_line3: "I shouldn't have much more to say about it.",
+      all_line1: "A blurb",
+      all_line2: "Another blurb",
+      all_line3: "yeah yeah yeah",
 
-      con_line1: "An explainer paragraph here about conservative sources!",
-      con_line2: "And another line will go right... here",
-      con_line3: "I shouldn't have much more to say about it.",
+      con_line1: "Various conservative-aligned individuals and groups spent millions in",
+      con_line2: "support of six Republican candidates. The links illuminated here combine for",
+      con_line3: "a raw total of $323M dollars. Republicans won four of the six races.",
 
-      lib_line1: "An explainer paragraph here about liberal sources!",
-      lib_line2: "And another line will go right... here",
-      lib_line3: "I shouldn't have much more to say about it.",
+      lib_line1: "Various liberal-aligned individuals and groups spent millions in",
+      lib_line2: "support of six Democratic candidates. The links illuminated here combine for",
+      lib_line3: "a raw total of $303M dollars. Democrats won only two of the six races.",
 
       ind_line1: "Groups giving to both Democrats and Republicans are quite rare. The",
       ind_line2: "Democrat and Republican Indepdence USA supported both won. They also voted",
@@ -552,9 +604,9 @@ d3.json("sankey.json", function(error, graph) {
       o65_line2: "group of top donors. 72% of the individual contributors were over the age ",
       o65_line3: "of 65 (26 of 36) at the time of their donations in the 15-16 cycle.",
 
-      ppl_line1: "An explainer paragraph here about people sources!",
-      ppl_line2: "And another line will go right... here",
-      ppl_line3: "I shouldn't have much more to say about it.",
+      ppl_line1: "These individuals rank in the top ten sources of funds for the top ten",
+      ppl_line2: "outside spending groups in these six 2016 US Senate elections. Contributions",
+      ppl_line3: "from conservative people accounted for $77M and liberals $42M.",
 
 
       spacs_line1: "An explainer paragraph here about people sources!",
@@ -573,7 +625,8 @@ d3.json("sankey.json", function(error, graph) {
 
     //TO DO
 
-
+   // x: width2 -65,
+   //    y: height2*.30,
 
 
 //color key
@@ -581,48 +634,48 @@ svg.selectAll("moretext")
       .data(language)
       .enter().append("line")
       .style("stroke", "#FF0000")  
-    .attr("x1", (width - 650))     
+    .attr("x1", (width2 - 200))     
     .attr("y1", height * .95)      
-    .attr("x2", (width - 600))    
+    .attr("x2", (width2 - 250))    
     .attr("y2", height * .95);
 
      svg.selectAll("moretext") 
       .data(language)
       .enter().append("text")
       .text("Conservative")
-      .attr("x", (width - 600))
+      .attr("x", (width2 - 200))
       .attr("y", height *.95);
 
     svg.selectAll("moretext") 
       .data(language)
       .enter().append("line")
       .style("stroke", "#6495ED")  
-    .attr("x1", (width - 650))     
+    .attr("x1", (width2 - 200))     
     .attr("y1", height * .96)      
-    .attr("x2", (width - 600))    
+    .attr("x2", (width2 - 250))     
     .attr("y2", height * .96);
 
     svg.selectAll("moretext") 
       .data(language)
       .enter().append("text")
       .text("Liberal")
-      .attr("x", (width - 600))
+      .attr("x", (width2 - 200))
       .attr("y", height *.96);
 
         svg.selectAll("moretext") 
       .data(language)
       .enter().append("line")
-      .style("stroke", "yellow")  // colour the line
-    .attr("x1", (width - 650))     
-    .attr("y1", height * .97)      // y position of the first end of the line
-    .attr("x2", (width - 600))    
+      .style("stroke", "yellow")  
+    .attr("x1", (width2 - 200))     
+    .attr("y1", height * .97)      
+    .attr("x2", (width2 - 250))    
     .attr("y2", height * .97);
 
        svg.selectAll("moretext") 
       .data(language)
       .enter().append("text")
       .text("Independent")
-      .attr("x", (width - 600))
+      .attr("x", (width2 - 200))
       .attr("y", height *.97);
    
 
@@ -630,39 +683,19 @@ svg.selectAll("moretext")
       .data(language)
       .enter().append("line")
       .style("stroke", "gray") 
-      .style("stroke-dasharray", 5) // colour the line
-    .attr("x1", (width - 650))     
-    .attr("y1", height * .98)      // y position of the first end of the line
-    .attr("x2", (width - 600))    
+      .style("stroke-dasharray", 5) 
+    .attr("x1", (width2 - 200))     
+    .attr("y1", height * .98)      
+    .attr("x2", (width2 - 250))    
     .attr("y2", height * .98);
 
        svg.selectAll("moretext") 
       .data(language)
       .enter().append("text")
       .text("Dark")
-      .attr("x", (width - 600))
+      .attr("x", (width2 - 200))
       .attr("y", height *.98);
 
-
-  
-
-
-
-// holder.append("line")          // attach a line
-//     .style("stroke", "red")  // colour the line
-//     .attr("x1", 100)     // x position of the first end of the line
-//     .attr("y1", 50)      // y position of the first end of the line
-//     .attr("x2", 150)     // x position of the second end of the line
-//     .attr("y2", 50);
-
-//     holder.append("line")          // attach a line
-//     .style("stroke", "blue")  // colour the line
-//     .attr("x1", 100)     // x position of the first end of the line
-//     .attr("y1", 55)      // y position of the first end of the line
-//     .attr("x2", 150)     // x position of the second end of the line
-//     .attr("y2", 55);
-
-   // .style("opacity",0); 
 
 
 //Explainer footer
@@ -670,22 +703,25 @@ svg.selectAll("moretext")
       .data(language)
       .enter().append("text")
       .text("METHODOLOGY + SOURCES")
-      .attr("x", (width - 650))
+      .attr("x", (width2 - 250))
       .attr("y", (height)*1.02)
     .on("mouseover", function(d) {
        div.transition()
-         .duration(1)
+         .duration(100)
          .style("opacity", .9);
     div.html(
+      "This biographical tool seeks to familiarize its users with the backgrounds of these influencing forces along with showing the different financial mechanisms for inserting large amounts of money into a federal election." + "<br>" + "<br>"
+      
+      +
       "Most expensive races were identified via the " + 
 
 
-       '<a href="https://www.opensecrets.org/overview/topraces.php?cycle=2016&display=currcandsout" target="_blank">Center for Responsive Politics' +  "</a>"  
+       '<a href="https://www.opensecrets.org/overview/topraces.php?cycle=2016&display=currcandsout" target="_blank">Center for Responsive Politics' +  "</a>"  + "." 
        + "<br>" + "<br>" +
-"Top outside sources per race identified by referencing the " + 
+"Top outside sources per race identified by referencing data from the " + 
        '<a href="https://www.fec.gov/data/" target="_blank">Federal Election Commission' + 
        //with a link
-           "</a>"   + 
+           "</a>"   + "." +
         "<br>" + "<br>" +
         " Receipts for each outside group (excluding dark sources) were also sourced from the FEC and aggregated to identify top ten sources of their receipts. " 
        + "<br>" + "<br>" +
@@ -695,7 +731,7 @@ svg.selectAll("moretext")
      //  "All quantitative data sourced from the Center for Responsive Politics and the Federal Election Commission.")
 
       .style("left", (d3.event.pageX) - 300 + "px")
-         .style("top", (d3.event.pageY - 350) + "px");
+         .style("top", (d3.event.pageY - 425) + "px");
   })
 
    .on("mouseout", function(d) {
@@ -704,7 +740,13 @@ svg.selectAll("moretext")
          .style("opacity", 0)})
 
 
-   var bubbles = [{x: width - 550, y: 480, c: 0, st: 83}, {x: width - 550, y: 585, c: 1, st:84}, {x: width - 550, y: 690, c:1, st:85}, {x: width - 550, y: 795, c:0, st:86}, {x: width - 550, y: 900, c:0, st:87}, {x: width - 550, y: 1005, c:0, st:88}]
+   var bubbles = 
+   [{x: width - 550, y: 480, c: 0, st: 83, blurb: "The PA senate race ended up being the most expensive senate race in US history, costing $180M dollars. Republican Pat Toomey defeated Democrat Kathleen McGinty by 100k votes (1.7% points)", res: "https://www.politico.com/2016-election/results/map/senate/pennsylvania/"}, 
+   {x: width - 550, y: 585, c: 1, st:84, blurb: "The total cost of the NH senate race was $141M dollars. Democrat Maggie Hassan defeated Republican incumbent Kelly Ayotte by 743 votes (0.1% points).", res: "https://www.politico.com/2016-election/results/map/senate/new-hampshire/"}, 
+   {x: width - 550, y: 690, c:1, st:85, blurb: "The total cost of the NV senate race was $127M dollars. Democrat Catherine Cortez Masto defeated Republican Joe Heck by 26k votes (2.4% points)", res: "https://www.politico.com/2016-election/results/map/senate/nevada/"}, 
+   {x: width - 550, y: 795, c:0, st:86, blurb: "The total cost of the NC senate race was $97M dollars. Republican Richard Burr defeated Democrat Deobrah Ross by 269k votes (5.8% points)", res: "https://www.politico.com/2016-election/results/map/senate/north-carolina/"}, 
+   {x: width - 550, y: 900, c:0, st:87, blurb: "The total cost of the FL senate race was $91M dollars. Republican Marco Rubio defeated Democrat Patrick Murphy by 717k votes (7.7% points).", res: "https://www.politico.com/2016-election/results/map/senate/florida/"}, 
+   {x: width - 550, y: 1005, c:0, st:88, blurb: "The total cost of the OH senate race was $90M. Republican Rob Portman defeated Democrat Ted Strickland by 1.1M votes (21.4% points).", res: "https://www.politico.com/2016-election/results/map/senate/ohio/"}]
 
 //add winners circles
 svg.selectAll("circle")
@@ -714,6 +756,28 @@ svg.selectAll("circle")
     .attr("cy", function(d) { return d.y; }) 
     .attr("r", 35)
     .style("opacity", .7)
+.on("mouseover", function(d) {
+       div.transition()
+         .duration(100)
+         .style("opacity", .9);
+    div.html(d.blurb + "<br>" + "<br>" + '<a href= "'+d.res+'" target="_blank">' + //with a link
+        "Results" +
+        "</a>"
+           
+
+)
+
+      .style("left", (d3.event.pageX) - 250 + "px")
+         .style("top", (d3.event.pageY - 165) + "px");
+  })
+
+   .on("mouseout", function(d) {
+       div.transition()
+         .duration(200)
+         .style("opacity", 0)})
+
+
+
     .style("stroke", function (d) {
         if(d.c==0) 
         {return "#FF0000";} 
@@ -740,8 +804,9 @@ svg.selectAll("circle")
 
     else {
         return 0;}
-      })
-    ;
+      }
+
+      );
 
     //  .style("fill","url(#masto)") ;
 
@@ -755,7 +820,7 @@ svg.selectAll("circle")
 
    .on("mouseover", function(d) {
        div.transition()
-         .duration(1)
+         .duration(100)
          .style("opacity", .9);
     div.html(
         '<a href= "'+d.source.url+'" target="_blank">' + //with a link
@@ -856,14 +921,6 @@ sankey.relayout()
 link.attr("d", path);
 
 
-// add the rectangles for the nodes
- // node.append("rect")
- //     .attr("height", 10)
- //      //function(d) { return d.dy; })
- //     .attr("width", 10)
- //     .style("fill", "#111010")
- //     .style("opacity", 0)
-
 
 // add in the title for the nodes
   node.append("text")
@@ -887,13 +944,12 @@ link.attr("d", path);
 d3.selectAll(".btn8").on("click",function(){
     location.reload()
 
-
   })
-
 
 
 //button1 Conservative Sources
 d3.selectAll(".btn1").on("click",function(){
+
   var val = d3.select(event.target).html();
   if(val="Conservative Sources"){
     var link = svg.append("g").selectAll(".link")
@@ -926,7 +982,7 @@ d3.selectAll(".btn1").on("click",function(){
 
  .on("mouseover", function(d) {
        div.transition()
-         .duration(1)
+         .duration(100)
          .style("opacity", .9);
     div.html(
         '<a href= "'+d.source.url+'" target="_blank">' + //with a link
@@ -943,6 +999,8 @@ d3.selectAll(".btn1").on("click",function(){
          .duration(1800)
          .style("opacity", 0)})
 }
+d3.select(".explained").remove()
+
   svg.selectAll("moretext")
       .data(language)
       .enter().append("text")
@@ -950,7 +1008,8 @@ d3.selectAll(".btn1").on("click",function(){
         return d.con_line1;})
       .attr("x", function(d) {return d.x;})
       .attr("y", function(d) {return d.y;})
-            .attr("text-anchor", "end")
+          .attr("text-anchor", "end")
+
 
 //line2
        svg.selectAll("moretext")
@@ -1005,7 +1064,7 @@ d3.selectAll(".btn3").on("click",function(){
       .sort(function(a, b) { return b.dy - a.dy; })
        .on("mouseover", function(d) {
        div.transition()
-         .duration(1)
+         .duration(100)
          .style("opacity", .9);
     div.html(
         '<a href= "'+d.source.url+'" target="_blank">' + //with a link
@@ -1022,6 +1081,8 @@ d3.selectAll(".btn3").on("click",function(){
          .duration(1800)
          .style("opacity", 0)})
 }
+d3.select(".explained").remove()
+
   svg.selectAll("moretext")
       .data(language)
       .enter().append("text")
@@ -1083,7 +1144,7 @@ d3.selectAll(".btn2").on("click",function(){
       .sort(function(a, b) { return b.dy - a.dy; })
       .on("mouseover", function(d) {
        div.transition()
-         .duration(1)
+         .duration(100)
          .style("opacity", .9);
     div.html(
         '<a href= "'+d.source.url+'" target="_blank">' + //with a link
@@ -1102,6 +1163,8 @@ d3.selectAll(".btn2").on("click",function(){
 
 
 }
+d3.select(".explained").remove()
+
  svg.selectAll("moretext")
       .data(language)
       .enter().append("text")
@@ -1164,7 +1227,7 @@ d3.selectAll(".btn4").on("click",function(){
       })
       .sort(function(a, b) { return b.dy - a.dy; }) .on("mouseover", function(d) {
        div.transition()
-         .duration(1)
+         .duration(100)
          .style("opacity", .9);
     div.html(
         '<a href= "'+d.source.url+'" target="_blank">' + //with a link
@@ -1181,6 +1244,8 @@ d3.selectAll(".btn4").on("click",function(){
          .duration(1800)
          .style("opacity", 0)})
 }
+d3.select(".explained").remove()
+
  svg.selectAll("moretext")
       .data(language)
       .enter().append("text")
@@ -1241,7 +1306,7 @@ d3.selectAll(".btn5").on("click",function(){
       })
       .sort(function(a, b) { return b.dy - a.dy; }) .on("mouseover", function(d) {
        div.transition()
-         .duration(1)
+         .duration(100)
          .style("opacity", .9);
     div.html(
         '<a href= "'+d.source.url+'" target="_blank">' + //with a link
@@ -1258,6 +1323,8 @@ d3.selectAll(".btn5").on("click",function(){
          .duration(1800)
          .style("opacity", 0)})
 }
+d3.select(".explained").remove()
+
  svg.selectAll("moretext")
       .data(language)
       .enter().append("text")
@@ -1319,7 +1386,7 @@ d3.selectAll(".btn6").on("click",function(){
       })
       .sort(function(a, b) { return b.dy - a.dy; }) .on("mouseover", function(d) {
        div.transition()
-         .duration(1)
+         .duration(100)
          .style("opacity", .9);
     div.html(
         '<a href= "'+d.source.url+'" target="_blank">' + //with a link
@@ -1338,6 +1405,8 @@ d3.selectAll(".btn6").on("click",function(){
 
 
 }
+d3.select(".explained").remove()
+
   svg.selectAll("moretext")
       .data(language)
       .enter().append("text")
@@ -1398,7 +1467,7 @@ d3.selectAll(".btn9").on("click",function(){
       .sort(function(a, b) { return b.dy - a.dy; }) 
       .on("mouseover", function(d) {
        div.transition()
-         .duration(1)
+         .duration(100)
          .style("opacity", .9);
     div.html(
         '<a href= "'+d.source.url+'" target="_blank">' + //with a link
@@ -1415,6 +1484,8 @@ d3.selectAll(".btn9").on("click",function(){
          .duration(1800)
          .style("opacity", 0)})
 }
+d3.select(".explained").remove()
+
   svg.selectAll("moretext")
       .data(language)
       .enter().append("text")
@@ -1476,7 +1547,7 @@ d3.selectAll(".btn10").on("click",function(){
       .sort(function(a, b) { return b.dy - a.dy; })
        .on("mouseover", function(d) {
        div.transition()
-         .duration(1)
+         .duration(100)
          .style("opacity", .9);
     div.html(
         '<a href= "'+d.source.url+'" target="_blank">' + //with a link
@@ -1493,6 +1564,8 @@ d3.selectAll(".btn10").on("click",function(){
          .duration(1800)
          .style("opacity", 0)})
 }
+d3.select(".explained").remove()
+
   svg.selectAll("moretext")
       .data(language)
       .enter().append("text")
@@ -1556,7 +1629,7 @@ d3.selectAll(".btn11").on("click",function(){
       .sort(function(a, b) { return b.dy - a.dy; })
        .on("mouseover", function(d) {
        div.transition()
-         .duration(1)
+         .duration(100)
          .style("opacity", .9);
     div.html(
         '<a href= "'+d.source.url+'" target="_blank">' + //with a link
@@ -1573,6 +1646,8 @@ d3.selectAll(".btn11").on("click",function(){
          .duration(1800)
          .style("opacity", 0)})
 }
+d3.select(".explained").remove()
+
   svg.selectAll("moretext")
       .data(language)
       .enter().append("text")
@@ -1636,7 +1711,7 @@ d3.selectAll(".btn12").on("click",function(){
       .sort(function(a, b) { return b.dy - a.dy; })
        .on("mouseover", function(d) {
        div.transition()
-         .duration(1)
+         .duration(100)
          .style("opacity", .9);
     div.html(
         '<a href= "'+d.source.url+'" target="_blank">' + //with a link
@@ -1653,6 +1728,8 @@ d3.selectAll(".btn12").on("click",function(){
          .duration(1800)
          .style("opacity", 0)})
 }
+d3.select(".explained").remove()
+
   svg.selectAll("moretext")
       .data(language)
       .enter().append("text")
@@ -1716,7 +1793,7 @@ d3.selectAll(".btn13").on("click",function(){
       .sort(function(a, b) { return b.dy - a.dy; })
        .on("mouseover", function(d) {
        div.transition()
-         .duration(1)
+         .duration(100)
          .style("opacity", .9);
     div.html(
         '<a href= "'+d.source.url+'" target="_blank">' + //with a link
@@ -1733,6 +1810,8 @@ d3.selectAll(".btn13").on("click",function(){
          .duration(1800)
          .style("opacity", 0)})
 }
+d3.select(".explained").remove()
+
   svg.selectAll("moretext")
       .data(language)
       .enter().append("text")
