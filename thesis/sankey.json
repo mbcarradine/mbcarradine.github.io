@@ -78,7 +78,7 @@
   {
     "node": 5,
     "name": "Stephen Schwarzman",
-    "abt": "Stephen Schwarzman is the CEO of The Blackstone Group, a global private equity firm. He made headlines in 2017 for his 70th birthday party costing $7m dollars. The party included a 12 minute fireworks show, roaming camels and a 'Happy Birthday' performance from Gwen Stefani. He gave $3.1m to the Senate Leadership Fund.",
+    "abt": "Stephen Schwarzman is the CEO of The Blackstone Group, a global private equity firm. He made headlines in 2017 for his 70th birthday party which costed $7M dollars. The party included a 12 minute fireworks show, roaming camels and a 'Happy Birthday' performance from Gwen Stefani. He gave $3.1m to the Senate Leadership Fund.",
     "amt": "$3M",
     "gender": 0,
     "conlib": 0,
@@ -619,7 +619,7 @@
     "node": 41,
     "name": "Michael Bloomberg",
     "abt": "Michael Bloomberg is the former mayor of New York City and the founder of the Bloomberg media and software empire. He contributed $21m to his own superPAC, Independence USA PAC.",
-    "amt": "Ind. USA: $21.7m, Planned Parenthood Votes: $1M, Women Vote!: $1M",
+    "amt": "Ind. USA: $21.7M, Planned Parenthood Votes: $1M, Women Vote!: $1M",
     "gender": 0,
     "conlib": 2,
     "darkgroups": 0,
@@ -1232,7 +1232,7 @@
   {
     "node": 82,
     "name": "AFT Solidarity",
-    "abt": "AFT solidarity is a political 527 organization attached to the American Federation of Teachers (AFT) union, a large educator's union which has 1.7m members. They donated $875k dollars to Women Vote.",
+    "abt": "AFT solidarity is a political 527 organization attached to the American Federation of Teachers (AFT) union, a large educator's union which has 1.7M members. They donated $875k dollars to Women Vote.",
     "amt": "$0.9M",
     "gender": 2,
     "conlib": 1,
@@ -1482,7 +1482,7 @@
     "spac": 1,
     "pac": 0,
     "others": 0,
-    "type": 0
+    "type": 2
   },
   {
     "source": 9,
@@ -2412,7 +2412,7 @@
     "target": 74,
     "value": 20.4,
     "conlib": 1,
-    "abt2": "AFT solidarity is a political 527 organization attached to the American Federation of Teachers (AFT) union, a large educator's union which has 1.7m members. They donated $875k dollars to Women Vote.",
+    "abt2": "AFT solidarity is a political 527 organization attached to the American Federation of Teachers (AFT) union, a large educator's union which has 1.7M members. They donated $875k dollars to Women Vote.",
     "amt": "$0.9M",
     "raw": 0.9,
     "spac": 0,

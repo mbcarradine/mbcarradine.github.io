@@ -395,11 +395,11 @@ h3 {
 </style>
 
 
-<div style="  margin-top: 28px; right: 20px;  position: absolute;  ">
+<div style="  margin-top: 28px; right: 20px;  position: absolute; color: #222; ">
 
 <div>
 
-<p>Who were the financial forces behind the most expensive 2016 Senate races?</p>
+<p> Who were the financial forces behind the most expensive 2016 Senate races?</p>
 
 
 </div> 
@@ -575,9 +575,9 @@ svg.selectAll("#moretext"
 )  
             .style("stroke-width", 3)
 
-    .attr("x1", (width2 - 200))     
+    .attr("x1", (width2 - 205))     
     .attr("y1", height * .95)      
-    .attr("x2", (width2 - 250))    
+    .attr("x2", (width2 - 255))    
     .attr("y2", height * .95);
      svg.selectAll("#moretext"
 
@@ -598,9 +598,9 @@ svg.selectAll("#moretext"
 ) 
             .style("stroke-width", 3)
  
-    .attr("x1", (width2 - 200))     
+    .attr("x1", (width2 - 205))     
     .attr("y1", height * .96)      
-    .attr("x2", (width2 - 250))     
+    .attr("x2", (width2 - 255))     
     .attr("y2", height * .96);
     svg.selectAll("#moretext"
 
@@ -624,9 +624,9 @@ svg.selectAll("#moretext"
 )
             .style("stroke-width", 3)
   
-    .attr("x1", (width2 - 200))     
+    .attr("x1", (width2 - 205))     
     .attr("y1", height * .97)      
-    .attr("x2", (width2 - 250))    
+    .attr("x2", (width2 - 255))    
     .attr("y2", height * .97);
        svg.selectAll("#moretext"
 
@@ -647,9 +647,9 @@ svg.selectAll("#moretext"
       .style("stroke", "black") 
       .style("stroke-dasharray", 5) 
       .style("stroke-width", 3)
-    .attr("x1", (width2 - 200))     
+    .attr("x1", (width2 - 204))     
     .attr("y1", height * .98)      
-    .attr("x2", (width2 - 250))    
+    .attr("x2", (width2 - 255))    
     .attr("y2", height * .98);
        svg.selectAll("#moretext"
 
@@ -703,13 +703,21 @@ svg.selectAll("#moretext"
        div.transition()
          .duration(1800)
          .style("opacity", 0)})
+
+
    var bubbles = 
-   [{x: width - 550, y: 480, c: 0, st: 83, name: "Pat Toomey", blurb: "The PA senate race ended up being the most expensive senate race in US history, costing $180M dollars. Republican Pat Toomey defeated Democrat Kathleen McGinty by 100k votes (1.7% points)", res: "https://www.politico.com/2016-election/results/map/senate/pennsylvania/"}, 
-   {x: width - 550, y: 585, c: 1, st:84,name: "Margaret Hassan", blurb: "The total cost of the NH senate race was $141M dollars. Democrat Maggie Hassan defeated Republican incumbent Kelly Ayotte by 743 votes (0.1% points).", res: "https://www.politico.com/2016-election/results/map/senate/new-hampshire/"}, 
-   {x: width - 550, y: 690, c:1, st:85, name: "Catherine Cortez Masto", blurb: "The total cost of the NV senate race was $127M dollars. Democrat Catherine Cortez Masto defeated Republican Joe Heck by 26k votes (2.4% points)", res: "https://www.politico.com/2016-election/results/map/senate/nevada/"}, 
-   {x: width - 550, y: 795, c:0, st:86, name: "Richard Burr",  blurb: "The total cost of the NC senate race was $97M dollars. Republican Richard Burr defeated Democrat Deobrah Ross by 269k votes (5.8% points)", res: "https://www.politico.com/2016-election/results/map/senate/north-carolina/"}, 
-   {x: width - 550, y: 900, c:0, st:87, name: "Marco Rubio", blurb: "The total cost of the FL senate race was $91M dollars. Republican Marco Rubio defeated Democrat Patrick Murphy by 717k votes (7.7% points).", res: "https://www.politico.com/2016-election/results/map/senate/florida/"}, 
-   {x: width - 550, y: 1005, c:0, st:88, name: "Rob Portman", blurb: "The total cost of the OH senate race was $90M. Republican Rob Portman defeated Democrat Ted Strickland by 1.1M votes (21.4% points).", res: "https://www.politico.com/2016-election/results/map/senate/ohio/"}]
+   [{x: width - 550, y: 480, c: 0, st: 83, vr:"https://projects.fivethirtyeight.com/congress-trump-score/patrick-j-toomey/", name: "Pat Toomey", blurb: "The PA senate race ended up being the most expensive senate race in US history, costing $180M dollars. Republican Pat Toomey defeated Democrat Kathleen McGinty by 100k votes (1.7% points). Here is his ", res: "https://www.politico.com/2016-election/results/map/senate/pennsylvania/"}, 
+
+   {x: width - 550, y: 585, c: 1, st:84, vr: "https://projects.fivethirtyeight.com/congress-trump-score/margaret-wood-hassan/", name: "Margaret Hassan", blurb: "The total cost of the NH senate race was $141M dollars. Democrat Maggie Hassan defeated Republican incumbent Kelly Ayotte by 743 votes (0.1% points). Here is her ", res: "https://www.politico.com/2016-election/results/map/senate/new-hampshire/"}, 
+
+   {x: width - 550, y: 690, c:1, st:85, vr:"https://projects.fivethirtyeight.com/congress-trump-score/catherine-cortez-masto/", name: "Catherine Cortez Masto", blurb: "The total cost of the NV senate race was $127M dollars. Democrat Catherine Cortez Masto defeated Republican Joe Heck by 26k votes (2.4% points). Here is her ", res: "https://www.politico.com/2016-election/results/map/senate/nevada/"}, 
+
+   {x: width - 550, y: 795, c:0, st:86, vr:"https://projects.fivethirtyeight.com/congress-trump-score/richard-burr/", name: "Richard Burr",  blurb: "The total cost of the NC senate race was $97M dollars. Republican Richard Burr defeated Democrat Deobrah Ross by 269k votes (5.8% points). Here is his ", res: "https://www.politico.com/2016-election/results/map/senate/north-carolina/"}, 
+
+   {x: width - 550, y: 900, c:0, st:87, vr:"https://projects.fivethirtyeight.com/congress-trump-score/marco-rubio/", name: "Marco Rubio", blurb: "The total cost of the FL senate race was $91M dollars. Republican Marco Rubio defeated Democrat Patrick Murphy by 717k votes (7.7% points). Here is his ", res: "https://www.politico.com/2016-election/results/map/senate/florida/"}, 
+
+   {x: width - 550, y: 1005, c:0, st:88, vr:"https://projects.fivethirtyeight.com/congress-trump-score/rob-portman/", name: "Rob Portman", blurb: "The total cost of the OH senate race was $90M. Republican Rob Portman defeated Democrat Ted Strickland by 1.1M votes (21.4% points). Here is his ", res: "https://www.politico.com/2016-election/results/map/senate/ohio/"}]
+
 //add winners circles
 svg.selectAll("circle")
     .data(bubbles)
@@ -729,8 +737,8 @@ svg.selectAll("circle")
 
   div.html(
         '<a href= "'+d.res+'" target="_blank">' +   
-        '<b>'  +  '<p>' + d.name   + '</p>' + '</b>' +  "</a>"  + 
-           d.blurb)
+           '<p>' + d.name   + '</p>'  +  "</a>"  +  d.blurb +   '<a href= "'+ d.vr + '" target="_blank">' 
+          + "voting record."   +  "</a>"  )
 
 
       .style("left", (d3.event.pageX) - 250 + "px")
@@ -787,8 +795,8 @@ svg.selectAll("circle")
          ;
 div.html(
         '<a href= "'+d.source.url+'" target="_blank">' +   
-        '<b>'  +  '<p>' + d.source.name   + '</p>' + '</b>' +  "</a>"  + 
-        d.amt  + " to " + d.target.name + "\n" +  "<br>"
+        '<b>'  +  '<p>' + d.source.name   + '</p>' + '</b>' +  "</a>"  + '<b>' + 
+        d.amt + '</b>' + " to " + d.target.name + "\n" +  "<br>"
          +  "<br>" + d.abt2 + "\n")
 
 
@@ -897,8 +905,9 @@ d3.selectAll(".btn8").on("click",function(){
 
 
 //button1 Conservative Sources
-d3.selectAll(".btn1").on("click",function(){
-  var val = d3.select(event.target).html();
+d3.selectAll(".btn1")
+.on("click",function(){
+var val = d3.select(event.target).html();
   if(val="Conservative Sources"){
     var link = svg.append("g").selectAll(".link")
       .data(graph.links)
@@ -921,11 +930,7 @@ d3.selectAll(".btn1").on("click",function(){
 
 ;} 
       else if(d.conlib==2)
-      {return "#E9E3CC"
-
-
-
-;}
+      {return "#E9E3CC";}
     else {
         return "#E9E3CC"
 
