@@ -177,8 +177,6 @@ a:active {
            cursor: pointer;
            font-size: 14px;
             float: left;
-                        display: inline-block;
-
       }
        .btn1:hover{
          background-color: #ccc;
@@ -194,8 +192,6 @@ a:active {
            cursor: pointer;
            font-size: 14px;
               float: left;
-                          display: inline-block;
-
       }
        .btn2:hover{
          background-color: #ccc;
@@ -211,8 +207,6 @@ a:active {
            box-shadow: 0 0 1px;
            cursor: pointer;
            font-size: 14px;
-                       display: inline-block;
-
       }
        .btn3:hover{
          background-color: #ccc;
@@ -228,8 +222,6 @@ a:active {
            box-shadow: 0 0 1px;
            cursor: pointer;
            font-size: 14px;
-                       display: inline-block;
-
       }
        .btn4:hover{
          background-color: #ccc;
@@ -245,8 +237,6 @@ a:active {
            box-shadow: 0 0 1px;
            cursor: pointer;
            font-size: 14px;
-                       display: inline-block;
-
       }
        .btn5:hover{
          background-color: #ccc;
@@ -262,8 +252,6 @@ a:active {
            box-shadow: 0 0 1px;
            cursor: pointer;
            font-size: 14px;
-                       display: inline-block;
-
       }
        .btn6:hover{
          background-color: #ccc;
@@ -279,8 +267,6 @@ a:active {
            box-shadow: 0 0 1px;
            cursor: pointer;
            font-size: 14px;
-                       display: inline-block;
-
       }
        .btn7:hover{
          background-color: #ccc;
@@ -814,7 +800,6 @@ svg.selectAll("circle")
       .attr("class", "link")
       .attr("d", path)
      // .style("stroke-opacity", .5) 
-
    .on("mouseover", function(d) {
        div.transition()
          .duration(1)
@@ -861,25 +846,26 @@ div.html(
       .attr("class", "node")
       .attr("transform", function(d) { 
         if(d.node==40)
-          {return "translate(" + (d.x - 40 ) + "," + d.y + ")"; }
+          {return "translate(" + (d.x - 35 ) + "," + d.y + ")"; }
         else if (d.node==74)
-        {return "translate(" + (d.x - 32 ) + "," + d.y + ")"; }
+        {return "translate(" + (d.x - 27) + "," + d.y + ")"; }
        else if (d.node==42)
-        {return "translate(" + (d.x - 35 ) + "," + d.y + ")"; }
+        {return "translate(" + (d.x - 30 ) + "," + d.y + ")"; }
        else if (d.node==30)
-        {return "translate(" + (d.x - 3 ) + "," + d.y + ")"; }
+        {return "translate(" + (d.x +3 ) + "," + d.y + ")"; }
           else if (d.node==53)
-        {return "translate(" + (d.x - 40 ) + "," + d.y + ")"; }
+        {return "translate(" + (d.x - 35) + "," + d.y + ")"; }
            else if (d.node==10)
-        {return "translate(" + (d.x - 35 ) + "," + d.y + ")"; }
+        {return "translate(" + (d.x - 30 ) + "," + d.y + ")"; }
                else if (d.node==20)
-        {return "translate(" + (d.x - 45 ) + "," + d.y + ")"; }
+        {return "translate(" + (d.x - 40 ) + "," + d.y + ")"; }
                    else if (d.node==65)
-        {return "translate(" + (d.x - 15 ) + "," + d.y + ")"; }
+        {return "translate(" + (d.x - 10 ) + "," + d.y + ")"; }
      else if (d.node==64)
-        {return "translate(" + (d.x - 5 ) + "," + d.y + ")"; }
+        {return "translate(" + (d.x - .1 ) + "," + d.y + ")"; }
                 else if (d.node==89)
-        {return "translate(" + (d.x - 1 ) + "," + d.y + ")"; }
+        {return "translate(" + (d.x + 4 ) + "," + d.y + ")"; }
+
       else if(d.node==88) //FL
       {return "translate(" + d.x + ","  + (d.y  = (0, (d.dy + 905))) + ")";}
        else if (d.node==87) //OH
@@ -912,15 +898,15 @@ link.attr("d", path);
   node.append("text")
       .attr("x", 2)
       .attr("y", function(d) { return d.dy / 6; })
-      .attr("dy", ".25em")
+      .attr("dy", ".05em")
      // .attr("text-anchor", "start") //
      // .attr("transform", null)
       .text(function(d) { return d.name; })
        .attr("text-anchor", "start") 
     .filter(function(d) { return d.x < width / 2; })
-      .attr("x", .1 + sankey.nodeWidth())
+      .attr("x", -5 + sankey.nodeWidth())
       .attr("text-anchor", "end")
-        .attr("x", .1 + sankey.nodeWidth())
+        .attr("x", -5 + sankey.nodeWidth())
       .style("fill", "#222")
     ;
 
@@ -985,40 +971,45 @@ var val = d3.select(event.target).html();
          .duration(1600)
          .style("opacity", 0)})
 }
-d3.select(".explained").remove()
-  svg.selectAll("#moretext")
-      .data(language)
-      .enter().append("text")
-      .text(function(d) {
-        return d.con_line1;})
-      .attr("x", function(d) {return d.x;})
-      .attr("y", function(d) {return d.y;})
-      .style("font-size", 16)
-          .attr("text-anchor", "end")
-//line2
-       svg.selectAll("#moretext"
 
-)
-      .data(language)
-      .enter().append("text")
-      .text(function(d) {return d.con_line2;})
-      .attr("x", function(d) {return d.x;})
-      .attr("y", function(d) {return d.y + 20;})
-          .attr("text-anchor", "end")
-      .style("font-size", 16)
 
-//line3
-      svg.selectAll("#moretext"
+// d3.select(".explained").remove();
 
-)
-      .data(language)
-      .enter().append("text")
-      .text(function(d) {return d.con_line3;})
-      .style("font-size", 16)
 
-      .attr("x", function(d) {return d.x;})
-      .attr("y", function(d) {return d.y + 40;})
-      .attr("text-anchor", "end")
+
+//   svg.selectAll(".explained")
+//       .data(language)
+//       .enter().append("text")
+//       .text(function(d) {
+//         return d.con_line1;})
+//       .attr("x", function(d) {return d.x;})
+//       .attr("y", function(d) {return d.y;})
+//       .style("font-size", 16)
+//           .attr("text-anchor", "end")
+
+
+// //line2
+//        svg.selectAll(".explained")
+//       .data(language)
+//       .enter().append("text")
+//       .text(function(d) {return d.con_line2;})
+//       .attr("x", function(d) {return d.x;})
+//       .attr("y", function(d) {return d.y + 20;})
+//           .attr("text-anchor", "end")
+//       .style("font-size", 16)
+
+// //line3
+//       svg.selectAll(".explained"
+
+// )
+//       .data(language)
+//       .enter().append("text")
+//       .text(function(d) {return d.con_line3;})
+//       .style("font-size", 16)
+
+//       .attr("x", function(d) {return d.x;})
+//       .attr("y", function(d) {return d.y + 40;})
+//       .attr("text-anchor", "end")
   })
 //button 3 Independent Sources
 d3.selectAll(".btn3").on("click",function(){
@@ -1050,16 +1041,9 @@ d3.selectAll(".btn3").on("click",function(){
       {return "#F79711"
 
 
-
-
-
-
-
 ;}
     else {
         return "#E9E3CC"
-
-
 
 ;}
       })
@@ -1081,43 +1065,43 @@ d3.selectAll(".btn3").on("click",function(){
          .duration(1600)
          .style("opacity", 0)})
 }
-d3.select(".explained").remove()
-  svg.selectAll("#moretext"
+// d3.select(".explained").remove()
+//   svg.selectAll("#moretext"
 
-)
-      .data(language)
-      .enter().append("text")
-      .text(function(d) {
-        return d.ind_line1;})
-      .attr("x", function(d) {return d.x;})
-      .attr("y", function(d) {return d.y;})
-            .style("font-size", 16)
+// )
+//       .data(language)
+//       .enter().append("text")
+//       .text(function(d) {
+//         return d.ind_line1;})
+//       .attr("x", function(d) {return d.x;})
+//       .attr("y", function(d) {return d.y;})
+//             .style("font-size", 16)
 
-            .attr("text-anchor", "end")
-//line2
-       svg.selectAll("#moretext"
+//             .attr("text-anchor", "end")
+// //line2
+//        svg.selectAll("#moretext"
 
-)
-      .data(language)
-      .enter().append("text")
-      .text(function(d) {return d.ind_line2;})
-      .attr("x", function(d) {return d.x;})
-      .attr("y", function(d) {return d.y + 20;})
-            .style("font-size", 16)
+// )
+//       .data(language)
+//       .enter().append("text")
+//       .text(function(d) {return d.ind_line2;})
+//       .attr("x", function(d) {return d.x;})
+//       .attr("y", function(d) {return d.y + 20;})
+//             .style("font-size", 16)
 
-          .attr("text-anchor", "end")
-//line3
-      svg.selectAll("#moretext"
+//           .attr("text-anchor", "end")
+// //line3
+//       svg.selectAll("#moretext"
 
-)
-      .data(language)
-      .enter().append("text")
-      .text(function(d) {return d.ind_line3;})
-      .attr("x", function(d) {return d.x;})
-      .attr("y", function(d) {return d.y + 40;})
-            .style("font-size", 16)
+// )
+//       .data(language)
+//       .enter().append("text")
+//       .text(function(d) {return d.ind_line3;})
+//       .attr("x", function(d) {return d.x;})
+//       .attr("y", function(d) {return d.y + 40;})
+//             .style("font-size", 16)
 
-      .attr("text-anchor", "end")
+//       .attr("text-anchor", "end")
   })
 //button2 liberal sources  
 d3.selectAll(".btn2").on("click",function(){
@@ -1178,43 +1162,44 @@ d3.selectAll(".btn2").on("click",function(){
          .duration(1600)
          .style("opacity", 0)})
 }
-d3.select(".explained").remove()
- svg.selectAll("#moretext"
 
-)
-      .data(language)
-      .enter().append("text")
-      .text(function(d) {
-        return d.lib_line1;})
-      .attr("x", function(d) {return d.x;})
-      .attr("y", function(d) {return d.y;})
-            .style("font-size", 16)
+// d3.select(".explained").remove()
+//  svg.selectAll("#moretext"
 
-      .attr("text-anchor", "end")
-//line2
-       svg.selectAll("#moretext"
+// )
+//       .data(language)
+//       .enter().append("text")
+//       .text(function(d) {
+//         return d.lib_line1;})
+//       .attr("x", function(d) {return d.x;})
+//       .attr("y", function(d) {return d.y;})
+//             .style("font-size", 16)
 
-)
-      .data(language)
-      .enter().append("text")
-      .text(function(d) {return d.lib_line2;})
-            .style("font-size", 16)
+//       .attr("text-anchor", "end")
+// //line2
+//        svg.selectAll("#moretext"
 
-      .attr("x", function(d) {return d.x;})
-      .attr("y", function(d) {return d.y + 20;})
-      .attr("text-anchor", "end")
-//line3
-      svg.selectAll("#moretext"
+// )
+//       .data(language)
+//       .enter().append("text")
+//       .text(function(d) {return d.lib_line2;})
+//             .style("font-size", 16)
 
-)
-      .data(language)
-      .enter().append("text")
-      .text(function(d) {return d.lib_line3;})
-            .style("font-size", 16)
+//       .attr("x", function(d) {return d.x;})
+//       .attr("y", function(d) {return d.y + 20;})
+//       .attr("text-anchor", "end")
+// //line3
+//       svg.selectAll("#moretext"
 
-      .attr("x", function(d) {return d.x;})
-      .attr("y", function(d) {return d.y + 40;})
-      .attr("text-anchor", "end")
+// )
+//       .data(language)
+//       .enter().append("text")
+//       .text(function(d) {return d.lib_line3;})
+//             .style("font-size", 16)
+
+//       .attr("x", function(d) {return d.x;})
+//       .attr("y", function(d) {return d.y + 40;})
+//       .attr("text-anchor", "end")
   })
 //button 4 Over 1m
 d3.selectAll(".btn4").on("click",function(){
@@ -1242,10 +1227,6 @@ d3.selectAll(".btn4").on("click",function(){
 ;} 
       else if(d.conlib==2 && d.source.over1m==1)
       {return "#F79711"
-
-
-
-
 
 
 
@@ -1278,43 +1259,43 @@ d3.selectAll(".btn4").on("click",function(){
          .duration(1600)
          .style("opacity", 0)})
 }
-d3.select(".explained").remove()
- svg.selectAll("#moretext"
+// d3.select(".explained").remove()
+//  svg.selectAll("#moretext"
 
-)
-      .data(language)
-      .enter().append("text")
-      .text(function(d) {
-        return d.o1m_line1;})
-      .attr("x", function(d) {return d.x;})
-      .attr("y", function(d) {return d.y;})
-            .style("font-size", 16)
+// )
+//       .data(language)
+//       .enter().append("text")
+//       .text(function(d) {
+//         return d.o1m_line1;})
+//       .attr("x", function(d) {return d.x;})
+//       .attr("y", function(d) {return d.y;})
+//             .style("font-size", 16)
 
-      .attr("text-anchor", "end")
-//line2
-       svg.selectAll("#moretext"
+//       .attr("text-anchor", "end")
+// //line2
+//        svg.selectAll("#moretext"
 
-)
-      .data(language)
-      .enter().append("text")
-      .text(function(d) {return d.o1m_line2;})
-      .attr("x", function(d) {return d.x;})
-      .attr("y", function(d) {return d.y + 20;})
-            .style("font-size", 16)
+// )
+//       .data(language)
+//       .enter().append("text")
+//       .text(function(d) {return d.o1m_line2;})
+//       .attr("x", function(d) {return d.x;})
+//       .attr("y", function(d) {return d.y + 20;})
+//             .style("font-size", 16)
 
-      .attr("text-anchor", "end")
-//line3
-      svg.selectAll("#moretext"
+//       .attr("text-anchor", "end")
+// //line3
+//       svg.selectAll("#moretext"
 
-)
-      .data(language)
-      .enter().append("text")
-      .text(function(d) {return d.o1m_line3;})
-      .attr("x", function(d) {return d.x;})
-      .attr("y", function(d) {return d.y + 40;})
-            .style("font-size", 16)
+// )
+//       .data(language)
+//       .enter().append("text")
+//       .text(function(d) {return d.o1m_line3;})
+//       .attr("x", function(d) {return d.x;})
+//       .attr("y", function(d) {return d.y + 40;})
+//             .style("font-size", 16)
 
-      .attr("text-anchor", "end")
+//       .attr("text-anchor", "end")
   })
 //button 5 Dark Sources
 d3.selectAll(".btn5").on("click",function(){
@@ -1378,43 +1359,43 @@ d3.selectAll(".btn5").on("click",function(){
          .duration(1600)
          .style("opacity", 0)})
 }
-d3.select(".explained").remove()
- svg.selectAll("#moretext"
+// d3.select(".explained").remove()
+//  svg.selectAll("#moretext"
 
-)
-      .data(language)
-      .enter().append("text")
-      .text(function(d) {
-        return d.dark_line1;})
-      .attr("x", function(d) {return d.x;})
-      .attr("y", function(d) {return d.y;})
-            .style("font-size", 16)
+// )
+//       .data(language)
+//       .enter().append("text")
+//       .text(function(d) {
+//         return d.dark_line1;})
+//       .attr("x", function(d) {return d.x;})
+//       .attr("y", function(d) {return d.y;})
+//             .style("font-size", 16)
 
-      .attr("text-anchor", "end")
-//line2
-       svg.selectAll("#moretext"
+//       .attr("text-anchor", "end")
+// //line2
+//        svg.selectAll("#moretext"
 
-)
-      .data(language)
-      .enter().append("text")
-      .text(function(d) {return d.dark_line2;})
-      .attr("x", function(d) {return d.x;})
-      .attr("y", function(d) {return d.y + 20;})
-            .style("font-size", 16)
+// )
+//       .data(language)
+//       .enter().append("text")
+//       .text(function(d) {return d.dark_line2;})
+//       .attr("x", function(d) {return d.x;})
+//       .attr("y", function(d) {return d.y + 20;})
+//             .style("font-size", 16)
 
-      .attr("text-anchor", "end")
-//line3
-      svg.selectAll("#moretext"
+//       .attr("text-anchor", "end")
+// //line3
+//       svg.selectAll("#moretext"
 
-)
-      .data(language)
-      .enter().append("text")
-      .text(function(d) {return d.dark_line3;})
-      .attr("x", function(d) {return d.x;})
-      .attr("y", function(d) {return d.y + 40;})
-            .style("font-size", 16)
+// )
+//       .data(language)
+//       .enter().append("text")
+//       .text(function(d) {return d.dark_line3;})
+//       .attr("x", function(d) {return d.x;})
+//       .attr("y", function(d) {return d.y + 40;})
+//             .style("font-size", 16)
 
-      .attr("text-anchor", "end")
+//       .attr("text-anchor", "end")
   })
 //button 6 women
 d3.selectAll(".btn6").on("click",function(){
@@ -1478,43 +1459,43 @@ d3.selectAll(".btn6").on("click",function(){
          .duration(1600)
          .style("opacity", 0)})
 }
-d3.select(".explained").remove()
-  svg.selectAll("#moretext"
+// d3.select(".explained").remove()
+//   svg.selectAll("#moretext"
 
-)
-      .data(language)
-      .enter().append("text")
-      .text(function(d) {
-        return d.wom_line1;})
-      .attr("x", function(d) {return d.x;})
-      .attr("y", function(d) {return d.y;})
-            .style("font-size", 16)
+// )
+//       .data(language)
+//       .enter().append("text")
+//       .text(function(d) {
+//         return d.wom_line1;})
+//       .attr("x", function(d) {return d.x;})
+//       .attr("y", function(d) {return d.y;})
+//             .style("font-size", 16)
 
-      .attr("text-anchor", "end")
-//line2
-       svg.selectAll("#moretext"
+//       .attr("text-anchor", "end")
+// //line2
+//        svg.selectAll("#moretext"
 
-)
-      .data(language)
-      .enter().append("text")
-      .text(function(d) {return d.wom_line2;})
-      .attr("x", function(d) {return d.x;})
-      .attr("y", function(d) {return d.y + 20;})
-            .style("font-size", 16)
+// )
+//       .data(language)
+//       .enter().append("text")
+//       .text(function(d) {return d.wom_line2;})
+//       .attr("x", function(d) {return d.x;})
+//       .attr("y", function(d) {return d.y + 20;})
+//             .style("font-size", 16)
 
-      .attr("text-anchor", "end")
-//line3
-      svg.selectAll("#moretext"
+//       .attr("text-anchor", "end")
+// //line3
+//       svg.selectAll("#moretext"
 
-)
-      .data(language)
-      .enter().append("text")
-      .text(function(d) {return d.wom_line3;})
-      .attr("x", function(d) {return d.x;})
-      .attr("y", function(d) {return d.y + 40;})
-            .style("font-size", 16)
+// )
+//       .data(language)
+//       .enter().append("text")
+//       .text(function(d) {return d.wom_line3;})
+//       .attr("x", function(d) {return d.x;})
+//       .attr("y", function(d) {return d.y + 40;})
+//             .style("font-size", 16)
 
-      .attr("text-anchor", "end")
+//       .attr("text-anchor", "end")
   })
 //button 9 Over 65
 d3.selectAll(".btn9").on("click",function(){
@@ -1579,43 +1560,43 @@ d3.selectAll(".btn9").on("click",function(){
          .duration(1600)
          .style("opacity", 0)})
 }
-d3.select(".explained").remove()
-  svg.selectAll("#moretext"
+// d3.select(".explained").remove()
+//   svg.selectAll("#moretext"
 
-)
-      .data(language)
-      .enter().append("text")
-      .text(function(d) {
-        return d.o65_line1;})
-      .attr("x", function(d) {return d.x;})
-      .attr("y", function(d) {return d.y;})
-            .style("font-size", 16)
+// )
+//       .data(language)
+//       .enter().append("text")
+//       .text(function(d) {
+//         return d.o65_line1;})
+//       .attr("x", function(d) {return d.x;})
+//       .attr("y", function(d) {return d.y;})
+//             .style("font-size", 16)
 
-      .attr("text-anchor", "end")
-//line2
-       svg.selectAll("#moretext"
+//       .attr("text-anchor", "end")
+// //line2
+//        svg.selectAll("#moretext"
 
-)
-      .data(language)
-      .enter().append("text")
-      .text(function(d) {return d.o65_line2;})
-      .attr("x", function(d) {return d.x;})
-      .attr("y", function(d) {return d.y + 20;})
-            .style("font-size", 16)
+// )
+//       .data(language)
+//       .enter().append("text")
+//       .text(function(d) {return d.o65_line2;})
+//       .attr("x", function(d) {return d.x;})
+//       .attr("y", function(d) {return d.y + 20;})
+//             .style("font-size", 16)
 
-      .attr("text-anchor", "end")
-//line3
-      svg.selectAll("#moretext"
+//       .attr("text-anchor", "end")
+// //line3
+//       svg.selectAll("#moretext"
 
-)
-      .data(language)
-      .enter().append("text")
-      .text(function(d) {return d.o65_line3;})
-      .attr("x", function(d) {return d.x;})
-      .attr("y", function(d) {return d.y + 40;})
-            .style("font-size", 16)
+// )
+//       .data(language)
+//       .enter().append("text")
+//       .text(function(d) {return d.o65_line3;})
+//       .attr("x", function(d) {return d.x;})
+//       .attr("y", function(d) {return d.y + 40;})
+//             .style("font-size", 16)
 
-      .attr("text-anchor", "end")
+//       .attr("text-anchor", "end")
   })
 //button 10 People
 d3.selectAll(".btn10").on("click",function(){
@@ -1646,10 +1627,6 @@ d3.selectAll(".btn10").on("click",function(){
 
 
 
-
-
-
-
 ;}
      else if(d.conlib==1 && d.source.person==1)
       {return "#06495F"
@@ -1657,8 +1634,6 @@ d3.selectAll(".btn10").on("click",function(){
 ;}
     else {
         return "#E9E3CC"
-
-
 
 ;}
       })
@@ -1680,43 +1655,43 @@ d3.selectAll(".btn10").on("click",function(){
          .duration(1600)
          .style("opacity", 0)})
 }
-d3.select(".explained").remove()
-  svg.selectAll("#moretext"
+// d3.select(".explained").remove()
+//   svg.selectAll("#moretext"
 
-)
-      .data(language)
-      .enter().append("text")
-      .text(function(d) {
-        return d.ppl_line1;})
-      .attr("x", function(d) {return d.x;})
-      .attr("y", function(d) {return d.y;})
-            .style("font-size", 16)
+// )
+//       .data(language)
+//       .enter().append("text")
+//       .text(function(d) {
+//         return d.ppl_line1;})
+//       .attr("x", function(d) {return d.x;})
+//       .attr("y", function(d) {return d.y;})
+//             .style("font-size", 16)
 
-      .attr("text-anchor", "end")
-//line2
-       svg.selectAll("#moretext"
+//       .attr("text-anchor", "end")
+// //line2
+//        svg.selectAll("#moretext"
 
-)
-      .data(language)
-      .enter().append("text")
-      .text(function(d) {return d.ppl_line2;})
-      .attr("x", function(d) {return d.x;})
-      .attr("y", function(d) {return d.y + 20;})
-            .style("font-size", 16)
+// )
+//       .data(language)
+//       .enter().append("text")
+//       .text(function(d) {return d.ppl_line2;})
+//       .attr("x", function(d) {return d.x;})
+//       .attr("y", function(d) {return d.y + 20;})
+//             .style("font-size", 16)
 
-      .attr("text-anchor", "end")
-//line3
-      svg.selectAll("#moretext"
+//       .attr("text-anchor", "end")
+// //line3
+//       svg.selectAll("#moretext"
 
-)
-      .data(language)
-      .enter().append("text")
-      .text(function(d) {return d.ppl_line3;})
-      .attr("x", function(d) {return d.x;})
-      .attr("y", function(d) {return d.y + 40;})
-            .style("font-size", 16)
+// )
+//       .data(language)
+//       .enter().append("text")
+//       .text(function(d) {return d.ppl_line3;})
+//       .attr("x", function(d) {return d.x;})
+//       .attr("y", function(d) {return d.y + 40;})
+//             .style("font-size", 16)
 
-      .attr("text-anchor", "end")
+//       .attr("text-anchor", "end")
   })
 //button 11 Super PACs
 d3.selectAll(".btn11").on("click",function(){
@@ -1745,12 +1720,6 @@ d3.selectAll(".btn11").on("click",function(){
       else if(d.conlib==2 && d.type==2)
       {return "#F79711"
 
-
-
-
-
-
-
 ;}
      else if(d.conlib==1 && d.type==2)
       {return "#06495F"
@@ -1758,7 +1727,6 @@ d3.selectAll(".btn11").on("click",function(){
 ;}
     else {
         return "#E9E3CC"
-
 
 
 ;}
@@ -1781,43 +1749,43 @@ d3.selectAll(".btn11").on("click",function(){
          .duration(1600)
          .style("opacity", 0)})
 }
-d3.select(".explained").remove()
-  svg.selectAll("#moretext"
+// d3.select(".explained").remove()
+//   svg.selectAll("#moretext"
 
-)
-      .data(language)
-      .enter().append("text")
-      .text(function(d) {
-        return d.spacs_line1;})
-      .attr("x", function(d) {return d.x;})
-      .attr("y", function(d) {return d.y;})
-            .style("font-size", 16)
+// )
+//       .data(language)
+//       .enter().append("text")
+//       .text(function(d) {
+//         return d.spacs_line1;})
+//       .attr("x", function(d) {return d.x;})
+//       .attr("y", function(d) {return d.y;})
+//             .style("font-size", 16)
 
-      .attr("text-anchor", "end")
-//line2
-       svg.selectAll("#moretext"
+//       .attr("text-anchor", "end")
+// //line2
+//        svg.selectAll("#moretext"
 
-)
-      .data(language)
-      .enter().append("text")
-      .text(function(d) {return d.spacs_line2;})
-      .attr("x", function(d) {return d.x;})
-      .attr("y", function(d) {return d.y + 20;})
-            .style("font-size", 16)
+// )
+//       .data(language)
+//       .enter().append("text")
+//       .text(function(d) {return d.spacs_line2;})
+//       .attr("x", function(d) {return d.x;})
+//       .attr("y", function(d) {return d.y + 20;})
+//             .style("font-size", 16)
 
-      .attr("text-anchor", "end")
-//line3
-      svg.selectAll("#moretext"
+//       .attr("text-anchor", "end")
+// //line3
+//       svg.selectAll("#moretext"
 
-)
-      .data(language)
-      .enter().append("text")
-      .text(function(d) {return d.spacs_line3;})
-      .attr("x", function(d) {return d.x;})
-      .attr("y", function(d) {return d.y + 40;})
-            .style("font-size", 16)
+// )
+//       .data(language)
+//       .enter().append("text")
+//       .text(function(d) {return d.spacs_line3;})
+//       .attr("x", function(d) {return d.x;})
+//       .attr("y", function(d) {return d.y + 40;})
+//             .style("font-size", 16)
 
-      .attr("text-anchor", "end")
+//       .attr("text-anchor", "end")
   })
 //button 11 PACs
 d3.selectAll(".btn12").on("click",function(){
@@ -1847,11 +1815,6 @@ d3.selectAll(".btn12").on("click",function(){
       {return "#F79711"
 
 
-
-
-
-
-
 ;}
      else if(d.conlib==1 && d.type==3)
       {return "#06495F"
@@ -1859,8 +1822,6 @@ d3.selectAll(".btn12").on("click",function(){
 ;}
     else {
         return "#E9E3CC"
-
-
 
 ;}
       })
@@ -1882,43 +1843,43 @@ d3.selectAll(".btn12").on("click",function(){
          .duration(1600)
          .style("opacity", 0)})
 }
-d3.select(".explained").remove()
-  svg.selectAll("#moretext"
+// d3.select(".explained").remove()
+//   svg.selectAll("#moretext"
 
-)
-      .data(language)
-      .enter().append("text")
-      .text(function(d) {
-        return d.pacs_line1;})
-      .attr("x", function(d) {return d.x;})
-      .attr("y", function(d) {return d.y;})
-            .style("font-size", 16)
+// )
+//       .data(language)
+//       .enter().append("text")
+//       .text(function(d) {
+//         return d.pacs_line1;})
+//       .attr("x", function(d) {return d.x;})
+//       .attr("y", function(d) {return d.y;})
+//             .style("font-size", 16)
 
-      .attr("text-anchor", "end")
-//line2
-       svg.selectAll("#moretext"
+//       .attr("text-anchor", "end")
+// //line2
+//        svg.selectAll("#moretext"
 
-)
-      .data(language)
-      .enter().append("text")
-      .text(function(d) {return d.pacs_line2;})
-      .attr("x", function(d) {return d.x;})
-      .attr("y", function(d) {return d.y + 20;})
-            .style("font-size", 16)
+// )
+//       .data(language)
+//       .enter().append("text")
+//       .text(function(d) {return d.pacs_line2;})
+//       .attr("x", function(d) {return d.x;})
+//       .attr("y", function(d) {return d.y + 20;})
+//             .style("font-size", 16)
 
-      .attr("text-anchor", "end")
-//line3
-      svg.selectAll("#moretext"
+//       .attr("text-anchor", "end")
+// //line3
+//       svg.selectAll("#moretext"
 
-)
-      .data(language)
-      .enter().append("text")
-      .text(function(d) {return d.pacs_line3;})
-      .attr("x", function(d) {return d.x;})
-      .attr("y", function(d) {return d.y + 40;})
-            .style("font-size", 16)
+// )
+//       .data(language)
+//       .enter().append("text")
+//       .text(function(d) {return d.pacs_line3;})
+//       .attr("x", function(d) {return d.x;})
+//       .attr("y", function(d) {return d.y + 40;})
+//             .style("font-size", 16)
 
-      .attr("text-anchor", "end")
+//       .attr("text-anchor", "end")
   })
 //button 12 Others
 d3.selectAll(".btn13").on("click",function(){
@@ -1948,11 +1909,6 @@ d3.selectAll(".btn13").on("click",function(){
       {return "#F79711"
 
 
-
-
-
-
-
 ;}
      else if(d.conlib==1 && d.type>3)
       {return "#06495F"
@@ -1960,9 +1916,6 @@ d3.selectAll(".btn13").on("click",function(){
 ;}
     else {
         return "#E9E3CC"
-
-
-
 ;}
       })
       .sort(function(a, b) { return b.dy - a.dy; })
@@ -1983,67 +1936,45 @@ d3.selectAll(".btn13").on("click",function(){
          .duration(1600)
          .style("opacity", 0)})
 }
-d3.select(".explained").remove()
-  svg.selectAll("#moretext"
+// d3.select(".explained").remove()
+//   svg.selectAll("#moretext"
 
-)
-      .data(language)
-      .enter().append("text")
-      .text(function(d) {
-        return d.others_line1;})
-      .attr("x", function(d) {return d.x;})
-      .attr("y", function(d) {return d.y;})
-            .style("font-size", 16)
+// )
+//       .data(language)
+//       .enter().append("text")
+//       .text(function(d) {
+//         return d.others_line1;})
+//       .attr("x", function(d) {return d.x;})
+//       .attr("y", function(d) {return d.y;})
+//             .style("font-size", 16)
 
-      .attr("text-anchor", "end")
-//line2
-       svg.selectAll("#moretext"
+//       .attr("text-anchor", "end")
+// //line2
+//        svg.selectAll("#moretext"
 
-)
-      .data(language)
-      .enter().append("text")
-      .text(function(d) {return d.others_line2;})
-      .attr("x", function(d) {return d.x;})
-      .attr("y", function(d) {return d.y + 20;})
-            .style("font-size", 16)
+// )
+//       .data(language)
+//       .enter().append("text")
+//       .text(function(d) {return d.others_line2;})
+//       .attr("x", function(d) {return d.x;})
+//       .attr("y", function(d) {return d.y + 20;})
+//             .style("font-size", 16)
 
-      .attr("text-anchor", "end")
-//line3
-      svg.selectAll("#moretext"
+//       .attr("text-anchor", "end")
+// //line3
+//       svg.selectAll("#moretext"
 
-)
-      .data(language)
-      .enter().append("text")
-      .text(function(d) {return d.others_line3;})
-      .attr("x", function(d) {return d.x;})
-      .attr("y", function(d) {return d.y + 40;})
-            .style("font-size", 16)
+// )
+//       .data(language)
+//       .enter().append("text")
+//       .text(function(d) {return d.others_line3;})
+//       .attr("x", function(d) {return d.x;})
+//       .attr("y", function(d) {return d.y + 40;})
+//             .style("font-size", 16)
 
-      .attr("text-anchor", "end")
+//       .attr("text-anchor", "end")
   })
- //  function movestuff(d) {
- //    d3.select(this)
- // .attr("transform", function(d) { 
- //        if(d.node==88) //FL
- //      {return "translate(" + d.x + ","  + (d.y  = (0, (d.dy + 905))) + ")";}
- //       else if (d.node==87) //OH
- //      {return "translate(" + d.x + ","  + (d.y  = (0, (d.dy + 1010))) + ")"; }
- //       else if (d.node==86) //NC
- //      {return "translate(" + d.x + ","  + (d.y  = (0, (d.dy + 800))) + ")"; }
- //          else if (d.node==85) //NV
- //      {return "translate(" + d.x + ","  + (d.y  = (0, (d.dy + 695))) + ")"; }
- //                  else if (d.node==84) //Nh
- //      {return "translate(" + d.x + ","  + (d.y  = (0, (d.dy + 590))) + ")"; }
- //      else if (d.node==83) //PA
- //      {return "translate(" + d.x + ","  + (d.y  = (0, (d.dy + 485))) + ")"; }
-     
- //     else if (d.node==31)
- //      {return "translate(" + (d.x - 30) + ","  + (d.y  = (0, (d.dy + 200))) + ")"; }
- //        else
- //      return "translate("  + d.x + "," + (d.y = Math.max(  0, Math.min(height - d.dy, d3.event.y))) + ")";})
- //    sankey.relayout();
- //    link.attr("d", path);
- //  }
+ 
 });
 </script>
 <svg>
