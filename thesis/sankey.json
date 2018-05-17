@@ -13,7 +13,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&ei=ExflWpK2Cq3v_QaxrqbIBw&q=one+nation+501c4&oq=one+nation+501c4&gs_l=psy-ab.3...4522.9452.0.9975.6.6.0.0.0.0.228.617.5j0j1.6.0....0...1c.1.64.psy-ab..0.5.534...0j0i67k1j0i22i30k1j33i160k1.0.2Za9XNsQ3_Q",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 1,
@@ -28,7 +28,7 @@
     "person": 1,
     "over65": 1,
     "url": "https://www.google.com/search?source=hp&ei=iaviWpO5I6Tv5gLL34eQAg&q=miriam+adelson&oq=miriam+adelson&gs_l=psy-ab.3..0l6.1064.2808.0.2939.15.12.0.2.2.0.94.916.12.12.0....0...1c.1.64.psy-ab..1.14.926.0..46j0i131k1j0i46k1j0i10k1.0.KZXuM-FOQuc",
-    "img": ""
+    "fam": 1
   },
   {
     "node": 2,
@@ -43,7 +43,7 @@
     "person": 1,
     "over65": 1,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=sheldon+adelson&sourceid=chrome&ie=UTF-8&q=sheldon+adelson",
-    "img": ""
+    "fam": 1
   },
   {
     "node": 3,
@@ -58,7 +58,7 @@
     "person": 1,
     "over65": 1,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=paul+singer&sourceid=chrome&ie=UTF-8&q=paul+singer",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 4,
@@ -73,7 +73,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&ei=YhflWv71MIzk_AaDm4uQBg&q=petrodome+energy+LLC&oq=petrodome+energy+LLC&gs_l=psy-ab.3..0j0i22i30k1.9808.10476.0.10639.4.4.0.0.0.0.242.242.2-1.1.0....0...1c.1.64.psy-ab..3.1.241....0.lX7K2toy1xc",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 5,
@@ -88,7 +88,7 @@
     "person": 1,
     "over65": 1,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=stephen+schwarzman&sourceid=chrome&ie=UTF-8&q=stephen+schwarzman",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 6,
@@ -103,7 +103,7 @@
     "person": 1,
     "over65": 0,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=warren+stephens&sourceid=chrome&ie=UTF-8&q=warren+stephens",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 7,
@@ -118,7 +118,7 @@
     "person": 1,
     "over65": 1,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=robert+mcnair&sourceid=chrome&ie=UTF-8&q=robert+mcnair",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 8,
@@ -133,7 +133,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=american+crossroads&sourceid=chrome&ie=UTF-8&q=american+crossroads",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 9,
@@ -148,7 +148,7 @@
     "person": 1,
     "over65": 0,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=kenneth+griffin&sourceid=chrome&ie=UTF-8&q=kenneth+griffin",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 10,
@@ -163,7 +163,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=senate+leaders&sourceid=chrome&ie=UTF-8&q=senate+leadership+fund",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 11,
@@ -178,7 +178,7 @@
     "person": 1,
     "over65": 1,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=fred+ey&sourceid=chrome&ie=UTF-8&q=fred+eychaner",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 12,
@@ -193,7 +193,7 @@
     "person": 1,
     "over65": 1,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=james+simons&sourceid=chrome&ie=UTF-8&q=james+simons",
-    "img": ""
+    "fam": 1
   },
   {
     "node": 13,
@@ -208,7 +208,7 @@
     "person": 1,
     "over65": 0,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=alex&sourceid=chrome&ie=UTF-8&q=alexander+soros",
-    "img": ""
+    "fam": 1
   },
   {
     "node": 14,
@@ -223,7 +223,7 @@
     "person": 1,
     "over65": 1,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=donald+su&sourceid=chrome&ie=UTF-8&q=donald+sussman",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 15,
@@ -238,7 +238,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=greater+&sourceid=chrome&ie=UTF-8&q=Greater+NY+hospital+management",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 16,
@@ -253,7 +253,7 @@
     "person": 1,
     "over65": 1,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=henry+laufer&sourceid=chrome&ie=UTF-8&q=henry+laufer",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 17,
@@ -268,7 +268,7 @@
     "person": 1,
     "over65": 1,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&ei=XrLmWranNefB_QbF1aiACA&q=tom+murphy+jr+Florida&oq=tom+murphy+jr+Florida&gs_l=psy-ab.3..33i21k1.6206.7254.0.7342.8.8.0.0.0.0.95.580.7.7.0....0...1c.1.64.psy-ab..1.7.578...0j0i22i30k1j33i160k1.0.yvdqXHzFIVs",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 18,
@@ -283,7 +283,7 @@
     "person": 1,
     "over65": 0,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&ei=ZZLkWpjTNIOxggehppmQCg&q=laurene+powell+jobs&oq=laurene+powell+jobs&gs_l=psy-ab.3..0l10.45860.48036.0.48146.19.10.0.7.7.0.357.1453.0j4j2j1.7.0....0...1c.1.64.psy-ab..6.13.1122...0i131k1j0i131i46k1j46i131k1j0i67k1j0i131i67k1j0i10i46k1j46i10k1.0.BgMXiUM2nxg",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 19,
@@ -298,7 +298,7 @@
     "person": 1,
     "over65": 1,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=george+soros&sourceid=chrome&ie=UTF-8&q=george+soros",
-    "img": ""
+    "fam": 1
   },
   {
     "node": 20,
@@ -313,7 +313,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.youtube.com/user/majoritypac/videos",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 21,
@@ -328,7 +328,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&ei=s5PkWs-IHoum_QbX06TQDg&q=amalgamated+bank+politics&oq=amalgamated+bank+politics&gs_l=psy-ab.3..33i21k1.16174.18670.0.18858.8.8.0.0.0.0.81.499.7.7.0....0...1c.1.64.psy-ab..1.7.498...0j38j0i22i30k1j33i160k1.0.QzzO59nqIyA",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 22,
@@ -343,7 +343,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=DNC&sourceid=chrome&ie=UTF-8&q=DNC",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 23,
@@ -358,7 +358,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=actblue+pac&sourceid=chrome&ie=UTF-8&q=actblue+pac",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 24,
@@ -373,7 +373,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&ei=27nmWtSLN4Ge5gKC0YaQCg&q=friends+of+charles+schumer+principal+campaign&oq=friends+of+charles+schumer+principal+campaign&gs_l=psy-ab.3...3165.10406.0.11092.21.21.0.0.0.0.404.1849.12j2j1j0j1.16.0....0...1c.1.64.psy-ab..5.12.1124...33i22i29i30k1j33i160k1j33i21k1.0.8CaqdAQKjlk",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 25,
@@ -388,7 +388,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=people+for+p&sourceid=chrome&ie=UTF-8&q=People+for+Patty+Murray",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 26,
@@ -403,7 +403,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=wyden+for+senate&sourceid=chrome&ie=UTF-8&q=wyden+for+senate",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 27,
@@ -418,7 +418,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&ei=B1TnWtHMIYOb5gKL7r7QCg&q=kaine+for+virginia&oq=kaine+for+virginia&gs_l=psy-ab.3..0.65107.66621.0.66989.4.4.0.0.0.0.451.566.0j1j4-1.2.0....0...1c.1.64.psy-ab..2.2.565...0i22i30k1.0.1t73nC1FDSQ",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 28,
@@ -433,7 +433,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&ei=JpXkWojOBoOJggeHwa-4CA&q=schumer+committee+for+the+majority&oq=schumer+committee+for+the+majority&gs_l=psy-ab.3...93436.104740.0.104873.46.38.3.0.0.0.527.3234.18j6j2j5-1.27.0....0...1c.1.64.psy-ab..17.26.2671...0j46j0i131k1j0i67k1j0i46k1j0i10k1j0i10i46k1j46i10k1j0i22i30k1j33i160k1j33i22i29i30k1.0.IFFG4gdnzoo",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 29,
@@ -448,7 +448,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=feinstein+for+senate&sourceid=chrome&ie=UTF-8&q=feinstein+for+senate",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 30,
@@ -463,7 +463,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.youtube.com/user/dscclive/videos",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 31,
@@ -478,7 +478,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.youtube.com/channel/UCb21LjFSRRykfJyg-sz2V4g/videos",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 32,
@@ -493,7 +493,7 @@
     "person": 1,
     "over65": 0,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=jay+faison&sourceid=chrome&ie=UTF-8&q=jay+faison",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 33,
@@ -508,7 +508,7 @@
     "person": 1,
     "over65": 1,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&ei=MZrkWviXFIHJ5gKT5JqwBg&q=james+davis+new+balance&oq=james+davis+new+balance&gs_l=psy-ab.3..0j0i22i30k1.370880.373013.0.373085.23.19.0.0.0.0.173.1499.9j6.15.0....0...1c.1.64.psy-ab..8.15.1497...38j0i67k1j0i131k1j0i46i67k1j46i67k1.0.YFB4if_BzJk",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 34,
@@ -523,7 +523,7 @@
     "person": 1,
     "over65": 1,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&ei=p5vkWs3gDaeV_QaOiL7IDA&q=ray+barrette&oq=ray+barrette&gs_l=psy-ab.3..0j0i22i10i30k1.1212395.1215942.0.1217442.12.10.0.2.2.0.347.996.5j1j1j1.8.0....0...1c.1.64.psy-ab..2.10.1006...0i67k1j0i131k1j0i131i67k1.0.Xu463crhIqM",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 35,
@@ -538,7 +538,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&ei=9qvkWuCaJ6O1ggeS4rLQCw&q=Custom+Management+Services+Inc&oq=Custom+Management+Services+Inc&gs_l=psy-ab.3..33i22i29i30k1l3.11569.12503.0.13944.2.2.0.0.0.0.563.760.0j1j5-1.2.0....0...1c.1.64.psy-ab..0.2.758....0.A_iT9MA6guA",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 36,
@@ -553,7 +553,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=alamo+pac+political&sourceid=chrome&ie=UTF-8&q=alamo+pac+political",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 37,
@@ -568,7 +568,7 @@
     "person": 1,
     "over65": 0,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=william+duhamel&sourceid=chrome&ie=UTF-8&q=william+duhamel",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 38,
@@ -583,7 +583,7 @@
     "person": 1,
     "over65": 0,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=thomas+l+kempner&sourceid=chrome&ie=UTF-8&q=thomas+l+kempner",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 39,
@@ -598,7 +598,7 @@
     "person": 1,
     "over65": 0,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&ei=ahjlWvvEC6qRggfm1pbQBA&q=gregory+wendt+capital&oq=gregory+wendt+capital&gs_l=psy-ab.3..0j0i22i30k1.3494.3494.0.4005.1.1.0.0.0.0.125.125.0j1.1.0....0...1c.1.64.psy-ab..0.1.125....0.PZaxqbqGDFA",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 40,
@@ -613,7 +613,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.youtube.com/channel/UCqApTTUrxxEpLsX4RdvewOA",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 41,
@@ -628,7 +628,7 @@
     "person": 1,
     "over65": 1,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=michael+bloomberg&sourceid=chrome&ie=UTF-8&q=michael+bloomberg",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 42,
@@ -643,7 +643,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.youtube.com/user/IndependenceUSAPAC",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 43,
@@ -658,7 +658,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=freedom+vote+in&sourceid=chrome&ie=UTF-8&q=freedom+vote+inc",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 44,
@@ -673,7 +673,7 @@
     "person": 1,
     "over65": 0,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=peter+thiel&sourceid=chrome&ie=UTF-8&q=peter+thiel",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 45,
@@ -688,7 +688,7 @@
     "person": 1,
     "over65": 1,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=robert+mercer&sourceid=chrome&ie=UTF-8&q=robert+mercer",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 46,
@@ -703,7 +703,7 @@
     "person": 1,
     "over65": 1,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=linda+mcmahon&sourceid=chrome&ie=UTF-8&q=linda+mcmahon",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 47,
@@ -718,7 +718,7 @@
     "person": 1,
     "over65": 1,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&ei=BjHuWrqKGevy5gLejbDwCw&q=Howard+H+Leach&oq=Howard+H+Leach&gs_l=psy-ab.3..0j0i22i30k1.14340.19228.0.19330.17.17.0.0.0.0.133.1486.14j3.17.0....0...1c.1.64.psy-ab..0.17.1480...46j0i13k1j0i8i7i30k1j0i13i30k1j0i67k1j0i7i30k1j0i30k1j0i7i5i30k1j0i131k1j0i46i67k1j46i67k1j0i131i67k1j0i46k1.0.mfZnoODyTyw",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 48,
@@ -733,7 +733,7 @@
     "person": 1,
     "over65": 1,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=leslie+wexner&sourceid=chrome&ie=UTF-8&q=leslie+wexner",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 49,
@@ -748,7 +748,7 @@
     "person": 1,
     "over65": 1,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&ei=Xy_uWpWsAsrr_QaA_56QCw&q=thomas+e.+mcinerney&oq=thomas+e.+mc&gs_l=psy-ab.3.0.0l6j0i22i30k1l4.17207.19086.0.20462.12.9.0.1.1.0.326.720.1j2j0j1.4.0....0...1c.1.64.psy-ab..7.5.723...0i67k1j0i131k1.0.3mOt69RLicI",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 51,
@@ -763,7 +763,7 @@
     "person": 1,
     "over65": 1,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=richard+t+farmer&sourceid=chrome&ie=UTF-8&q=richard+t+farmer",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 51,
@@ -778,7 +778,7 @@
     "person": 1,
     "over65": 1,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=haim+saban&sourceid=chrome&ie=UTF-8&q=haim+saban",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 52,
@@ -793,7 +793,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=leahy+for+senate&sourceid=chrome&ie=UTF-8&q=leahy+for+senate",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 53,
@@ -807,7 +807,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.youtube.com/channel/UCdbKdtD5xnIQgoI6G28P8Uw",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 54,
@@ -822,7 +822,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=chain+br&sourceid=chrome&ie=UTF-8&q=chain+bridge+bank+Republican",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 55,
@@ -837,7 +837,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=republi&sourceid=chrome&ie=UTF-8&q=republican+national+committee",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 56,
@@ -852,7 +852,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&ei=7APmWvvbLJHz5gKroJ_gCQ&q=NRSC+Targeted+State+Victory+Committee&oq=NRSC+Targeted+State+Victory+Committee&gs_l=psy-ab.3...4359.4359.0.4598.1.1.0.0.0.0.67.67.1.1.0....0...1c.1.64.psy-ab..0.0.0....0.JIHoDOyzypU",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 57,
@@ -867,7 +867,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=friends+of+john+thune&sourceid=chrome&ie=UTF-8&q=friends+of+john+thune",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 58,
@@ -882,7 +882,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&ei=Gg_mWtCpE6Pr5gLYjpwo&q=cornyn+majority+committee+pac&oq=cornyn+majority+committee+pac&gs_l=psy-ab.3..33i160k1l2.2586.3133.0.3250.4.4.0.0.0.0.107.315.3j1.4.0....0...1c.1.64.psy-ab..0.4.314...0i22i30k1j33i21k1.0.bXAnw2xCqpQ",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 59,
@@ -897,7 +897,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=rubio+victory+committee&sourceid=chrome&ie=UTF-8&q=rubio+victory+committee",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 60,
@@ -912,7 +912,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=blunt+&sourceid=chrome&ie=UTF-8&q=blunt+victory+committee",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 61,
@@ -927,7 +927,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=isakson+victory+committee&sourceid=chrome&ie=UTF-8&q=isakson+victory+committee",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 62,
@@ -942,7 +942,7 @@
     "person": 1,
     "over65": 1,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=charles+r.&sourceid=chrome&ie=UTF-8&q=charles+R.+schwab",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 63,
@@ -957,7 +957,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=Hatch+Victory+Committee&sourceid=chrome&ie=UTF-8&q=Hatch+Victory+Committee",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 64,
@@ -972,7 +972,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.youtube.com/user/TheNRSC/videos",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 65,
@@ -987,7 +987,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.youtube.com/channel/UCf1yWqi7z5G9wNuLYCoYJUg",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 66,
@@ -1002,7 +1002,7 @@
     "person": 1,
     "over65": 1,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=diane+hen&sourceid=chrome&ie=UTF-8&q=diane+hendricks",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 67,
@@ -1017,7 +1017,7 @@
     "person": 1,
     "over65": 1,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=charles+koch&sourceid=chrome&ie=UTF-8&q=charles+koch",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 68,
@@ -1032,7 +1032,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&biw=1057&bih=575&ei=60LmWuLoGerl_QbN7LN4&q=charles+koch+1997+trust&oq=charles+koch+1997+trust&gs_l=psy-ab.3...2918.6109.0.6478.2.2.0.0.0.0.149.149.0j1.1.0....0...1c.1.64.psy-ab..1.0.0....0.wfSuBRaGoPw",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 69,
@@ -1047,7 +1047,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=mountaire&sourceid=chrome&ie=UTF-8&q=mountaire+corporation",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 70,
@@ -1062,7 +1062,7 @@
     "person": 1,
     "over65": 0,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&ei=7kvmWtjQKpDi_AaXgIawAw&q=richard+Baxter+gilliam&oq=richard+Baxter+gilliam&gs_l=psy-ab.3..0l2.15604.16610.0.16814.7.7.0.0.0.0.106.539.6j1.7.0....0...1c.1.64.psy-ab..0.7.535...0i7i30k1j0i8i7i30k1.0.xIXCqIFkFGU",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 71,
@@ -1077,7 +1077,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=i360+koch&sourceid=chrome&ie=UTF-8&q=i360+koch",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 72,
@@ -1092,7 +1092,7 @@
     "person": 1,
     "over65": 1,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=wayne+laufer&sourceid=chrome&ie=UTF-8&q=wayne+laufer",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 73,
@@ -1107,7 +1107,7 @@
     "person": 1,
     "over65": 0,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&ei=xWDmWuyCDtKb5gLFnoKgAg&q=paul+L+foster&oq=paul+L+foster&gs_l=psy-ab.3..0j0i46k1j46l2j0l8.4847.7846.0.8133.2.2.0.0.0.0.97.173.2.2.0....0...1c.1.64.psy-ab..0.2.172...0i7i30k1.0.ByLb6EZFpnk",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 74,
@@ -1122,7 +1122,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.youtube.com/user/WomenVOTEProject/videos",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 75,
@@ -1137,7 +1137,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=Priorities+USA&sourceid=chrome&ie=UTF-8&q=priorities+USA",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 76,
@@ -1152,7 +1152,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=Emily%27s+list&sourceid=chrome&ie=UTF-8&q=Emily%27s+list",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 77,
@@ -1167,7 +1167,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=majority+f&sourceid=chrome&ie=UTF-8&q=majority+forward",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 78,
@@ -1182,7 +1182,7 @@
     "person": 1,
     "over65": 0,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&ei=PELnWqj6EeW6ggfU26KADg&q=scott+shenker&oq=scott+shenker&gs_l=psy-ab.3..0l7j0i22i30k1l3.11908.13178.0.13307.13.13.0.0.0.0.128.1248.7j6.13.0....0...1c.1.64.psy-ab..0.13.1246...46j0i67k1j0i131k1j0i46k1j0i10i46k1j46i10k1j0i10k1.0.kMD7Vvz2xGk",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 79,
@@ -1197,7 +1197,7 @@
     "person": 1,
     "over65": 1,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&ei=SkLnWrvLH4bu_Qb-9LC4Ag&q=marilyn+simons&oq=marilyn+simons&gs_l=psy-ab.3..0l10.11021.12588.0.12724.14.12.0.2.2.0.164.1142.5j6.11.0....0...1c.1.64.psy-ab..1.13.1154...0i67k1j0i131k1j0i10i67k1j0i131i67k1.0.Xa0_tkkmRL4",
-    "img": ""
+    "fam": 1
   },
   {
     "node": 80,
@@ -1212,7 +1212,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&ei=c3XmWp-KI6GRggfEu4WIDg&q=Priorities+USA+emily%27s+list+women+vote+joint+fundraising&oq=Priorities+USA+emily%27s+list+women+vote+joint+fundraising&gs_l=psy-ab.3...10007.12037.0.12297.15.12.0.0.0.0.383.1171.3j2j1j1.7.0....0...1c.1.64.psy-ab..13.0.0....0.B94_Ow1yAQc",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 81,
@@ -1227,7 +1227,7 @@
     "person": 1,
     "over65": 0,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=laure+woods&sourceid=chrome&ie=UTF-8&q=laure+woods",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 82,
@@ -1242,7 +1242,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&{google:acceptedSuggestion}oq=aft+solidarity&sourceid=chrome&ie=UTF-8&q=aft+solidarity+527",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 83,
@@ -1257,7 +1257,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.politico.com/2016-election/results/map/senate/pennsylvania/",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 84,
@@ -1272,7 +1272,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.politico.com/2016-election/results/map/senate/new-hampshire/",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 85,
@@ -1287,7 +1287,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.politico.com/2016-election/results/map/senate/nevada/",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 86,
@@ -1302,7 +1302,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.politico.com/2016-election/results/map/senate/north-carolina/",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 87,
@@ -1317,7 +1317,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.politico.com/2016-election/results/map/senate/ohio/",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 88,
@@ -1332,7 +1332,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.politico.com/2016-election/results/map/senate/florida/",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 89,
@@ -1347,7 +1347,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.google.com/search?rlz=1C5CHFA_enUS738US738&ei=CyLuWoiVO8O8ggef0J6YDg&q=american+federation+of+state+county+and+municipal+employees&oq=American+Federation+of+State&gs_l=psy-ab.3.0.0l6.15156.18126.0.22544.28.11.0.8.8.0.260.908.1j3j2.6.0....0...1c.1.64.psy-ab..14.14.950...0i67k1j0i131k1.0.yVmfC5YSOKU",
-    "img": ""
+    "fam": 0
   },
   {
     "node": 90,
@@ -1362,7 +1362,7 @@
     "person": 0,
     "over65": 0,
     "url": "https://www.youtube.com/user/afscme/videos",
-    "img": ""
+    "fam": 0
   }
 ],
 

@@ -373,6 +373,23 @@ a:active {
        .btn13:hover{
          background-color: #ccc;
       }
+
+
+  .reset{
+         width: 160px;
+
+           height: 30px;
+           line-height: 27px;
+           text-align: center;
+         
+           font-size: 14px;
+            float: left;
+            display: inline-block;
+            cursor: pointer;
+
+      }
+       .reset:hover{
+      }
 .node rect {
   cursor: default;
   fill-opacity: .9;
@@ -435,12 +452,17 @@ The Influencers
    <br> <div class='btn4'>Over $1M</div>
    <div class='btn5'>Dark Sources</div> <div class='btn6'>Women</div><br>
     <div class='btn9'>Over 65yrs Old</div>
-   <div class='btn10'>People</div> <br> <div class='btn11'>Super PACs</div><br><div class='btn8'>All</div>
+   <div class='btn10'>People</div> <br> <div class='btn11'>Super PACs</div><br><div class='btn8'>Family</div>
    <div class='btn12'>PACs</div> <br> 
    <div class='btn13'>Others</div><br>
 
 
-<div class='explained'><div style="  margin-top: 35px; font-size: 16px; position: absolute;">
+<div class='reset'><div style="  margin-top: -75px; opacity: .7; margin-left: -210px;">
+   <img src="reset.png" alt="Reset">
+</div>
+
+
+<div class='explained'><div style="  margin-top: 25px; font-size: 16px; position: absolute;">
 
 The cost of a top six senate race quadrupled from 2010 to 2016.
 Left to right, these are the top donors from the top ten groups who spent money in these expensive 2016 races.
@@ -794,6 +816,7 @@ svg.selectAll("circle")
       );
 
 //draw default links
+
   var link = svg.append("g").selectAll(".link")
       .data(graph.links)
     .enter().append("path")
@@ -837,6 +860,57 @@ div.html(
         return "#06495F";}
       })
       .sort(function(a, b) { return b.dy - a.dy; });
+
+function resetter() {
+    var link = svg.append("g").selectAll(".link")
+      .data(graph.links)
+    .enter().append("path")
+      .attr("class", "link")
+      .attr("d", path)
+     // .style("stroke-opacity", .5) 
+   .on("mouseover", function(d) {
+       div.transition()
+         .duration(1)
+         .style("opacity", .9)
+         ;
+div.html(
+        '<a href= "'+d.source.url+'" target="_blank">' +   
+        '<b>'  +  '<p>' + d.source.name   + '</p>' + '</b>' +  "</a>"  + '<b>' + 
+        d.amt + '</b>' + " to " + d.target.name + "\n" +  "<br>"
+         +  "<br>" + d.abt2 + "\n")
+
+
+      .style("left", (d3.event.pageX) + 20 + "px")
+         .style("top", (d3.event.pageY - 100) + "px");
+  })
+   .on("mouseout", function(d) {
+       div.transition()
+         .duration(1600)
+         .style("opacity", 0)})
+      .style("stroke-dasharray", function (d) {
+        if(d.value==20.2) 
+        {return 10;} 
+      else if(d.value==20.4) 
+        {return 10;} 
+    else {
+        return 0;}
+      })  
+      .style("stroke-width", function(d) { return Math.max(2, d.dy); }) 
+      .style("stroke", function (d) {
+        if(d.conlib == 0) 
+        {return "#AE3942";} 
+      else if(d.conlib==2)
+      {return "#F79711";}
+    else {
+        return "#06495F";}
+      })
+      .sort(function(a, b) { return b.dy - a.dy; });
+  
+}
+
+
+
+
 // add in the nodes and center the center node text
   
 
@@ -911,15 +985,24 @@ link.attr("d", path);
     ;
 
 //button 8 reset
-d3.selectAll(".btn8").on("click",function(){
+// d3.selectAll(".btn8").on("click",function(){
+//     location.reload()
+//   })
+
+
+d3.selectAll(".reset").on("click",function(){
     location.reload()
   })
+
+
+
 
 
 
 //button1 Conservative Sources
 d3.selectAll(".btn1")
 .on("click",function(){
+
 var val = d3.select(event.target).html();
   if(val="Conservative Sources"){
     var link = svg.append("g").selectAll(".link")
@@ -1881,6 +1964,64 @@ d3.selectAll(".btn12").on("click",function(){
 
 //       .attr("text-anchor", "end")
   })
+//button 8 Fam
+d3.selectAll(".btn8").on("click",function(){
+  var val = d3.select(event.target).html();
+  if(val="Individual"){
+    var link = svg.append("g").selectAll(".link")
+      .data(graph.links)
+    .enter().append("path")
+      .attr("class", "link")
+      .attr("d", path)
+      .style("stroke-dasharray", function (d) {
+        if(d.value==20.2) 
+        {return 10;} 
+      else if(d.value==20.4) 
+        {return 10;} 
+    else {
+        return 0;}
+      })  
+      .style("stroke-width", 3)
+     // .style("stroke-width", function(d) { return Math.max(2, d.dy); }) 
+      .style("stroke", function (d) {
+        if(d.conlib ==0 && d.source.fam==1)
+        {return "#AE3942"
+
+;} 
+      else if(d.conlib==2 && d.source.fam==1)
+      {return "#F79711"
+
+
+;}
+     else if(d.conlib==1 && d.source.fam==1)
+      {return "#06495F"
+
+;}
+    else {
+        return "#E9E3CC"
+
+;}
+      })
+      .sort(function(a, b) { return b.dy - a.dy; })
+       .on("mouseover", function(d) {
+       div.transition()
+         .duration(10)
+         .style("opacity", .9);
+ div.html(
+        '<a href= "'+d.source.url+'" target="_blank">' +   
+        '<b>'  +  '<p>' + d.source.name   + '</p>' + '</b>' +  "</a>"  + 
+        d.amt  + " to " + d.target.name + "\n" +  "<br>"
+         +  "<br>" + d.abt2 + "\n")
+  .style("left", (d3.event.pageX) + 20 + "px")
+         .style("top", (d3.event.pageY - 100) + "px");
+  })
+   .on("mouseout", function(d) {
+       div.transition()
+         .duration(1600)
+         .style("opacity", 0)})
+}
+ })
+
 //button 12 Others
 d3.selectAll(".btn13").on("click",function(){
   var val = d3.select(event.target).html();
@@ -1974,6 +2115,12 @@ d3.selectAll(".btn13").on("click",function(){
 
 //       .attr("text-anchor", "end")
   })
+
+
+
+
+
+
  
 });
 </script>
