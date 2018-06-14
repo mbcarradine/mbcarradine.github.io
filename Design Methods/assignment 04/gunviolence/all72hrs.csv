@@ -1,175 +1,226 @@
 Date,State,City,Address,Killed,Injured
-May 19 2018,Pennsylvania,York,900 block of W Princess St,0,1
-May 19 2018,Washington,Vancouver,SE 136th Ave and SE 7th St,0,0
-May 18 2018,Utah,Hoytville,1100 South Hoystville Rd,0,1
-May 18 2018,Massachusetts,Lowell,Wilder St and Westford St,0,0
-May 18 2018,Massachusetts,Boston,28 Greenwood St,0,0
-May 18 2018,Oregon,Lebanon,1700 S 5th St,0,0
-May 18 2018,Kentucky,Manchester,Sacker Road,1,0
-May 18 2018,Massachusetts,Springfield,1663 Dwight St,0,0
-May 18 2018,Ohio,Cleveland,3939 Community College Ave,0,2
-May 18 2018,Massachusetts,Braintree,20 Hayward St,0,0
-May 18 2018,Illinois,Chicago,11600 block of S Indiana Ave,0,2
-May 18 2018,Massachusetts,Cotuit,148 Hollow Rd,0,0
-May 18 2018,Illinois,Evanston,300 block of Custer Ave,0,2
-May 18 2018,Georgia,Jonesboro,2535 Mt Zion Pkwy,1,1
-May 18 2018,Nevada,Las Vegas,Lorenzi St and Chehalis Cir,0,1
-May 18 2018,Michigan,Mount Pleasant,2000 block of W Winn Rd,0,0
-May 18 2018,Michigan,Burt,9000 block of Sheridan Rd,0,0
-May 18 2018,Michigan,Detroit,14700 block of Kilbourne Ave,0,0
-May 18 2018,Michigan,Saginaw,359 Vestry Dr,0,1
-May 18 2018,Michigan,Sparta,12100 block of Algoma Ave NE,1,0
-May 18 2018,Virginia,Roanoke,1300 block of Salem Ave SW,0,1
-May 18 2018,Indiana,Evansville,1016 W Delaware St,0,2
-May 18 2018,Alabama,Moulton,4553 CR 87,0,1
-May 18 2018,Louisiana,Lake Charles,Legion St,0,0
-May 18 2018,Tennessee,Johnson City,601 W Main St,1,0
-May 18 2018,Missouri,Bellevue,2109 Towne Centre Dr,0,0
-May 18 2018,Maine,Palmyra,Camp Rd,0,0
-May 18 2018,Tennessee,Mosheim,I-81 and Exit 23,0,1
-May 18 2018,North Carolina,Fuquay Varina,Hilltop Needmore Rd,0,0
-May 18 2018,Louisiana,Boutte,Paul Frederick St,0,1
-May 18 2018,Minnesota,Saint Paul,1200 block of Hazelwood Ave,0,0
-May 18 2018,Louisiana,New Orleans,4100 block of N Roman St,0,2
-May 18 2018,Minnesota,Minneapolis,3200 block of 14th Ave S,0,1
-May 18 2018,Minnesota,Minneapolis,5th St SE and 10th Ave SE,0,0
-May 18 2018,Minnesota,Saint Paul,Century Ave N and MN-36,0,0
-May 18 2018,Georgia,Atlanta,2520 Piedmont Rd NE,0,1
-May 18 2018,Missouri,Kansas City,E 11th St and Topping Ave,0,0
-May 18 2018,Missouri,Warsaw,Main St and Seminary St,0,2
-May 18 2018,Kentucky,Louisville,11th St and Jefferson St,0,1
-May 18 2018,Kentucky,Louisville,1600 block of Brashear Dr,1,0
-May 18 2018,Pennsylvania,Uniontown,Chaffee St,0,0
-May 18 2018,Illinois,Decatur,500 block of E Waggoner St,0,1
-May 18 2018,Colorado,Colorado Springs,2704 E Fountain Blvd,0,1
-May 18 2018,California,Oakland,Parker Avenue,1,0
-May 18 2018,California,Santa Cruz,Ocean Street Extension,0,1
-May 18 2018,Mississippi,Saucier,Old Scarborough Rd,0,2
-May 18 2018,Mississippi,Jackson,Vardaman St,0,0
-May 18 2018,Arkansas,Trumann,400 block of Arrowhead Rd,0,1
-May 18 2018,Texas,Waco,1600 S MLK Jr Blvd,0,1
-May 18 2018,North Carolina,Kinston,200 block of E Vernon Ave,0,0
-May 18 2018,Texas,Houston,100 W Cavalcade St,0,1
-May 18 2018,North Carolina,Charlotte,Sunstone Dr,0,1
-May 18 2018,Texas,Laredo,300 block of Soria Dr,1,0
-May 18 2018,Georgia,Glynn (county),GA 99,0,0
-May 18 2018,Indiana,Indianapolis,3000 block of N Colorado Ave,1,0
-May 18 2018,Illinois,Chicago,4500 block of W 66th Pl,0,1
-May 18 2018,Illinois,Chicago,3500 block of S Rhodes Ave,1,0
-May 18 2018,Florida,Miami (Doral),4400 NW 87th Ave,0,1
-May 18 2018,Illinois,Chicago,15 E Sibley Blvd,0,2
-May 18 2018,Texas,Lufkin,606 Chester St,0,1
-May 18 2018,New York,Staten Island,Innis St and Trantor Pl,0,1
-May 18 2018,Pennsylvania,Philadelphia,Rising Sun Ave and Cheltenham Ave,1,1
-May 18 2018,Wisconsin,Sauk City,110 Phillips Blvd,1,0
-May 18 2018,Mississippi,Southaven,899 Rasco Road,0,0
-May 18 2018,Kentucky,Louisville,West Broadway and 41st Street,1,0
-May 18 2018,Oregon,Portland (Milwaukie),10500 SE 26th Ave,0,0
-May 18 2018,Oregon,Gresham,SW Pleasant View Dr and Highland Dr,1,0
-May 18 2018,Washington,Seattle,3013 S Mt Baker Blvd,0,0
-May 18 2018,Texas,Santa Fe,16000 Hwy 6,10,10
-May 18 2018,Connecticut,New Haven,211 Franklin St,0,1
-May 18 2018,Wisconsin,Conrath,Blueberry Rd,0,0
-May 18 2018,Wisconsin,Milwaukee,3900 block of W Good Hope Rd,1,0
-May 17 2018,Ohio,Sandusky,Wayne St,0,0
-May 17 2018,Virginia,Bristol,Mary St,0,0
-May 17 2018,North Dakota,Grand Forks,2500 block of 7th Ave S,1,1
-May 17 2018,South Carolina,Orangeburg,Jamison St,0,0
-May 17 2018,Utah,Salt Lake City,241 N 300 W,0,0
-May 17 2018,South Carolina,Rock Hill,708 Glamorgan Way,0,1
-May 17 2018,South Carolina,Holly Hill,Big Oaks Dr,0,0
-May 17 2018,Wisconsin,Racine,Marquette St and Albert St,0,0
-May 17 2018,Michigan,Detroit,Pilgrim St and Ardmore St,0,1
-May 17 2018,Oregon,Portland,301 SE Morrison St,0,1
-May 17 2018,Wisconsin,Milwaukee,4800 block of W Luscher Ave,0,3
-May 17 2018,New York,New York (Manhattan),218 W 140th St,0,1
-May 17 2018,South Carolina,Seneca,S Stribling St,1,0
-May 17 2018,Mississippi,Hattiesburg,N/A,0,0
-May 17 2018,Louisiana,New Iberia,800 block of Edna St,1,0
-May 17 2018,Arkansas,Pine Bluff,221 S Beech St,0,0
-May 17 2018,Louisiana,Longville,151 Longville Church Rd,0,1
-May 17 2018,Tennessee,Newbern,Lake St,0,1
-May 17 2018,Louisiana,Gretna,232 Bannerwood Dr,0,1
-May 17 2018,Texas,Houston,5900 block of FM 1960 W,0,1
-May 17 2018,South Carolina,Summerville,100 Iris St,1,0
-May 17 2018,Texas,Houston,5700 block of Antoine Dr,0,1
-May 17 2018,Louisiana,Baton Rouge,Winbourne Ave,0,1
-May 17 2018,Louisiana,Houma,216 Myrtle St,0,0
-May 17 2018,District of Columbia,Washington,1300 block of Congress St SE,0,0
-May 17 2018,Tennessee,Chattanooga,19 Tunnel Blvd,0,2
-May 17 2018,Arkansas,Little Rock,1400 block of S Van Buren St,0,0
-May 17 2018,Oklahoma,Collinsville,15100 block of E Garnett Rd,0,1
-May 17 2018,Tennessee,Chattanooga,1221 Grove St,0,1
-May 17 2018,Massachusetts,Haverhill,Washington St and Shepherd St,1,0
-May 17 2018,Alabama,Mobile,Michigan Ave,0,0
-May 17 2018,Minnesota,Minneapolis,3200 block of Lowry Ave N,0,1
-May 17 2018,Indiana,Greenwood,IN-37 and Smith Valley Rd,0,0
-May 17 2018,Minnesota,Saint Paul,Wabasha St and 10th St E,0,0
-May 17 2018,Colorado,Colorado Springs,Academy Blvd N and Constitution Ave,0,0
-May 17 2018,Alabama,Letohatchee,4300 block of Mobile Hwy,0,0
-May 17 2018,Georgia,Cornelia,Brookcrest Dr,0,0
-May 17 2018,Minnesota,Minneapolis,1010 Curry Ave,0,0
-May 17 2018,Georgia,Gainesville,Campus Pointe Cir,0,0
-May 17 2018,Minnesota,Saint Paul,1300 block of 3rd St E,0,1
-May 17 2018,Georgia,Moultrie,2025 1st Ave SE,1,0
-May 17 2018,Kansas,Leawood,13720 Roe Ave,0,2
-May 17 2018,Georgia,Columbus,1700 Fountain Ct,0,0
-May 17 2018,Michigan,Detroit,Gladstone St and Rosa Parks Blvd,0,1
-May 17 2018,Georgia,Cartersville,David St,1,1
-May 17 2018,Ohio,Youngstown,Cottage Grove and South Ave,0,1
-May 17 2018,Georgia,Watkinsville,1140 Experiment Station Rd,0,0
-May 17 2018,Tennessee,Memphis,2500 block of Lamar Ave,1,0
-May 17 2018,Georgia,Athens,N/A,0,0
-May 17 2018,Virginia,Richmond,N/A,0,1
-May 17 2018,New Jersey,Newark,2 Clay St,0,0
-May 17 2018,Ohio,Toledo,700 block of Highland Ave,1,0
-May 17 2018,Illinois,Chicago,1400 block of S Tripp Ave,1,0
-May 17 2018,Illinois,Chicago,1100 block of N Mason Ave,1,0
-May 17 2018,Louisiana,Natchitoches,Lafayette St and Martin Luther King Jr Dr,0,1
-May 17 2018,New York,Syracuse,200 block of Lexington Ave,0,1
-May 17 2018,New York,Syracuse,N/A,0,1
-May 17 2018,Tennessee,Martin,116 McGill St,0,0
-May 17 2018,Tennessee,Martin,790 Reed Rd,0,0
-May 17 2018,Pennsylvania,Philadelphia,30th St and Reed St,0,1
-May 17 2018,Massachusetts,Boston,Monadnock St and Dudley St,0,0
-May 17 2018,Massachusetts,Boston,Trull St,0,0
-May 17 2018,Massachusetts,Boston,600 block of Columbia Rd,0,0
-May 17 2018,Connecticut,Bridgeport,Arctic St and Beach St,0,0
-May 17 2018,Connecticut,Hartford,Pavilion St,1,0
-May 17 2018,New Hampshire,Manchester,247 Central St,0,0
-May 17 2018,Massachusetts,Boston,Winter St and Church St,0,2
-May 17 2018,Arizona,Youngtown,11200 block of W Tennessee Ave,1,0
-May 17 2018,New Hampshire,Manchester,312 Spruce St,0,0
-May 17 2018,Oklahoma,Oklahoma City,8500 Candlewood Dr,0,0
-May 17 2018,New York,Buffalo,300 block of Lasalle Ave,0,1
-May 17 2018,Washington,Spokane,2018 W Broadway Ave,0,1
-May 17 2018,Connecticut,Vernon Rockville (Vernon),I-84,0,0
-May 17 2018,Connecticut,New Haven,100 block of Brownell St,0,0
-May 17 2018,Oklahoma,Norman,OK-9 and 108th St SE,1,1
-May 17 2018,Wisconsin,Racine,1200 block of N Memorial Dr,0,0
-May 17 2018,Minnesota,Minneapolis (Richfield),1306 E 78th St,0,1
-May 16 2018,West Virginia,Charleston,503 Leon Sullivan Way,0,1
-May 16 2018,Florida,Naples,8650 Weir Rd,0,0
-May 16 2018,Ohio,Columbus,2441 Lockbourne Rd,0,2
-May 16 2018,Louisiana,Slidell,1001 Gause Blvd,0,1
-May 16 2018,Florida,Pensacola,900 N F St,0,1
-May 16 2018,Mississippi,Corinth,1500 US 72,0,0
-May 16 2018,Ohio,Columbus,Cleveland Ave and E 18th St,0,1
-May 16 2018,Virginia,Lynchburg,900 block of Cabell St,0,3
-May 16 2018,California,Oxnard,Riverpark Boulevard and Vineyard Avenue,0,0
-May 16 2018,Florida,Big Pine Key,Enterprise Ave,0,1
-May 16 2018,California,Stockton,American Street,0,1
-May 16 2018,Ohio,Fayetteville,Russell St,0,0
-May 16 2018,California,Vallejo,N/A,0,1
-May 16 2018,California,San Diego,Armstrong Place,0,0
-May 16 2018,Florida,Boynton Beach,400 block of NE 2nd St,0,1
-May 16 2018,Virginia,Newport News,6100 block of Jefferson Ave,0,0
-May 16 2018,Florida,Winter Park,1300 S Denning Dr,0,1
-May 16 2018,Virginia,Charlottesville,405 Premier Cir,0,0
-May 16 2018,South Carolina,Rock Hill,Crawford Rd,0,0
-May 16 2018,Tennessee,Nashville,Havenbrook Dr,0,1
-May 16 2018,California,Oakland,Ney Ave,0,0
-May 16 2018,Pennsylvania,Chester,E 9th St and Morton Ave,0,1
-May 16 2018,Pennsylvania,Philadelphia,700 block of N 36th St,0,1
-May 16 2018,North Carolina,Whiteville,Stanley Circle,0,1
-May 16 2018,Georgia,Augusta,3100 Block of Skinner Mill Rd,0,1
+June 13 2018,Washington,Vancouver,11518 NE 126th Ave,0,1
+June 13 2018,Ohio,Columbus,W Hudson St and N High St,1,0
+June 13 2018,Ohio,Toledo,Nelson Ave and Lodge Ave,1,0
+June 13 2018,Washington,Seattle (Burien),SR 509,0,0
+June 13 2018,Delaware,New Castle,50 block of Rambo Terrace,0,2
+June 13 2018,Wisconsin,Racine,11th St and Villa St,0,0
+June 13 2018,Pennsylvania,Pittsburgh,2616 Brownsville Rd,0,1
+June 13 2018,Delaware,Wilmington,100 block of W 26th St,0,0
+June 13 2018,Michigan,Detroit,Sanford Ave and Conner St,1,2
+June 13 2018,Nebraska,Omaha,6045 L St,0,1
+June 13 2018,Georgia,Macon,Rivoli Downs Dr,0,0
+June 13 2018,Kentucky,Louisville,Manslick Rd and March Blvd,0,1
+June 13 2018,Missouri,Saint Louis (Jennings),6440 W Florissant Ave,1,0
+June 13 2018,Kentucky,Lexington,Judy Ln and Allen Dr,0,0
+June 13 2018,Kentucky,Lexington,Radcliffe Rd and Linton Rd,0,0
+June 13 2018,West Virginia,Huntington,500 block of Marcum Terrace,1,1
+June 13 2018,Georgia,Augusta,202 E Boundary,1,1
+June 13 2018,Colorado,Colorado Springs,2500 block of Weston Road,0,1
+June 13 2018,Colorado,Littleton (Lakewood),South Pierce Street and West Arizona Avenue,0,1
+June 13 2018,Tennessee,Chattanooga (East Ridge),5700 Roper St,0,1
+June 13 2018,Georgia,Covington,GA 162,0,1
+June 13 2018,Virginia,Richmond,1800 block of Keswick Ave,0,2
+June 13 2018,Georgia,Atlanta,340 Thomasville Blvd,0,0
+June 13 2018,California,Los Angeles,Devonshire Street,0,2
+June 13 2018,Georgia,Atlanta,Lakeland Dr,0,1
+June 13 2018,Georgia,Atlanta,340 Thomasville Blvd,0,0
+June 13 2018,California,Los Angeles,Devonshire Street,0,2
+June 13 2018,Georgia,Atlanta,Lakeland Dr,0,1
+June 13 2018,Georgia,Stone Mountain,1101 N Hairston Rd,1,1
+June 13 2018,California,Cathedral City,68444 Perez Rd,0,3
+June 13 2018,Maryland,Riverdale,6000 block of 64th Ave,0,1
+June 13 2018,Maryland,Baltimore,1500 block of Winchester St,0,1
+June 13 2018,District of Columbia,Washington,1200 block of Mount Olivet Rd NE,1,0
+June 13 2018,Maryland,Baltimore,2700 block of McElderry St,1,0
+June 13 2018,Alabama,Birmingham,Orchid Rd,0,0
+June 13 2018,Alabama,Birmingham,3200 block of Avenue D,1,0
+June 13 2018,Louisiana,New Orleans,3300 block of Mandeville St,0,0
+June 13 2018,Arkansas,Hot Springs National Park (Lake Hamilton),Pinehill Rd,0,0
+June 13 2018,Florida,Fort Pierce,2600 block of Ave N,0,0
+June 13 2018,Florida,North Palm Beach,400 block of Driftwood Rd,0,0
+June 13 2018,Florida,Jupiter,100 block of Greentree Cir,0,0
+June 13 2018,Florida,Delray Beach,2000 bock of Alta Meadows Ln,0,0
+June 13 2018,Ohio,Trenton,Sal Blvd,1,0
+June 13 2018,Texas,Houston,15414 Kuykendahl Rd,0,1
+June 12 2018,Florida,Lady Lake,Co Rd 101,0,0
+June 12 2018,Florida,Jacksonville,830 Arlington River Dr,0,1
+June 12 2018,Arizona,Phoenix,Central Ave and Osborn Ave,1,0
+June 12 2018,Mississippi,Brookhaven,1101 Old Brook Rd,0,1
+June 12 2018,Texas,Dallas,4600 block of Fellows Ln,0,2
+June 12 2018,Arkansas,Cave City,N/A,0,1
+June 12 2018,Tennessee,Antioch,2823 Murfreesboro Pike,1,0
+June 12 2018,Georgia,Atlanta,300 block of Fairburn Rd,0,3
+June 12 2018,Georgia,Dallas,216 Recreation Dr,0,1
+June 12 2018,Illinois,Chicago,4700 block of W Cermak Rd,0,0
+June 12 2018,Maryland,Baltimore,5400 block of Cedonia Ave,1,0
+June 12 2018,Missouri,Saint Joseph,1909 S 12th St,0,1
+June 12 2018,District of Columbia,Washington,45 P St SW,1,0
+June 12 2018,Missouri,Saint Louis,N Sarah St and Labadie Ave,0,2
+June 12 2018,South Carolina,Charleston,1000 Block of Greenhill Rd,0,1
+June 12 2018,Maryland,Baltimore,4500 block of Park Heights Ave,0,1
+June 12 2018,Maryland,Baltimore,4200 block of Pimlico Rd,0,1
+June 12 2018,Maryland,Burtonsville,14121 Old Columbia Pike,0,0
+June 12 2018,Alabama,Birmingham,6700 block of Joppa Ave,1,0
+June 12 2018,Delaware,Dover,Periwinkle Dr and Caroline Pl,0,0
+June 12 2018,New York,Buffalo,200 block of Langfield Dr,0,1
+June 12 2018,Arkansas,Siloam Springs,N Britt St,0,1
+June 12 2018,North Carolina,Jacksonville,701 N Marine Blvd,0,0
+June 12 2018,Florida,Tallahassee,2441 Roberts Ave,0,2
+June 12 2018,Florida,Tampa,3309 W Price Ave,0,2
+June 12 2018,Arizona,Glendale,67th Ave and Glendale Ave,0,1
+June 12 2018,Florida,Saint Petersburg,20th St S,0,1
+June 12 2018,Florida,Gainesville,3123 SW 26th Dr,0,1
+June 12 2018,Florida,Cocoa (Port Saint John),Rosebud St,0,1
+June 12 2018,Utah,Salt Lake City (West Valley City),1601 West Russett Ave,0,0
+June 12 2018,Illinois,Chicago,1 block of W 79th St,0,0
+June 12 2018,Ohio,Dayton (Riverside),500 block of Prince Albert Boulevard,0,1
+June 12 2018,Delaware,New Castle,117 Wilton Blvd,0,0
+June 12 2018,Ohio,Elyria,1864 Middle Ave,0,1
+June 12 2018,Ohio,Cleveland,E 113th St and Union Ave,0,1
+June 12 2018,District of Columbia,Washington,5300 block of D St SE,0,0
+June 12 2018,Pennsylvania,Philadelphia,2600 block of Monument Rd,0,1
+June 12 2018,Illinois,Chicago,1 block of E Marquette Rd,1,0
+June 12 2018,Illinois,Chicago,900 block of N Central Park Ave,0,1
+June 12 2018,Illinois,Chicago,4400 block of S Drexel Blvd,0,2
+June 12 2018,Massachusetts,Boston,Bailey St and Washington St,0,0
+June 12 2018,Massachusetts,New Bedford,100 block of Campbell St,0,0
+June 12 2018,Connecticut,Monroe,1 Roosevelt Dr,0,1
+June 11 2018,Florida,Jacksonville,Rutledge Pearson Dr,1,0
+June 11 2018,Kentucky,Lexington,N/A,0,0
+June 11 2018,California,Laguna Beach,20000 block of Laguna Canyon Rd,0,0
+June 11 2018,Florida,Miami,NE 12th Ave and 200th St,0,1
+June 11 2018,California,Lake Forest,23000 block of El Toro Rd,0,1
+June 11 2018,Mississippi,Mccomb,214 W Presley Blvd,1,0
+June 11 2018,Mississippi,Batesville,Noble St,0,3
+June 11 2018,Texas,San Antonio,400 block of Mercedes St,1,0
+June 11 2018,Kentucky,Thibodaux,122 Notre Dame St,0,0
+June 11 2018,Illinois,Chicago,7800 block of S Cottage Grove Ave,0,1
+June 11 2018,Virginia,Staunton,222 Jefferson Hwy,0,0
+June 11 2018,Texas,Fort Worth,4120 Mansfield Hwy,0,0
+June 11 2018,Illinois,Chicago,6300 block of S Rhodes Ave,0,1
+June 11 2018,Arkansas,North Little Rock,622 E 19th St,0,3
+June 11 2018,Illinois,Chicago,1100 block of S Troy St,0,1
+June 11 2018,Arkansas,Blytheville,1709 Sales St,1,2
+June 11 2018,Texas,Fort Worth,Altamesa Blvd,1,0
+June 11 2018,Oregon,Oregon City,200 S Longview Way,0,0
+June 11 2018,Tennessee,Madison,2104 Gallatin Pike N,1,1
+June 11 2018,Texas,Houston,Little York Rd and Aldine Westfield Rd,0,0
+June 11 2018,Alabama,Bessemer (Hueytown),N/A,0,0
+June 11 2018,Tennessee,Antioch,Calais Cir,0,1
+June 11 2018,Oregon,Portland,11215 SE Division St,0,0
+June 11 2018,Ohio,Warren,Tod Ave SW and Maple St,0,0
+June 11 2018,Oklahoma,Tulsa,Martin Luther King Jr Blvd and Mohawk Blvd,0,1
+June 11 2018,Ohio,Niles,5616 Youngstown Rd,1,0
+June 11 2018,Oklahoma,Tulsa,Martin Luther King Jr Blvd and Cincinnati Ave,0,0
+June 11 2018,Indiana,Indianapolis (Lawrence),4800 block of Leone Dr,0,1
+June 11 2018,Massachusetts,Fall River,100 block of Pine St,0,0
+June 11 2018,Illinois,Chicago,3800 block of W 85th St,0,1
+June 11 2018,Pennsylvania,Allentown,1500 block of Hanover Ave,0,0
+June 11 2018,Alaska,Soldotna,N/A,0,0
+June 11 2018,Indiana,Crown Point,300 block of North Park St,0,0
+June 11 2018,Hawaii,Kailua,Keolu Dr,0,1
+June 11 2018,South Carolina,Orangeburg,Ellis Ave,0,1
+June 11 2018,Ohio,Dayton,Philadelphia St,0,1
+June 11 2018,Massachusetts,Worcester,Main St and Allen St,0,0
+June 11 2018,Massachusetts,Worcester,838 Main St,0,0
+June 11 2018,Alabama,Tuscaloosa,Hay Court,0,1
+June 11 2018,Louisiana,Tuscaloosa,4420 21st St,0,0
+June 11 2018,Illinois,Chicago,220 W Garfield Blvd,0,1
+June 11 2018,Wisconsin,Green Bay,N/A,0,0
+June 11 2018,Connecticut,Bridgeport,Berkshire Ave,0,0
+June 11 2018,Virginia,Richmond,1900 block of Maury St,0,1
+June 11 2018,Connecticut,Bridgeport,French St,0,0
+June 11 2018,Rhode Island,Providence,727 Cranston St,0,1
+June 11 2018,Mississippi,Meridian,3700 block of Paulding St,1,0
+June 11 2018,Ohio,Canton,1400 block of 23rd St NE,0,1
+June 11 2018,Massachusetts,Worcester,Beacon St and Oread St,0,0
+June 11 2018,Alabama,Huntsville,100 block of Alpha Ln,0,1
+June 11 2018,Wisconsin,Milwaukee,W Auer Ave and N 27th St,0,1
+June 11 2018,Alabama,Montgomery,3220 block of Virginia Pines Ln,0,4
+June 11 2018,District of Columbia,Washington,4900 block of Brooks St NE,0,1
+June 11 2018,Massachusetts,Springfield,41 Maryland St,0,1
+June 11 2018,Nevada,Las Vegas,2200 W Bonanza Rd,0,0
+June 11 2018,Ohio,Maple Heights,2100 block of Gardenview Dr,2,0
+June 11 2018,Washington,Arlington,9000 block of 164th St NE,0,1
+June 11 2018,Pennsylvania,Columbia,400 block of Walnut St,0,1
+June 11 2018,New York,Buffalo,Parkridge Ave and Hutchinson Ave,0,0
+June 11 2018,New Jersey,Newark,1576 Maple Ave,0,0
+June 11 2018,Virginia,Fredericksburg,Barrows Ct,0,0
+June 11 2018,Michigan,Detroit,25th St and Howard St,0,1
+June 11 2018,Georgia,Columbus,2001 Torch Hill Rd,0,2
+June 11 2018,Michigan,Belleview,Sumpter Rd and Willow Rd,0,0
+June 11 2018,Kansas,Mcpherson,400 block of Dales Draw,1,0
+June 11 2018,Kentucky,Crofton,Hart Rd,0,0
+June 11 2018,Missouri,Saint Louis,10200 block of Lord Dr,1,0
+June 11 2018,Michigan,Detroit,19839 Joy Rd,0,0
+June 11 2018,California,Turlock,300 block of Mitchell Avenue,1,0
+June 11 2018,Virginia,Newport News,300 block of Deputy Ln,0,1
+June 11 2018,Illinois,Darien,7500 block of Farmingdale Dr,3,0
+June 11 2018,Texas,Katy,Katyland Dr,1,0
+June 11 2018,California,Salinas,100 block of Center Street,1,0
+June 11 2018,Colorado,El Paso (county),I-25,0,0
+June 11 2018,Missouri,Florissant,Arcaro Dr,0,1
+June 11 2018,Illinois,Granite City,N/A,0,1
+June 11 2018,Nevada,Las Vegas,9100 block of McGinnis Avenue,0,1
+June 11 2018,Indiana,Greenfield,N/A,0,0
+June 11 2018,Kansas,Topeka,2900 SW Topeka Blvd,0,0
+June 11 2018,South Carolina,North Charleston,I-26,0,0
+June 11 2018,Kansas,Topeka,1500 block of SW Fillmore St,0,0
+June 11 2018,Georgia,Hinesville,100 block of Sheila Dr,1,0
+June 11 2018,Ohio,Toledo,10 block of E Central Ave,1,1
+June 11 2018,Ohio,Toledo,Waite Ave and Woodruff Ave,0,1
+June 11 2018,Missouri,Saint Joseph,918 W Valley St,0,1
+June 11 2018,Ohio,Dayton,Newport Ave and Fairview Ave,1,0
+June 11 2018,District of Columbia,Washington,300 Block of 50th St NE,1,0
+June 11 2018,Iowa,Davenport,5100 block of Western Ave,0,0
+June 11 2018,South Carolina,Orangeburg,136 Woodolive St,0,0
+June 11 2018,Maryland,Silver Spring,9233 3 Oaks Dr,1,0
+June 11 2018,New Jersey,Newark,44 11th Ave W,1,0
+June 11 2018,California,Apple Valley,11200 block of Tujunga Rd,0,1
+June 11 2018,California,Bakersfield,Augusta St,0,0
+June 11 2018,California,San Bernardino,Evans St and Mt Vernon Ave,1,0
+June 11 2018,Maryland,Baltimore,100 block of N Fremont Ave,1,0
+June 11 2018,Maryland,Baltimore,4800 block of Pimlico Rd,1,0
+June 11 2018,Missouri,Saint Louis,4300 block of Aldine Ave,1,0
+June 11 2018,California,Sacramento,400 block of W Silver Eagle Rd,0,0
+June 11 2018,California,Oxnard,Courtland St and Campbell Way,0,0
+June 11 2018,California,San Pedro,600 block of West 5th Street,1,0
+June 11 2018,California,Fresno,3200 block of E Tyler Ave,0,0
+June 11 2018,Missouri,Kansas City,Winchester Ave and E 13th St,0,1
+June 11 2018,Delaware,Wilmington,1100 block of Flint Hill Rd,1,0
+June 11 2018,North Carolina,Elkin,1600 block of Twin Oaks Rd,0,1
+June 11 2018,California,Modesto,Claus Rd and Yosemite Blvd,0,1
+June 11 2018,Delaware,Greenwood,10900 block of Webb Farm Rd,0,0
+June 11 2018,California,San Marcos,650 W Mission Rd,0,0
+June 11 2018,California,West Covina,1300 block of Sandy Hook St S,0,1
+June 11 2018,California,Whittier,13800 block of Philadelphia St,1,0
+June 11 2018,District of Columbia,Washington,2200 block of Georgia Ave NW,0,0
+June 11 2018,Indiana,Elkhart,1700 block of Morehouse Ave,0,1
+June 11 2018,Maryland,Baltimore,500 block of S Wickham Rd,0,1
+June 11 2018,Oklahoma,Tulsa,7000 block of E 52nd St,1,0
+June 11 2018,Maryland,Salisbury,800 block of S Schumaker Dr,0,2
+June 11 2018,Maryland,Annapolis,1900 block of McGuckian St,0,0
+June 11 2018,Florida,Orlando,4932 Eaglesmere Dr,5,1
+June 11 2018,Florida,Ocala,1400 block of SE 36th Ave,0,0
+June 11 2018,Texas,Houston,11901 Palmsprings Dr,0,1
+June 11 2018,Florida,Oviedo,2027 Westbourne Dr,1,0
+June 11 2018,Florida,Hollywood,S 29th Ave,2,0
+June 11 2018,Nebraska,Omaha,N/A,0,0
+June 11 2018,Florida,Jacksonville,N/A,0,0
+June 11 2018,Florida,Daytona Beach,Bernard W Smith Sr Cir,0,0
+June 11 2018,Nebraska,Lincoln,N 33rd St and Cornhusker Hwy,0,0
+June 11 2018,Florida,Palm Coast,12 Bunker Knolls Ln,1,0
+June 11 2018,Florida,Palm Bay,Port Malabar Blvd,0,0
+June 11 2018,Ohio,Columbus,200 block of N Wayne Ave,0,0
+June 11 2018,Illinois,Chicago,3030 E 92nd St,0,1
+June 11 2018,Illinois,Chicago,6500 block of S Oakley Ave,0,2
+June 11 2018,Illinois,Chicago,1500 block of W Le Moyne St,0,1
+June 11 2018,Illinois,Chicago,4300 block of S Ellis Ave,0,1
+June 11 2018,Colorado,Denver,2000 block of Market St,0,1
+June 11 2018,Michigan,Detroit,2200 block of S Edsel St,0,0
+June 11 2018,Michigan,Detroit,W 7 mile Rd and Greenfield Rd,0,0
+June 11 2018,Michigan,Detroit,Goulburn St and E 7 mile Rd,0,0
+June 11 2018,Michigan,Detroit,Ilene St and W 7 Mile Rd,0,0
+June 11 2018,Michigan,Detroit,Pinehurst St and Fullerton Ave,0,0
+June 11 2018,Massachusetts,Springfield,1500 Riverdale St,0,0
