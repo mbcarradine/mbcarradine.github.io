@@ -73,7 +73,7 @@ textAlign(RIGHT)
 text ('Sources', windowWidth - 50, windowHeight - 65);
 text ('@NRA Twitter', windowWidth - 50, windowHeight - 50);
 text ('The Gun Violence Archive', windowWidth - 50, windowHeight - 35);
-text ('Last updated: July 16, 2019 at 11:55pm EST', windowWidth - 50, windowHeight - 20);
+text ('Last updated: Feb 21, 2021 at 2:55pm EST', windowWidth - 50, windowHeight - 20);
 
 textAlign(LEFT)
 frameRate(10);

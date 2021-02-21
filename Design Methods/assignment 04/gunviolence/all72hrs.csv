@@ -1,5 +1,4 @@
 Date,State,City,Address,Killed,Injured
-February 21 2021,Wisconsin,Oneida,2783 Freedom Rd,0,1
 February 21 2021,North Carolina,Kernersville,Century Park Blvd and Arbor Hill Rd,0,1
 February 21 2021,Indiana,South Bend,S Sheridan St and W Western Ave,0,1
 February 21 2021,Indiana,South Bend,800 block of Roosevelt St,0,1
@@ -24,82 +23,6 @@ February 20 2021,Pennsylvania,Philadelphia,2000 block of Conlyn St,0,1
 February 20 2021,Texas,San Antonio,8923 W Military Dr,0,0
 February 20 2021,Texas,Houston,11095 East Fwy,1,1
 February 20 2021,Pennsylvania,Norristown (East Norriton),2912 Swede Rd,1,3
-February 20 2021,Texas,Houston,11095 East Fwy,1,1
-February 20 2021,Pennsylvania,Norristown (East Norriton),2912 Swede Rd,1,3
-February 20 2021,Texas,Houston,12610 Ashford Meadow Dr,1,0
-February 20 2021,Georgia,Stone Mountain,Wells Circle,1,0
-February 20 2021,Tennessee,Monterey,2730 Old Walton Rd,1,0
-February 20 2021,Louisiana,Metairie,6719 Airline Dr,3,2
-February 20 2021,Illinois,Chicago,11200 block of S King Dr,0,1
-February 20 2021,Illinois,Springfield,1100 block of S Grand Ave W,1,4
-February 20 2021,California,San Jose,500 block of W Alma Ave,0,2
-February 20 2021,California,San Jose,1900 block of Poco Way,0,1
-February 20 2021,North Carolina,Durham,N/A,0,1
-February 20 2021,California,Los Angeles,N/A,0,1
-February 20 2021,Iowa,Waterloo,200 block of Summit Ave,0,0
-February 20 2021,Ohio,Toledo,2114 W Alexis Rd,0,2
-February 20 2021,Georgia,Atlanta,3183 Peachtree Rd,0,2
-February 20 2021,Iowa,Cedar Rapids,4011 16th Ave SW,0,1
-February 20 2021,Colorado,Grand Junction,1000 block of Teller Ave,1,3
-February 20 2021,Texas,Houston,2016 Gray St,0,1
-February 20 2021,Texas,Dallas,4700 block of Country Creek Dr,1,0
-February 20 2021,Ohio,Cincinnati,9800 block of Hamilton Ave,0,1
-February 20 2021,Ohio,Columbus,1700 block of Genessee Ave,0,2
-February 20 2021,Wisconsin,Necedah,9th St E,1,0
-February 20 2021,Wisconsin,Milwaukee,1500 block of Bruce St,1,0
-February 20 2021,Wisconsin,Milwaukee,5200 block of N 46th St,0,2
-February 20 2021,Wisconsin,Milwaukee,Eastwood Dr and Amoth Ct,0,0
-February 20 2021,Wisconsin,Milwaukee,5400 block of N 92nd St,0,1
-February 20 2021,North Carolina,Fayetteville,2166 Skibo Rd,1,0
-February 20 2021,North Carolina,Pembroke,NC-710 and Eddie Rd,0,1
-February 20 2021,Wisconsin,Milwaukee,1300 block of W Center St,0,3
-February 20 2021,Nevada,Las Vegas,6020 W Flamingo Rd,1,0
-February 20 2021,Wisconsin,Milwaukee,5100 block of N 57th St,0,1
-February 20 2021,Indiana,South Bend,1200 block of N Brookfield St,1,0
-February 20 2021,Illinois,Chicago,10100 block of S Perry Ave,0,1
-February 20 2021,Illinois,Chicago,4100 block of W 13th St,0,1
-February 20 2021,Illinois,Chicago,9700 block of S Escanaba Ave,0,1
-February 20 2021,Georgia,Stone Mountain,2200 block of Scarborough Dr,0,1
-February 20 2021,Georgia,Atlanta,2600 Block of Arbor Ave,1,0
-February 20 2021,Georgia,Macon,300 block of Pierce Ave,0,1
-February 20 2021,Illinois,Chicago,1130 South Canal,0,1
-February 20 2021,Florida,Tampa,I-4,0,0
-February 20 2021,Florida,Orlando,4200 Conroy Rd,0,0
-February 20 2021,Maryland,Capitol Heights (Fairmount Heights),5700 block of J St,0,0
-February 20 2021,Florida,Jacksonville,Siesta Del Rio Dr,0,1
-February 20 2021,District of Columbia,Washington,2300 block of Skyland Pl SE,0,1
-February 20 2021,District of Columbia,Washington,1700 block of Benning Rd NE,0,1
-February 20 2021,District of Columbia,Washington,5200 block of 7th St NW,0,1
-February 20 2021,Colorado,Colorado Springs,2000 block of Squawbush Ridge Grove,1,0
-February 20 2021,Florida,Jacksonville,W 7th St and Silver St,1,0
-February 20 2021,Florida,Jacksonville,1441 Monotak Ave,1,0
-February 20 2021,Florida,Williston,20500 Block of US-27,1,0
-February 20 2021,Florida,Williston,20500 Block of US-27,1,0
-February 20 2021,Illinois,Chicago,2000 block of W 79th St,1,0
-February 20 2021,Illinois,New Canton,IL-96 and 236th Ave,0,1
-February 20 2021,Oregon,Portland,NE Fremont St and NE 54th Ave,1,1
-February 20 2021,Arkansas,Little Rock,5200 block of Halifax Rd,1,0
-February 20 2021,Alabama,Huntsville,181 Import Cir NW,0,2
-February 20 2021,Alabama,Birmingham,7500 block of 2nd Ave N,0,1
-February 20 2021,Mississippi,Jackson,100 block of N Alabama St,0,1
-February 20 2021,Mississippi,Gulfport,1005 W Birch Dr,0,3
-February 20 2021,Kentucky,Elizabethtown,500 block of Village Dr,1,0
-February 20 2021,Arkansas,Lonoke,1834 LA-31,0,1
-February 20 2021,Louisiana,Baton Rouge,4343 Denham St,1,0
-February 20 2021,Louisiana,New Orleans,1600 block of 8th St,2,0
-February 20 2021,Oklahoma,Edmond,930 S Blvd,0,1
-February 20 2021,Oklahoma,Oklahoma City,SW 32nd St and S Pennsylvania Ave,1,0
-February 20 2021,Oklahoma,Oklahoma City,NW 80th St and N Robinson Ave,1,0
-February 20 2021,Louisiana,Baton Rouge,700 block of Brinwood Ave,0,1
-February 20 2021,Nebraska,Lincoln,I-80 and US-77,1,1
-February 20 2021,New York,Staten Island,Laurel Ave and Osgood Ave,1,0
-February 20 2021,Missouri,Saint Louis,E Prairie Ave and Natural Bridge Ave,0,0
-February 20 2021,Missouri,Saint Louis,4600 block of Kossuth Ave,0,1
-February 20 2021,Louisiana,Carencro,Pamela St,0,1
-February 19 2021,California,Thousand Palms,Ramon Rd and Desert Moon,0,0
-February 19 2021,New York,Bronx,E 138th St and St Anns Ave,0,1
-February 19 2021,Arizona,Phoenix,45th Ave and Encanto Blvd,1,0
-February 19 2021,New Jersey,Elizabeth,50 block of Oakwood Pl,0,1
 February 19 2021,Kansas,Kansas City,I-635 and Swartz Rd,0,1
 February 19 2021,Pennsylvania,Catasauqua,133 S 14th St,1,0
 February 19 2021,California,Costa Mesa,1515 S Coast Dr,1,0
@@ -124,7 +47,30 @@ February 19 2021,North Carolina,Durham,5000 block of NC-55,1,0
 February 19 2021,North Carolina,Greensboro,Tillery Dr and Textile Dr,0,1
 February 19 2021,California,Yreka,444 Bruce St,1,0
 February 19 2021,North Carolina,Winston Salem (Winston-salem),801 N Martin Luther King Jr Dr,1,0
-February 19 2021,South Carolina,Fort Mill,681 US-21 Bypass,0,1
+February 19 2021,Texas,Pflugerville,2800 block of Halite Bend,2,0
+February 19 2021,Texas,Celina,3100 block of Hickory Ln,0,0
+February 19 2021,Arizona,Bullhead City,N/A,0,0
+February 19 2021,Indiana,Speedway,5800 block of Crawfordsville Rd,1,0
+February 19 2021,Iowa,Des Moines,N/A,0,0
+February 19 2021,Indiana,Indianapolis,1300 block of N Kealing Ave,1,0
+February 19 2021,Nevada,Las Vegas,Boulder Hwy and Russell Rd,0,1
+February 19 2021,Indiana,Richmond,I-70,0,0
+February 19 2021,Maryland,Capitol Heights (Seat Pleasant),E Capitol St and Yacht Pl,2,1
+February 19 2021,Indiana,Gary,1700 block of Martin Luther King Dr,1,0
+February 19 2021,New Mexico,Los Lunas,Meadowlake Rd,2,0
+February 19 2021,Florida,Orlando,N Hyer Ave,1,0
+February 19 2021,Wisconsin,Milwaukee,2700 block of S 14th St,0,1
+February 19 2021,Wisconsin,Milwaukee,4900 block of N 55th St,0,1
+February 19 2021,Arizona,Phoenix,1634 E Southern Ave,1,1
+February 19 2021,Indiana,Rochester,W 550 N and US-31,0,0
+February 19 2021,Indiana,Muncie,2533 N Elgin St,3,0
+February 19 2021,Texas,Humble (Atascocita),17250 W Lake Houston Pkwy,0,1
+February 19 2021,Missouri,Chillicothe,US-36,1,0
+February 19 2021,North Carolina,Chapel Hill,130 S Estes Dr,1,0
+February 19 2021,New York,Corona (Queens),146th St and 116th Ave,0,0
+February 19 2021,Florida,Miami,NW 75th St and NW 16th Ave,2,0
+February 19 2021,Michigan,Detroit,10601 E Outer Dr,1,0
+February 19 2021,Florida,Jacksonville,9000 Block of Baymeadows Rd,1,0
 February 19 2021,District of Columbia,Washington,6000 Block of Chillum Pl NE,1,1
 February 19 2021,Colorado,Aurora,900 block of S Salem St,0,1
 February 19 2021,Illinois,Chicago,3800 block of N Kedzie Ave,0,2
@@ -149,32 +95,6 @@ February 19 2021,Oklahoma,Tulsa,N Peoria Ave and E 51st St N,0,1
 February 19 2021,Missouri,Springfield,Sunshine St,0,0
 February 19 2021,Kansas,Ottawa,2300 block of S Cedar St,1,0
 February 19 2021,California,San Jose,200 block of Pala Ave,0,1
-February 18 2021,Florida,Jacksonville,2800 block of Maplewood St,0,1
-February 18 2021,Florida,Ponte Vedra Beach,330 A1A N,1,0
-February 18 2021,Georgia,Columbus,Williamsburg Ct,0,1
-February 18 2021,California,Shasta Lake,13000 block of Buckeye St,0,1
-February 18 2021,Arizona,Tucson,851 W Ajo Way,0,1
-February 18 2021,New Jersey,Newark,365 W Market St,0,1
-February 18 2021,New Jersey,Paterson,21st Ave and E 21st St,1,1
-February 18 2021,Missouri,Bois D Arc,12000 block of West Farm Road 124,0,2
-February 18 2021,Louisiana,Baton Rouge,2047 N Foster Dr,1,3
-February 18 2021,California,Merced,W Yosemite Ave and El Redondo Dr,0,1
-February 18 2021,Pennsylvania,New Wilmington,524 S New Castle St,1,0
-February 18 2021,Ohio,Columbus,1900 block of Fountainview Ct,1,0
-February 18 2021,Georgia,Albany,2200 block of Pembroke Dr,0,0
-February 18 2021,Florida,Fort Lauderdale (Lauderhill),NW 67th Way,0,3
-February 18 2021,Kentucky,Owensboro,600 block of Bolivar St,0,0
-February 18 2021,Kentucky,Owensboro,600 block of Maple St,0,1
-February 18 2021,Illinois,Springfield (Grandview),2200 block of Enterprise St,1,1
-February 18 2021,New York,Staten Island,Richmond Rd and Burgher Ave,0,0
-February 18 2021,Kentucky,Lexington,224 Rand Ave,0,1
-February 18 2021,Pennsylvania,Williamsport,1500 block of Louisa St,0,1
-February 18 2021,Florida,Williston,NE 136th Ave,0,1
-February 18 2021,Virginia,Newport News,5400 block of Arlington Ave,1,0
-February 18 2021,New York,Utica,600 block of Blandina St,0,0
-February 18 2021,Illinois,Chicago,S King Dr and E 63rd St,0,1
-February 18 2021,Tennessee,Nashville,N/A,1,0
-February 18 2021,Michigan,Detroit,Oakfield Ave and W Seven Mile Rd,0,1
 February 18 2021,Michigan,Inkster,Western St and Grandview St,0,1
 February 18 2021,California,Oakland,1700 block of 55th Ave,0,1
 February 18 2021,California,Oakland,5700 block of E 16th St,0,1
